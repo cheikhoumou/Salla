@@ -6,6 +6,37 @@
 /*  */
 /* ========================== */
 /*------------------ Header ------------------*/
+@keyframes logobg {
+    0% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    78% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+body.store-home:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #ffffff url(https://cdn.salla.sa/bKjVw/Wm8A0fklv5Y6oMznx2XNW2Vxw6q76nCcpQAKGkfR.jpg);
+    position: fixed;
+    z-index: 99999999999999999 !important;
+    transform: scale(0);
+    background-size: 250px !important;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    animation-name: logobg;
+    animation-duration: 3s;
+}
 .top-header .container {
     background: linear-gradient(to right, #024f52, #34a9b5);
     padding: 10px;
