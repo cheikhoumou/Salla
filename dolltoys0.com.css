@@ -1,0 +1,361 @@
+/* ========================== */
+/* -- محترف في تصميم متاجر سلة -- */
+/*       ! cheikhoumou          */
+/*       ! https://wa.me/22220523820   */
+/*       ! cheikoumou@gmail.com */
+/* */
+/* ========================== */
+@keyframes logobg {
+  0% {
+    transform: scale(1);
+  }
+
+  20% {
+    transform: scale(1);
+  }
+
+  78% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+body.store-home:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #ffffff
+    url(https://cdn.salla.sa/Vnpgv/oxKMTjzQHcnxFqSAOkPpZpGL49ypLXGdP8CMyGuW.png);
+  position: fixed;
+  z-index: 99999999999999999 !important;
+  transform: scale(0);
+  background-size: 250px !important;
+  background-repeat: no-repeat;
+  background-position: center !important;
+  animation-name: logobg;
+  animation-duration: 3s;
+}
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #faba01;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  border: 5px solid #ffffff;
+}
+.site-header {
+  background-image: url(https://www3.0zz0.com/2022/07/05/16/347647377.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  border-radius: 0px 0px 20px 20px;
+}
+.sicon-cart:before {
+  content: "\ef36";
+}
+.circle-action {
+  border: none;
+  font-size: 22px;
+  color: #f2b404;
+}
+.site-header__cart .badge {
+  background: #c1906d;
+  color: #fff;
+  border-color: #c1906d;
+}
+.main-slider img {
+  margin-top: 2.5%;
+  width: 95%;
+  margin-bottom: 2.5%;
+  margin-right: 2.5%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 8px #40160842;
+}
+li.slick-active {
+  transform: scale(1.5);
+}
+.slick-dots li button {
+  border: 1px solid #221109;
+  background: none;
+}
+@media (max-width: 760px) {
+  section.section .container .row:nth-child(1) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .row::before {
+    display: none;
+  }
+  .salla-theme_4 .category-featured {
+    margin-bottom: 0;
+  }
+  section.section .container .row .col-sm-4.col-md-4 {
+    padding-right: 18px;
+    padding-left: 18px;
+    margin: 0;
+    padding: 7px;
+  }
+}
+
+.category-featured img {
+  border-radius: 18px;
+}
+
+.category-featured a:before {
+    border: none;
+    background-color: #412a2278;
+    padding: 20px;
+    background-image: url(https://cdn.salla.sa/Vnpgv/oxKMTjzQHcnxFqSAOkPpZpGL49ypLXGdP8CMyGuW.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+.circle-action:hover {
+  background: none;
+  color: #fff;
+  transform: skew(4deg, 4deg);
+}
+.sub-nav-header::before {
+  content: "";
+  text-align: center !important;
+  display: block;
+  height: 70px !important;
+  background-image: url(https://cdn.salla.sa/Vnpgv/oxKMTjzQHcnxFqSAOkPpZpGL49ypLXGdP8CMyGuW.png);
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: top center !important;
+}
+
+.sub-nav-header img {
+  display: none;
+}
+.sub-nav-header {
+  background-image: url(https://www3.0zz0.com/2022/07/05/16/347647377.jpeg);
+  background-size: cover;
+  background-position: right;
+  background-blend-mode: color-burn;
+}
+
+.sub-nav__menu svg {
+  background: #faba01;
+  border-radius: 8px;
+  margin-top: -4px;
+}
+footer .footer-main {
+  background: #423129;
+  background-image: url(https://www3.0zz0.com/2022/07/05/16/347647377.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff !important;
+  background-blend-mode: multiply;
+}
+.salla-theme_4 footer ul.footer-links {
+  text-align: center !important;
+}
+ul.footer-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer-main a {
+  color: #fff;
+}
+.footer-main:before {
+  content: "";
+  background-image: url(https://i.imgur.com/eAWGMd1.png);
+  background-size: 418%;
+  display: block;
+  background-repeat: round;
+  transform: rotate(180deg);
+  height: 104px;
+  margin: -52px -32px 1px 1px;
+}
+h2.footer-title {
+  text-align: center;
+}
+
+ul.social {
+  text-align: center;
+}
+
+.store-contact {
+  text-align: center;
+  direction: ltr;
+}
+
+.store-certificate {
+  text-align: center;
+}
+
+footer .footer-main {
+  margin-top: 25px;
+}
+
+.footer-title span {
+  color: #221109;
+  background: #faba01;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+footer .store-certificate b {
+  color: #faba01;
+  padding: 3px;
+  font-size: 14px;
+}
+.footer-sub a {
+  display: none;
+}
+
+.feature-item__icon h3 {
+  color: #221109;
+  display: block;
+  width: 200px;
+  left: 0;
+}
+
+.feature-item p {
+  color: #221109;
+}
+
+.feature-item__icon {
+  background: none;
+}
+
+.feature-item__content {
+  background: none;
+}
+.feature-item__icon {
+  background: #ffffff;
+  color: #cf9a0a;
+}
+
+.salla-theme_4 .feature-item__content .feature-item__icon i[class^="sicon-"] {
+  padding: 25px;
+  animation: animascheikho 0.9s 0.3s infinite ease-in-out;
+  border-radius: 50%;
+}
+@keyframes animascheikho {
+  0%,
+  100% {
+    box-shadow: 0px 0px 5px #3f202094;
+  }
+  50% {
+    box-shadow: 0px 5px 0px #cf9a0a, 0px 5px 0px #cf9a0ae5, 0px -5px 0px #000,
+      0px -5px 0px rgba(0, 0, 0, 0.692);
+  }
+  80% {
+    box-shadow: 0px -5px 0px #cf9a0a, 0px -5px 0px #cf9a0ae5,
+      -5px 0px 0px #000 0px -5px 0px #000, 0px -5px 0px rgba(0, 0, 0, 0.692);
+  }
+  90% {
+    box-shadow: 0px -5px 0px #cf9a0a, 0px -5px 0px #cf9a0ae5, 0px -5px 0px #000,
+      0px -5px 0px rgba(0, 0, 0, 0.692);
+  }
+}
+.icon-object.border-yellow-dark.text-yellow-dark {
+  border: none;
+}
+
+.icon-object .sicon-user:before {
+  content: url(https://www6.0zz0.com/2022/07/05/19/864179386.png);
+  transform: scale(1.5);
+  height: 60px;
+}
+body:not(.salla-theme_6)
+  .main-menu
+  li:not(.sub-menu-header).has-children
+  > a:before {
+  content: " ✅ ";
+}
+
+.product.cover {
+  box-shadow: 2px 11px 20px #1604041c;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.product.cover span.promotion-title {
+  background: #412a22;
+}
+
+.product-add {
+  background: #d46f6c;
+  color: #fff;
+  padding-top: 8px;
+  width: 80px;
+  border-radius: 0px 20px 20px 0px !important;
+}
+
+.product.cover span.product-price {
+  color: #d46f6c;
+}
+
+.product.cover span.promotion-title:before {
+  content: " ";
+  width: 25px;
+  height: 25px;
+  margin: 0px 4px;
+  display: inline-block;
+  background: url(https://cdn.salla.sa/Vnpgv/oxKMTjzQHcnxFqSAOkPpZpGL49ypLXGdP8CMyGuW.png);
+  background-size: cover;
+  vertical-align: middle;
+}
+
+.salla-theme_4 .product-footer .product-add:hover {
+  background-color: #412a22 !important;
+  color: #fff;
+}
+
+.product.cover h3.product-title {
+  color: #412a22;
+}
+
+.product.cover h4.product-subtitle {
+  color: #d46f6c;
+}
+
+.product.cover span.img-cont img:hover {
+  transform: scale(1.1) rotate(3deg);
+}
+
+.products-grid.eq-height .product > :first-child .img-cont img {
+  transition: all 0.6s !important;
+}
+.products-listing.eq-height .product > :first-child .img-cont img {
+  transition: all 0.5s !important;
+}
+.dmopMx {
+  display: none !important;
+}
+.bvQSkJ {
+  background: #412e25 !important;
+}
+
+@media (min-width: 992px) {
+  section.section .container .row:nth-child(1) .col-sm-4.col-md-4 {
+    width: 50%;
+  }
+}
+.footer-main .container:before {
+  text-align: center;
+  content: "";
+  display: block;
+  height: 110px;
+  width: 80px;
+  margin: auto auto 20px;
+  background-image: url(https://cdn.salla.sa/Vnpgv/oxKMTjzQHcnxFqSAOkPpZpGL49ypLXGdP8CMyGuW.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
