@@ -580,3 +580,12 @@ header .site-header__cart .price .quantity.badge {
 }.dmopMx {
     display: none !important;
 }
+.btn--padded.less {
+    background: linear-gradient(to left, #024f52, #34a9b5);
+}.product-block, .product-block>div {
+    border-radius: 50px 0 50px 0 !important;
+}
+
+.banner--fixed img {
+    border-radius: 15px;
+}
