@@ -253,8 +253,6 @@ header .site-header__wrapper .main-header-components {
 
 /*------------------ Advantages ------------------*/
 .store-feature__icon {
-    border: 1px solid #024f52;
-    border-radius: 25px 0 25px 0 !important;
     float: right;
     margin-left: -75px;
     margin-top: -12px;
@@ -559,4 +557,26 @@ header .site-header__cart .price .quantity.badge {
     background: #333;
 }a[href="https://www.facebook.com/megastorevip2"] {
     background: #0084ff;
+}@keyframes animascheikho {
+  0%,
+  100% {
+    box-shadow: 0px 0px 5px #3f202094;
+  }
+  50% {
+    box-shadow: 0px 5px 0px #34a9b5, 0px 5px 0px #34a9b5, 0px -5px 0px #024f52,
+      0px -5px 0px #024f52;
+  }
+  80% {
+    box-shadow: 0px -5px 0px #34a9b5, 0px -5px 0px #34a9b5,
+      -5px 0px 0px #024f52 0px -5px 0px #024f52, 0px -5px 0px #024f52;
+  }
+  90% {
+    box-shadow: 0px -5px 0px #34a9b5, 0px -5px 0px #34a9b5, 0px -5px 0px #024f52,
+      0px -5px 0px #024f52;
+  }
+}
+.store-feature__icon {
+    animation: animascheikho 0.9s 0.3s infinite ease-in-out;
+}.dmopMx {
+    display: none !important;
 }
