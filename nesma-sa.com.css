@@ -1,0 +1,119 @@
+.sub-nav-header {
+    background-image: url(https://cdn.salla.sa/jXbOg/design/KP9OjTnfru2673zsv75cDddGnfSXazwvhglTtbCw.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.sub-nav-header::before {
+    content: "";
+    display: block;
+    height: 70px !important;
+    background-image: url(https://www8.0zz0.com/2022/07/12/14/567223408.png);
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+}
+::-webkit-scrollbar {
+    width: 2px;
+}
+::-webkit-scrollbar-thumb {
+    background: #e54b4b;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    border: 5px solid #ffffff;
+}
+.sub-nav-header img {
+    display: none;
+}
+
+.sicon-cart:before {
+    content: "\ef36";
+}
+
+.product-add {
+    background: #e54b4b;
+    color: #fff;
+    border: none;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.product.contain {
+    border-radius: 30px;
+    border: none;
+    box-shadow: 2px 2px 8px #3b050533;
+}
+
+.section-header .section--title:before {
+    content: " ";
+    width: 25px;
+    height: 28px;
+    margin: 0px 4px;
+    display: inline-block;
+    background: url(https://www8.0zz0.com/2022/07/12/14/567223408.png);
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.footer-main .container:before {
+    text-align: center;
+    content: "";
+    display: block;
+    height: 102px;
+    width: 70px;
+    margin: auto auto 20px;
+    background-image: url(https://www8.0zz0.com/2022/07/12/14/567223408.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.footer-main:before {
+    content: "";
+    background-image: url(https://marssa.shop/site/images/new_theme/footer-top.svg);
+    background-size: 418%;
+    display: block;
+    background-repeat: round;
+    transform: rotate(180deg);
+    height: 104px;
+    margin: -40px -32px 1px 1px;
+}
+
+.u-light {
+    background: #fff !important;
+}
+
+.icon-object .sicon-user:before {
+    content: url(https://www13.0zz0.com/2022/07/12/15/770525755.png);
+    transform: scale(1.5);
+    height: 60px;
+}
+
+.login-container .text-yellow-dark {
+    border: none;
+}
+
+button.btn.btn-secondary.btn--qty-add,
+button.btn.btn-secondary.btn--qty-sub {
+    background: #e54b4b;
+    color: #fff;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #e54b4b;
+}
+
+.product-details__title {
+    background: #eee;
+    color: #e54b4b;
+    padding: 5px;
+    font-size: 22px;
+    border-radius: 10px;
+    border-right: 4px solid;
+}span#cart_badge {
+    background: #000;
+}.icon-checkmark4:before {
+    content: "\ef36";
+    font-family: 'sallaicons';
+}
