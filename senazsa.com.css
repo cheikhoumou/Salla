@@ -36,7 +36,7 @@ body.store-home:before {
   background-repeat: no-repeat;
   background-position: center !important;
   animation-name: logobg;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 ::-webkit-scrollbar {
   width: 2px;
