@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+
+.site-header {
+  background-image: url(https://www8.0zz0.com/2022/07/15/18/788576519.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.sicon-cart:before {
+  content: "\ef36";
+}
+.btn--floated.btn--add-to-cart .sicon-shopping-bag::before {
+  content: "إضافة للسلة" !important;
+  font-weight: 700 !important;
+  font-family: "Tajawal", sans-serif !important;
+  color: #030405;
+  margin-left: 6px;
+}
+.btn--floated.btn--add-to-cart {
+  position: initial;
+  display: block;
+  width: calc(100% - 30px);
+  border-radius: 99px !important;
+  margin: 0px 15px 10px !important;
+  transform: none !important;
+  padding: 5px 10px 10px 10px;
+}
+.btn--add-to-cart {
+  background: linear-gradient(to right, #ffc8ea, #f37777);
+}
+.btn--add-to-cart i::after {
+  content: "\ef36";
+  margin-left: 8px;
+  color: #000;
+  font-weight: bold;
+}
+.store-feature__icon {
+  background: linear-gradient(to right, #ffc8ea, #f37777);
+}
+
+.store-feature *,
+.avatar-wrapper--medium i,
+.title--primary,
+.nav-mobile .main-nav li a i,
+.footer__bottom,
+.nav-mobile .main-nav li a,
+.color-danger {
+  font-weight: bold !important;
+}
+
+.footer:before {
+  content: "";
+  background-image: url(https://i.imgur.com/eAWGMd1.png);
+  background-size: 418%;
+  display: block;
+  background-repeat: round;
+  transform: rotate(180deg);
+  height: 100px;
+  margin: -33px -32px 1px 1px;
+}
+.footer > .container:before {
+  text-align: center;
+  content: "";
+  display: block;
+  height: 67px;
+  width: 180px;
+  margin: auto auto 20px;
+  background-image: url(https://cdn.salla.sa/gRgEz/UJjAIzMOMRsG3F0bWvN55sXcQWo5kfG6lVs29AB7.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+footer {
+  background: linear-gradient(to right, #ee018e70, #f37777);
+}
+.footer__bottom {
+  background: linear-gradient(to right, #ffc8ea, #f37777);
+}
+
+body.font-dinnextltarabic-regular .btn--add-to-cart {
+  padding-bottom: 10px;
+}
+
+body.font-dinnextltarabic-regular .btn--add-to-cart:hover {
+  transform: scale(1.1) !important;
+}
+
+.avatar-wrapper--primary {
+  background: linear-gradient(to right, #ffc8ea, #f37777);
+}
+
+.avatar-wrapper--medium i {
+  color: #000;
+}
+#login-with-phone,
+#login-with-email {
+  background: linear-gradient(to right, #ffc8ea, #f37777);
+  color: black !important;
+  border-radius: 22px !important;
+}
+
+.body-blackout {
+  background: linear-gradient(to right, #ffc8eaa1, #00000073);
+}
+
+.popup-modal-wrap .popup-modal {
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px 0px #00000042;
+}
+
+.side-panel.filters-show {
+  background: linear-gradient(to right, #ffc8eaa1, #00000073);
+}
