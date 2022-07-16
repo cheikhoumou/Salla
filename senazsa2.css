@@ -1,0 +1,280 @@
+.site-header {
+  background: #fff;
+}
+.sicon-cart:before {
+  content: " ";
+  width: 26px;
+  height: 26px;
+  display: block;
+  background-image: url(https://www5.0zz0.com/2022/07/15/11/812503693.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a.product-add.add_to_cart_btn .sicon-cart:before {
+  content: "\ef36";
+}
+
+.product-add:hover {
+  background: #a2715f !important;
+  border-bottom-left-radius: 20px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.sub-nav__menu svg {
+  fill: #a2715f;
+}
+
+.site-header__cart .badge {
+  left: 20px !important;
+}
+
+span.sicon-user {
+  display: none;
+}
+
+.circle-action {
+  color: #a2715f !important;
+}
+
+.section-header.d-flex.justify-content-between.align-items-center.mb-4 {
+  display: none;
+}
+
+body.salla-theme_1 .product .product-footer {
+  top: 0px;
+}
+
+.product:before {
+  content: "50%";
+  position: absolute;
+  left: 0px;
+  background: #f55157;
+  width: 60px;
+  z-index: 10;
+  display: block;
+  padding: 6px;
+  color: #fff;
+  bottom: 82px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 0px 20px 20px 0px;
+}
+
+body.salla-theme_1 .product > a .product-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 17.5px;
+}
+
+.offers-link,
+.price-after {
+  text-align: center;
+  font-weight: bold;
+  font-size: 19px !important;
+}
+
+.product {
+  right: 52%;
+  position: relative;
+}
+
+a.login-link.circle-action.dropdown-store-header {
+  display: none;
+}
+
+footer .footer-main {
+  background: #fff;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 1px 3px 18px #14030354;
+}
+
+.footer-main:before {
+  display: none;
+}
+
+footer {
+  padding: 15px;
+}
+
+.footer-main a {
+  color: #1e1e1e;
+  font-weight: bold;
+}
+
+.footer-sub {
+  color: #1e1e1e;
+  border-radius: 0px 0px 20px 20px;
+  background: #fff;
+  box-shadow: -2px 15px 12px #14030329;
+}
+
+.footer-item p {
+  color: #1e1e1e;
+  font-weight: bold;
+}
+
+.footer-title span {
+  display: block;
+  text-align: right;
+  width: 90px;
+  background: #fff;
+  color: #a2715f;
+  font-weight: bold;
+}
+
+ul.footer-links {
+  display: block;
+}
+.store-contact {
+  text-align: right;
+}
+
+.product-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+}
+
+.footer-links {
+  columns: 1;
+}
+
+ul.social {
+  text-align: right;
+}
+
+ul.social li a {
+  color: #a2715f;
+  font-size: 20px;
+}
+
+.sicon-twitter2:before {
+  content: "\e904";
+}
+
+.sicon-facebook2:before {
+  content: "\ed57";
+}
+
+.sicon-instagram2:before {
+  content: "\e916";
+}
+
+#order .add-cart-large {
+  background: #ffffff;
+  border-color: #a2715f;
+  color: #a2715f !important;
+  font-weight: bold;
+}
+
+.fa-heart:before {
+  color: #f55176d1;
+}
+
+.product-detials__desc {
+  background: #fff;
+  margin: 5px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px #29060638;
+}
+.sub-nav-header {
+  background: #fff;
+}
+.login-link:hover {
+  color: #6d2736 !important;
+  border-color: #fff !important;
+}
+.sub-nav-header a.login-link {
+  border-radius: 5px;
+  padding: 3px 30px;
+  border: 2px solid;
+  position: relative;
+  color: #000;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+login-link:before {
+  content: "\f078";
+}
+
+.sub-nav-header a.login-link:before {
+  content: "  ";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url(https://www3.0zz0.com/2022/07/15/17/494984983.png);
+  position: absolute;
+  right: 4px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sub-nav__close svg {
+  fill: #000 !important;
+}
+.a2a_kit.a2a_kit_size_32.a2a_default_style {
+  display: none;
+}
+
+.row.mb-2.mb-md-0 .col-xs-6 .salla-theme_1 .product-details__price {
+  margin: auto;
+  text-align: center;
+}
+@media only screen and (max-width: 992px) {
+  .product-details__price {
+    display: block;
+    width: 95vw;
+    text-align: center;
+    transform: scale(1.4);
+  }
+}
+
+.product-details__title {
+  display: block !important;
+  margin: auto;
+  text-align: center;
+}
+
+p.ql-align-right,
+.product-detials__desc > ul li {
+  color: #000000;
+  font-size: 19px !important;
+}
+
+p.ql-align-right strong,
+.product-detials__desc strong {
+  font-size: 25px !important;
+  color: #a2715f;
+}
+
+p.ql-direction-rtl.ql-align-right img {
+  width: 90%;
+  position: relative;
+  right: 5%;
+}
+.sub-nav .main-menu li.sub-menu-header.categories-holder>span {
+    display: none;
+}
+a.offers-link[href="https://senazsa.com/offers"] {
+    display: none;
+}
+.footer-title span {
+    font-size: 22px;
+    width: 100%;
+}.product > a .img-cont img {
+    transform: scale(1.4);
+}
+footer .footer-main,.footer-sub {
+    background-blend-mode: normal !important;
+    background-color: #fff !important;
+    background-image: none !important;
+}
