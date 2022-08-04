@@ -1,0 +1,165 @@
+/* window page */
+/* ========================== */
+/* -- محترف في تصميم متاجر سلة -- */
+/*       ! cheikhoumou          */
+/*       ! https://wa.me/22220523820   */
+/*       ! cheikoumou@gmail.com */
+@keyframes frist {
+  0% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1);
+  }
+  100% {
+    border-radius: 5rem;
+    transform: scale(0);
+  }
+}
+body.store-home:before {
+  content: "";
+  z-index: 1 !important;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url(https://cdn.salla.sa/XmqnA/55IgDpEgX1aRG2NNXEpQuJ5ryk9KDjIQMWHh92sU.png)
+    #ffffff;
+  transform: scale(0);
+  background-size: 25rem !important;
+  background-repeat: no-repeat;
+  background-position: center !important;
+  animation: frist 1.5s;
+}
+
+.site-header {
+  background: linear-gradient(to right, #b91466, #5a266d);
+  border: none !important;
+}
+footer {
+  background: linear-gradient(to right, #b91466, #5a266d);
+}
+
+.footer__mid {
+  border: none;
+}
+.footer__top .store-about p {
+  color: #fcfcfc;
+}
+.footer__top .store-about .title--primary {
+  color: #fff !important;
+}
+.footer__top .store-contact-info .title--primary {
+  color: #ffffff !important;
+}
+.mb-20::before {
+  background: white !important;
+}
+.store-contact-info a .sicon-iphone {
+  color: #ffffff;
+}
+.store-contact-info a i {
+  color: #ffffff;
+}
+.store-contact-info a .text-unicode {
+  color: #ffffff;
+}
+.footer-list--payment-methods {
+  background: white !important;
+  border-radius: 12px !important;
+}
+.footer__bottom {
+  background: linear-gradient(to right, #b91466, #5a266d);
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer__bottom .container span + span {
+  display: none;
+}
+
+/* button bay */
+.btn--floated.btn--add-to-cart .sicon-shopping-bag::before {
+  content: "إضافة للسلة" !important;
+  font-weight: 700 !important;
+  font-family: "Tajawal", sans-serif !important;
+  color: #fff;
+  margin-left: 6px;
+  font-size: 12px;
+}
+.btn--add-to-cart i::after {
+  content: "\ef36";
+  margin-left: 8px;
+  color: #fff;
+  font-size: 15px;
+}
+.btn--add-to-cart {
+  background: linear-gradient(to right, #b91466, #5a266d);
+  transition: all 0.4s ease !important;
+}
+.btn--floated.btn--add-to-cart {
+  position: initial;
+  display: block;
+  width: calc(100% - 20px);
+  border-radius: 99px !important;
+  margin: 0px 15px 10px !important;
+  padding: 5px !important;
+  padding-bottom: 10px !important;
+  padding-right: 15px !important;
+}
+@media only screen and (max-width: 767px) {
+  .site-header .theme-logo {
+    background: white;
+    border-radius: 0 0 0 100px;
+    padding: 7px 0;
+    padding-right: 40px !important;
+    position: relative;
+    width: 200px;
+    margin-right: -15px;
+  }
+}
+
+header .site-header {
+  padding: 0px 0 !important;
+}
+.product-block .price-wrapper,
+.product-block h2 {
+  text-align: center;
+}
+.sicon-cart:before {
+  content: "\ef36";
+}
+.header-side-panel-trigger,
+header .site-header__cart .price {
+  color: #fff;
+}
+.badge--danger {
+  background: #1c1f3d;
+  padding-bottom: 2px;
+}
+.top-header {
+  background: linear-gradient(to right, #b91466, #5a266d);
+}
+.less {
+  background: linear-gradient(to right, #1c1f3d, #5a266d);
+  color: white;
+}
+ul.top-header__info * {
+  color: #fff !important;
+}
+@media (max-width: 576px) {
+  /* Italic Tag */
+  #main-cart-btn i {
+    font-size: 25px;
+  }
+
+  /* Sicon search */
+  .site-header__wrapper .sicon-search {
+    color: #ffffff;
+    font-size: 25px;
+  }
+
+  /* Header side panel trigger */
+  .site-header .site-header__wrapper .header-side-panel-trigger {
+    color: #ffffff;
+  }
+}
