@@ -21,7 +21,7 @@ document.querySelector('header.site-header + section[style="background: #FAFAFA;
     margin: 0px 5px;
 }.box-cheikho span img {
     width: 100%;
-    height: fit-content;
+    height: 92%;
 }.text-code {
     width: 50%;
     margin: auto;
@@ -71,7 +71,8 @@ document.querySelector('header.site-header + section[style="background: #FAFAFA;
     </span> 
 </div>
 <div class="flex-cheikho">
-    <div class="div-ch"><a href="https://cardsworldsa.com/offers"><img src="https://www8.0zz0.com/2022/08/23/13/245557273.png" alt=""></a></div>
-    <div class="div-ch"><a href="https://cardsworldsa.com/%D8%A8%D8%B7%D8%A7%D9%82%D8%A9-%D8%B9%D8%A7%D9%84%D9%85-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D9%82%D8%A7%D8%AA/c2072745788"><img src="https://www8.0zz0.com/2022/08/23/13/820444554.png" alt=""></a></div>
+    <div class="div-ch"><a href="https://cardsworldsa.com/%D8%A8%D8%B7%D8%A7%D9%82%D8%A9-%D8%B9%D8%A7%D9%84%D9%85-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D9%82%D8%A7%D8%AA/c2072745788"><img src="https://www8.0zz0.com/2022/08/23/13/245557273.png" alt=""></a></div>
+    <div class="div-ch"><a href="https://cardsworldsa.com/offers  "><img src="https://www8.0zz0.com/2022/08/23/13/820444554.png" alt=""></a></div>
 </div>
 </div>`;
+console.log('live code');
