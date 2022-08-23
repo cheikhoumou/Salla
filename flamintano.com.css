@@ -1,0 +1,98 @@
+/* شاشة البداية  */
+.nav-mobile {
+    animation: open 2.7s ease-in-out;
+}
+
+@keyframes open {
+    0% {
+        opacity: 0;
+    }
+
+    78% {
+        opacity: 0;
+        display: none;
+    }
+
+    100% {
+        opacity: 0.9;
+        display: block;
+    }
+}
+.store-home:before {
+    content: "";
+    width: 100%;
+    height: 100vh;
+    background: #323232 url('https://www12.0zz0.com/2022/08/23/21/513384845.png');
+    position: fixed;
+    top: 0;
+    z-index: 9999999999999999999999999999999999 !important;
+    /* transform: scale(0); */
+    opacity: 0;
+    background-size: 250px !important;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    animation-name: logobg;
+    animation-duration: 2.7s;
+    left: 100%;
+}
+@keyframes logobg {
+    0% {
+        opacity: 1;
+        left: 0%;
+    }
+
+    20% {
+        opacity: 1;
+        left: 0%;
+    }
+
+    78% {
+        opacity: 1;
+        left: 0%;
+    }
+
+    100% {
+        opacity: 0;
+        left: 100%;
+    }
+}
+@media (max-width: 767px){
+    .site-header {
+        background: url(https://cdn.salla.sa/qnpyZ/ZjjhO6BLkO9ZztfYiMp74HHBiFfSRPZaVVGK2KcM.jpg) no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-color: #323232;
+    }.header-side-panel-trigger,header .site-header__cart i {
+        color: #d1b76c;
+        font-size: 23px;
+    }header .site-header__wrapper .theme-logo img {
+        display: none;
+    }header.fixed-header .site-header {
+        background-color: #323232;
+    }
+}footer.footer {
+background: linear-gradient(45deg, #6e5d2e, #323232);
+    border-radius: 20px;
+}footer.footer * {
+    color: #d0b66b !important;
+}.footer__mid {
+    border: none;
+}.footer .footer-list--payment-methods {
+    padding: 5px;
+    margin: 6px;
+    background: #fff;
+    border-radius: 20px;
+}.footer__bottom {
+    background: #323232;
+}.title--has-dash:before {
+    background: #fff !important;
+}.footer:before {
+    content: "";
+    background-image: url(https://i.imgur.com/eAWGMd1.png);
+    background-size: 411%;
+    display: block;
+    background-repeat: round;
+    transform: rotate( 180deg);
+    height: 90px;
+    margin: -31px -32px 1px 1px;
+}
