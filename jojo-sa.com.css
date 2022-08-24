@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap');
+
+.sub-nav-header {
+    background-image: url(https://cdn.salla.sa/OXPAq/design/kQam016Xj7LGJ3yri3FCW2xaPE3GwezSpnN5Xyhc.jpg);
+    background-size: 180%;
+    background-blend-mode: overlay;
+    background-position: right;
+}
+
+.sub-nav-header::before {
+    content: "";
+    display: block;
+    height: 70px !important;
+    background-image: url(https://cdn.salla.sa/OXPAq/kxAjKbUzmOg2ErNUdUZYwuTZwc8OnjxTZZtITUVz.png);
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1b3238;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border: 5px solid #ffffff;
+}
+
+.sub-nav-header img {
+    display: none;
+}
+
+.sicon-cart:before {
+    content: "\ef36";
+}
+
+.product-add {
+    background: #1b3238;
+    color: #fff;
+    border: none;
+    position: absolute;
+    border-radius: 0px 20px 20px 0px;
+    left: 32px;
+    bottom: 0px;
+    width: 66px;
+}
+
+.product.contain {
+    border-radius: 30px;
+    border: none;
+    box-shadow: 2px 2px 8px #3b050533;
+}
+
+.section-header .section--title:before {
+    content: " ";
+    width: 25px;
+    height: 28px;
+    margin: 0px 4px;
+    display: inline-block;
+    background: url(https://cdn.salla.sa/OXPAq/kxAjKbUzmOg2ErNUdUZYwuTZwc8OnjxTZZtITUVz.png);
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.footer-main .container:before {
+    text-align: center;
+    content: "";
+    display: block;
+    height: 84px;
+    width: 87px;
+    margin: auto auto 20px;
+    background-image: url(https://cdn.salla.sa/OXPAq/kxAjKbUzmOg2ErNUdUZYwuTZwc8OnjxTZZtITUVz.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.footer-main:before {
+    content: "";
+    background-image: url(https://marssa.shop/site/images/new_theme/footer-top.svg);
+    background-size: 418%;
+    display: block;
+    background-repeat: round;
+    transform: rotate(180deg);
+    height: 104px;
+    margin: -30px -32px 1px 1px;
+}
+
+.u-light {
+    background: #fff !important;
+    margin: 20px 0;
+}
+
+.login-container .text-yellow-dark {
+    border: none;
+}
+
+button.btn.btn-secondary.btn--qty-add,
+button.btn.btn-secondary.btn--qty-sub {
+    background: #1b3238;
+    color: #fff;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #1b3238;
+}
+
+.product-details__title {
+    background: #eee;
+    color: #1b3238;
+    padding: 5px;
+    font-size: 22px;
+    border-radius: 10px;
+    border-right: 4px solid;
+}
+
+span#cart_badge {
+    background: #597078;
+}
+
+.icon-checkmark4:before {
+    content: "\ef36";
+    font-family: 'sallaicons';
+}
+
+body {
+    font-family: 'El Messiri', sans-serif !important;
+}
+
+body * {
+    font-family: 'El Messiri', sans-serif !important;
+}
+
+ul.slick-dots {
+    display: none !important;
+}
+
+.main-slider.slick-dotted.slick-slider {
+    margin: 0;
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 19PX;
+    box-shadow: #0000004d 10px 10px 11px;
+}
+
+.container.p-0.px-md-3 {
+    background-color: var(--main-color);
+    padding: 15px;
+}
+
+.feature-item__icon {
+    background: #fff0;
+    width: 65px;
+    height: 65px;
+    color: var(--main-color);
+    font-size: 27px;
+    border: var(--main-color) solid 1px;
+}
+
+body.salla-theme_1 .section-header .btn.btn-primary.btn-rounded,
+body.salla-theme_2 .section-header .btn.btn-primary.btn-rounded,
+body.salla-theme_4 .section-header .btn.btn-primary.btn-rounded {
+    border-color: #d4d4d4 !important;
+    color: #5a5a5a;
+}
+
+@media screen and (max-width:766px) {
+    .site-header {
+        background-image: radial-gradient(#fff 220px, var(--main-color) 155px);
+        background-size: 218% 1016%;
+        background-position: 10% 50%;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+
+    .sub-nav__menu svg {
+        width: 49px;
+        fill: #fff;
+        height: 46px;
+    }
+
+    .circle-action:not(.button-more):not(.button-next) {
+        border-radius: 37%;
+        background: #0000000d;
+        color: #ffffff;
+    }
+
+    .salla-theme_3 .site-header .logo-wrapper .logo:before {
+        content:
+            "l";
+        position: absolute;
+        display: block;
+        width: 300px;
+        height: 83px;
+        background: #1b3238;
+        border-radius: 47px;
+        top: -10px;
+        left: -50%;
+        z-index: -1;
+    }
+
+    h1.logo {
+        background: transparent !important;
+    }
+
+    a.circle-action:not(.button-more):not(.button-next) {
+        border: none !important;
+    }
+
+    .circle-action:not(.button-more):not(.button-next) span:not(.badge) {
+        font-size: 22px;
+    }
+
+    .col-lg-4.header-row.pull-left {
+        gap: 15px;
+    }
+
+    .footer-sub {
+        color: #ffffff;
+        font-size: 14px;
+        background-color: var(--main-color);
+        padding: 1.75rem 0;
+    }
+
+    .salla-theme_1 footer .footer-sub .footer-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .container.footer-wrapper>div {
+        background-color: #ffffff;
+        padding: 13px 28px;
+        border: var(--main-color) dotted 2px;
+        border-radius: 10px;
+        transform: scale(1.3);
+        margin-bottom: 19px;
+    }
+
+}
+
+@media screen and (min-width:766px) {
+    .circle-action:not(.button-more):not(.button-next) {
+        border-radius: 37%;
+        color: var(--main-color);
+    }
+
+    .circle-action:not(.button-more):not(.button-next):hover {
+        background-color: transparent;
+        color: var(--main-color);
+    }
+
+    .circle-action:not(.button-more):not(.button-next):hover {
+        border-right-color: #00000000;
+        border-left-color: transparent;
+    }
+
+    .circle-action:not(.button-more):not(.button-next) {
+        position: relative;
+        width: 40px;
+        height: 36px;
+        border: 1px solid var(--main-color);
+        border-left-color: transparent;
+        border-right-color: transparent;
+        border-radius: 50% / 30%;
+    }
+
+    .circle-action:not(.button-more):not(.button-next)::before {
+        content: '';
+        position: absolute;
+        top: -1px;
+        left: -0px;
+        right: -0px;
+        bottom: -1px;
+        border: 1px solid var(--main-color);
+        border-top-color: transparent;
+        border-bottom-color: transparent;
+        border-radius: 25% / 50%;
+    }
+
+}
+
+.footer-title {
+    color: #fff;
+    border-bottom: 6px dotted rgba(255, 255, 255, .2);
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.7rem;
+}
+
+h2.footer-title span {
+    font-size: 22px;
+}
+
+.footer-item p {
+    background-color: aliceblue;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    /* margin: 14px; */
+    box-shadow: #00000066 1px 6px 11px -5px;
+}
+
+.sicon-whatsapp2::after {
+    content: "\E916";
+    text-align: center;
+    cursor: pointer;
+    background: #1b3238;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 32.5px;
+    font-size: 32px;
+    box-shadow: #0000006b 2px 2px 8px;
+    color: #fff;
+    box-shadow: #00000022 1.5px 1.5px 5px;
+    position: fixed;
+    bottom: 19px;
+    right: 17px;
+    animation-name: popup_whatsapp;
+    animation-duration: 15s;
+}
+
+.sicon-whatsapp2:hover::after {
+    content: "حاب نساعدك 😃؟ ";
+    width: 260px !important;
+    font-size: 32px !important;
+    color: #ffffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes popup_whatsapp {
+    0% {
+        bottom: -55px;
+    }
+
+    40% {
+        bottom: -55px;
+    }
+
+    50% {
+        bottom: 70px;
+    }
+
+    51% {
+        bottom: 19px;
+    }
+
+    52% {
+        bottom: 28px;
+    }
+
+    53% {
+        bottom: 19px;
+    }
+
+    54% {
+        bottom: 22px;
+    }
+
+    55% {
+        bottom: 19px;
+    }
+
+    56% {
+        content: "\E916";
+        width: 56px;
+        font-size: 32px;
+        color: #ffffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    59% {
+        content: "حاب نساعدك 😃؟ ";
+        width: 260px;
+        font-size: 32px;
+        color: #ffffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    98% {
+        content: "حاب نساعدك 😃؟ ";
+        width: 260px;
+        font-size: 32px;
+        color: #ffffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    99% {
+        content: "حاب نساعدك 😃؟ ";
+        width: 260px;
+        font-size: 32px;
+        color: #ffffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    100% {
+        bottom: 19px;
+    }
+
+}
+
+div#gb-widget-9221 {
+    display: none;
+}
+
+.footer-main {
+    background: #1b3238;
+}
+
+.store-contact a,
+ul.footer-links li a {
+    color: #fff;
+}
+
+.salla-theme_3 .site-header .logo-wrapper .logo {
+    position: relative;
+}
+
+h1.logo {
+    background: #1b3238;
+    padding: 5px;
+    border-radius: 18px;
+}
+
+.sub-nav__menu:hover svg {
+    fill: #fff !important;
+}
+
+div#gb-widget-5720 {
+    display: none !important;
+}
+
+.salla-theme_3 .footer-main .social__item a {
+    color: #fff;
+    border-color: #fff;
+}
+
+.product.cover {
+    position: relative;
+    overflow: hidden;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px #0e020230;
+}
+
+.feature-item h3 {
+    position: absolute;
+    bottom: -30px;
+    z-index: 7;
+    width: 63px;
+}.sbsi7l-0.evMtho,.q8c6tt-2.eiGYSu {
+    display: none !important;
+}
