@@ -75,4 +75,49 @@ document.querySelector('header.site-header + section[style="background: #FAFAFA;
     <div class="div-ch"><a href="https://cardsworldsa.com/offers  "><img src="https://www8.0zz0.com/2022/08/23/13/820444554.png" alt=""></a></div>
 </div>
 </div>`;
-console.log('live code');
+console.log('live code 2');
+document.querySelector(".contss").innerHTML +=`<style>
+@media (max-width:990px){
+.list-home a img {
+    width: 90%;
+    height: 100%;
+}
+.list-home a {
+    margin: 2% 3%;
+    margin-bottom: 0;
+}
+.list-home {
+    display: flex !important;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    direction: ltr;
+    left: 0;
+    right: 0;
+    box-shadow: -2px -2px 8px #1c070730;
+}
+    }
+.list-home{
+    display: none;
+}
+a.sub-nav__menu.ml-2 svg {
+    display: none;
+}
+</style>
+<div class="list-home">
+    <a href="https://cardsworldsa.com/cart"><img src="https://www11.0zz0.com/2022/08/24/14/406976330.png" alt=""></a>
+    <a href="https://cardsworldsa.com/profile"><img src="https://www11.0zz0.com/2022/08/24/14/306251804.png" alt=""></a>
+    <a href="https://cardsworldsa.com/offers"><img src="https://www11.0zz0.com/2022/08/24/14/473150489.png" alt=""></a>
+    <a href="#" class="open-chikho"><img src="https://www11.0zz0.com/2022/08/24/14/731886618.png" alt=""></a>
+    <a href="https://cardsworldsa.com/"><img src="https://www11.0zz0.com/2022/08/24/14/460490145.png" alt=""></a>
+</div>`;
+    document.querySelector('.open-chikho').onclick = function(){
+    document.querySelector('.sub-nav .sub-nav-content').style = `transform: translateX(0);`;
+    }
+    document.querySelector('.sub-nav .sub-nav__close').onclick = function(){
+    document.querySelector('.sub-nav .sub-nav-content').style = `transform: translateX(100%);`;
+    }
