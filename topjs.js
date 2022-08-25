@@ -1,4 +1,6 @@
-document.querySelector('header.site-header + section[style="background: #FAFAFA;"] + section').innerHTML = `<div class="contss">
+document.querySelector(
+  'header.site-header + section[style="background: #FAFAFA;"] + section'
+).innerHTML = `<div class="contss">
 <style>
 ::-webkit-scrollbar {
     width: 1px;
@@ -75,8 +77,8 @@ document.querySelector('header.site-header + section[style="background: #FAFAFA;
     <div class="div-ch"><a href="https://cardsworldsa.com/offers  "><img src="https://www8.0zz0.com/2022/08/23/13/820444554.png" alt=""></a></div>
 </div>
 </div>`;
-console.log('live code 4');
-document.querySelector(".contss").innerHTML +=`<style>
+console.log("live code 5");
+document.querySelector(".contss").innerHTML += `<style>
 @media (max-width:990px){
 .list-home a img {
     width: 90%;
@@ -115,13 +117,10 @@ a.sub-nav__menu.ml-2 svg {
     <a href="#" class="open-chikho"><img src="https://www11.0zz0.com/2022/08/24/14/731886618.png" alt=""></a>
     <a href="https://cardsworldsa.com/"><img src="https://www11.0zz0.com/2022/08/24/14/460490145.png" alt=""></a>
 </div>`;
-    document.querySelector('.open-chikho').onclick = function(){
-    document.querySelector('.sub-nav .sub-nav-content').style = `transform: translateX(0);`;
-    }
-    document.querySelector('.sub-nav .sub-nav__close').onclick = function(){
-    document.querySelector('.sub-nav .sub-nav-content').style = `transform: translateX(100%);`;
-    }
-document.querySelector('.section-products + section').innerHTML = `<div class="text-code2"><img src="https://www6.0zz0.com/2022/08/25/09/241929947.png" alt=""></div>
+// code 2
+document.querySelector(
+  ".section-products + section"
+).innerHTML = `<div class="text-code2"><img src="https://www6.0zz0.com/2022/08/25/09/241929947.png" alt=""></div>
 <div class="flex-cheikho cl">
     <div class="div-ch"><a href="https://cardsworldsa.com/ساعات-رجال/c148939639"><img src="https://www6.0zz0.com/2022/08/25/09/242656192.png" alt=""></a></div>
     <div class="div-ch"><a href="https://cardsworldsa.com/ساعات-نساء/c883614065"><img src="https://www6.0zz0.com/2022/08/25/09/920278683.png" alt=""></a></div>
@@ -130,7 +129,7 @@ document.querySelector('.section-products + section').innerHTML = `<div class="t
 <style>.flex-cheikho.cl .div-ch {width: 32%;}
 .flex-cheikho.cl .div-ch a img{border-radius: 8px;}.text-code2 {width: 25%;margin: auto;margin-top: 25px;}.text-code2 img {width: 100%;}.flex-cheikho.cl .div-ch:hover {transition: 0.6s ease-in;transform: skewY(4deg);}</style>`;
 
-document.querySelector('.contss').innerHTML += `<style>.ads img {
+document.querySelector(".contss").innerHTML += `<style>.ads img {
          width: 100%;
         border-radius: 20px;
     }.ads {width: 95%;margin: auto;}
@@ -179,7 +178,8 @@ animation: cheikho 1.6s ease-in infinite;
 <div class="boxour"><a href="https://cardsworldsa.com/gzjGAW" class="adrd"><img src="https://www7.0zz0.com/2022/08/25/14/849213415.png" alt=""></a>
     <a href="https://cardsworldsa.com/owaOeZ" class="adrd"><img src="https://www7.0zz0.com/2022/08/25/14/452659973.png" alt=""></a></div>
 </div>`;
-    document.querySelector('.section-products + section').innerHTML += `
+// add img
+document.querySelector(".section-products + section").innerHTML += `
 <div class="ads">
     <img src="https://www3.0zz0.com/2022/08/25/13/644753451.png" alt="">
 </div>
@@ -189,3 +189,15 @@ animation: cheikho 1.6s ease-in infinite;
     <div class="div-ch"><a href="https://cardsworldsa.com/%D9%86%D8%B8%D8%A7%D8%B1%D8%A7%D8%AA-%D9%86%D8%B3%D8%A7%D8%A1/c399833541"><img src="https://www8.0zz0.com/2022/08/25/13/980820394.png" alt=""></a></div>
     <div class="div-ch"><a href="https://cardsworldsa.com/%D9%86%D8%B8%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A3%D8%B7%D9%81%D8%A7%D9%84/c1638996166"><img src="https://www8.0zz0.com/2022/08/25/13/321207189.png" alt=""></a></div>
 </div>`;
+// open list links
+document.querySelector(".open-chikho").onclick = function () {
+    document.querySelector(
+      ".sub-nav .sub-nav-content"
+    ).style = `transform: translateX(0);`;
+  };
+// close list links
+  document.querySelector(".sub-nav .sub-nav__close").onclick = function () {
+    document.querySelector(
+      ".sub-nav .sub-nav-content"
+    ).style = `transform: translateX(100%);`;
+  };
