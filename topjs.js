@@ -75,7 +75,7 @@ document.querySelector('header.site-header + section[style="background: #FAFAFA;
     <div class="div-ch"><a href="https://cardsworldsa.com/offers  "><img src="https://www8.0zz0.com/2022/08/23/13/820444554.png" alt=""></a></div>
 </div>
 </div>`;
-console.log('live code 2');
+console.log('live code 3');
 document.querySelector(".contss").innerHTML +=`<style>
 @media (max-width:990px){
 .list-home a img {
@@ -121,3 +121,11 @@ a.sub-nav__menu.ml-2 svg {
     document.querySelector('.sub-nav .sub-nav__close').onclick = function(){
     document.querySelector('.sub-nav .sub-nav-content').style = `transform: translateX(100%);`;
     }
+document.querySelector('.section-products + section').innerHTML = `<div class="text-code2"><img src="https://www6.0zz0.com/2022/08/25/09/241929947.png" alt=""></div>
+<div class="flex-cheikho cl">
+    <div class="div-ch"><a href="https://cardsworldsa.com/ساعات-رجال/c148939639"><img src="https://www6.0zz0.com/2022/08/25/09/242656192.png" alt=""></a></div>
+    <div class="div-ch"><a href="https://cardsworldsa.com/ساعات-نساء/c883614065"><img src="https://www6.0zz0.com/2022/08/25/09/920278683.png" alt=""></a></div>
+    <div class="div-ch"><a href="https://cardsworldsa.com/ساعات-أطفال/c108462194"><img src="https://www6.0zz0.com/2022/08/25/09/413575845.png" alt=""></a></div>
+</div>
+<style>.flex-cheikho.cl .div-ch {width: 32%;}
+.flex-cheikho.cl .div-ch a img{border-radius: 8px;}.text-code2 {width: 25%;margin: auto;margin-top: 25px;}.text-code2 img {width: 100%;}.flex-cheikho.cl .div-ch:hover {transition: 0.6s ease-in;transform: skewY(4deg);}</style>`;
