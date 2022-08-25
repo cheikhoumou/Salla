@@ -75,7 +75,7 @@ document.querySelector('header.site-header + section[style="background: #FAFAFA;
     <div class="div-ch"><a href="https://cardsworldsa.com/offers  "><img src="https://www8.0zz0.com/2022/08/23/13/820444554.png" alt=""></a></div>
 </div>
 </div>`;
-console.log('live code 3');
+console.log('live code 4');
 document.querySelector(".contss").innerHTML +=`<style>
 @media (max-width:990px){
 .list-home a img {
@@ -129,3 +129,63 @@ document.querySelector('.section-products + section').innerHTML = `<div class="t
 </div>
 <style>.flex-cheikho.cl .div-ch {width: 32%;}
 .flex-cheikho.cl .div-ch a img{border-radius: 8px;}.text-code2 {width: 25%;margin: auto;margin-top: 25px;}.text-code2 img {width: 100%;}.flex-cheikho.cl .div-ch:hover {transition: 0.6s ease-in;transform: skewY(4deg);}</style>`;
+
+document.querySelector('.contss').innerHTML += `<style>.ads img {
+         width: 100%;
+        border-radius: 20px;
+    }.ads {width: 95%;margin: auto;}
+    .ouroude {
+    background: #40798c80;
+    margin: 30px 0px;
+    padding-bottom: 25px;
+}.boxour  a.adrd img {
+    width: 100%;
+}.boxour {
+    width: 98%;
+    margin: auto;
+     display: flex;
+}.boxour a.adrd {
+    margin: 1.5%;
+} .textani img {
+    width: 250px;
+}.textani {
+    padding: 10px;
+    float: right;
+    position: relative;
+    margin-top: 10px;
+}.textani:before {
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: url(https://www14.0zz0.com/2022/08/25/14/738910648.png) no-repeat;
+    left: -26px;
+    top: 6px;
+background-size: cover;
+background-position: center;
+animation: cheikho 1.6s ease-in infinite;
+}@keyframes cheikho {0%,100%{transform: rotate(-10deg);}50%{transform: rotate(210deg);}}
+</style>
+<div class="ads">
+   <img src="https://www8.0zz0.com/2022/08/25/13/100602409.png" alt="">
+</div>
+<div class="ouroude">
+    <div class="textani">
+        <img src="https://www14.0zz0.com/2022/08/25/14/946109233.png" />
+    </div>
+    <div class="boxour"><a href="https://cardsworldsa.com/DWyWKv" class="adrd"><img src="https://www7.0zz0.com/2022/08/25/14/266030874.png" alt=""></a>
+<a href="https://cardsworldsa.com/eXYwAX" class="adrd"><img src="https://www7.0zz0.com/2022/08/25/14/534691762.png" alt=""></a></div>
+<div class="boxour"><a href="https://cardsworldsa.com/gzjGAW" class="adrd"><img src="https://www7.0zz0.com/2022/08/25/14/849213415.png" alt=""></a>
+    <a href="https://cardsworldsa.com/owaOeZ" class="adrd"><img src="https://www7.0zz0.com/2022/08/25/14/452659973.png" alt=""></a></div>
+</div>`;
+    document.querySelector('.section-products + section').innerHTML += `
+<div class="ads">
+    <img src="https://www3.0zz0.com/2022/08/25/13/644753451.png" alt="">
+</div>
+<div class="text-code2"><img src="https://www8.0zz0.com/2022/08/25/13/801386566.png" alt=""></div>
+<div class="flex-cheikho cl">
+    <div class="div-ch"><a href="https://cardsworldsa.com/%D9%86%D8%B8%D8%A7%D8%B1%D8%A7%D8%AA-%D8%B1%D8%AC%D8%A7%D9%84/c1747106811"><img src="https://www8.0zz0.com/2022/08/25/13/313335663.png" alt=""></a></div>
+    <div class="div-ch"><a href="https://cardsworldsa.com/%D9%86%D8%B8%D8%A7%D8%B1%D8%A7%D8%AA-%D9%86%D8%B3%D8%A7%D8%A1/c399833541"><img src="https://www8.0zz0.com/2022/08/25/13/980820394.png" alt=""></a></div>
+    <div class="div-ch"><a href="https://cardsworldsa.com/%D9%86%D8%B8%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A3%D8%B7%D9%81%D8%A7%D9%84/c1638996166"><img src="https://www8.0zz0.com/2022/08/25/13/321207189.png" alt=""></a></div>
+</div>`;
