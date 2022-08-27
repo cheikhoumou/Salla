@@ -27,15 +27,15 @@ body.store-home:before {
     content: "";
     width: 100%;
     height: 100%;
-    background: #bad19d url(https://cdn.salla.sa/PKvmN/QNTzPzVShc3KSNkxDfoZvBBaNOxHuteXQAIdY2nE.jpg);
+    background: #072420 url(https://cdn.salla.sa/PKvmN/dCak31Z2tuiCStO5M0jm5hU67J0ZshDKJkNTbXx6.png);
     position: fixed;
     z-index: 99999999999999999 !important;
     transform: scale(0);
-    background-size: 250px !important;
+    background-size: 120px !important;
     background-repeat: no-repeat;
     background-position: center !important;
     animation-name: logobg;
-    animation-duration: 3s;
+    animation-duration: 2.3s;
 }
 
 ::-webkit-scrollbar {
@@ -52,11 +52,8 @@ body.store-home:before {
 }
 
 .site-header {
-    background-image: url(https://www3.0zz0.com/2022/07/05/16/347647377.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply;
     border-radius: 0px 0px 20px 20px;
+    background-color: #072420;
 }
 
 .sicon-cart:before {
@@ -66,13 +63,13 @@ body.store-home:before {
 .circle-action {
     border: none;
     font-size: 22px;
-    color: #072420;
+    color: #bad19d;
 }
 
 .site-header__cart .badge {
-    background: #072420;
-    color: #fff;
-    border-color: #072420;
+    background: #bad19d;
+    color: #072420;
+    border-color: #bad19d;
 }
 
 .main-slider img {
@@ -123,7 +120,7 @@ li.slick-active {
     border: none;
     background-color: #412a2278;
     padding: 20px;
-    background-image: url(https://cdn.salla.sa/PKvmN/QNTzPzVShc3KSNkxDfoZvBBaNOxHuteXQAIdY2nE.jpg);
+    background-image: url(https://cdn.salla.sa/PKvmN/dCak31Z2tuiCStO5M0jm5hU67J0ZshDKJkNTbXx6.png);
     background-size: 40%;
     background-repeat: no-repeat;
     background-position: center;
@@ -143,7 +140,7 @@ li.slick-active {
     text-align: center !important;
     display: block;
     height: 70px !important;
-    background-image: url(https://cdn.salla.sa/PKvmN/QNTzPzVShc3KSNkxDfoZvBBaNOxHuteXQAIdY2nE.jpg);
+    background-image: url(https://cdn.salla.sa/PKvmN/dCak31Z2tuiCStO5M0jm5hU67J0ZshDKJkNTbXx6.png);
     background-size: contain !important;
     background-repeat: no-repeat !important;
     background-position: top center !important;
@@ -154,11 +151,15 @@ li.slick-active {
 }
 
 .sub-nav-header {
-    background-image: url(https://cdn.salla.sa/PKvmN/design/zlXAtkBMUdASWJs4A1rRpVwrkdfD25IxfrV8PJzD.jpg?rand=0.7917728008715503?rand=0.23984825930026488);
+    background: url(https://cdn.salla.sa/PKvmN/design/zlXAtkBMUdASWJs4A1rRpVwrkdfD25IxfrV8PJzD.jpg?rand=0.7917728008715503?rand=0.23984825930026488) no-repeat;
+    ;
+    ;
+    ;
     ;
     background-size: cover;
     background-position: top;
-    background-blend-mode: darken;
+    background-blend-mode: overlay;
+    background-color: #072420f0;
 }
 
 .sub-nav__menu svg {
@@ -327,13 +328,13 @@ body:not(.salla-theme_6) .main-menu li:not(.sub-menu-header).has-children>a:befo
     height: 25px;
     margin: 0px 4px;
     display: inline-block;
-    background: url(https://cdn.salla.sa/PKvmN/QNTzPzVShc3KSNkxDfoZvBBaNOxHuteXQAIdY2nE.jpg);
+    background: url(https://cdn.salla.sa/PKvmN/dCak31Z2tuiCStO5M0jm5hU67J0ZshDKJkNTbXx6.png);
     background-size: cover;
     vertical-align: middle;
 }
 
 .salla-theme_4 .product-footer .product-add:hover {
-    background-color: #412a22 !important;
+    background-color: #bad19d !important;
     color: #fff;
 }
 
@@ -378,7 +379,7 @@ body:not(.salla-theme_6) .main-menu li:not(.sub-menu-header).has-children>a:befo
     height: 110px;
     width: 80px;
     margin: auto auto 20px;
-    background-image: url(https://cdn.salla.sa/PKvmN/QNTzPzVShc3KSNkxDfoZvBBaNOxHuteXQAIdY2nE.jpg);
+    background-image: url(https://cdn.salla.sa/PKvmN/dCak31Z2tuiCStO5M0jm5hU67J0ZshDKJkNTbXx6.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -403,4 +404,87 @@ i.fa.fa-heart {
 .list--product-fields li.form-group textarea {
     background: #072420 !important;
     color: #fff;
+}
+
+.salla-theme_4 .site-header .logo-wrapper .logo img {
+    max-height: 55px;
+    max-width: 225px;
+}
+
+.product-details__title {
+    background: #072420e0;
+    padding: 5px;
+    color: #bad19d;
+    border-right: 4px solid #bad19d;
+    border-radius: 8px;
+    padding-right: 45px;
+    position: relative;
+}
+
+.product-price {
+    display: block;
+    width: 100%;
+    color: #1a3531;
+}
+
+h1.product-details__title:before {
+    content: " ";
+    display: block;
+    width: 33px;
+    height: 33px;
+    background: url(https://cdn.salla.sa/PKvmN/dCak31Z2tuiCStO5M0jm5hU67J0ZshDKJkNTbXx6.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 4px;
+    background-position: center;
+}
+
+.testimonial-header,
+.owl-theme .owl-nav [class*=owl-] {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    opacity: 0.7;
+    background-color: #072420 !important;
+}
+
+.owl-carousel .owl-item img {
+    border-radius: 20px;
+}
+
+.product-cart {
+    /* background-image: url(https://drive.google.com/uc?id=103swSCzPZn0jsPhIzpog6bhPTg4LmcIM) !important; */
+    display: block !important;
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    border-radius: 33px;
+    box-shadow: 0px 0px 8px #1704043b;
+}
+
+.product-cart .delete-button {
+    background: #072420;
+    color: #fff;
+    border-color: #072420;
+}
+
+.product-form,
+.product-options {
+    background: transparent;
+}
+
+#submit_cart {
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 9px !important;
+    background: #072420;
+    border-color: #072420;
+}
+
+.product-cart .list--product-fields li.form-group.product-buttons .btn-add-note {
+    border-color: #a0bc87 !important;
+    border-width: 3px;
+    border-style: dashed;
+    color: #072420 !important;
 }
