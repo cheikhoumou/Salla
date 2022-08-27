@@ -27,7 +27,7 @@ body.store-home:before {
     content: "";
     width: 100%;
     height: 100%;
-    background: #ffffff url(https://cdn.salla.sa/PKvmN/QNTzPzVShc3KSNkxDfoZvBBaNOxHuteXQAIdY2nE.jpg);
+    background: #bad19d url(https://cdn.salla.sa/PKvmN/QNTzPzVShc3KSNkxDfoZvBBaNOxHuteXQAIdY2nE.jpg);
     position: fixed;
     z-index: 99999999999999999 !important;
     transform: scale(0);
