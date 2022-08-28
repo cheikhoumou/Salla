@@ -358,121 +358,7 @@ h2.footer-title span {
     border-radius: 10px;
     /* margin: 14px; */
     box-shadow: #00000066 1px 6px 11px -5px;
-}
-
-.sicon-whatsapp2::after {
-    content: "\E916";
-    text-align: center;
-    cursor: pointer;
-    background: #1b3238;
-    z-index: 999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 56px;
-    height: 56px;
-    border-radius: 32.5px;
-    font-size: 32px;
-    box-shadow: #0000006b 2px 2px 8px;
-    color: #fff;
-    box-shadow: #00000022 1.5px 1.5px 5px;
-    position: fixed;
-    bottom: 19px;
-    right: 17px;
-    animation-name: popup_whatsapp;
-    animation-duration: 15s;
-}
-
-.sicon-whatsapp2:hover::after {
-    content: "حاب نساعدك 😃؟ ";
-    width: 260px !important;
-    font-size: 32px !important;
-    color: #ffffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-@keyframes popup_whatsapp {
-    0% {
-        bottom: -55px;
-    }
-
-    40% {
-        bottom: -55px;
-    }
-
-    50% {
-        bottom: 70px;
-    }
-
-    51% {
-        bottom: 19px;
-    }
-
-    52% {
-        bottom: 28px;
-    }
-
-    53% {
-        bottom: 19px;
-    }
-
-    54% {
-        bottom: 22px;
-    }
-
-    55% {
-        bottom: 19px;
-    }
-
-    56% {
-        content: "\E916";
-        width: 56px;
-        font-size: 32px;
-        color: #ffffffff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    59% {
-        content: "حاب نساعدك 😃؟ ";
-        width: 260px;
-        font-size: 32px;
-        color: #ffffffff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    98% {
-        content: "حاب نساعدك 😃؟ ";
-        width: 260px;
-        font-size: 32px;
-        color: #ffffffff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    99% {
-        content: "حاب نساعدك 😃؟ ";
-        width: 260px;
-        font-size: 32px;
-        color: #ffffffff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    100% {
-        bottom: 19px;
-    }
-
-}
-
-div#gb-widget-9221 {
+}div#gb-widget-9221 {
     display: none;
 }
 
@@ -521,6 +407,4 @@ div#gb-widget-5720 {
     bottom: -30px;
     z-index: 7;
     width: 63px;
-}.sbsi7l-0.evMtho,.q8c6tt-2.eiGYSu {
-    display: none !important;
 }
