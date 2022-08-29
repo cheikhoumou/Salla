@@ -181,7 +181,7 @@ document.querySelector(".section-products + section").innerHTML = `
     </div>`;
 
 document.querySelector(".contss").innerHTML += `<div class="ads">
-      <a href="https://cardsworldsa.com/%D8%B9%D8%B1%D9%88%D8%B6-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A92/c2145713748"> <img src="https://www8.0zz0.com/2022/08/25/13/100602409.png" alt=""></a>
+      <a href="https://cardsworldsa.com/%D8%B9%D8%B1%D9%88%D8%B6-%D8%A7%D9%84%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A92/c2145713748"> <img src="https://www5.0zz0.com/2022/08/29/15/769358043.png" alt=""></a>
     </div>
     <div class="ouroude">
         <div class="textani">
