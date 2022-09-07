@@ -221,7 +221,7 @@ document.querySelector(
   <div class="text-code">
     <img src="https://www5.0zz0.com/2022/09/07/17/126682332.png" alt="">
   </div>`;
-  document.querySelector("body > section:nth-child(9)").innerHTML = `<div class="ads">
+  document.querySelector("body > section:nth-child(10)").innerHTML = `<div class="ads">
   <a href="#"> <img src="https://www8.0zz0.com/2022/09/07/22/330651456.png" alt=""></a>
 </div>
 <div class="text-code">
@@ -241,4 +241,4 @@ document.querySelector(
 <div class="ads">
   <a href="#"> <img src="https://www10.0zz0.com/2022/09/07/21/824219175.png" alt=""></a>
 </div>`;
-  console.log('cheikho code activet 7');
+  console.log('cheikho code activet 8');
