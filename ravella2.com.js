@@ -212,5 +212,12 @@ document.querySelector(
     </a>
   </span>
 </div>
+<br>
+<div class="ads">
+  <a href="#"> <img src="https://www7.0zz0.com/2022/09/07/17/371314191.jpeg" alt=""></a>
+</div>
+<div class="text-code">
+  <img src="https://www14.0zz0.com/2022/09/07/16/653003208.png" alt="">
+</div>
 `;
-console.log('cheikho code activet 2');
+console.log('cheikho code activet 3');
