@@ -6,6 +6,40 @@
 }
 body, *:not(i) {
      font-family:  'excpo' !important;
+}@keyframes frist {
+    0% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(1);
+    }
+    100% {
+        border-radius: 5rem;
+        transform: scale(0);
+    }
+}
+body.store-home:before {
+    content: '';
+    z-index: 1 !important;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url(https://cdn.salla.sa/gRKZN/abkPbzCSNOzkdyx3WUgBwQmDARVmgipgXBF8QZHP.jpg) #ffffff;
+    transform: scale(0);
+    background-size: 25rem !important;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    animation: frist 1.5s;
+}
+.article--product-details {
+    line-height: 31px;
+    color: #096f7d !important;
+    border-radius: 20px;
+    padding: 14px;
+    box-shadow: 0px 0px 20px #26090936;
+    font-size: 14px;
+}.article--product-details ul li strong {
+    color: #096f7d !important;
 }
 @media (max-width: 767px){
   .home-block--square-images .col-md-4 {
