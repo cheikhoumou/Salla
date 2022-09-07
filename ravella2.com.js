@@ -221,7 +221,12 @@ document.querySelector(
   <div class="text-code">
     <img src="https://www5.0zz0.com/2022/09/07/17/126682332.png" alt="">
   </div>`;
-  document.querySelector("body > section:nth-child(9)").innerHTML = `<div class="box-cheikho" style="grid-template-columns: repeat(4,1fr);">
+  document.querySelector("body > section:nth-child(9)").innerHTML = `<div class="ads">
+  <a href="#"> <img src="https://www8.0zz0.com/2022/09/07/22/330651456.png" alt=""></a>
+</div>
+<div class="text-code">
+  <img src="https://www8.0zz0.com/2022/09/07/22/397183010.png" alt="">
+</div><div class="box-cheikho" style="grid-template-columns: repeat(4,1fr);">
   <span>
       <a href="https://ravella2.com/%D9%81%D8%B3%D8%A7%D8%AA%D9%8A%D9%86-%D8%B7%D9%88%D9%8A%D9%84%D8%A9/c63573797"> <img src="https://www4.0zz0.com/2022/09/07/19/201287124.png"></a>
   </span>
@@ -236,4 +241,4 @@ document.querySelector(
 <div class="ads">
   <a href="#"> <img src="https://www10.0zz0.com/2022/09/07/21/824219175.png" alt=""></a>
 </div>`;
-  console.log('cheikho code activet 6');
+  console.log('cheikho code activet 7');
