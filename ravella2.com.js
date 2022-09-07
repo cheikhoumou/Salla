@@ -221,4 +221,19 @@ document.querySelector(
   <div class="text-code">
     <img src="https://www5.0zz0.com/2022/09/07/17/126682332.png" alt="">
   </div>`;
-  console.log('cheikho code activet 5');
+  document.querySelector("body > section:nth-child(9)").innerHTML = `<div class="box-cheikho" style="grid-template-columns: repeat(4,1fr);">
+  <span>
+      <a href="https://ravella2.com/%D9%81%D8%B3%D8%A7%D8%AA%D9%8A%D9%86-%D8%B7%D9%88%D9%8A%D9%84%D8%A9/c63573797"> <img src="https://www4.0zz0.com/2022/09/07/19/201287124.png"></a>
+  </span>
+  <span>
+     <a href="https://ravella2.com/%D9%81%D8%B3%D8%A7%D8%AA%D9%8A%D9%86-%D9%85%D9%8A%D8%AF%D9%8A/c796675367"> <img src="https://www4.0zz0.com/2022/09/07/19/963237935.png"></a> 
+  </span>    <span>
+     <a href="https://ravella2.com/%D8%A7%D8%B7%D9%82%D9%85-%D8%AA%D9%8A%D9%88%D8%B1%D8%A7%D8%AA/c2035903520"> <img src="https://www4.0zz0.com/2022/09/07/19/491030201.png"></a> 
+  </span>    <span>
+     <a href="https://ravella2.com/%D8%A7%D8%B7%D9%82%D9%85-%D8%A8%D8%AF%D9%84%D8%A7%D8%AA/c1260882721"><img src="https://www4.0zz0.com/2022/09/07/19/601384765.png"></a> 
+  </span> 
+</div>
+<div class="ads">
+  <a href="#"> <img src="https://www10.0zz0.com/2022/09/07/21/824219175.png" alt=""></a>
+</div>`;
+  console.log('cheikho code activet 6');
