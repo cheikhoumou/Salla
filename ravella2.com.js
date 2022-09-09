@@ -244,7 +244,7 @@ document.querySelector("body > section:nth-child(10)").innerHTML = `<div class="
 document.querySelector("body > section:nth-child(12)").innerHTML = `<div class="ads">
    <img src="https://www3.0zz0.com/2022/09/08/23/901872470.png">
 </div>
-<div class="text-code2"><img src="https://www3.0zz0.com/2022/09/08/23/842354332.png" alt=""></div>
+<div class="text-code"><img src="https://www3.0zz0.com/2022/09/08/23/842354332.png" alt=""></div>
 <div class="flex-cheikho cl">
    <div class="div-ch"><a href="https://ravella2.com/%D9%81%D8%B3%D8%A7%D8%AA%D9%8A%D9%86-%D8%B3%D9%87%D8%B1%D8%A9/c107141128 "><img src="https://www3.0zz0.com/2022/09/08/23/875496354.png" alt=""></a></div>
    <div class="div-ch"><a href="https://ravella2.com/%D9%81%D8%B3%D8%A7%D8%AA%D9%8A%D9%86-%D8%B7%D9%88%D9%8A%D9%84%D8%A9/c1522047502"><img src="https://www3.0zz0.com/2022/09/08/23/635042661.png" alt=""></a></div>
