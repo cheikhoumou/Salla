@@ -25,7 +25,7 @@ document.querySelector(
           width: 100%;
           height: 92%;
       }.text-code {
-          width: 50%;
+          width: 99%;
           margin: auto;
           padding: 15px;
       }.text-code img {
@@ -74,7 +74,7 @@ document.querySelector(
           a.sub-nav__menu.ml-2 svg {
               display: none;
           }.flex-cheikho.cl .div-ch {width: 32%;}
-          .flex-cheikho.cl .div-ch a img{border-radius: 8px;}.text-code2 {width: 25%;margin: auto;margin-top: 25px;}.text-code2 img {width: 100%;}.flex-cheikho.cl .div-ch:hover {transition: 0.6s ease-in;transform: skewY(4deg);}
+          .flex-cheikho.cl .div-ch a img{border-radius: 8px;}.text-code2 {width: 95%;margin: auto;margin-top: 25px;}.text-code2 img {width: 100%;}.flex-cheikho.cl .div-ch:hover {transition: 0.6s ease-in;transform: skewY(4deg);}
           .ads img {
               width: 100%;
              border-radius: 20px;
@@ -117,7 +117,7 @@ document.querySelector(
   .grid4{grid-template-columns: repeat(7,1fr);}
           </style>
       <!-- html code start -->
-      <div class="text-code"><img src="https://www10.0zz0.com/2022/08/23/14/716213697.png" alt=""></div>
+      <div class="text-code"><img src="https://www13.0zz0.com/2022/09/09/19/181220066.png" alt=""></div>
       <div class="box-cheikho">
           <span>
               <a href="https://cardsworldsa.com/شدات-ببجي-موبايل/c971569283"> <img src="https://www4.0zz0.com/2022/08/23/12/142592597.png"/></a>
@@ -163,7 +163,7 @@ document.querySelector(".contss").innerHTML += `
       </div>`;
 // code 2
 document.querySelector(".section-products + section").innerHTML = `
-  <div class="text-code"><img src="https://www6.0zz0.com/2022/08/27/16/747034225.png" alt=""></div>
+  <div class="text-code"><img src="https://www13.0zz0.com/2022/09/09/19/907013808.png" alt=""></div>
     <div class="flex-cheikho cl">
         <div class="div-ch"><a href="https://cardsworldsa.com/الشواحن-الجدارية/c2060856595"><img src="https://www12.0zz0.com/2022/08/29/14/770074184.png" alt=""></a></div>
         <div class="div-ch"><a href="https://cardsworldsa.com/أسلاك-الشواحن/c1421036572"><img src="https://www12.0zz0.com/2022/08/29/14/394100537.png" alt=""></a></div>
@@ -173,7 +173,7 @@ document.querySelector(".section-products + section").innerHTML = `
         <div class="div-ch"><a href="https://cardsworldsa.com/شواحن-متنقله/c1111730463"><img src="https://www12.0zz0.com/2022/08/29/14/933846524.png" alt=""></a></div>
         <div class="div-ch"><a href="https://cardsworldsa.com/اكسسورات-الجوال/c472434712"><img src="https://www12.0zz0.com/2022/08/29/14/888442529.png" alt=""></a></div>
     </div>
-  <div class="text-code2"><img src="https://www6.0zz0.com/2022/08/25/09/241929947.png" alt=""></div>
+  <div class="text-code2"><img src="https://www13.0zz0.com/2022/09/09/19/975555837.png" alt=""></div>
       <div class="flex-cheikho cl">
           <div class="div-ch"><a href="https://cardsworldsa.com/ساعات-رجال/c148939639"><img src="https://www6.0zz0.com/2022/08/25/09/242656192.png" alt=""></a></div>
           <div class="div-ch"><a href="https://cardsworldsa.com/ساعات-نساء/c883614065"><img src="https://www6.0zz0.com/2022/08/25/09/920278683.png" alt=""></a></div>
@@ -198,13 +198,13 @@ document.querySelector(".section-products + section").innerHTML += `
       <div class="ads">
           <img src="https://www3.0zz0.com/2022/08/25/13/644753451.png" alt="">
       </div>
-      <div class="text-code2"><img src="https://www8.0zz0.com/2022/08/25/13/801386566.png" alt=""></div>
+      <div class="text-code2"><img src="https://www13.0zz0.com/2022/09/09/19/421146755.png" alt=""></div>
       <div class="flex-cheikho cl">
           <div class="div-ch"><a href="https://cardsworldsa.com/%D9%86%D8%B8%D8%A7%D8%B1%D8%A7%D8%AA-%D8%B1%D8%AC%D8%A7%D9%84/c1747106811"><img src="https://www8.0zz0.com/2022/08/25/13/313335663.png" alt=""></a></div>
           <div class="div-ch"><a href="https://cardsworldsa.com/%D9%86%D8%B8%D8%A7%D8%B1%D8%A7%D8%AA-%D9%86%D8%B3%D8%A7%D8%A1/c399833541"><img src="https://www8.0zz0.com/2022/08/25/13/980820394.png" alt=""></a></div>
           <div class="div-ch"><a href="https://cardsworldsa.com/%D9%86%D8%B8%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A3%D8%B7%D9%81%D8%A7%D9%84/c1638996166"><img src="https://www8.0zz0.com/2022/08/25/13/321207189.png" alt=""></a></div>
       </div>
-      <div class="text-code"><img src="https://www14.0zz0.com/2022/08/29/14/772946889.png" alt=""></div>
+      <div class="text-code"><img src="https://www13.0zz0.com/2022/09/09/19/328252283.png" alt=""></div>
   <div class="box-cheikho grid4">
       <span>
           <a href="https://cardsworldsa.com/%D8%A7%D9%84%D8%B9%D8%B7%D9%88%D8%B1-%D8%A7%D9%84%D8%B1%D8%AC%D8%A7%D9%84%D9%8A%D8%A9/c419472606"> <img src="https://www14.0zz0.com/2022/08/29/14/692193396.png"></a>
@@ -228,7 +228,7 @@ document.querySelector(".section-products + section").innerHTML += `
           <a href="https://cardsworldsa.com/%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AD%D9%85%D8%A7%D9%85-%D9%88%D8%A7%D9%84%D8%AC%D8%B3%D9%85/c203845156"> <img src="https://www14.0zz0.com/2022/08/29/14/711392797.png"></a>
       </span>
   </div>
-  <div class="text-code"><img src="https://www12.0zz0.com/2022/08/29/14/902540857.png" alt=""></div>
+  <div class="text-code"><img src="https://www13.0zz0.com/2022/09/09/19/202906567.png" alt=""></div>
   <div class="box-cheikho grid4">
       <span>
           <a href="https://cardsworldsa.com/%D8%A7%D9%84%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D9%88%D8%A7%D9%84%D8%AA%D8%AE%D8%B2%D9%8A%D9%86/c1824844033"> <img src="https://www12.0zz0.com/2022/08/29/14/695525712.png"></a>
@@ -255,7 +255,7 @@ document.querySelector(".section-products + section").innerHTML += `
     <div class="ads">
         <img src="https://www14.0zz0.com/2022/08/27/12/286544835.png" alt="">
     </div>
-    <div class="text-code"><img src="https://www14.0zz0.com/2022/08/27/12/568420751.png" alt=""></div>
+    <div class="text-code"><img src="https://www13.0zz0.com/2022/09/09/19/881675539.png" alt=""></div>
     <div class="box-cheikho grid2">
         <span>
             <a href="https://cardsworldsa.com/%D8%AA%D8%B4%D9%8A%D8%B1%D8%AA-%D8%B1%D8%AC%D8%A7%D9%84/c1753940413"> <img src="https://www14.0zz0.com/2022/08/27/12/421551540.png"></a>
@@ -273,7 +273,7 @@ document.querySelector(".section-products + section").innerHTML += `
     <div class="ads">
         <img src="https://www7.0zz0.com/2022/08/27/13/621958776.png" alt="">
     </div>
-    <div class="text-code"><img src="https://www5.0zz0.com/2022/08/27/12/378894260.png" alt=""></div>
+    <div class="text-code"><img src="https://www13.0zz0.com/2022/09/09/19/950858539.png" alt=""></div>
     <div class="box-cheikho grid3">
         <span>
             <a href="https://cardsworldsa.com/تشبرت-وبلايز-نساء/c1196299107"> <img src="https://www7.0zz0.com/2022/08/27/13/885122947.png"></a>
@@ -295,7 +295,7 @@ document.querySelector(".section-products + section").innerHTML += `
     <div class="ads">
         <img src="https://www11.0zz0.com/2022/08/27/16/154116732.png" alt="">
     </div>
-    <div class="text-code"><img src="https://www6.0zz0.com/2022/08/27/16/253886763.png" alt=""></div>
+    <div class="text-code"><img src="https://www13.0zz0.com/2022/09/09/19/992713758.png" alt=""></div>
     <div class="box-cheikho grid2">
         <span>
             <a href="https://cardsworldsa.com/بلايز-اطفال/c405546422"> <img src="https://www6.0zz0.com/2022/08/27/16/156808523.png"></a>
