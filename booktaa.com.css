@@ -1,0 +1,724 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap');
+body, *:not(i) {
+    font-family: 'Almarai', sans-serif;
+}
+/* ========================== */
+/* -- محترف في تصميم متاجر سلة -- */
+/*       ! cheikhoumou          */
+/*       ! https://wa.me/22220523820   */
+/*       ! cheikoumou@gmail.com */
+/* */
+/* ========================== */
+@keyframes logobg {
+    0% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    78% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+body.store-home:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #ffffff url(https://cdn.salla.sa/BzAbB/jz1WDtiLpzundiCtB3CHdOBJe1DkdddwjTKkWtmt.png);;
+    position: fixed;
+    z-index: 99999999999999999 !important;
+    transform: scale(0);
+    background-size: 120px !important;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    animation-name: logobg;
+    animation-duration: 2.3s;
+}
+.main-menu > li > a {
+    transition: transform 0.3s ease;
+}
+.main-menu > li:hover > a {
+    color: #D8D9D9 !important;
+    transform: translateY(-4px);
+}
+.main-menu > li > a:before {
+    content: '';
+    position: absolute;
+    top: 2.4rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top: 2px solid #36746f;
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .25s linear;
+}
+.main-menu > li:hover > a:before {
+    transform: scaleX(1);
+    transform-origin: right;
+}
+@media only screen and (min-width: 769px) {
+    #search-bar.hide {
+        display: block !important;
+    }
+    #search-bar:before {
+        content: "\EF09";
+        z-index: 500;
+        position: absolute;
+        font-family: 'sallaicons';
+        top: 10px;
+        left: 230px;
+        background: transparent;
+        cursor: default;
+        color: #343331;
+    }
+    #searchbox.prompt {
+        padding-right: 30px !important;
+        border-radius: 0;
+        border: 0px;
+        border-bottom: 2px solid #343331;
+        background-color: #FFFEF7;
+    }
+    #search-bar {
+        top: 0;
+    }
+}
+@media (max-width: 991px) {
+    section[style="background: #FAFAFA;"]:nth-of-type(1) > .container.p-0.px-md-3 {
+        padding: 0px !important;
+        margin: 0px !important;
+        width: 100vw;
+    }
+}
+
+/* Animation */
+#search_form .ui.icon.input:before {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid ;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s ease;
+}
+@media only screen and (min-width: 769px){
+#searchbox.prompt {
+    padding-right: 30px !important;
+    border-radius: 0;
+    border: 0px;
+    border-bottom: 2px solid #36746f;
+    background-color: #fffffe;
+}
+}
+#search_form:focus-within .ui.icon.input:before {
+    transform: scaleX(1);
+}
+@media only screen and (min-width: 769px){
+#search-bar:before {
+    color: #36746f;
+}
+}
+@media (max-width: 991px) {
+    .main-menu li a:before {
+        margin-left: 12px;
+    }
+}
+.sub-nav .main-menu li.sub-menu-header.categories-holder ul.store-categories li a {
+    font-size: 16px !important;
+    color: #121212;
+}
+.site-header {
+    box-shadow: none;
+}
+.login-link:hover, .header-wrapper .toggle-search:hover, .header-wrapper .site-header__cart:hover, .circle-action.dropdown-toggle:hover, .salla-theme_1 header.site-header #cl_switcher #cl_toggle:hover {
+    box-shadow: 1px 2px 8px rgb(87 42 3 / 40%);
+    color: #fff !important;
+    border: none;
+}
+.header-row .circle-action {
+    background-color: #36746f;
+    color: #fff !important;
+    border-radius: 20px;
+    border: none;
+    font-size: 1em;
+}
+.header-row .circle-action:hover {
+    background-color: #36746f;
+    color: #fff !important;
+}
+.main-menu > li > a {
+    font-size: 1.1em;
+}
+body:not(.salla-theme_6) .main-menu li:not(.sub-menu-header) ul li:hover > a {
+    padding-right: 18px !important;
+    color: #000;
+}
+body:not(.salla-theme_6) .main-menu li:not(.sub-menu-header) ul li:hover {
+    background-color: #f8f8f8 !important;
+}
+body:not(.salla-theme_6) .main-menu li:not(.sub-menu-header) ul li > a {
+    transition: all .3s ease;
+}
+.sub-nav .main-menu li.sub-menu-header.categories-holder ul.store-categories li.active {
+    background-color: #fafafa !important;
+}
+.site-header:not(.sticky) .container.py-3.header-top {
+    padding: 1.5rem 10px !important;
+}
+.site-header {
+    box-shadow: none;
+    background-color: #fff;
+    background-image: url(https://res.cloudinary.com/accorless/image/upload/v1643289745/LDN06_xraiyh.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+/* Section-colors */
+.section:nth-of-type(2){
+    background:#fbf9f5;
+}
+.section:nth-of-type(3){
+    background:#fbf9f5;
+}
+.section:nth-of-type(3) .section-header .section--title {
+    background-color: #fbf9f5;   
+}
+.section:nth-of-type(7) .section-header .section--title {
+    background-color: #fbf9f5;   
+}
+.section:nth-of-type(8) .section-header .section--title {
+    background-color: #fbf9f5;   
+}
+.section:nth-of-type(9){
+    background:#439593;
+}
+.section:nth-of-type(10){
+    background:#439593;
+}
+.section:nth-of-type(10) .section-header .section--title {
+    background-color: #439593; 
+}
+.section:nth-of-type(10) .section--title span {
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+.section:nth-of-type(12){
+    background:#fbf9f5;
+}
+.section:nth-of-type(11){
+    background:#fbf9f5;
+}
+.section:nth-of-type(12){
+    background:#fbf9f5;
+}
+.section:nth-of-type(12) .section-header .section--title {
+    background-color: #fbf9f5;   
+}
+.section:nth-of-type(13){
+    background:#fbf9f5;
+}
+.section:nth-of-type(13) .section-header .section--title {
+    background-color: #fbf9f5;   
+}
+.u-light {
+    background-color: #fbf9f5;
+}
+.product{
+    background-color:#fff;
+}
+.section:nth-of-type(4){
+    background:#fbf9f5;
+}
+.section:nth-of-type(6){
+    background:#fbf9f5;
+}
+.section:nth-of-type(7){
+    background:#fbf9f5;
+}
+.section:nth-of-type(8){
+    background:#fbf9f5;
+}
+
+.container.banner {
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 99vw;
+}
+.sub-nav .main-menu>li {
+    margin-left: 2rem;
+    font-weight:bold;
+}
+#cart_badge {
+    background-color: #fff;
+    color:#36746f;
+    border-color:#36746f;
+    height: 18px !important;
+    width: 18px !important;
+    line-height: 13px !important;
+}
+
+.main-menu > li > a {
+    color: #3d423c;
+    transition: all 0.2s ease;
+}
+.main-menu > li:hover > a {
+    color: #36746f !important;
+}
+.promotion-title {
+    background-color: #36746f;
+}
+.section:nth-of-type(2) .section-header.d-flex.justify-content-between {
+    justify-content: center;
+}
+
+body .section-actions .circle-action {
+    display:none;
+}
+.section-header:before {
+    background-color: #3d423c;
+}
+
+.section:nth-of-type(2) .section-header .section--title {
+    color: #000000;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 0px;
+    font-size: 1.7em;
+    padding: 0px 1rem;
+    background-color: #fff;
+    z-index: 5;
+}
+section[style="background: #FAFAFA;"]:nth-of-type(1) > .container.p-0.px-md-3 {
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 99vw;
+}
+section:nth-of-type(n+3) .section-header:before {
+    content: none;
+}
+section:not(:nth-of-type(2)) .section--title span {
+    color: #121212;
+    font-size: 1.25em;
+    padding: 0px 3px 3px 3px;
+    border-bottom: 2px solid #121212;
+}
+
+.product-add {
+    font-size: 1.2rem; 
+    margin: .50rem 1rem;
+    padding: 0.2rem 0 !important;
+    display: block;
+    text-align: center;
+    border-radius: 42px; 
+    background-color:#36746f;
+    color:#fff;
+}
+.product-add:hover{
+    background-color:#36746f !important;
+}
+.product>a .product-subtitle {
+    text-align: center;
+    color: #888080;
+}
+
+body.salla-theme_1 .product .product-footer {
+    display: block;
+    border: none;
+    margin-top: 4px !important;
+}
+.product-add:before {
+    content: 'أضف للسلة';
+    display: block;
+    padding: 8px;
+    font-size: 16px;
+}
+.product-add * {
+    display: none;
+}
+.product .product-title {
+    text-align: center;
+}
+.product-price span {
+    text-align: center;
+}
+p.product-price {
+    text-align: center;
+}
+.not-available {
+    font-size: 1.2rem;
+    background-color: rgba(245,81,87, 0.12);
+    margin-top: 10px !important;
+    margin-right: 10px !important;
+    margin-bottom: 10px !important;
+    padding: 0.5rem 0 !important;
+    display: block !important;
+    text-align: center;
+    border-radius: 42px;
+}
+.sub-nav .main-menu li.sub-menu-header.categories-holder>span {
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 0px !important;
+    font-size: 16px !important;
+    color: #2a2a2a;
+}
+.sub-nav .main-menu li.sub-menu-header.categories-holder>span * {
+    font-weight: bold;
+    color: #2a2a2a;
+}
+.category-featured {
+    transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1);
+}
+.category-featured:hover {
+    transform: translateY(-8px);
+}
+.img-cont {
+    display: flex;
+}
+.feature-item__icon {
+    background: #36746f;
+}
+.mb-4{
+    font-family: 'Almarai' !important;
+    color: #3d423c;
+}
+.feature-item h3 {
+    font-family: 'Almarai' !important;
+    font-weight: bold;
+    font-size: 1em !important;
+    color: #3d423c;
+    margin-bottom: 22px !important;
+}
+
+
+.footer-title span {
+    font-size: 1.3rem;
+}
+
+.footer-item p {
+    font-size:1.1rem;
+}
+body.salla-theme_1 footer .footer-main .container .row .footer-item .footer-title span {
+    display: inline-block;
+    border-bottom: 3px solid #fff!important;
+}
+
+.social a {
+    border: 1px solid #ffffff;
+    color:#36746f;
+    background:#fff;
+}
+
+.footer-title {
+    border-bottom: none;;
+    
+}
+.footer-main{
+    background-color:#36746f !important;
+}
+.store-contact > a {
+    background-color: #ffffff;
+    padding: 4px 12px;
+    border-radius: 30px;
+    direction: ltr;
+    color:#36746f;
+}
+section:not(:nth-of-type(2)) .section--title span {
+    color: #3d423c;
+    border-bottom: 2px solid #3d423c;
+}
+.icon-object.border-yellow-dark.text-yellow-dark {
+    border: none;
+    border-radius: 0;
+    background-image: url( https://cdn.salla.sa/BzAbB/jz1WDtiLpzundiCtB3CHdOBJe1DkdddwjTKkWtmt.png
+);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 140px;
+}
+.icon-object.border-yellow-dark.text-yellow-dark i {
+    display: none;
+}
+.sub-nav-header {
+    background-image: url('https://res.cloudinary.com/accorless/image/upload/v1641908594/كرم_النخيل_بنر_5_k51gts.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.sub-nav__close svg {
+    fill: #36746f;
+}
+@media only screen and (max-width: 767px){
+body .section-header h2.section--title span {
+    font-size: 22px!important;
+}
+.product-add {
+    padding: 0.3rem 0 !important;
+}
+}
+.sub-nav .main-menu li.sub-menu-header.categories-holder>span {
+    font-size: 19px !important;
+    
+}
+.sub-nav .main-menu li.sub-menu-header.categories-holder ul.store-categories li a {
+    color: #36746f;
+}
+.sub-nav__close:hover svg {
+    fill: #36746f;
+}
+.login-link, .login-link{
+    color:#36746f;
+}
+.login-link:hover, .login-link:focus {
+    color:#36746f;
+}
+body.product-showwithslug section[style="background: #FAFAFA;"].py-3 {
+    background: #fff !important;
+}
+.circle-action {
+    vertical-align: middle;
+}
+
+/* Sections */
+@media only screen and (max-width: 991px){
+    section.section > .container > .row:not(.products-grid):not(.products-listing) {
+        grid-template-columns: 1fr 1fr !important;
+    }
+    section.section > .container > .row:not(.products-grid):not(.products-listing) > .col-md-4:nth-child(2n) {
+        padding-left: 6px !important;
+    }
+    section.section > .container > .row:not(.products-grid):not(.products-listing) > .col-md-4:nth-child(2n-1) {
+        padding-right: 6px !important;
+    }
+  section.section > .container > .row:not(.products-grid):not(.products-listing) > .col-md-4 .category-featured a {
+        background-size: contain;
+    }
+}
+section.section > .container > .row:not(.products-grid):not(.products-listing) {
+    display: grid !important;
+    column-gap: 8px !important;
+    grid-template-columns: 1fr 1fr;
+}
+section.section > .container > .row:not(.products-grid):not(.products-listing):before,
+section.section > .container > .row:not(.products-grid):not(.products-listing):after{
+    content: none;
+}
+section.section > .container > .row:not(.products-grid):not(.products-listing) > .col-md-4 {
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.category-featured a:before {
+    content: none;
+}
+section:nth-of-type(1).py-4.py-md-3 {
+    padding-bottom: 0 !important;
+}
+.salla-theme_1 .category-featured, .salla-theme_2 .category-featured, .salla-theme_3 .category-featured, .salla-theme_4 .category-featured, .salla-theme_5 .category-featured {
+    border-radius: 0;
+}
+section.section:last-of-type .banner img {
+    margin-bottom: -2px !important;
+    margin-top: 0px !important;
+}
+.product{
+    border-radius: 20px;
+}
+.site-header:not(.sticky) .container.py-3.header-top {
+    padding: 0.5rem 10px !important;
+}
+.sub-nav__menu svg {
+    fill: #005151;
+}
+@media only screen and (max-width: 767px){
+.product-add {
+    padding: 0rem 0 !important;
+}
+}
+.sub-nav-header {
+    background-image: url(https://res.cloudinary.com/accorless/image/upload/v1643289745/LDN06_xraiyh.png);
+    background-size: cover;
+    background-position: left;
+}
+.login-link:hover, .header-wrapper .toggle-search:hover, .header-wrapper .site-header__cart:hover, .circle-action.dropdown-toggle:hover, .salla-theme_1 header.site-header #cl_switcher #cl_toggle:hover {
+    box-shadow: 1px 2px 8px rgb(87 42 3 / 40%);
+    color: #080808 !important;
+    border: 12px;
+}
+.feature-item {
+    border-radius: 12px;
+    width: 31%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-bottom: 10px;
+}
+@media (max-width: 768px){
+.feature-item {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+}
+.feature-item .feature-item__icon {
+    
+    background-color: transparent;
+    color: #005151;
+    margin-bottom: -10px;
+}
+body.product-showwithslug section[style="background: #FAFAFA;"].py-3 {
+    background: #fff !important;
+}
+.section:nth-of-type(2) .section-header .section--title {
+    background-color: #fbf9f5;
+   
+}
+.sub-nav-header {
+    background-image: url(https://res.cloudinary.com/accorless/image/upload/v1643296891/Screenshot_2022-01-27_182113_gkem3r.png);
+    background-size: cover;
+    background-position: left;
+}
+.banner img {
+    display: block;
+    margin: 40px auto;
+    max-width: 101%;
+}
+.section:nth-of-type(12){
+    background:#36746f;
+}
+.section:nth-of-type(12) .section-header .section--title {
+    background-color: #36746f;   
+}
+.section:nth-of-type(13){
+    background:#36746f;
+}
+.section:nth-of-type(13) .section-header .section--title {
+    background-color: #36746f;   
+}
+.section:nth-of-type(12) .section--title span {
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+.section:nth-of-type(13) .section--title span {
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+.section:nth-of-type(11) {
+    background: #36746f;
+}
+.section:nth-of-type(5) {
+    background: #fbf9f5;
+}
+body > section:nth-child(9) {
+    background: url(https://www4.0zz0.com/2022/09/10/12/403898696.png) no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+}.row .feature-item:nth-child(1) div i {
+    content: url(https://www14.0zz0.com/2022/09/11/12/884337608.png);
+    width: 7rem;
+}.row .feature-item:nth-child(2) div i {
+    content: url(https://www14.0zz0.com/2022/09/11/12/356190844.png);
+    width: 7rem;
+}.row .feature-item:nth-child(3) div i {
+    content: url(https://www14.0zz0.com/2022/09/11/12/724453313.png);
+    width: 7rem;
+}
+/* .col-sm-6.col-md-4.feature-item p{
+    display:none;
+} */
+.feature-item h3 {
+    margin: 0 !important;
+    font-weight: 600;
+    color: #36746f;
+    font-size: 15px !important;
+    position: relative;
+}.footer-main {
+    padding-top: 3rem;
+    background-color: #E8E4DC;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0px 1rem;
+}body > section:nth-child(9) > div > div.section-header.d-flex.justify-content-between.align-items-center.mb-4 > h2 {
+    background: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+}section:not(:nth-of-type(2)) .section--title span {
+    border: none;
+    color: #fff;
+}div#cl_switcher {
+    left: -103%;
+}body > footer > div.footer-main > div > div > div:nth-child(1) > div:nth-child(3) {
+    margin: 19px auto;
+    text-align: center;
+}body > section.u-light.py-5.text-center > div > h2:before {
+    content: "مميزات مجرتنا";
+    font-size: 30px;
+    display: block;
+    font-weight: bold;
+    color: #36746f;
+    margin-bottom: -2rem;
+}
+
+@media only screen and (max-width: 992px){
+ .col-sm-6.col-md-4.feature-item {
+    overflow: visible !important;
+    min-height: 210px;
+    background: #ffffff !important;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px 0 rgb(0 0 0 / 15%);
+    transition: transform 0.25s ease;
+    margin-left: 20px;
+    margin-right: 40px;
+    transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1);
+    width: 79%;
+    margin-top: 50px;
+}   
+}
+@keyframes float {
+ 0% {
+  transform: translatey(0px);
+ }
+ 50% {
+  transform: translatey(-20px);
+ }
+ 100% {
+  transform: translatey(0px);
+ }
+}
+@keyframes shadeanm {
+ 0% {
+  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+ }
+ 50% {
+  box-shadow: 0 15px 15px 0px rgba(0,0,0,0.2);
+ }
+ 100% {
+  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+ }
+}
+.feature-item__icon {
+    margin-bottom: 0;
+    border: none;
+    position: relative;
+    top: -30px;
+    animation: float 4s ease-in-out infinite;
+    transition: all .4s ease;
+    perspective: 1000px;
+}
+
+body > section.u-light.py-5.text-center > div > h2 {
+    color: #0000;
+}.col-sm-6.col-md-4.feature-item:hover {
+    transform: translateY(-8px);
+}
