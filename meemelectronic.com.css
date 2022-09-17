@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+* {
+ font-family: 'Tajawal', sans-serif ;   
+}
+ .title--small {
+    font-family: 'Tajawal', sans-serif;
+     font-weight: 400;
+}
+@keyframes logobg {
+    0% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    78% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+body#app:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #ffffff url(https://cdn.salla.sa/ARrGP/NKKoigKpIE07T7byik5PneGWZv84peP0ikbZDSpX.jpg);
+    position: fixed;
+    z-index: 99999999999999999 !important;
+    transform: scale(0);
+    background-size: 120px !important;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    animation-name: logobg;
+    animation-duration: 2.3s;
+}
+.top-navbar {
+    background: linear-gradient(288deg, rgba(10,113,119,1) 34%, rgba(1,173,167,1) 100%);
+}
+@keyframes float {
+ 0% {
+  transform: translatey(0px);
+ }
+ 50% {
+  transform: translatey(-20px);
+ }
+ 100% {
+  transform: translatey(0px);
+ }
+}
+@keyframes shadeanm {
+ 0% {
+  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+ }
+ 50% {
+  box-shadow: 0 15px 15px 0px rgba(0,0,0,0.2);
+ }
+ 100% {
+  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+ }
+}
+.feature-icon {
+    background: linear-gradient(288deg, rgba(10,113,119,1) 34%, rgba(1,173,167,1) 100%);
+        animation: float 4s ease-in-out infinite, shadeanm 4s ease-in-out infinite;
+}.s-block--features__item {
+    border-radius: 30px;
+}.testimonial__avatar .object-cover {
+    border: 3px solid #0d7278;
+    border-radius: 50%;
+    padding: 4px;
+}.s-block--testimonials .container  .swiper-wrapper .swiper-slide.swiper-slide-active {
+    border-radius: 35px;
+    box-shadow: 0px 0px 8px #0d030324;
+    margin: 8px;
+    position: relative;
+}.testimonials-slider .swiper-slide-active .testimonial__text p {
+    font-weight: bold;
+    color: #6e1d0d;
+}.s-block--testimonials .container  .swiper-wrapper .swiper-slide.swiper-slide-active:before {
+ content:
+ " ";
+ display: block;
+ position: absolute;
+ width: 45px;
+ height: 45px;
+ top: 20px;
+ right: 15px;
+ background: url(https://cdn.salla.sa/ARrGP/NKKoigKpIE07T7byik5PneGWZv84peP0ikbZDSpX.jpg) no-repeat;
+ z-index: 100;
+background-size: cover;
+background-position: center;
+}.top-navbar .s-search-input {
+    background: #63230f8a !important;
+}[dir=rtl] .rounded-e-md {
+    background: #6e1d0d;
+    font-size: 10px;
+}span.badge.badge--red {
+    background: linear-gradient(288deg, rgba(10,113,119,1) 34%, rgba(1,173,167,1) 100%);
+}.mm-ocd-opened .btn--close-sm {
+    background: #18b49f;
+}
+.s-modal-container {
+    backdrop-filter: blur(2px);
+    background: #00bec92b;
+}
+
+i.sicon-heart.text-xl {
+    color: #6e1d0d;
+    font-weight: bold;
+}
+
+.s-button-primary-outline {
+    border-color: #18b5a0;
+    color: #6e1d0d;
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+.s-button-primary-outline:hover {
+    background: linear-gradient(288deg, rgba(10,113,119,1) 34%, rgba(1,173,167,1) 100%) !important;
+}
+
+.footer-is-light .store-footer .store-footer__inner {
+    background:#068d8e;
+}
+
+.store-footer__inner * {color:#fff;}
+.store-footer:before {
+    content: " ";
+    background-image: url(https://drive.google.com/uc?id=12FtB3_a1johi_WLGBl_3J-UlX5-GnAwf)!important;
+    display: block !important;
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    width: 100%;
+    height: 110px;
+    background: #068d8e;
+}.btn--rounded-full::before ,.btn--rounded-full::after{
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #18b6a1;
+    position: absolute;
+    top: 18px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: -1;
+    transition:  left, right ,0.9s ease-in-out;
+ }.btn--rounded-full::before {
+    right: -10%;
+ }.btn--rounded-full::after {
+    left: -10%;
+ }.btn--rounded-full:hover::before{
+    right: 0%;
+    border-radius: 0;
+    height: 120px;
+    top: -10px;
+    width: 400px;
+ }.btn--rounded-full:hover::after{
+    left:0%;
+    border-radius: 0;
+    height: 120px;
+    top: 20px;
+    width: 400px;
+ }.btn--rounded-full:hover{
+    color: #fff;
+    overflow: hidden;
+ }.btn--rounded-full {
+     background: no-repeat;
+     border: 2px solid #18b6a1;
+     color: #61230e;
+     overflow: hidden;
+     position:
+     relative;
+     transform: scale(1.2);
+ }
+.no-content-placeholder .sicon-shopping-bag:before{
+ background: url(https://5rabanitosorderonline.com/img/cartloader.gif) no-repeat;
+    background-size: 233%;
+    width: 162px;
+    height: 122px;
+    display: block;
+    background-position: center;
+    color: transparent
+}i.sicon-shopping-bag.icon {
+    overflow: hidden;
+}.s-button-dark-outline {
+    fill: #6d3d26 !important;
+}.s-button-dark-outline:hover {
+    background: #6d3d26;
+}
