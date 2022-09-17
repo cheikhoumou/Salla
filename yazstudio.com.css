@@ -172,22 +172,10 @@ button.close {
 #modal_login .modal-content {
     border-radius: 20px;
 }
-
-section.u-white.py-4 .container .row {
-    display: flex;
-}
-
 .page-main-container.col-xs-12.page-single {
     padding: 10px;
     padding-top: 30px;
     box-shadow: 0px 1px 5px #33101057;
-    border-radius: 15px;
-}
-
-section.u-white.py-4 .container .row div {
-    width: 100%;
-    margin: 0 !important;
-    padding: 2px !important;
     border-radius: 15px;
 }
 
@@ -198,22 +186,6 @@ section.u-white.py-4 .container .row div {
 .feature-item__content p {
     font-size: 12px;
 }
-
-body.salla-theme_4 .section-header .section--title>span:after {
-    content: ' ';
-    width: 30px;
-    height: 30px;
-    background: url(https://cdn.salla.sa/lVOKe/p3Z0EHbo1YC5k0MFSKLA7CKKVWqugHy0T25gs07D.png);
-    ;
-    background-size: cover;
-    display: inline-block;
-    border-radius: 5px;
-    vertical-align: middle;
-    margin: 2px;
-    margin-right: 7px;
-    animation: cheikho 5.6s ease-in infinite;
-}
-
 span.price-after {
     font-size: 20px !important;
     color: #20596c !important;
@@ -448,11 +420,13 @@ a.product-add.add_to_cart_btn .sicon-cart:before {
 }
 
 .feature-item__content {
-    background: linear-gradient(45deg, #35a1ba, #21537b);
+    background: none;
+    color: #000;
 }
 
 .feature-item__icon {
-    background: #3293af;
+    color: #000;
+    background: no-repeat;
 }
 
 .sub-nav-header {
@@ -463,10 +437,10 @@ a.product-add.add_to_cart_btn .sicon-cart:before {
 }
 
 .section-header .section--title span {
-    background: no-repeat;
+    background: linear-gradient(45deg, #35a1ba, #21537b) !important;
     box-shadow: 0px 0px 8px #380c0c4d;
     font-weight: bold;
-    color: #286d90;
+    color: #ffffff;
 }
 
 .product {
@@ -490,4 +464,44 @@ a.product-add.add_to_cart_btn .sicon-cart:before {
 
 .sub-nav__menu svg {
     fill: #256a8e;
+}
+
+.feature-item__icon {}
+
+.feature-item__content * {
+    color: #2a7797 !important;
+    font-weight: bold;
+}
+@keyframes float {
+ 0% {
+  transform: translatey(0px);
+ }
+ 50% {
+  transform: translatey(-20px);
+ }
+ 100% {
+  transform: translatey(0px);
+ }
+}
+@keyframes shadeanm {
+ 0% {
+  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+ }
+ 50% {
+  box-shadow: 0 15px 15px 0px rgba(0,0,0,0.2);
+ }
+ 100% {
+  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+ }
+}
+.salla-theme_4 .feature-item__content .feature-item__icon i[class^=sicon-] {
+    animation: float 4s ease-in-out infinite, shadeanm 4s ease-in-out infinite;
+    color: #fff !important;
+    background: linear-gradient(45deg, #35a1ba, #21537b) !important;
+    padding: 20px;
+    border-radius: 50%;
+    position: relative;
+    font-weight: normal;
+}.feature-item__content {
+    overflow: visible;
 }
