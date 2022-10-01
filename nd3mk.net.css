@@ -1,0 +1,155 @@
+.main-slider.slick-dotted.slick-slider .slick-dots {
+    bottom: 45px;
+}.slick-dots li button {
+    background: #fff;
+}.main-slider.slick-dotted.slick-slider {
+    padding: 0 0 30px;
+}body > section:nth-child(15) > div {
+    padding-top: 17px !important;
+}body {
+    background: #fff !important;
+}
+@media (max-width:980px) {
+    .category-grid {
+        display: flex;
+        max-width: 1200px!important;
+        margin: auto !important;
+        width: 100% !important;
+    }.salla-theme_6 .section {
+        padding: 0 !important;
+        margin: 0 !important;
+    }body > section > div {
+        padding: 0 !important;
+    }.category-featured {
+        margin: 5px !important;
+    }
+}
+.footer-main {
+    clear: both;
+}
+.footer-main {
+    background: #000e40!important;
+}.salla-theme_6 footer .footer-title {
+    color: #ffffff!important;
+    font-size: 1.3rem!important;
+    border-bottom: #00cc93 dotted 3px!important;
+}.salla-theme_6 footer .footer-title span {
+    color: #00cc93!important;
+    font-size: 1.3rem!important;
+}footer * {
+    text-align: center!important;
+    color: #ffffff!important;
+}.footer-main div.row:first-child::before {
+    content: " ";
+    display: block;
+    height: 61px!important;
+    background-image: url(https://cdn.salla.sa/RxlpY/qNcmxsXQK5qZHSsXya1XVJ0E7dl86DigEfpMe6yu.png);
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    background-position: top center!important;
+    margin-bottom: 8px !important;
+}
+.sub-nav__menu svg {
+    background: #00cc93;
+    border-radius: 5px;
+    fill: #fff !important;
+}
+.salla-theme_6 footer .footer-sub {
+    background: #000e40;
+}
+.salla-theme_6 footer .footer-sub .fs-cont .fs-payment img {
+    padding: 2px;
+    margin: 8px;
+    background: #fff;
+    border-radius: 3px;
+    outline: 5px solid #fff;
+}
+.salla-theme_6 .site-header__mine-cart .badge {
+    background: #00cc93;
+}
+.sicon-cart:before {
+    content: "\ef36";
+}
+.salla-theme_6 .site-header__mine-cart {
+    background: no-repeat;
+    font-size: 25px;
+    color: #fff;
+}
+#searchbox.prompt {
+    border-radius: 18px !important;
+    background: #3ce3b57a;
+}.sub-nav-header::before {
+    content: "";
+    text-align: center!important;
+    display: block;
+    height: 65px!important;
+    background-image: url(https://cdn.salla.sa/RxlpY/qNcmxsXQK5qZHSsXya1XVJ0E7dl86DigEfpMe6yu.png);
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    background-position: top center!important;
+}
+.sub-nav-header img {
+    display: none;
+}
+.sub-nav .sub-nav-content .sub-nav-header a {width: 130px;padding: 4px;border: none;background: #00cc93;color: #fff !important;}
+.sub-nav__close svg {
+    fill: #00cc93;
+}
+body > section:nth-child(7) > div {
+    margin-top: 20px;
+}
+.cart-nav-submit, .cart-nav-more, .cart-nav-solid {
+    background: #00cc93;
+}p.mb-4.mb-md-0 a {
+    display: none;
+}body > footer > div.footer-sub > div > div > div.fs-payment > div > div:nth-child(3):after {
+    content: " الحقوق محفوظة ندعمك © 2022 ";
+    color: #fff !important;
+    display: block;
+}p.mb-4.mb-md-0 {
+    color: #0000 !important;
+}ul.footer-links {
+    display: inline-block;
+}
+ul.footer-links li {
+    display: block;
+    background: #00cc9366;
+    padding: 8px;
+    width: 100%;
+    margin: 8px;
+    border-radius: 10px;
+}
+.main-slider img {width: 95%;right: 2.5%;position: relative;border-radius: 25px;margin-top: 2.5%;}
+.salla-theme_6 .site-header .header-top .logo a img {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.fs-rights {
+    display: none;
+}.salla-theme_6 .container.banner a {
+    pointer-events: none !important;
+}.salla-theme_6 .section-header .section--title {
+    margin-right: 30px;
+    position: relative;
+}.salla-theme_6 .section-header .section--title:before {
+    content: " ";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: #00cc93;
+    position: absolute;
+    right: -17px;
+    top: 10px;
+}.salla-theme_6 .product .product-footer .product-add.add_to_cart_btn {
+    background: #00cc93;
+    color: #000e40;
+    border: 2px solid;
+    border-radius: 18px;
+}.salla-theme_6 .product {
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px #000e4024;
+    border: 2px solid #00cc93;
+}body.font-estedad #sort #sort-toggle.btn.btn-primary {margin-left: 16px;zoom: 80%;background: #00cc93;}
+.salla-theme_6 .product .product-footer .product-add.add_to_cart_btn:hover {
+    color: #fff;
+}
