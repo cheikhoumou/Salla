@@ -1,10 +1,5 @@
 @import url(https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css);
 
-body {
-  
-    background: url(https://i.ibb.co/H48Yq6L/BG.png);
-  
-}
 body > section:nth-child(5) > div {
     padding: 0px !important;
     margin: 0px !important;
@@ -505,7 +500,7 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #fff;
-    background-color: #fff;
+    background-color: #43260b;
 }
 
 body > section.section.has-slider > div > div.products-listing.product-listing-top.eq-height.slick-initialized.slick-slider {
