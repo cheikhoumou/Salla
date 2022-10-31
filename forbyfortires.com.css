@@ -79,10 +79,7 @@ body > div.sub-nav > div {
 .salla-theme_6 .product .product-footer .product-add.add_to_cart_btn span:last-child {
     color: black;
 }
-a.product-add.add_to_cart_btn .sicon-cart:before {
-    content: "\e96a";
-    color: black;
-}
+
 .salla-theme_6 .product>a .product-title {
     font-size: 16px;
     margin: 10px 0 2px!important;
@@ -440,13 +437,6 @@ body.store-home::before {
             transform: translateX(-6px) rotate(-1.2deg);
   }
 }
-
-a.product-add.add_to_cart_btn .sicon-cart:before {
-    content: "\f711";
-    color: black;
-    font-family: "fontawesome";
-}
-
 
 body > section:nth-child(5) {
     padding: 0px !important;
