@@ -1,0 +1,494 @@
+/* ========================== */
+/* -- محترف في تصميم متاجر سلة -- */
+/*       ! cheikhoumou          */
+/*       ! https://wa.me/22220523820   */
+/*       ! cheikoumou@gmail.com */
+/* */
+/* ========================== */
+@keyframes logobg {
+    0% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    78% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+body.store-home:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #f5c91d url(https://cdn.salla.sa/OrEZw/kxP6j4UMQDEKMBzQOBDRBHcfoOJ8sj4cgPRF1oPV.png);
+    position: fixed;
+    z-index: 99999999999999999 !important;
+    transform: scale(0);
+    background-size: 120px !important;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    animation-name: logobg;
+    animation-duration: 2.3s;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f5c91d;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border: 5px solid #ffffff;
+}
+
+.site-header {
+    border-radius: 0px 0px 20px 20px;
+    background-color: #f5c91d;
+}
+
+.sicon-cart:before {
+    content: "\ef36";
+}
+
+.circle-action {
+    border: none;
+    font-size: 22px;
+    color: #000;
+}
+
+.site-header__cart .badge {
+    background: #000;
+    color: #f5c91d;
+    border-color: #000;
+}
+
+.main-slider img {
+    margin-top: 2.5%;
+    width: 95%;
+    margin-bottom: 2.5%;
+    margin-right: 2.5%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px #40160842;
+}
+
+li.slick-active {
+    transform: scale(1.5);
+}
+
+.slick-dots li button {
+    border: 1px solid #221109;
+    background: none;
+}
+
+@media (max-width: 760px) {
+    section.section .container .row:nth-child(1) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .row::before {
+        display: none;
+    }
+
+    .salla-theme_4 .category-featured {
+        margin-bottom: 0;
+    }
+
+    section.section .container .row .col-sm-4.col-md-4 {
+        padding-right: 18px;
+        padding-left: 18px;
+        margin: 0;
+        padding: 7px;
+    }
+}
+
+.category-featured img {
+    border-radius: 18px;
+}
+
+.category-featured a:before {
+    border: none;
+    background-color: #412a2278;
+    padding: 20px;
+    background-image: url(https://cdn.salla.sa/PKvmN/dCak31Z2tuiCStO5M0jm5hU67J0ZshDKJkNTbXx6.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+.circle-action:hover {
+    background: none;
+    color: #fff;
+    transform: skew(4deg, 4deg);
+}
+
+.sub-nav-header::before {
+    content: "";
+    text-align: center !important;
+    display: block;
+    height: 70px !important;
+    background-image: url(https://cdn.salla.sa/OrEZw/kxP6j4UMQDEKMBzQOBDRBHcfoOJ8sj4cgPRF1oPV.png);
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+}
+
+.sub-nav-header img {
+    display: none;
+}
+
+.sub-nav-header {
+    background: url(https://cdn.salla.sa/OrEZw/design/4BfquGw7JAwfzEtFrkjbC87Z5AzFKavAphLXk51R.png?rand=0.7905671381610494?rand=0.37021557924505566?rand=0.8207530160170888?rand=0.047690160038681984) no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-blend-mode: soft-light;
+    background-color: #f5c91d70;
+}
+
+.sub-nav__menu svg {
+    background: #f5c91d;
+    border-radius: 8px;
+    margin-top: -4px;
+}
+
+footer .footer-main {
+    background: #f5c91d;
+    /* background-image: url(https://www3.0zz0.com/2022/07/05/16/347647377.jpeg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff !important;
+    background-blend-mode: multiply;
+}
+
+.salla-theme_4 footer ul.footer-links {
+    text-align: center !important;
+}
+
+ul.footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer-main a {
+    color: #fff;
+}
+
+.footer-main:before {
+    content: "";
+    background-image: url(https://i.imgur.com/eAWGMd1.png);
+    background-size: 418%;
+    display: block;
+    background-repeat: round;
+    transform: rotate(180deg);
+    height: 104px;
+    margin: -52px -32px 1px 1px;
+}
+
+h2.footer-title {
+    text-align: center;
+}
+
+ul.social {
+    text-align: center;
+}
+
+.store-contact {
+    text-align: center;
+    direction: ltr;
+}
+
+.store-certificate {
+    text-align: center;
+}
+
+footer .footer-main {
+    margin-top: 25px;
+}
+
+.footer-title span {
+    color: #f5c91d;
+    background: #000;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+footer .store-certificate b {
+    color: #f5c91d;
+    padding: 3px;
+    font-size: 14px;
+}
+
+.footer-sub a {
+    display: none;
+}
+
+.feature-item__icon h3 {
+    color: #221109;
+    display: block;
+    width: 200px;
+    left: 0;
+}
+
+.feature-item p {
+    color: #221109;
+}
+
+.feature-item__icon {
+    background: none;
+}
+
+.feature-item__content {
+    background: none;
+}
+
+.feature-item__icon {
+    background: #ffffff;
+    color: #f5c91d;
+}
+
+.salla-theme_4 .feature-item__content .feature-item__icon i[class^="sicon-"] {
+    padding: 25px;
+    animation: animascheikho 0.9s 0.3s infinite ease-in-out;
+    border-radius: 50%;
+}
+
+@keyframes animascheikho {
+
+    0%,
+    100% {
+        box-shadow: 0px 0px 5px #3f202094;
+    }
+
+    50% {
+        box-shadow: 0px 5px 0px #f5c91d, 0px 5px 0px #000e5, 0px -5px 0px #000,
+            0px -5px 0px rgb(245 201 29);
+    }
+
+    80% {
+        box-shadow: 0px -5px 0px #f5c91d, 0px -5px 0px #000e5,
+            -5px 0px 0px #000 0px -5px 0px #000, 0px -5px 0px rgb(245 201 29);
+    }
+
+    90% {
+        box-shadow: 0px -5px 0px #000, 0px -5px 0px #f5c91d5, 0px -5px 0px #000,
+            0px -5px 0px rgb(245 201 29);
+    }
+}
+
+.icon-object.border-yellow-dark.text-yellow-dark {
+    border: none;
+}
+
+body:not(.salla-theme_6) .main-menu li:not(.sub-menu-header).has-children>a:before {
+    content: " ✅ ";
+}
+
+.product.cover {
+    box-shadow: 2px 11px 20px #1604041c;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.product.cover span.promotion-title {
+    background: #f5c91d;
+    color: #000;
+    padding-left: 10px;
+}
+
+.product-add {
+    background: #000000;
+    color: #fff;
+    padding-top: 4px;
+    width: 80px;
+    border-radius: 0px 20px 20px 0px !important;
+}
+
+.product.cover span.product-price {
+    color: #f5c91d;
+}
+
+.product.cover span.promotion-title:before {
+    content: " ";
+    width: 25px;
+    height: 25px;
+    margin: 0px 4px;
+    display: inline-block;
+    background: url(https://cdn.salla.sa/OrEZw/kxP6j4UMQDEKMBzQOBDRBHcfoOJ8sj4cgPRF1oPV.png);
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.salla-theme_4 .product-footer .product-add:hover {
+    background-color: #000 !important;
+    color: #fff;
+}
+
+.product.cover h3.product-title {
+    color: #412a22;
+}
+
+.product.cover h4.product-subtitle {
+    color: #f5c91d;
+}
+
+.product.cover span.img-cont img:hover {
+    transform: scale(1.1) rotate(3deg);
+}
+
+.products-grid.eq-height .product> :first-child .img-cont img {
+    transition: all 0.6s !important;
+}
+
+.products-listing.eq-height .product> :first-child .img-cont img {
+    transition: all 0.5s !important;
+}
+
+.dmopMx {
+    display: none !important;
+}
+
+.bvQSkJ {
+    background: #412e25 !important;
+}
+
+@media (min-width: 992px) {
+    section.section .container .row:nth-child(1) .col-sm-4.col-md-4 {
+        width: 50%;
+    }
+}
+
+.footer-main .container:before {
+    text-align: center;
+    content: "";
+    display: block;
+    height: 110px;
+    width: 80px;
+    margin: auto auto 20px;
+    background-image: url(https://cdn.salla.sa/OrEZw/kxP6j4UMQDEKMBzQOBDRBHcfoOJ8sj4cgPRF1oPV.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.footer-sub {
+    background: #f5c91d;
+}
+
+i.fa.fa-heart {
+    color: #e91e63;
+}
+
+#order .add-cart-large {
+    background: #f5c91d;
+    border-color: #f5c91d;
+}
+
+.list--product-fields li.form-group .bootstrap-select>.btn.btn-default,
+.list--product-fields li.form-group .btn,
+.list--product-fields li.form-group .form-control,
+.list--product-fields li.form-group textarea {
+    background: #f5c91d !important;
+    color: #fff;
+}
+
+.salla-theme_4 .site-header .logo-wrapper .logo img {
+    max-height: 55px;
+    max-width: 225px;
+}
+
+.product-details__title {
+    background: #f5c91de0;
+    padding: 5px;
+    color: #000;
+    border-right: 4px solid #000;
+    border-radius: 8px;
+    padding-right: 45px;
+    position: relative;
+}
+
+.product-price {
+    display: block;
+    width: 100%;
+    color: #1a3531;
+}
+
+h1.product-details__title:before {
+    content: " ";
+    display: block;
+    width: 33px;
+    height: 33px;
+    background: url(https://cdn.salla.sa/OrEZw/kxP6j4UMQDEKMBzQOBDRBHcfoOJ8sj4cgPRF1oPV.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 4px;
+    background-position: center;
+}
+
+.testimonial-header,
+.owl-theme .owl-nav [class*=owl-] {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    opacity: 0.7;
+    background-color: #f5c91d !important;
+}
+
+.owl-carousel .owl-item img {
+    border-radius: 20px;
+}
+
+.product-cart {
+    /* background-image: url(https://drive.google.com/uc?id=103swSCzPZn0jsPhIzpog6bhPTg4LmcIM) !important; */
+    display: block !important;
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    border-radius: 33px;
+    box-shadow: 0px 0px 8px #1704043b;
+}
+
+.product-cart .delete-button {
+    background: #f5c91d;
+    color: #fff;
+    border-color: #f5c91d;
+}
+
+.product-form,
+.product-options {
+    background: transparent;
+}
+
+#submit_cart {
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 9px !important;
+    background: #f5c91d;
+    border-color: #f5c91d;
+}
+
+.product-cart .list--product-fields li.form-group.product-buttons .btn-add-note {
+    border-color: #000000 !important;
+    border-width: 3px;
+    border-style: dashed;
+    color: #f5c91d !important;
+}
+
+.sub-nav-header a {
+    background: #000;
+    width: 120px;
+    color: #fff;
+}
