@@ -116,19 +116,6 @@ li.slick-active {
     border-radius: 18px;
 }
 
-.category-featured a:before {
-    border: none;
-    background-color: #412a2278;
-    padding: 20px;
-    background-image: url(https://cdn.salla.sa/PKvmN/dCak31Z2tuiCStO5M0jm5hU67J0ZshDKJkNTbXx6.png);
-    background-size: 40%;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 20px;
-    transform: scale(1.5);
-    transition: all 1s;
-}
-
 .circle-action:hover {
     background: none;
     color: #fff;
@@ -653,16 +640,17 @@ li.slick-active {
 }
 
 .category-featured a:before {
-    border: none;
-    background-color: #412a2278;
-    padding: 20px;
-    background-image: url(https://cdn.salla.sa/PKvmN/dCak31Z2tuiCStO5M0jm5hU67J0ZshDKJkNTbXx6.png);
+border: none;
+    background-color: #20595530;
+    padding: 3px;
+    background-image: url(https://cdn.salla.sa/OrEZw/kxP6j4UMQDEKMBzQOBDRBHcfoOJ8sj4cgPRF1oPV.png);
     background-size: 40%;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
     transform: scale(1.5);
     transition: all 1s;
+    backdrop-filter: blur(4px);
 }
 
 .circle-action:hover {
