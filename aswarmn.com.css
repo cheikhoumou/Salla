@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap');
+
+body{
+font-family: 'El Messiri', sans-serif !important;
+}
+body *{
+    font-family: 'El Messiri', sans-serif !important;
+}
+ul.slick-dots {
+    display: none !important;
+}
+
+.main-slider.slick-dotted.slick-slider {
+    margin: 0;
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 19PX;
+    box-shadow: #0000004d 10px 10px 11px;
+}
+
+.container.p-0.px-md-3 {
+    background-color: var(--main-color);
+    padding: 15px;
+}
+
+.feature-item__icon {
+    background: #fff0;
+    width: 65px;
+    height: 65px;
+    color: var(--main-color);
+    font-size: 27px;
+    border: var(--main-color) solid 1px;
+}
+
+body.salla-theme_1 .section-header .btn.btn-primary.btn-rounded, body.salla-theme_2 .section-header .btn.btn-primary.btn-rounded, body.salla-theme_4 .section-header .btn.btn-primary.btn-rounded {
+    border-color: #d4d4d4 !important;
+    color: #5a5a5a;
+}
+
+@media screen and (max-width:766px) {
+    .site-header {
+        background-image: radial-gradient(#fff 220px, var(--main-color) 155px);
+        background-size: 218% 1016%;
+        background-position: 10% 50%;
+        background-repeat: no-repeat;
+    }
+
+    .sub-nav__menu svg {
+        width: 49px;
+        fill: #898989;
+        height: 46px;
+    }
+
+    .circle-action:not(.button-more):not(.button-next) {
+        border-radius: 37%;
+        background: #0000000d;
+        color: #ffffff;
+    }
+
+    a.circle-action:not(.button-more):not(.button-next) {
+        border: none !important;
+    }
+
+    .circle-action:not(.button-more):not(.button-next) span:not(.badge) {
+        font-size: 22px;
+    }
+
+    .col-lg-4.header-row.pull-left {
+        gap: 15px;
+    }
+
+    .footer-sub {
+        color: #ffffff;
+        font-size: 14px;
+        background-color: var(--main-color);
+        padding: 1.75rem 0;
+    }
+
+    .salla-theme_1 footer .footer-sub .footer-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .container.footer-wrapper>div {
+        background-color: #ffffff;
+        padding: 4px 28px;
+        border: var(--main-color)  dotted 2px;
+        border-radius: 10px;
+        transform: scale(1.3);
+        margin-bottom: 19px;
+    }
+
+}
+
+@media screen and (min-width:766px) {
+    .circle-action:not(.button-more):not(.button-next) {
+        border-radius: 37%;
+        color: var(--main-color);
+    }
+
+    .circle-action:not(.button-more):not(.button-next):hover {
+        background-color: transparent;
+        color: var(--main-color);
+    }
+
+    .circle-action:not(.button-more):not(.button-next):hover {
+        border-right-color: #00000000;
+        border-left-color: transparent;
+    }
+
+    .circle-action:not(.button-more):not(.button-next) {
+        position: relative;
+        width: 40px;
+        height: 36px;
+        border: 1px solid var(--main-color);
+        border-left-color: transparent;
+        border-right-color: transparent;
+        border-radius: 50% / 30%;
+    }
+
+    .circle-action:not(.button-more):not(.button-next)::before {
+        content: '';
+        position: absolute;
+        top: -1px;
+        left: -0px;
+        right: -0px;
+        bottom: -1px;
+        border: 1px solid var(--main-color);
+        border-top-color: transparent;
+        border-bottom-color: transparent;
+        border-radius: 25% / 50%;
+    }
+
+}
+
+.footer-title {
+    color: #fff;
+    border-bottom: 6px dotted rgba(255, 255, 255, .2);
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.7rem;
+}
+
+h2.footer-title span {
+    font-size: 22px;
+}
+
+.footer-item p {
+    background-color: aliceblue;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;    /* margin: 14px; */
+    box-shadow: #00000066 1px 6px 11px -5px;
+}
+.sub-nav-header {
+    background-image: url(https://cdn.salla.sa/qWzaA/XgIgjXovRh63cwa35fRpvkJgWauLWo7m9VK1ETZH.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.sub-nav-header::before {
+    content: "";
+    display: block;
+    height: 70px !important;
+    background-image: url(https://cdn.salla.sa/qWzaA/IFdxTquW47Q3XH0hu3hJovbzA7xgh0DPPrifCbHh.jpg);
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+}
+::-webkit-scrollbar {
+    width: 2px;
+}
+::-webkit-scrollbar-thumb {
+    background: #849122;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    border: 5px solid #ffffff;
+}
+.sub-nav-header img {
+    display: none;
+}
+
+.sicon-cart:before {
+    content: "\ef36";
+}
+
+.product-add {
+    background: #849122;
+    color: #fff;
+    border: none;
+    border-radius: 0px 30px 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product.contain {
+    border-radius: 30px;
+    border: none;
+    box-shadow: 2px 2px 8px #3b050533;
+}
+
+.section-header .section--title:before {
+    content: " ";
+    width: 25px;
+    height: 28px;
+    margin: 0px 4px;
+    display: inline-block;
+    background: url(https://cdn.salla.sa/qWzaA/IFdxTquW47Q3XH0hu3hJovbzA7xgh0DPPrifCbHh.jpg);
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.footer-main .container:before {
+    text-align: center;
+    content: "";
+    display: block;
+    height: 80px;
+    width: 105px;
+    margin: auto auto 20px;
+    background-image: url(https://cdn.salla.sa/qWzaA/IFdxTquW47Q3XH0hu3hJovbzA7xgh0DPPrifCbHh.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.footer-main:before {
+    content: "";
+    background-image: url(https://marssa.shop/site/images/new_theme/footer-top.svg);
+    background-size: 418%;
+    display: block;
+    background-repeat: round;
+    transform: rotate(180deg);
+    height: 104px;
+    margin: -40px -32px 1px 1px;
+}
+
+.u-light {
+    background: #fff !important;
+}
+
+.icon-object .sicon-user:before {
+    content: url(https://www13.0zz0.com/2022/07/12/15/770525755.png);
+    transform: scale(1.5);
+    height: 60px;
+}
+
+.login-container .text-yellow-dark {
+    border: none;
+}
+
+button.btn.btn-secondary.btn--qty-add,
+button.btn.btn-secondary.btn--qty-sub {
+    background: #849122;
+    color: #fff;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #849122;
+}
+
+.product-details__title {
+    background: #eee;
+    color: #849122;
+    padding: 5px;
+    font-size: 22px;
+    border-radius: 10px;
+    border-right: 4px solid;
+}span#cart_badge {
+    background: #000;
+}.icon-checkmark4:before {
+    content: "\ef36";
+    font-family: 'sallaicons';
+}
+
+.fa-angle-right:before,.fa-angle-left:before {
+    font-family: 'FontAwesome';
+}
