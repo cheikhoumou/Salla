@@ -1,5 +1,3 @@
-body::before {content: " 💀 الموقع مغلق حاليا  😎 ";position: fixed;display: flex;justify-content: center;align-items: center;top: 0;height: 100vh;width: 100%;z-index: 9999999999;background: #fff;bottom: 0;font-size: 40px;}
-/* my cp */
 @font-face {
  font-family:sky;
  src:url("https://www.fontstatic.com/fonts/sky/sky.eot?#iefix");
