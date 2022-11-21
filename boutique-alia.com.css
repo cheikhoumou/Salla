@@ -14,38 +14,7 @@
     font-family: 'Tajawal', sans-serif;
      font-weight: 400;
 }
-@keyframes logobg {
-    0% {
-        transform: scale(1);
-    }
-
-    20% {
-        transform: scale(1);
-    }
-
-    78% {
-        transform: scale(1);
-    }
-
-    100% {
-        transform: scale(0);
-    }
-}
-body.index:before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: #ffffff8f url(https://cdn.salla.sa/XDdlN/Iaog7Wup8aPnW7M1NWA3aDzPM4sXYQJq8lNztPSB.jpg);
-    position: fixed;
-    z-index: 99999999999999999 !important;
-    transform: scale(0);
-    background-size: 225px !important;
-    background-repeat: no-repeat;
-    background-position: center !important;
-    animation-name: logobg;
-    animation-duration: 3s;
-    backdrop-filter: blur(4px);
-}footer.footer:before {
+footer.footer:before {
     content: " ";
     background-image: url(https://drive.google.com/uc?id=12FtB3_a1johi_WLGBl_3J-UlX5-GnAwf)!important;
     display: block !important;
