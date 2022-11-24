@@ -1,5 +1,4 @@
 
-<script>
  function opnes(){
     document.querySelector('.bg').style = 'transform: scale(1);';
 }    function closee(){
@@ -22,4 +21,3 @@ document.querySelector('.bg .masseg .links').innerHTML = '<a href="https://bouti
 
 document.querySelector('.bg .masseg').style = 'top: 20%;';
 }
-</script>
