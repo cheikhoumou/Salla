@@ -1,4 +1,4 @@
-  /* Add custom Js code below */ 
+ /* Add custom Js code below */ 
 document.querySelector('body.index section.home-block.home-block--main-slider + section.home-block.home-block--fixed-banner').innerHTML = `<style>
 .cont {
     display: flex;
@@ -135,21 +135,21 @@ document.querySelector('body.index section.home-block.home-block--main-slider + 
     document.querySelector('.boxing1').onclick = function(){
         opnes();
         document.querySelector('.bg .masseg .links').innerHTML = `      
-          <a href="https://boutique-alia.com/ar/ساعات/c2085484978">ساعات</a> 
-        <a href="https://boutique-alia.com/ar/أبواك/c1311381683">أبواك</a> 
-        <a href="https://boutique-alia.com/ar/نظارات/c469182396"> نظارات</a> 
-        <a href="https://boutique-alia.com/ar/خواتم/c1977370301">خواتم </a> 
-        <a href="https://boutique-alia.com/ar/مسابح/c1203332542">  مسابح</a> 
-        <a href="https://boutique-alia.com/ar/أقلام/c294094015">أقلام</a> 
-        <a href="https://boutique-alia.com/ar/كبكات/c1492320443">كبكات</a> `;
+          <a href="https://sehaz.co/ar/ساعات/c2085484978">ساعات</a> 
+        <a href=https://sehaz.co/ar/أبواك/c1311381683">أبواك</a> 
+        <a href="https://sehaz.co/ar/نظارات/c469182396"> نظارات</a> 
+        <a href="https://sehaz.co/ar/خواتم/c1977370301">خواتم </a> 
+        <a href="https://sehaz.co/ar/مسابح/c1203332542">  مسابح</a> 
+        <a href="https://sehaz.co/ar/أقلام/c294094015">أقلام</a> 
+        <a href="https://sehaz.co/ar/كبكات/c1492320443">كبكات</a> `;
         document.querySelector('.bg .masseg').style = `top: 6%;`;
     }
     document.querySelector('.boxing2').onclick = function(){
         opnes();
         document.querySelector('.bg .masseg .links').innerHTML = `
-        <a href="https://boutique-alia.com/ar/ساعات/c154025908"> ساعات </a>
-        <a href=" https://boutique-alia.com/ar/اكسسوارات/c1527471797">أطقم</a>
-        <a href="https://boutique-alia.com/ar/نظارات/c886078902">نظارات</a>
+        <a href="https://sehaz.co/ar/ساعات/c154025908"> ساعات </a>
+        <a href=" https://sehaz.co/ar/اكسسوارات/c1527471797">أطقم</a>
+        <a href="https://sehaz.co/ar/نظارات/c886078902">نظارات</a>
         `;
         document.querySelector('.bg .masseg').style = `top: 20%;`;
     }
@@ -157,11 +157,12 @@ document.querySelector('body.index section.home-block.home-block--main-slider + 
         opnes();
 
     document.querySelector('.bg .masseg .links').innerHTML = `
-     <a href="https://boutique-alia.com/ar/ساعات/c1102230440"> ساعات </a> 
-    <a href="https://boutique-alia.com/ar/نظارات/c249546111"> نظارات</a> 
-    <a href="https://boutique-alia.com/ar/نظارات/c249546111">  اكسسوارات</a> 
+     <a href="https://sehaz.co/ar/ساعات/c1102230440"> ساعات </a> 
+    <a href="https://sehaz.co/ar/نظارات/c249546111"> نظارات</a> 
+    <a href="https://sehaz.co/ar/نظارات/c249546111">  اكسسوارات</a> 
     `;document.querySelector('.bg .masseg').style = `top: 20%;`;
     }
-console.log("cheikhoumou salla Dev phone: +222 20523820");
+console.log("cheikhoumou salla Dev");
+console.log('phone: +222 20523820');
 console.log("web: https://www.cheikhoumou-portfolio.ml/");
 console.log("http://wa.me/22220523820");
