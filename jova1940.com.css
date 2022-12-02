@@ -1,0 +1,67 @@
+.header-logo:before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    right: 35%;
+    background: url(https://www12.0zz0.com/2022/09/04/11/811170559.jpeg) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+span.cart-badge {
+    background: #59b7ea;
+}
+
+h1.section-title.theme-title-primary {
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+}
+
+.section-padding-space {
+    padding-top: 10px;
+    background: #f6f6f6;
+}
+
+.prod-col {
+    background: #fff;
+    margin: 4px;
+    padding-top: 5px;
+    box-shadow: 0 1px 10px 0px rgb(39 3 3 / 3%);
+    padding-bottom: 15px;
+    border-radius: 15px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    width: 100%;
+    border-radius: 8px;
+    background: #59b7ea;
+    border-color: #59b7ea;
+}
+.search-header.header-theme-bg-primary {
+    box-shadow: 0 1px 10px 2px rgb(0 0 0 / 16%);
+}
+
+h1.section-title.theme-title-primary:before,h1.section-title.theme-title-primary:after {
+    content: "";
+    width: 25%;
+    display: block;
+    height: 0.8px;
+    background: #ddd9d9;
+    top: 8px;
+    position: absolute;
+}
+
+h1.section-title.theme-title-primary:after {
+    left: 8px;
+}
+
+.store-section .social-icons span {
+    border: none;
+}
+
+.product-item .product-title>span {
+    font-size: 13px;
+}
