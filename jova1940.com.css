@@ -1,3 +1,33 @@
+@font-face {
+            font-family: 'FrutigerLTArabic';
+            src:  url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-45Light.eot');
+            src:  url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-45Light.eot') format('embedded-opentype'),
+            url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-45Light.woff2') format('woff2'),
+            url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-45Light.ttf') format('truetype'),
+            url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-45Light.woff') format('woff'),
+            url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-45Light.svg') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+        @font-face {
+            font-family: 'FrutigerLTArabic';
+            src:  url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-65Bold.eot');
+            src:  url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-65Bold.eot') format('embedded-opentype'),
+            url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-65Bold.woff2') format('woff2'),
+            url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-65Bold.ttf') format('truetype'),
+            url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-65Bold.woff') format('woff'),
+            url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-65Bold.svg') format('svg');
+            font-weight: bold;
+            font-style: normal;
+            font-display: block;
+        }
+h1.section-title.theme-title-primary,.product-item .product-title>span,.product-crd-spec {
+    font-family: frutigerltarabic;
+    outline: none;
+    touch-action: manipulation;
+}
+
 .header-logo:before {
     content: "";
     display: block;
