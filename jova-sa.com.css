@@ -1,0 +1,172 @@
+.salla-theme_6 .site-header__mine-cart .badge {
+    background: #59b7ea;
+}
+.salla-theme_6 .product .product-footer .product-add.add_to_cart_btn {
+    background: #59b7ea;
+    color: #000;
+    border-radius: 10px;
+}
+h2.section--title span {color: #bcbcbc}
+
+.sub-nav .main-menu > li > a, .sub-nav .main-menu > li ul > li a {
+    color: #000 !important;
+}
+a.login-link {
+    color: #000 !important;
+}a#submit_cart {
+    color: #000;
+    background: #59b7ea;
+    border-color: #59b7ea;
+}.btn-primary {
+    background: #59b7ea;
+    border-color: #59b7ea;
+}a.product-add.add-cart-large.add_to_cart_large_btn {
+    background: #59b7ea;
+    border-color: #59b7ea;
+    color: #000 !important;
+}.list--tags li a {
+    background: #59b7ea;
+    color: #fff;
+}h1.product-details__title {
+    color: #59b7ea;
+}
+.salla-theme_6 .container.banner a img[src="https://cdn.salla.sa/gnBAN/design/TEo99phnvZG2q2pWWrZOildNUGsKC2V2hMN1U2oY.jpg"]:before {
+    content: "ehjfdijsf";
+}section[data-type="banner"] .banner a[href="http://www.jova-farm.com/"]:after {
+    content: " اضغط هنا ";
+    background: #59b7ea;
+    padding: 4px 8px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    width: 120px;
+
+    margin: auto;
+    border-radius: 8px;
+    padding-bottom: 8px;
+    margin-top: 15px;
+}section[data-type="banner"] .banner a[href="http://www.jova-farm.com/"]:before {
+    content: " لماذا نختار مزرعة جوفا…  ";
+    font-size: 12px;
+    position: absolute;
+    bottom: 31px;
+    font-weight: bold;
+    color: #000;
+}
+section[data-type="banner"] .banner a[href="http://www.jova-farm.com/"]:after {
+    font-family: system-ui;
+    margin-left: 50px;
+}
+
+@media(max-width:700px){
+  .salla-theme_6 .site-header .header-top .logo:before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    left: -60%;
+    background: url(https://www12.0zz0.com/2022/09/04/11/811170559.jpeg) no-repeat;
+    background-size: contain;
+    top: -2px;
+    background-position: center;
+}}
+section[data-type="banner"] + section .section--title span:nth-child(1) {
+ color:#caccca;   
+}@font-face {
+            font-family: 'FrutigerLTArabic';
+            src:  url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-45Light.eot');
+            src:  url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-45Light.eot') format('embedded-opentype'),
+            url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-45Light.woff2') format('woff2'),
+            url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-45Light.ttf') format('truetype'),
+            url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-45Light.woff') format('woff'),
+            url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-45Light.svg') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+        @font-face {
+            font-family: 'FrutigerLTArabic';
+            src:  url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-65Bold.eot');
+            src:  url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-65Bold.eot') format('embedded-opentype'),
+            url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-65Bold.woff2') format('woff2'),
+            url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-65Bold.ttf') format('truetype'),
+            url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-65Bold.woff') format('woff'),
+            url('https://assets.zid.store/themes/8ba6ae26-32ea-4271-81b2-0d9d6804a473/FrutigerLTArabic-65Bold.svg') format('svg');
+            font-weight: bold;
+            font-style: normal;
+            font-display: block;
+        }
+h2.section--title,.text-white,h3.product-title,p.product-price.hidden-md.hidden-lg.hidden-sm{
+    font-family: frutigerltarabic !important;
+    outline: none;
+    touch-action: manipulation;
+}
+
+section[data-type="banner"] .banner a[href="http://www.jova-farm.com/"]:before {
+    font-size: 15px;
+    position: absolute;
+    margin-right: 5px;
+    text-shadow: rgb(37, 37, 37) 0px 0px 1px;
+}
+
+section[data-type="banner"] .banner a[href="http://www.jova-farm.com/"]:after {margin-right: 141px;}
+
+section[data-type="banner"] + section .section--title span:nth-child(1), body .section-header h2.section--title span,.text-white {
+    color: #000 !important;
+    font-size: 14px !important;
+    font-weight: 500;
+}
+
+h2.section--title {
+    text-align: center;
+    font-size: 14px;
+}h2.section--title:before, h2.section--title:after {
+    content: "";
+    width: 25%;
+    display: block;
+    height: 0.8px;
+    background: #ddd9d9;
+    top: 8px;
+    position: absolute;
+}
+h2.section--title:after {
+    left: 8px;
+}
+
+
+section.section {
+    background: #fff;
+}
+
+.align-items-center.d-lg-block.actions-container > a.ml-1.circle-action.d-lg-none.site-header__mine-cart > span.sicon-cart::before {
+    content: "";
+    width: 28px;
+    height: 28px;
+    display: block;
+    background: url(https://www6.0zz0.com/2022/12/10/13/246289193.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+span.badge {
+    right: 23px;
+}
+
+.salla-theme_6 .site-header .header-top .sub-nav__menu:before {
+        content: "";
+        width: 28px;
+        height: 28px;
+        display: block;
+        background: url(https://www6.0zz0.com/2022/12/10/13/193394405.png) no-repeat;
+        background-size: contain;
+        background-position: center;
+        position: absolute;
+        z-index: -1;
+}
+.sub-nav__menu svg {fill: #0000 !important;z-index: 1000;position: relative;}
+section.py-4.text-center.bg-brand {
+    background: #fff;
+}.footer-main {
+    background: #000;
+}
