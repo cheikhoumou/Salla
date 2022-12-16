@@ -1,0 +1,101 @@
+console.log('by cheikhoumou:.salla-theme_6 .site-header__mine-cart .badge {
+    background: #59b7ea;
+}
+.salla-theme_6 .product .product-footer .product-add.add_to_cart_btn {
+    background: #59b7ea;
+    color: #000;
+    border-radius: 10px;
+}
+h2.section--title span {color: #bcbcbc}
+
+.sub-nav .main-menu > li > a, .sub-nav .main-menu > li ul > li a {
+    color: #000 !important;
+}
+a.login-link {
+    color: #000 !important;
+}a#submit_cart {
+    color: #000;
+    background: #59b7ea;
+    border-color: #59b7ea;
+}.btn-primary {
+    background: #59b7ea;
+    border-color: #59b7ea;
+}a.product-add.add-cart-large.add_to_cart_large_btn {
+    background: #59b7ea;
+    border-color: #59b7ea;
+    color: #000 !important;
+}.list--tags li a {
+    background: #59b7ea;
+    color: #fff;
+}h1.product-details__title {
+    color: #59b7ea;
+}
+.salla-theme_6 .container.banner a img[src="https://cdn.salla.sa/gnBAN/design/TEo99phnvZG2q2pWWrZOildNUGsKC2V2hMN1U2oY.jpg"]:before {
+    content: "ehjfdijsf";
+}section[data-type="banner"] .banner a[href="http://www.jova-farm.com/"]:after {
+    content: " اضغط هنا ";
+    background: #59b7ea;
+    padding: 4px 8px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    width: 120px;
+
+    margin: auto;
+    border-radius: 8px;
+    padding-bottom: 8px;
+    margin-top: 15px;
+}section[data-type="banner"] .banner a[href="http://www.jova-farm.com/"]:before {
+    content: " لماذا نختار مزرعة جوفا…  ";
+    font-size: 12px;
+    position: absolute;
+    bottom: 31px;
+    font-weight: bold;
+    color: #000;
+}
+section[data-type="banner"] .banner a[href="http://www.jova-farm.com/"]:after {
+    font-family: system-ui;
+    margin-left: 50px;
+}
+
+@media(max-width:700px){
+  .salla-theme_6 .site-header .header-top .logo:before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    left: -60%;
+    background: url(https://www12.0zz0.com/2022/09/04/11/811170559.jpeg) no-repeat;
+    background-size: contain;
+    top: -2px;
+    background-position: center;
+}}
+section[data-type="banner"] + section .section--title span:nth-child(1) {
+ color:#caccca;   
+}.sub-header{
+    background:#dfdfdf;
+}
+header.site-header {
+    background: #fff;
+}
+.container-fluid.sub-nav-content {
+    background: #dfdfdf;
+}
+.sub-nav-header {
+    background: #dfdfdf;
+}
+.salla-theme_6 .product>a .promotion-title {
+    color: #000;
+    background: #59b7ea;
+}
+.bg-brand {
+    background: #eee;
+}
+.text-white {
+    color: #000 !important;
+}
+
+.product-info .product-price {
+    color: red;
+} https://wa.me/22220523820 ');
