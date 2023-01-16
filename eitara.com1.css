@@ -136,7 +136,6 @@ section.home-block.home-block--square-images .row>div {display: inline-block;pad
     background-color: #a08f7b;
     color: #f5f7f9 !important;
     border-radius: 10px;
-    margin: 5px;
 }.nav-desktop--horizontal ul .menu-item.dropdown .sub-menu {
     border-radius: 25px 0 20px 25px;
     box-shadow: 5px 5px 20px 8px rgb(8 99 66 / 24%);
@@ -168,8 +167,8 @@ section.home-block.home-block--square-images .row>div {display: inline-block;pad
 }body > footer > div.container::before {
     display: block;
     content: "";
-    width: 100px;
-    height: 100px;
+    width: 210px;
+    height: 200px;
     margin: 30px auto -10px auto;
     background: url(https://tttttt.odoo.com/web/image/1099-df256db5/Untitled-2-32%2520%25282%2529.svg) no-repeat !important;
     background-size: contain !important;
@@ -180,28 +179,38 @@ section.home-block.home-block--square-images .row>div {display: inline-block;pad
     color: #fff;
     font-size: 17px;
 }@media only screen and (max-width: 767px){
-	.site-header .theme-logo {
+footer.footer {
+    background: #086342;
+    margin-top: 40px;
+    background-image: url(https://eitara1.odoo.com/web_editor/shape/web_editor/Floats/02.svg?c1=%23007564&c2=%23fcb752&c3=%23F8F9FA&c5=%23000000);
+    background-size: contain;
+    background-repeat: no-repeat !important;
+    background-position: 60% 40%;
+}.site-header .theme-logo {
     background: #086342;
     border-radius: 0 0 0 120px;
     padding: 10px 0;
     padding-right: 25px !important;
     margin-right: -15px;
+}.footer__mid .row:before {
+    margin-right: 0px !important;
 }.footer__mid:before {text-align: center;}
 .footer__mid .row:before {text-align: center;}
 	header.fixed-header .site-header, .site-header, .header-block--nav-wrapper {
     background: #a08f7b !important;
 }#site-header-outer > div > div {padding: 0px!important;}}.nav-mobile .main-nav {background: #086342;border-radius: 0px;}.nav-mobile .main-nav li a {color: transparent;padding-bottom: 0px;bottom: -8px;}.footer__bottom {background: #086342;}.store-certificate__text,.store-certificate__text .number {color: #fff;}
 .nav-mobile .main-nav li a i {color: #fff !important;font-size: 23px;}.btn--floated.btn--add-to-cart .sicon-shopping-bag::before {content: 'إضافة للسلة' !important;font-weight: 700 !important;color: #fff;margin-left: 6px;font-family: inherit !important;}.s-button-btn {display: contents;}
-img.loaded {border-radius: 20px;}.product-block {box-shadow: 0px 0px 15px 0px #1902023b;border-radius: 20px;}
+img.loaded {border-radius: 20px;}.product-block {box-shadow: 0px 0px 15px 0px #0438253b;border-radius: 20px;}
 .title--has-dash:before {background: #fff !important;}.footer__bottom .container>*:last-child *,.footer__bottom .container>*:last-child {color: #fff;}
 #site-header-outer > div > div {padding: 10px;}.s-cart-summary-total {color: #fff;}
 .footer__mid:before {
     content: " حمل التطبيق ";
     display: block;
-    font-size: 20px;
+    font-size: 27px;
     font-weight: bold;
     color: #fff;
     margin-bottom: 4px;
+    /* margin-right: 43px; */
 }.footer__mid .row:before {
     content: " وجهتكم الأولى للعطارة واكثر ";
     display: block;
@@ -210,6 +219,7 @@ img.loaded {border-radius: 20px;}.product-block {box-shadow: 0px 0px 15px 0px #1
     color: #fff;
     margin-bottom: 15px;
     width: 100%;
+    margin-right: 15px;
 }body > footer > div.container > div.footer__top > div > div:nth-child(2) > div > ul li{
     background-image: url(https://cdn.salla.sa/azlbg/jowrik9AyaRllSaQ3OvCVnt4sfYeKMgXQatspXwm.svg) !important;
     filter: invert(100%);
@@ -238,5 +248,21 @@ color: #000 !important;}.store-contact-info ul li a i {padding: 8px;border: 1.5p
     font-weight: bold;
 }.title.title--primary.title--has-dash.mb-20 {
     color: #fff !important;
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
 }input.s-quantity-input-input {background: #fff;}div.product-sections-wrapper > form > div.product-section.product-section--quantity.no-p.mb-0.no-border > div.flex-grow-1 > salla-add-product-button > salla-button > button {display: block;}
 .s-login-modal .s-modal-header-content div {font-size: 22px !important;color: #086342;}.s-modal-header-inner svg {fill: #086342;width: 50px;height: 39px;}
+div#sub_menu_943755 {border-radius: 20px;}
+.category-title--sortable .title {
+    background: linear-gradient(45deg, transparent, #086342);
+    color: #fff !important;
+    padding: 8px;
+    padding-right: 16px;
+    width: 200px !important;
+    display: inline-block !important;
+    font-weight: bold;
+    font-size: 17px;
+    padding-bottom: 12px;
+}.title--has-dash:before {display: none;}body > footer > div.container > div.footer__top > div > div:nth-child(2) > div {display: flex;justify-content: center;align-items: center;}body > footer > div.container > div.footer__top > div > div:nth-child(2) > div > ul {
+display: flex;justify-content: center;}.side-panel.mobile-side-panel .side-panel__content {background: #086342;}.side-panel.mobile-side-panel .side-panel__content * {color: #fff;}
