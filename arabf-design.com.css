@@ -1,0 +1,416 @@
+/* This done by gherbawi21 */
+body::before {
+    content: " ";
+    background: linear-gradient(45deg, #4f6df8, #4f6df8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    z-index: 9998;
+    opacity: 0;
+    animation: intro 2.5s;
+}
+
+body:after {
+    z-index: 9999;
+    position: fixed;
+    content: "";
+    background-image: url('https://cdn.salla.sa/XPovq/IcJvQHkYbxw96OCf3nJsS9kW6Eg3Ubb5pG3v2LgY.png');
+    background-position: center;
+    background-size: 110px;
+    background-repeat: no-repeat;
+    width: 0;
+    transform: translate(90px, -90px);
+    height: 181px;
+    right: 50%;
+    top: 50%;
+    opacity: 0;
+    animation: intro_logo 1.5s;
+}
+
+@keyframes intro {
+    0% {
+        width: 100%;
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    99% {
+        width: 100%;
+    }
+
+    100% {
+        width: 0;
+        opacity: 0;
+        display: none;
+    }
+}
+
+@keyframes intro_logo {
+    0% {
+        width: 181px;
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    99% {
+        width: 181px;
+    }
+
+    100% {
+        width: 0;
+        opacity: 0;
+        display: none;
+    }
+}
+
+body {
+    background-image: url(https://imgur.com/hKukcOG.png);
+    background-size: contain;
+}
+
+.feature-item {
+    background-color: transparent;
+}
+
+input#searchbox {
+    background-color: #e1dfdf !important;
+    border-radius: 20px !important;
+    text-align: center;
+}
+
+.product.cover {
+    border-radius: 10px;
+}
+
+.product-footer {
+    background-color: #e1dfdf;
+}
+
+.salla-theme_6 .product .product-footer .product-add.add_to_cart_btn {
+    background-color: #4f6df8;
+    color: white;
+}
+
+.salla-theme_6 .section-header .btn.btn-rounded {
+    background-color: #4f6df8;
+    color: white;
+    height: auto;
+}
+
+h3.product-title {
+    background-color: #e1dfdf;
+}
+
+.product .product-title {
+    text-align: center !important;
+    padding-top: 10px !important;
+}
+
+h4.product-subtitle {
+    background-color: #e1dfdf;
+    color: #4f6df8 !important;
+}
+
+.product>a .product-subtitle {
+    text-align: center;
+}
+
+.product .product-footer {
+    margin: 0px !important;
+}
+
+.salla-theme_6 .product>a .product-subtitle {
+    margin: 0px !important;
+}
+
+.salla-theme_6 .product>a .product-title {
+    margin: 0px !important;
+}
+
+.salla-theme_6 .product .product-footer {
+    padding: 0px;
+}
+
+span.product-price {
+    direction: rtl !important;
+}
+
+p.product-price {
+    text-align: center !important;
+    display: block !important;
+}
+
+p.product-price.hidden-md.hidden-lg.hidden-sm {
+    display: none !important;
+}
+
+h2.section--title {
+    border-right: #4f6df8 solid 5px;
+    padding-right: 15px;
+}
+
+.product.cover {
+    border-radius: 20px;
+    border: solid 2px #dddddd6e;
+    box-shadow: #ffffff 0px 1px 3px 1px;
+    border-top-left-radius: 0px;
+}
+
+.salla-theme_6 footer .footer-sub .fs-cont {
+    padding-left: 20px !important;
+    padding-right: 16px !important;
+}
+
+
+.footer-main p {
+    background: #04c5c4 !important;
+    background-image: initial !important;
+    background-position-x: initial !important;
+    background-position-y: initial !important;
+    background-size: initial !important;
+    background-attachment: initial !important;
+    background-origin: initial !important;
+    background-clip: initial !important;
+    background-color: #e1dfdf !important;
+    padding: 10px !important;
+    position: relative !important;
+    color: black;
+    border-radius: 12px !important;
+}
+
+.footer-title span {
+    border-bottom: 4px solid #e1dfdf;
+    padding-bottom: 8px;
+}
+
+.salla-theme_6 .product .product-footer .product-add.add_to_cart_btn {
+    border-radius: 0px 0px 20px 20px;
+}
+
+.bg-brand {
+    background-color: #2a2a2a;
+    border-radius: 35px 35px 0px 0px;
+}
+
+.salla-theme_6 .u-light {
+    background-color: transparent !important;
+}
+
+.u-light {
+    background-color: transparent !important;
+}
+
+.footer-main {
+    text-align: center;
+}
+
+ul.social.clearfix {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.store-contact {
+    display: inline-block;
+}
+
+.footer-sub {
+    color: #ffffff;
+    background-color: #2a2a2a;
+}
+
+.salla-theme_6 footer .footer-sub .fs-cont .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 60px;
+    background-color: #e1dfdf;
+}
+
+.salla-theme_6 footer .footer-sub .fs-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    padding: 0.5rem 0;
+    border-radius: 15px;
+    color: black;
+    background-color: #e1dfdf;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.sub-nav-header::before {
+    content: "";
+    text-align: center !important;
+    display: block;
+    height: 60px !important;
+    background-image: url(https://cdn.salla.sa/XPovq/IcJvQHkYbxw96OCf3nJsS9kW6Eg3Ubb5pG3v2LgY.png);
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+}
+
+.sub-nav__menu svg {
+    fill: #f5a665 !important;
+}
+
+.main-slider.slick-dotted.slick-slider {
+    padding: 0;
+    margin-top: -5px;
+}
+
+body.salla-theme_6 .site-header .sub-header {
+    background: #f5a665;
+}
+
+body.salla-theme_6 .site-header .sub-header * {
+    color: #fff !important;
+}
+
+.salla-theme_6 .site-header__cart {
+    border-radius: 16px;
+}
+
+.sicon-cart:before {
+    content: "";
+    background: url(https://www8.0zz0.com/2023/01/25/16/881548609.png) no-repeat;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+}
+
+.site-header__cart {
+    background: none !important;
+}
+
+.circle-action {
+    background: none !important;
+}
+
+.salla-theme_6 .site-header__mine-cart .badge {
+    background: #f5a665;
+}
+
+.sub-nav-header img {
+    display: none;
+}
+
+.sub-nav .sub-nav-content * {
+    color: #fff !important;
+}
+
+.sub-nav .sub-nav-content {
+    background: #4f6df866;
+    backdrop-filter: blur(6px);
+}
+
+.sub-nav .main-menu li.sub-menu-header.categories-holder ul.store-categories li,
+.sub-nav .main-menu li.sub-menu-header.categories-holder>span {
+    border: none !important;
+}
+
+.sub-nav .main-menu li.sub-menu-header.categories-holder ul.store-categories li,
+.sub-nav .main-menu li.sub-menu-header.categories-holder ul.store-categories li.active {
+    background: #f5a665d6;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+.sub-nav .sub-nav-content .sub-nav-header a {
+    width: 120px;
+    background: #d89872 !important;
+}
+
+.sub-nav .sub-nav-content .main-menu>li {
+    border: none;
+}
+
+#ls_switcher_mobile {
+    width: 95%;
+    margin: auto;
+    background: #42d1f9;
+}
+
+body.store-home {
+    background: #f5a665;
+}
+
+section.py-4.text-center.bg-brand {
+    background: #f4a664;
+}
+
+.footer-main,
+.footer-sub {
+    background-color: #4f6df8f0 !important;
+    background-image: url(https://raw.githack.com/cheikhoumou/icons/main/pattern_lani8v.svg);
+    background-size: cover;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.salla-theme_6 footer .footer-sub .fs-cont {
+    background: none;
+}
+
+p.mb-4.mb-md-0 {
+    color: #fff0;
+}
+
+p.mb-4.mb-md-0 a {
+    display: none;
+}
+
+.salla-theme_6 footer .footer-sub .fs-cont .icons {
+    padding: 13px !important;
+}
+
+p.mb-4.mb-md-0:before {
+    content: " صنع بحب ❤️ ";
+    color: #fff !important;
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.evMtho {
+    display: none !important;
+}
+
+.jWcIXO {
+    background: #4f6df8 !important;
+}
+
+.salla-theme_6 .testimonails-listing .testimonials-item blockquote {
+    border-radius: 23px;
+    background: #4f6df8;
+}
+
+.salla-theme_6 .testimonails-listing .testimonials-item blockquote * {
+    color: #fff;
+}
+
+.salla-theme_6 .testimonails-listing .slick-dots li.slick-active button {
+    padding: 8px;
+    background: #4f6df8 !important;
+    margin: -3px;
+}.salla-theme_6 .testimonails-listing .slick-dots li button {border: 1px solid #4f6df8;}
