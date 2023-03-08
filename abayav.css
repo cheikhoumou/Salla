@@ -15,37 +15,6 @@
  .title--small {
     font-family: 'Tajawal', sans-serif;
      font-weight: 400;
-}
-@keyframes logobg {
-    0% {
-        transform: scale(1);
-    }
-
-    20% {
-        transform: scale(1);
-    }
-
-    78% {
-        transform: scale(1);
-    }
-
-    100% {
-        transform: scale(0);
-}}
-body.index:before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: #f8ad4542 url(https://cdn.salla.sa/xBgYw/T1WvSbDrKg01W9b6ZhmVF70Zy8f2il8Nmtp2a4UX.png);
-    position: fixed;
-    z-index: 99999999999999999 !important;
-    transform: scale(0);
-    background-size: 120px !important;
-    background-repeat: no-repeat;
-    background-position: center !important;
-    animation-name: logobg;
-    animation-duration: 3s;
-    backdrop-filter: blur(4px);
 }footer.footer:before {
     content: " ";
     background-image: url(https://drive.google.com/uc?id=12FtB3_a1johi_WLGBl_3J-UlX5-GnAwf)!important;
@@ -163,8 +132,6 @@ body.index:before {
   color: #fff;
 }.product-block .btn--add-to-cart:hover {
     background: var(--color-primary);
-}header .site-header .theme-logo a img {
-    display: none;
 }.header-side-panel-trigger,header .site-header__cart .price,header .site-header__cart i {
     font-size: 26px;
     color: #262424;
@@ -294,7 +261,7 @@ body.index:before {
     color: #fff !important;
 }.nav-mobile .main-nav li a *,.nav-mobile .main-nav li a {
     font-weight: bold;
-    color: #ffffff;
+    color: #ffffff !important;
 }header .site-header__wrapper .theme-logo span {display: none;}
 .nav-mobile .main-nav {
     background: #262424;
@@ -373,14 +340,6 @@ body.index:before {
     fill: #fff !important;
 }span.s-cart-summary-count {
     background: #eeae53;
-}header .site-header .theme-logo a:before {
-    content: " ";
-    display: block;
-    width: 72px;
-    height: 60px;
-    background: url(https://g.top4top.io/p_2623iswm21.gif) no-repeat;
-    transform: scale(1.7);
-    background-size: contain;
 }.store-about.d-flex.mb-40 img {display:none;}
 #header-mobiel-nav > div > div.store-about.d-flex.mb-40:before{
      content: " ";
@@ -393,4 +352,22 @@ body.index:before {
      margin: auto;
      margin-bottom: 30px;
      margin-top: 60px;
+}@keyframes wiggle {0%, 7% {transform: rotateZ(0);}15% {
+        transform: rotateZ(-15deg);
+    }20% {transform: rotateZ(10deg);}25% {
+        transform: rotateZ(-10deg);
+    }30% {transform: rotateZ(6deg);}35% {transform: rotateZ(-4deg);}40%, 100% {transform: rotateZ(0);
+    }}header .site-header .theme-logo a img {
+    margin-right: 15px;
+    position: relative;
+    left: calc(50% - 3em);
+    transform-origin: 50% 5em;
+    animation: wiggle 2s infinite;
+}
+@media (max-width:760px){
+body > section.home-block.home-block--square-images > div > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+}body > section.home-block.home-block--square-images > div > div div {padding-left: 3px;padding-right: 1px;margin-bottom: -25px !important;}
 }
