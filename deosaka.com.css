@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+*{
+    font-family: 'Cairo', sans-serif !important;
+}@media (min-width:991px){
+.salla-theme_3 .site-header .header-wrapper .sub-nav .sub-nav-content .main-menu {
+    text-align: left;
+}.salla-theme_3 .site-header .header-wrapper .sub-nav .sub-nav-content .main-menu li {
+    font-size: 13px;
+    color: #555;
+    transition: all 0.6s !important;
+}.salla-theme_3 .site-header .header-wrapper .sub-nav .sub-nav-content .main-menu li:before {
+    content: "";
+    border-color: rgb(0 0 0 / 5%);
+    width: 40px;
+    height: 40px;
+    border-width: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(0 0 0 / 5%);
+    border-radius: 50%;
+    transform: translateX(-50%) translateY(-50%) scale(1);
+    transform: scale(0);
+    transition: all 0.6s !important;
+}.salla-theme_3 .site-header .header-wrapper .sub-nav .sub-nav-content .main-menu li:after {
+    content: "";
+    border-color: rgb(0 0 0 / 5%);
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 38px;
+    height: 38px;
+    border: 4px solid rgb(0 0 0 / 5%);
+    border-radius: 50%;
+    transform: translateX(-50%) translateY(-50%) scale(1);
+    transform: scale(0);
+    transition: all 0.6s !important;
+}header.site-header {
+    border-bottom: 1px solid #f1f1f1;
+}.salla-theme_3 .site-header .header-wrapper .sub-nav .sub-nav-content .main-menu li:hover a{
+    color: #cba135;
+}.salla-theme_3 .site-header .header-wrapper .sub-nav .sub-nav-content .main-menu li:hover:after ,.salla-theme_3 .site-header .header-wrapper .sub-nav .sub-nav-content .main-menu li:hover:before {
+    transform: translateX(-50%) translateY(-50%) scale(1);
+}.salla-theme_3 .site-header .header-wrapper .sub-nav .sub-nav-content * {
+    transition: all 0.6s !important;
+}}.slick-dots li button {
+    background: #ab8115;
+    width: 5px !important;
+    height: 5px !important;
+}.main-slider.slick-dotted.slick-slider .slick-dots li.slick-active button {
+    background: #000 !important;
+}.slick-list {
+    border-radius: 11px !important;
+}section.py-4.py-md-3 {
+    background: #fff !important;
+}.circle-action {
+    background: none !important;
+    border: none;
+    width: 25px;
+}a.circle-action.site-header__cart .sicon-cart:before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(https://www13.0zz0.com/2023/03/09/13/847001191.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+}a.circle-action.site-header__cart {
+    margin-left: 22px;
+}.site-header__cart .badge {
+    position: relative;
+    border-radius: 4px;
+    margin-top: 11px;
+    padding: 3px 4px;
+    margin-right: 24px;
+}.site-header__cart .badge:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: -3px;
+    width: 0;
+    height: 0;
+    margin-top: 4px;
+    border-style: solid solid solid none;
+    border-width: 5px 5px 5px medium;
+    border-top-color: rgba(0,0,0,0) !important;
+    border-bottom-color: rgba(0,0,0,0) !important;
+    border-color: #cba135;
+    right: -4px;
+    left: auto;
+    border-style: solid none solid solid;
+    border-width: 5px medium 5px 5px;
+}.container.py-3 {
+    border-bottom: 1px solid #f1f1f1;
+}.circle-action span:first-of-type:not(.notification-badge) {
+    color: #333 !important;
+    font-size: 17px;
+}#search {top: -2px;}.sub-nav-header::before {
+    content: "";
+    text-align: center !important;
+    display: block;
+    height: 60px !important;
+    background-image: url(https://cdn.salla.sa/jEnDa/EC27yS75su6yBa90PYu1DUUjy8Gcnxu70Wm2Ro6P.png);
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+}.sub-nav-header img {
+    display: none;
+}.sub-nav .sub-nav-content .sub-nav-header a {
+    background: #000;
+    width: 130px;
+    color: #fff;
+}.sub-nav-header {
+    background: #fff;
+}.sub-nav__close svg {
+    fill: #000 !important;
+}.sub-nav .main-menu li.sub-menu-header.categories-holder ul.store-categories li, .sub-nav .main-menu li.sub-menu-header.categories-holder ul.store-categories li.active {
+    background: #f6f6f6;
+    margin: 10px;
+    border-radius: 12px;
+    width: 95%;
+}.sub-nav .main-menu li.sub-menu-header.categories-holder ul.store-categories li:last-child {
+    margin: auto;
+}.sub-nav .main-menu li.sub-menu-header.categories-holder>span {display: none;}body > section:nth-child(6) > div > div.section-header.mb-4 > h2 > span {
+    display: block !important;
+    width: 100%;
+    text-align: initial;
+    font-weight: bold;
+    border-right: 4px solid;
+    font-size: 21px !important;
+    padding-right: 10px;
+}body > section:nth-child(6) > div > div.section-header.mb-4 > h2:after{
+    content: "هذه قائمة منتجاتنا  إنها متوفرة الآن ويمكنك طلبها بكل سهولة الآن.";
+    display: block;
+    width: 90% !important;
+    background: none;
+    position: absolute;
+    margin-top: 40px;
+    text-align: right;
+    color: #000;
+    font-family: 'Cairo';
+    font-size: 16px;
+    padding-top: 16px;
+}body > section:nth-child(6) > div > div.section-header.mb-4 {
+    padding-bottom: 50px;
+    margin-right: -20px;
+}.product {
+    padding-bottom: 50px;
+    border: 1px solid #cba135;
+    border-radius: 10px;
+    background: #f5f7fd;
+}.product>a .img-cont img {
+    border-radius: 10px 10px 0px 0px;
+}h3.product-title {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    line-height: 1.2em;
+    font-weight: 500;
+    color: #333;
+    padding-top: 18px;
+}.product .product-footer:before{
+    content: "شامل قيمة الضريبة المضافة + الشحن المجاني";
+    display: block;
+    margin-top: 15px;
+    color: darkred;
+    font-size: 12px;
+    padding: 5px;
+}.product .product-footer:after{
+    content: "\e973 \e973 \e973 \e973 \e973";
+    font-family: 'sallaicons';
+    font-weight: 900;
+    color: #F2B01E;
+    font-size: 16px;
+}.products-grid>*:nth-child(even) {
+    padding: 0px;
+}body > section:nth-child(6) > div {
+    padding-right: 5px;
+    padding-left: 5px;
+}p.product-price {
+    flex-direction: row;
+}.price-after {
+    color: #dd9933 !important;
+}.product-add {
+    width: 98%;
+    border-radius: 13px;
+    bottom: 3px;
+    background: #cba135;
+    color: #fff;
+    border: none;
+}.salla-theme_3 .site-header .header-wrapper .header-row.left {
+    margin-left: 35px;
+}a.sub-nav__menu.ml-2 {
+    position: fixed;
+    left: 4px;
+    margin-bottom: -4px;
+}.row.header-wrapper {
+    padding-bottom: 5px;
+}.salla-theme_3 .site-header .logo-wrapper .logo img {
+    transform: scale(1.2);
+}@media (max-width:991px){
+a.login-link.circle-action.ml-md-2 {
+    display: none;
+}}section.py-3 {
+    background: #fff !important;
+}.feature-item__icon {flex-direction: row;height: fit-content;justify-content: flex-start;display: inline-flex;}
+.salla-theme_3 .feature-item__icon span {
+    height: 70px;
+    width: 70px;
+    font-size: 21px;
+    padding: 15px 15px 15px 15px;
+    background: #cba135;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14px;
+}section.u-light.py-4 {
+    background: #fff;
+}.feature-item h3 {
+    font-size: 18px;
+    color: #CBA135;
+    font-weight: 500;
+}.feature-item__content {
+    height: 66px;
+    line-height: 13px;
+    margin: 40px 0px;
+}body > section.u-light.py-4 > div > div > div:nth-child(2) > div:after,body > section.u-light.py-4 > div > div > div:nth-child(3) > div:after,body > section.u-light.py-4 > div > div > div:nth-child(1) > div:after{
+    content: " زيوت عطرية فرنسية أصلية 100٪ ذات جودة عالية";
+    display: block !important;
+    color: #030303;
+    font-size: 16px;
+    font-weight: 400;
+    right: 83px;
+    top: -30px;
+    position: relative;
+    width: 67%;
+    line-height: 22px;
+}body > section.u-light.py-4 > div > div > div:nth-child(2) > div:after{
+    content: " شحن سريع لجميع مناطق المملكة ";
+}
+body > section.u-light.py-4 > div > div > div:nth-child(3) > div:after{
+    content: " يتوفر لدينا طرق دفع آمنة ومتعددة ";
+}body > section.u-light.py-4 > div > div:before {
+    content: "دي اوساكا يصنع كرزما اللحظات .. التي ترسخ رائحتها في الذكريات";
+    display: block;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    /* color: #000; */
+    font-size: 16px;
+}body > section.u-light.py-4 > div:before {
+    content: "مرحبا بكم في  ";
+    display: block;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    color: #cba135;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+     animation: color 2.6s infinite cubic-bezier(1, -0.64, 0.31, 1.96);
+}@keyframes color {
+    0%,100%{content: "مرحبا بكم في  ";}20%{
+      content: "مرحبا بكم في  د";
+    }30%{
+ content: "مرحبا بكم في  دي";
+    }40%{
+ content: "مرحبا بكم في  دي أ";
+    }50%{
+  content: "مرحبا بكم في  دي أو";
+    }60%{
+  content: "مرحبا بكم في  دي أوس";
+    }70%{
+  content: "مرحبا بكم في  دي أوسا";
+    }80%{
+  content: "مرحبا بكم في  دي أوساك";
+    }90%{
+  content: " مرحبا بكم في  دي أوساكا|";
+    }}body > section.u-light.py-4 > div:after{content: "";display: block;width: 100%;height: 20px;background: url(https://www12.0zz0.com/2023/03/10/13/190718071.png) no-repeat;background-size: cover;background-position: center;}body > section.u-light.py-4 > div > div {margin-bottom: 50px}
