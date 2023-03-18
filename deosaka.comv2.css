@@ -150,31 +150,19 @@
     margin-right: -20px;
 }.product {
     padding-bottom: 50px;
-    border: 1px solid #cba135;
-    border-radius: 10px;
-    background: #f5f7fd;
+    border: none;
 }.product>a .img-cont img {
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 30px !important;
+    padding: 10px;
+    margin: 5px;
 }h3.product-title {
     margin: 0 0 10px 0;
     font-size: 18px;
     line-height: 1.2em;
     font-weight: 500;
-    color: #333;
+    color: #000;
     padding-top: 18px;
-}.product .product-footer:before{
-    content: "شامل قيمة الضريبة المضافة + الشحن المجاني";
-    display: block;
-    margin-top: 15px;
-    color: darkred;
-    font-size: 12px;
-    padding: 5px;
-}.product .product-footer:after{
-    content: "\e973 \e973 \e973 \e973 \e973";
-    font-family: 'sallaicons';
-    font-weight: 900;
-    color: #F2B01E;
-    font-size: 16px;
+    font-weight: bold;
 }.products-grid>*:nth-child(even) {
     padding: 0px;
 }body > section:nth-child(6) > div {
@@ -185,7 +173,7 @@
 }.price-after {
     color: #dd9933 !important;
 }.product-add {
-    width: 98%;
+    width: 80%;
     border-radius: 13px;
     bottom: 3px;
     background: #cba135;
@@ -282,3 +270,27 @@ body > section.u-light.py-4 > div > div > div:nth-child(3) > div:after{
     }90%{
   content: " مرحبا بكم في  دي أوساكا|";
     }}body > section.u-light.py-4 > div:after{content: "";display: block;width: 100%;height: 20px;background: url(https://www12.0zz0.com/2023/03/10/13/190718071.png) no-repeat;background-size: cover;background-position: center;}body > section.u-light.py-4 > div > div {margin-bottom: 50px}
+h4.product-subtitle {
+    color: #681a1a !important;
+    font-weight: bold;
+}.price-before {
+    color: #000;
+}p.product-price {
+    font-weight: bold;
+}.product-footer:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 194px;
+    position: absolute;
+    box-shadow: 0 0 27px 0 rgb(0 0 0 / 23%);
+    border-radius: 30px;
+    bottom: -8px;
+}.promotion-title {
+    margin-right: 15px;
+    top: 15px;
+}.product-add:before {
+    content: " اضف للسلة ";
+}.sicon-cart:before {
+    color: transparent !important;
+}
