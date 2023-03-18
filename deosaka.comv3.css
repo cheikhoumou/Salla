@@ -291,6 +291,11 @@ h4.product-subtitle {
     top: 15px;
 }.product-add:before {
     content: " اضف للسلة ";
-}.sicon-cart:before {
+}.sicon-cart:before,.sicon-add-to-cart:before {
     color: transparent !important;
-}
+}@media (min-width:991px){
+.row.product-details-wrapper.flex-column.align-items-center {
+    flex-direction: row !important;
+}#product-2140835203 > div > div:nth-child(1) {
+    margin-top: -25%;
+}}
