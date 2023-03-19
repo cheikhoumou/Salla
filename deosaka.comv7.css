@@ -283,6 +283,7 @@ h4.product-subtitle {
     box-shadow: 0 0 27px 0 rgb(0 0 0 / 23%);
     border-radius: 30px;
     bottom: -8px;
+    z-index: -1;
 }.promotion-title {
     margin-right: 15px;
     top: 15px;
