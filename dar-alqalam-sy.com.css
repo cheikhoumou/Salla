@@ -1,0 +1,56 @@
+@media (max-width: 760px) {
+    section.section .container .row:nth-child(1) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section.section .container .row .col-sm-4.col-md-4 {
+        padding-right: 18px;
+        padding-left: 18px;
+        margin: 0;
+        padding: 5px;
+    }
+
+    .section .container .row:not(body > section:nth-child(6) > div > div) {
+        margin: -9px !important;
+    }
+}.row:before{
+display:none;
+}
+section.section {
+    padding: 0;
+}
+body:not(.salla-theme_6) .category-featured a img.cat-featured-img {
+    border-radius: 20px;
+}.section .container .row {
+    justify-content: center;
+    display: flex;
+}.category-featured a:before {
+    border: none;
+    background-image: url(https://cdn.salla.sa/gDqDv/KrOZH4XB07iaV3zGcBEC6Wrr5ia3YH2154Ts2y2L.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    transform: scale(1.8);
+    backdrop-filter: blur(1px);
+    transition: all 1s;
+}@media(max-width: 990px) {
+ul.main-menu {
+    display: none;
+}  
+}
+.sub-nav-header::before {
+    content: "";
+    text-align: center !important;
+    display: block;
+    height: 80px !important;
+    background-image: url(https://cdn.salla.sa/gDqDv/vHZwFDHELPMLfuFTP8bPDM7PssBL3G5q8OEc7ZjO.png);
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+}
+
+.sub-nav-header img {
+    display: none;
+}
