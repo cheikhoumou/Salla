@@ -1,0 +1,383 @@
+/* Add custom CSS styles below */ 
+.home-block--square-images .container .row {
+    flex-flow: row;
+    justify-content: center;
+}
+.home-block--square-images .container .row .col-md-4.col-sm-12{
+    margin: 4px;
+    padding:2px;
+}section.home-block.home-block--fixed-banner {
+    padding: 0 !important;
+}.banner--square {
+    margin: 0;
+}section.home-block.home-block--square-images {
+    padding: 15px !important;
+}
+/* code imeges */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+* {
+ font-family: 'Tajawal', sans-serif ;   
+}
+ .title--small {
+    font-family: 'Tajawal', sans-serif;
+     font-weight: 400;
+}footer.footer:before {
+    content: " ";
+    background-image: url(https://drive.google.com/uc?id=12FtB3_a1johi_WLGBl_3J-UlX5-GnAwf)!important;
+    display: block !important;
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    width: 100%;
+    height: 100px;
+}footer.footer {
+    background: #419128;
+}footer.footer * {color:#fff !important;}
+.title--has-dash:before {
+    background: #ac963b !important;
+}.footer__bottom {
+    background: #000;
+}.badge--danger {
+    background: #18b6a1;
+}.testimonial-entry *{text-align: center;font-weight: bold;}
+.testimonial-entry {
+    justify-content: center;
+    align-items: center;
+}.testimonial-entry__info {
+    width: 100%;
+    margin: auto;
+    text-align: center !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.avatar-wrapper--small {padding: 4px;margin: 5px;border: 2px solid #419128;width: 80px;height: 80px;display: flex;justify-content: center;align-items: center;}
+.testimonial-entry__excerpt p {
+    color: #000;
+}.testimonial-entry {
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px #00000017;
+    position: relative;
+    margin: 8px 1px;
+    margin-bottom: 0px;
+}.testimonial-entry:before {
+ content:
+ " ";
+ display: block;
+ position: absolute;
+ width: 72px;
+ height: 20px;
+ top: 20px;
+ right: 15px;
+ background: url(https://cdn.salla.sa/xQDBb/eO3RujzJczzsKeH1LzvZoJM47mxXk5OZS4GbcSCx.jpg) no-repeat;
+ z-index: 100;
+ background-size: cover;
+ background-position: center;
+}
+
+body > section.home-block.home-block--bg.home-block--testimonials.no-m > div > div:nth-child(1) > div > div {
+    text-align: center;
+}
+@keyframes float {
+ 0% {
+  transform: translatey(0px);
+ }
+ 50% {
+  transform: translatey(-20px);
+ }
+ 100% {
+  transform: translatey(0px);
+ }
+}
+@keyframes shadeanm {
+ 0% {
+  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+ }
+ 50% {
+  box-shadow: 0 15px 15px 0px rgba(0,0,0,0.2);
+ }
+ 100% {
+  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+ }
+}
+.store-feature__icon{
+    background: linear-gradient(288deg, #000 34%, #000 100%);
+    animation: float 4s ease-in-out infinite, shadeanm 4s ease-in-out infinite;
+    color: #bfa736;
+}
+@media (max-width: 576px){
+ section.home-block.home-block--store-features .col-sm-12 {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex: 1 1 0%;
+    font-weight: bold;
+}
+.home-block--store-features .container .row .col-sm-12 .store-feature .title--large {
+    font-size: 17px !important;
+}.home-block--store-features .container .row .col-sm-12 .store-feature p {
+    font-size: 12px !important;
+}}
+.product-block .btn--add-to-cart {
+    position: initial;
+    display: block;
+    border-radius: 50px;
+    width: 90%!important;
+    height: auto!important;
+    margin: 8px auto 10px auto!important;
+    padding: 5px !important;
+    background: no-repeat;
+    box-shadow: 0px 1px 8px 0px #06010152;
+}.product-block .btn--add-to-cart:not(.disabled) i:after {
+    content: 'اضف للسلة';
+    margin-inline: 0.5rem;
+    font-family: 'DINNextLTArabic-Regular-Medium';
+    font-weight: bold;
+}.s-button-text {
+    display: block;
+    pointer-events: visible;
+    overflow: visible;
+    text-overflow: unset;
+    white-space: nowrap;
+    color: #419128;
+    font-weight: bold !important;
+    font-size: 14.5px;
+}
+.product-block .btn--add-to-cart:hover .s-button-text{
+  color: #fff;
+}
+.product-block .btn--add-to-cart:hover {
+    background: #419128;
+    /* border-color: #419128; */
+}.header-side-panel-trigger,header .site-header__cart .price,header .site-header__cart i {
+    font-size: 26px;
+    color: #000;
+}
+.sicon-cart:before {
+    content: "\ef36";
+}.placeholder-block.white i:before {
+    background: url(https://cdn.salla.sa/xQDBb/eO3RujzJczzsKeH1LzvZoJM47mxXk5OZS4GbcSCx.jpg) no-repeat;
+    background-size: 83%;
+    width: 162px;
+    height: 122px;
+    display: block;
+    background-position: center;
+    color: transparent;
+}.btn.btn--wide.btn--padded.btn--oval.btn--primary::before ,.btn.btn--wide.btn--padded.btn--oval.btn--primary::after{
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #419128;
+    position: absolute;
+    top: 18px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    z-index: -1;
+    transition:  left, right ,0.9s ease-in-out;
+ }.btn.btn--wide.btn--padded.btn--oval.btn--primary::before {
+    right: -10%;
+ }.btn.btn--wide.btn--padded.btn--oval.btn--primary::after {
+    left: -10%;
+ }
+.btn.btn--wide.btn--padded.btn--oval.btn--primary:hover::before{
+    right: 0%;
+    border-radius: 0;
+    height: 120px;
+    top: -10px;
+    width: 400px;
+ }.btn.btn--wide.btn--padded.btn--oval.btn--primary:hover::after{
+    left:0%;
+    border-radius: 0;
+    height: 120px;
+    top: 20px;
+    width: 400px;
+ }.btn.btn--wide.btn--padded.btn--oval.btn--primary:hover{
+    color: #fff;
+    overflow: hidden;
+ }.btn.btn--wide.btn--padded.btn--oval.btn--primary {
+     background: no-repeat;
+     border: 2px solid #419128;
+     color: #419128;
+     overflow: hidden;
+     position:relative;
+     width:80%;
+     margin:auto;
+ }.splide--testimonials .splide__list {
+    padding-bottom: 10px !important;
+}.s-cart-summary-icon svg {
+    fill: #000;
+    width: 2rem;
+    height: 1.70rem;
+}.footer .footer-list--payment-methods li img {
+    border-radius: 5px;
+    background: #fff;
+    margin: 5px;
+    padding: 2px;
+    outline: 2px solid #fff;
+}.footer .footer-list--payment-methods {
+    overflow: visible;
+}.side-panel__content .d-flex{
+    display: block !important;
+    text-align: center;
+}.side-panel .store-about img {
+    margin: auto;
+    margin-bottom: 20px;
+}header.fixed-pinned .site-header{
+    background: #ffffff69;
+    backdrop-filter: blur(5px);
+}
+
+.title--has-dash:before {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background: #000;
+    right: -5px;
+}
+input.s-quantity-input-input {
+    background: #ad9164b5;
+}
+button.undefined.s-button-element.s-button-btn.s-button-solid.s-button-wide.s-button-primary.s-button-loader-end span {
+    color: #fff;
+}.product-block {
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #2c0f0f24;
+}.tamara-product-widget, .spotii-wrapper{
+     box-shadow: 0px 0px 5px #2c0f0f24;
+     border-radius: 20px !important;
+}
+div#tabbyPromoWrapper {
+    border: 2px solid #eee;
+    border-right: 4px solid #3bffc0;
+    border-radius: 15px;
+}
+.btn--tag {
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 11px;
+    padding: 5px 10px !important;
+}
+.nav-desktop--horizontal>ul .menu-item>a {
+    font-weight: bold;
+}
+ul.footer-list.store-links-items {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+ul.footer-list.store-links-items li {
+    margin-right: 15px;
+    padding: 4px;
+    display: block;
+}
+ul.footer-list.store-links-items li a {
+    background: #ffffff42;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 12px;
+}.spotii-wrapper * {
+    color: #000 !important;
+}.spotii-wrapper {
+    border-bottom: 4px solid #ff4b44;
+}.tamara-product-widget {border-top-color: #f8c386 !important;border-width: 4px !important;}
+.footer__bottom .container>*:last-child {
+    display: none;
+}.title--primary {
+    color: #419128 !important;
+    font-weight: bold;
+}.s-cart-summary-count {
+    background: #419128;
+}footer.footer:before {
+    content: " ";
+    background-image: url(https://drive.google.com/uc?id=12FtB3_a1johi_WLGBl_3J-UlX5-GnAwf)!important;
+    display: block !important;
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    width: 100%;
+    height: 109px;
+    margin-top: -12px;
+}@keyframes boutton {
+  0%,
+  100% {
+    transform: scale(0.5.0.5);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+}.product-block:hover .thumb-wrapper img {
+    transform: scale(1.1) rotate(1.5deg);
+    transition: all 0.6s !important;
+}.product-block:hover .price-wrapper>span {
+    color: #ac963b !important;
+    transform: scale(1.1);
+    transition: all 0.5s !important;
+}.price-wrapper>span {
+    margin: 0px 8px;
+}.product-block:hover .btn--add-to-cart{
+    animation: boutton 1s infinite ease-in-out;
+}.footer .footer-list--payment-methods {
+    flex-direction: row-reverse;
+}.footer .footer-list--payment-methods li {
+    background: #fff;
+    border-radius: 8px;
+    margin: 2px;
+    padding: 0 !important;
+    width: 54px;
+    height: 42px;
+    line-height: 38px;
+}footer.footer,footer.footer:before {
+    background-size: cover;
+}.footer__bottom {
+    background: #419128;
+}.store-feature__icon {
+    background: #419128;
+}@media (max-width:750px) {
+    body > section.home-block.home-block--square-images > div > div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+section.home-block.home-block--bg.home-block--testimonials.no-m {
+    background: #fff;
+}body > footer > div.container::before {
+    display: block;
+    content: "";
+    width: 153px;
+    height: 100px;
+    margin: 15px auto -10px auto;
+    background: url(https://www13.0zz0.com/2023/07/09/10/922441234.png) no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important;
+}body > footer > div.container > div.footer__top > div > div:nth-child(2) > div > ul:before {
+    background: url(https://dev-eitara.odoo.com/web_editor/shape/web_editor/Floats/05.svg?c1=%23007564&c2=%2300C2A5&c3=%23f8f8f8&c5=%23007564) no-repeat;
+    background-size: cover;
+    background-position: left 80%;
+    width: 100%;
+    height: 240px;
+    content: "";
+    display: block;}
+body > footer > div.container > div.footer__top > div > div:nth-child(2) > div > ul:before {
+    position: absolute;
+    opacity: 0.1;
+    top: -10%;}footer.footer {
+    background: #419128;
+    margin-top: 40px;
+    background-image: url(https://dev-eitara.odoo.com/web_editor/shape/web_editor/Floats/02.svg?c1=%23007564&c2=%23EFC631&c3=%23f8f8f8&c5=%23000000);
+    background-size: contain;
+    background-repeat: no-repeat !important;
+    background-position: top;
+}.nav-mobile .main-nav li a {
+    font-size: 11px;
+    font-weight: bold;
+    color: #fff;
+}.nav-mobile .main-nav li a i {
+    font-size: 19px;
+}.nav-mobile .main-nav {
+    background: #419128;
+}}
