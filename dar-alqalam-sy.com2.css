@@ -1,0 +1,107 @@
+@keyframes logobg {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1);
+  }
+  78% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+body.index:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #ffffff5c url(https://cdn.salla.sa/gDqDv/zRcwwUGQwJCCruU6Hi9bpP1aJGLOkGMlpngqUrCC.png);
+  position: fixed;
+  z-index: 99999999999999999 !important;
+  transform: scale(0);
+  background-size: 270px !important;
+  background-repeat: no-repeat;
+  background-position: center !important;
+  animation-name: logobg;
+  animation-duration: 2s;
+  backdrop-filter: blur(4px);
+}
+.product-entry.out-of-stock.sold-out:after {--tw-content:
+    "نَفِدَتِ الكَمْيَّة";
+}.footer-bottom.flex.flex-col.lg\:flex-row.items-center.justify-between.py-4 {
+    background: #9d0b0b;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 13px;
+}p.max-w-sm.leading-6.da-tm.mx-auto.px-3.angel_anime.animate__.animate__fadeInUp {
+    color: #000 !important;
+}span.copyrights.text-sm.opacity-75:before {
+    content: "المَوْقِعْ تَحْتَ إِشْرَاف: سَيِّد مُحَمَّد دَوْلَة | الحُقُوْقُ مَحْفُوْظَةٌ لِمُؤَسَسَّةِ دَارِ البَشِيْرِ لِلنَّشْرِ وَالتَّوْزِيْع - جُدَّة";
+    color: #fff !IMPORTANT;
+    display: block;
+    text-align: center;
+    padding: 21px;
+}.store-footer__inner.da-bgm {
+    background: #fff;
+}.text-4xl {
+    color: #9d0b0b;
+}.angel-feature.flex-center.flex-col {
+    background: #fff;
+    padding-top: 10px;
+    padding-bottom: 33px;
+    border-radius: 15px;
+}#app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--features.angel-features.bg-gray-100.da-bgg.py-8.angel_anime.animate__.animate__fadeIn {
+    background: transparent;
+}.items-baseline {
+    gap: 15px;
+}h2.w-full.da-cp.text-center,[dir=rtl] .s-slider-block__title h2 {
+    font-size: 28px;
+    text-align: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}.s-slider-block__title {
+    justify-content: center;
+}.s-slider-block__title-right {
+    text-align: center;
+    padding: 0 !important;
+}.s-block__title h2 {
+    border-bottom: 8px solid #aa3334;
+    padding: 8px;
+}#app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--features.angel-features.bg-gray-100.da-bgg.py-8.angel_anime.animate__.animate__fadeIn > div > div.s-block__title > div > h2 {
+    border: none;
+}.sicon-quote:before {
+    color: #9d0b0b !important;
+}.opacity-10,#swiper-wrapper-d5e5a25cddd270c6 > div > div > div > i {
+    opacity: 1 !important;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div > div.footer-top.footer-container.flex.align-center.flex-col.md\:flex-row.da-brdr.\!justify-center > div > div > h3 {
+    color: #9d0b0b;
+}.dark .da-tm {
+    color: #811a1a !important;
+}button.undefined.s-button-element.s-button-btn.s-button-solid.s-button-primary.s-button-loader-center ,button.undefined.s-button-element.s-button-btn.s-button-solid.s-button-wide.s-button-primary.s-button-loader-after {
+    color: #fff;
+}.no-content-placeholder p ,label.block.text-sm.font-bold.mb-2.text-gray-700 {
+    color: #540f0f;
+}a.btn.btn--primary.text-sm.rounded-md {
+    color: #fff;
+    border-radius: 20px;
+}.s-button-primary {
+    color: #fff !important;
+}.dark .da-fm:after {
+    content: 'اِبْحَث';
+    color: #540f0f;
+    display: block;
+    font-size: 13px;
+    margin-top: -3px;
+    margin-right: 5px;
+}.footer-top.footer-container.flex.align-center.flex-col.md\:flex-row.da-brdr.\!justify-center {
+    flex-direction: column-reverse;
+    justify-content: center !important;
+    align-items: center;
+}p.text-gray-400.mb-2\.5.md\:mb-0 .bubble-show {
+    color: #fff;
+}#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div > div.footer-bottom.flex.flex-col.lg\:flex-row.items-center.justify-between.py-4 > span > p > div > a:nth-child(4) > i {
+    font-size: 20px;
+        margin-top: 3px;
+}
