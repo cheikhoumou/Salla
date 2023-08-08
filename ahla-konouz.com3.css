@@ -1,4 +1,14 @@
-/* Add custom CSS styles below */ 
+@import url("https://kit-pro.fontawesome.com/releases/latest/css/pro.min.css");
+@import url("https://kit-free.fontawesome.com/releases/latest/css/free.min.css");
+@font-face {
+  font-family: "excpo";
+  src: url("https://cdn.salla.sa/BlmbO/mSGP56T900OLpx0YDmbICsq715PmpwqvGbjfhqhJ");
+}
+body,
+*:not(i) {
+  font-family: "excpo" !important;
+}
+@-webkit-keyframes rotateIn{0%{transform-origin:center;-webkit-transform:rotate(-200deg);transform:rotate(-200deg);opacity:0}0%,to{-webkit-transform-origin:center}to{transform-origin:center;-webkit-transform:none;transform:none;opacity:1}}@keyframes rotateIn{0%{transform-origin:center;-webkit-transform:rotate(-200deg);transform:rotate(-200deg);opacity:0}0%,to{-webkit-transform-origin:center}to{transform-origin:center;-webkit-transform:none;transform:none;opacity:1}}.rotateIn{-webkit-animation-name:rotateIn;animation-name:rotateIn}
 .home-block--square-images .container .row {
     flex-flow: row;
     justify-content: center;
@@ -25,7 +35,7 @@
     background: #419128;
 }footer.footer * {color:#fff !important;}
 .title--has-dash:before {
-    background: #ac963b !important;
+    background: #000000 !important;
 }.footer__bottom {
     background: #000;
 }.badge--danger {
@@ -148,8 +158,8 @@ body > section.home-block.home-block--bg.home-block--testimonials.no-m > div > d
 .sicon-cart:before {
     content: "\ef36";
 }.placeholder-block.white i:before {
-    background: url(https://cdn.salla.sa/xQDBb/eO3RujzJczzsKeH1LzvZoJM47mxXk5OZS4GbcSCx.jpg) no-repeat;
-    background-size: 83%;
+    background: url(https://cdn.salla.sa/xQDBb/afgZEsssgniPMNYfnwsR17bXq6SUqfqRjh3g8Ytx.png) no-repeat;
+    background-size: 74%;
     width: 162px;
     height: 122px;
     display: block;
@@ -222,11 +232,17 @@ body > section.home-block.home-block--bg.home-block--testimonials.no-m > div > d
 }
 
 .title--has-dash:before {
-    width: 15px;
-    height: 15px;
     position: absolute;
-    background: #000;
-    right: -5px;
+    content: "";
+    top: 30%;
+    width: 14px;
+    height: 14px;
+    display: block;
+    right: -4px;
+    margin-top: -2px;
+    -webkit-animation: rotateIn 3s infinite;
+    -moz-animation: rotateIn 3s infinite;
+    box-shadow: 3px 3px 0px 0px rgb(102 216 67);
 }
 input.s-quantity-input-input {
     background: #ad9164b5;
@@ -332,7 +348,7 @@ section.home-block.home-block--bg.home-block--testimonials.no-m {
     width: 153px;
     height: 100px;
     margin: 15px auto -10px auto;
-    background: url(https://www13.0zz0.com/2023/07/09/10/922441234.png) no-repeat !important;
+    background: url(https://www12.0zz0.com/2023/08/08/12/801361602.png) no-repeat !important;
     background-size: contain !important;
     background-position: center !important;
 }body > footer > div.container > div.footer__top > div > div:nth-child(2) > div > ul:before {
@@ -364,3 +380,101 @@ body > footer > div.container > div.footer__top > div > div:nth-child(2) > div >
 }}.footer__mid {
     border-top: 6px dotted;
 }
+.nav-desktop--horizontal ul .menu-item.dropdown .sub-menu {top: auto;
+    left: auto;
+    right: 0;
+    width: max-content;
+}.nav-desktop ul .menu-item.dropdown:not(.mega-menu) .sub-menu ul {
+    max-width: 100%;
+    width: 100%;
+    overflow: visible;
+    overflow: initial;
+}.nav-desktop--horizontal>ul .menu-item>a:hover {
+    color: #fff;
+    background: #419128;
+    border-radius:10px;
+    transition: all 0.5s;
+}.nav-desktop--horizontal ul .menu-item.dropdown .sub-menu ul li a:hover{
+    color: #fff;
+    background: #419128;
+    transition: all 0.5s;
+    border-radius:10px;
+}.nav-desktop--horizontal>ul {
+    justify-content: center;
+}
+body ul.footer-list--social-links li a:hover {background: #ac963b;}
+.footer .footer-list--row {
+    justify-content: center;
+    margin-top: 20px;
+}.store-about p {
+    font-family: 'Apple-Medium';
+}body > footer > div.container > div.footer__top > div > div:nth-child(1) {
+    order:3;
+}body > footer > div.container > div.footer__top > div > div:nth-child(2) {
+    order:2;
+}body > footer > div.container > div.footer__top > div > div:nth-child(3) {
+    order:3;
+}.btn--tag {
+    background: #357b21;
+}input.s-quantity-input-input {
+    background: none;
+}.product-sections-wrapper > form > div.product-section.product-actions.product-section--quantity.no-p.mb-0.no-border.has-quick-purchase > div.flex-grow-1 > salla-add-product-button > salla-button > button .s-button-text {color: #fff !important;
+}.product-sections-wrapper {
+    border: none;
+    box-shadow: 0px 0px 7px #16030352;
+    border-radius: 30px;
+}section.home-block.home-block--square-images {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}.home-block--square-images .container .row .col-md-4.col-sm-12 {
+    margin: 1px;
+}
+footer.footer:before {
+    content: " ";
+    background-image: url(https://marssa.shop/site/images/new_theme/footer-top.svg)!important;
+    display: block!important;
+    background-size: 107% 100px;
+    height: 93px;
+    transform: rotate(180deg);
+    background-repeat: no-repeat;
+}.store-feature__icon {
+    color: #fff;
+}.product-block .btn--add-to-cart:not(.disabled) i:after {
+    font-family: "excpo" !important;
+}.site-header {
+  background: #eee;
+}
+.top-header {
+  background:#419128;
+  border: none !important;
+}
+.top-header .top-header__info li a * { color:#fff}
+
+.home-block--bg {
+    background: #fff;
+}.s-cart-summary-icon:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(https://www12.0zz0.com/2023/08/08/12/236957041.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -5px;
+}#gb-widget-2743 > div.sbsi7l-0.bmZSoU > div > svg, #s-cart-icon > slot-fb > i > svg {
+    display: none;
+}
+header .site-header .theme-logo a {
+    transform: scale(1.2);
+}.mm-ocd--open .mm-ocd__backdrop {
+    background: linear-gradient(to right, #41912812, #0000006b) !important;
+}div#header-mobiel-nav {
+    background: linear-gradient(to right, #000000cf, #46723859) !important;
+}.s-modal-overlay.s-modal-entering {
+    background: linear-gradient(to right, #0000005e, #46723859) !important;
+}
+
+body > section:nth-child(10) {
+    margin-top: 13px;
+}
+
