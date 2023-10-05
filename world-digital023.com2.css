@@ -296,32 +296,11 @@ button#product-view-add-to-cart {
     border-radius: 15px;
     padding: 13px 0;
     font-size: 20px
-}.products-list .product-title {
-    border-top: 1px solid #2f3885;
-    border-left: 1px solid #2f3885;
-    border-right: 1px solid #2f3885
-}
-
-.products-list .product-card-rating-wrapper {
-    border-left: 1px solid #2f3885;
-    border-right: 1px solid #2f3885
-}
-
-.products-list .product-crd-spec {
-    border-left: 1px solid #2f3885;
-    border-right: 1px solid #2f3885;
-    border-bottom: 1px solid #2f3885
-}
-
-.subTitle-detail {
+}.subTitle-detail {
     background-color: transparent
-}
-
-.breadcrumb {
+}.breadcrumb {
     background-color: #fff
-}
-
-.testimonials-customer-text {
+}.testimonials-customer-text {
     height: 90px;
     text-align: center;
     padding: 30px 10px 0;
@@ -331,9 +310,7 @@ button#product-view-add-to-cart {
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 20px;
-}
-
-.testimonials-customer-card {
+}.testimonials-customer-card {
     border: 0;
     box-shadow: none
 }
