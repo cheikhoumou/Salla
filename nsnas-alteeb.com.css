@@ -1,12 +1,201 @@
-body:before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: #262e23 url(https://www6.0zz0.com/2023/10/06/22/635872283.png);
-    position: fixed;
-    z-index: 99999999999999999 !important;
-    background-size: 90% !important;
+@media (max-width:500px){
+salla-slider.photos-slider .swiper-slide {
+width: 100%;}}
+.top-navbar,.main-nav-container .inner, .main-nav-container, .main-nav-container.fixed-pinned .sides-wrap {
+    background: #262e23;
+    border: none;
+}div#mainnav * {
+    color: #fff;
+}.testimonial__avatar .w-full {
+    border: 2px solid #262e23;
+    border-radius: 50%;
+    padding: 5px;
+}footer:before {
+    content: " ";
+    background-image: url(https://marssa.shop/site/images/new_theme/footer-top.svg)!important;
+    display: block!important;
+    background-size: 107% 100px;
+    height: 96px;
+    transform: rotate(180deg);
     background-repeat: no-repeat;
+    background-color: #262e23;
+}@media (max-width:750px) {
+   .store-footer__inner::before {
+    display: block;
+    content: "";
+    width: 160px;
+    height: 108px;
+    margin: 15px auto -10px auto;
+    background: url(https://www8.0zz0.com/2023/09/14/13/808676572.png) no-repeat !important;
+    background-size: contain !important;
     background-position: center !important;
-    animation-name: logobg;
+    margin-bottom: 20px;
+}.footer-list.store-links-items {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}.footer-list.store-links-items a {
+    background: #ffffff42;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 11px;
+    padding: 10px 20px;
+    margin: 4px;
+}}footer.store-footer * {
+    text-align: center;
+    justify-content: center;
+}.md\:flex.items-center.justify-between.py-4.container.text-center {
+    background: #262e23;
+    max-width: 100%;
+}.testimonials-slider .swiper-slide-active .testimonial {
+    border-radius: 28px;
+}.top-navbar * {
+    color: #fff;
+}button.undefined.s-button-element.s-button-btn.s-button-outline.s-button-wide.s-button-primary-outline.s-button-loader-center .s-button-text:before {
+    content: "\ef36";
+    margin: 5px;
+    font-family: 'sallaicons';
+}button.undefined.s-button-element.s-button-btn.s-button-outline.s-button-wide.s-button-primary-outline.s-button-loader-center {border-radius: 22px !important;}
+
+
+.store-footer__inner {
+    background: #262e23 !important;
+}
+
+footer.store-footer * {
+    color: #ffffff;
+}
+
+i.sicon-menu.text-primary.text-2xl.rtl\:ml-2\.5.ltr\:mr-2\.5 {
+    color: #262e23 !important;
+    background: #ffffff;
+    padding: 4px;
+    border-radius: 6px;
+}@media (max-width: 991px){
+salla-slider.photos-slider .swiper-slide {
+    border-radius: 0px !important;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}salla-slider.photos-slider .swiper {
+    padding-left: 0 !important;
+    padding: 0;
+}section:nth-of-type(1).s-block.s-block--photos-slider {
+    margin-top: -0.1rem;
+}}section:nth-of-type(1).s-block.s-block--photos-slider .rounded-md {
+    border-radius: 0;
+}.sicon-user-circle:before {
+    content: "\f078";
+}.header-btn i{
+    border: none !important;
+}i.header-btn__icon.icon.sicon-shopping-bag {
+    border: none;
+}.sicon-shopping-bag:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(https://www11.0zz0.com/2023/09/14/13/989077692.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -5px;
+}
+@-webkit-keyframes rotateIn{0%{transform-origin:center;-webkit-transform:rotate(-200deg);transform:rotate(-200deg);opacity:0}0%,to{-webkit-transform-origin:center}to{transform-origin:center;-webkit-transform:none;transform:none;opacity:1}}@keyframes rotateIn{0%{transform-origin:center;-webkit-transform:rotate(-200deg);transform:rotate(-200deg);opacity:0}0%,to{-webkit-transform-origin:center}to{transform-origin:center;-webkit-transform:none;transform:none;opacity:1}}.rotateIn{-webkit-animation-name:rotateIn;animation-name:rotateIn}
+.s-cart-summary-count {
+    background: #caa57d;
+    margin-right: -3px;
+}@media (max-width: 850px){
+section.s-block.s-block--banners.container .md\:grid-cols-2 {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+}.banner-entry {
+    height: 4rem;
+}
+.banner-entry {
+    border-radius: 10px;
+}}@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0,100%,0)
+    }
+
+    to {
+        opacity: 1;
+        transform: none
+    }
+}
+#progress {
+    position: fixed;
+    bottom: 70px;
+    left: 10px;
+    height: 46px;
+    width: 46px;
+    display: none;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 999999999999999999999999;
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}#progress {
+    position: fixed;
+    bottom: 70px;
+    left: 10px;
+    height: 46px;
+    width: 46px;
+    display: none;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 999999999999999999999999;
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}#progress-value {
+    display: block !important;
+    height: calc(100% - 8px);
+    width: calc(100% - 8px);
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: grid !important;
+    place-items: center;
+    font-size: 24px;
+    color: #001a2e;
+}.s-slider-block__title-right:before {
+    position: absolute;
+    content: "";
+    top: 30%;
+    width: 14px;
+    height: 14px;
+    display: block;
+    right: -4px;
+    margin-top: -2px;
+    -webkit-animation: rotateIn 3s infinite;
+    -moz-animation: rotateIn 3s infinite;
+    box-shadow: 3px 3px 0px 0px rgb(202 165 125);
+}.s-slider-block__title-right:before {
+    background: #262e23 !important;
+    border-radius: 3px;
+}.s-slider-block__title-right {
+    position: relative;
+    padding-right: 20px;
+}.no-content-placeholder .sicon-shopping-bag:before {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 90px;
+    background: url(https://www8.0zz0.com/2023/09/14/13/808676572.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -5px;
+}.no-content-placeholder .icon {
+    background: #262e23;
+}.tamara-product-widget {
+    border: none !important;
+    border-radius: 17px !important;
+    border-top: 5px solid #fac482 !important;
+    box-shadow: 0px 0px 13px #250b0b29;
+}input.s-quantity-input-input {
+    background: none;
 }
