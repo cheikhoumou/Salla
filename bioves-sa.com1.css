@@ -1,309 +1,19 @@
-.banner img {
-  margin: 0px auto !important;
-}section:nth-of-type(1) {
-  margin-top: 0px !important;
-}.section-header.d-flex.justify-content-between.align-items-center.mb-4 {
-  margin-top: 5px !important;
-}section:nth-of-type(1) .container.container.p-0.px-md-3,
-section:not(:nth-of-type(2)) > .container.banner {
-  padding: 0px !important;
-  margin: auto !important;
-  width: 100vw;
-}.site-header{border-radius: 0 0 20px 20px;}.site-header{
-    background: #1fb1a4;
-    animation: ShineAnimation 5s infinite;
-    overflow: hidden;
-    animation-timing-function: cubic-bezier(0.6, -0.28, 0.74, 0.05);
-}@keyframes ShineAnimation
-{
-    0%
-    {
-      background-repeat: no-repeat;
-      background-image: -webkit-linear-gradient( top left, rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 0.0) 45%, rgba(255, 255, 255, 0.2) 48%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 52%, rgba(255, 255, 255, 0.0) 57%, rgba(255, 255, 255, 0.0) 100% );
-      background-position: -250px -250px;
-      background-size: 600px 600px;
-    }
-    100%
-    {
-      background-repeat: no-repeat;
-      background-position: 250px 250px;
-    }}.sub-nav__menu svg{
-    fill: #000000;
-    }.sub-nav__close svg {
-    fill: #1fb1a4;
-}.sub-nav .main-menu li.sub-menu-header.categories-holder > span {
- border-top:none;   
-}.sub-nav-header {
-  background: #ffffff;
-}.sub-nav .sub-nav-content.is-active {
-  background-color: #ffffff;
-  border-radius:35px 0  0 35px;
-  border:2px solid white;
-  box-shadow: 1px 1px 6px 1px #c8c8c8;
-  margin-top:10px;
-  }.sub-nav-header img {
-  content: url(https://www5.0zz0.com/2023/03/14/15/626212339.png) !important;
-  width: 75px !important;
-  height: auto;
-  border-radius: 0 !important;
-  border: none !important;
-}.sub-nav .main-menu li.sub-menu-header.categories-holder ul.store-categories li a ,.sub-nav li > ul a:hover , .sub-nav .main-menu li.sub-menu-header.categories-holder ul.store-categories li.has-children > a::after {
-  color: #1fb1a4!important;
-  text-align: center !important;
-}.sub-nav .main-menu li.sub-menu-header.categories-holder ul.store-categories li {
-  border-bottom: none !important;
-}.sub-nav-header a {
-  background: white;
-  box-shadow: 1px 1px 6px 1px #c8c8c8ad;
-  width: 175px;
-  font-size: 15px !important;
-}.sub-nav .main-menu li.sub-menu-header.categories-holder > span {
-  visibility: hidden;
-}.sub-nav .main-menu li.sub-menu-header.categories-holder > span::after {
-  visibility: visible;
-  content: "التصنيفات";
+@font-face {
+  font-family: "DINNextLTW23";
+  src: url("https://cdn.salla.sa/PyXjn/1IlsJ1mfkzbuk8H0t1NA3pIIIj1P0oZKGAlkwskF");
+  src: url("https://cdn.salla.sa/PyXjn/dNdQNhejQELbUTLdaQ3aigSkCysbcO594LEo8Ci5");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "DINNextLTW23";
+  src: url("https://cdn.salla.sa/PyXjn/iCYiPesiC9tJyeKs50xMDQ1mC3Q9cNlZNMTlRWST");
   font-weight: bold;
-  font-size: 18px!important;
-  color: #1fb1a4;
-}.sub-nav .sub-nav-content .main-menu > li {
-  border-bottom: none ;
-}.sub-nav .main-menu li.sub-menu-header.categories-holder ul.store-categories li ul li a {
-    color: #000!important;
-    font-weight: 400 !important;;
-}.sub-nav .main-menu li.sub-menu-header.categories-holder ul.store-categories li ul li {
-  border-bottom: none !important;}p.font-13 > span {
-  display: none;
-}.banner img
-{border: 4px solid var(--primary-color);
-    border-radius: 25px !important;
-
-    position: relative;
-    animation: up-down 5s ease infinite;
 }
-@keyframes up-down
-{
-    0%, 100%
-    {
-        top: 0;
-    }
-    50%
-    {
-        top: -25px;}
-}}.section-header .section--title span {
-  color: #fff!important;
-}.section-header .section--title span{
-    color:white;
-    padding-left:4px;
-    padding-right:4px;
-    background-color: #1fb1a4;
-    border-radius:9px;
-    border:2px solid white;
-    box-shadow: 1px 1px 6px 1px #c8c8c8;
-    padding-bottom: 5px!important;
-    margin-right: 1px;
-    animation: signal 1200ms infinite;
-}@keyframes signal {
-    0% {
-        box-shadow: 0 0 0 0 #1fb1a4;
-    }
-    100% {
-        box-shadow: 0 0 0 3.5px #fff;
-    }
-}product>a .img-cont img
-{ width: 98% !important;
-    margin: auto !important;
-    margin-top: 2px !important;
-    border-radius: 35px 35px 0 0 !important;
-}.product
-{border: 2px solid white;
-    box-shadow: 0 0 4px 4px #c8c8c86e;
-    border-radius: 35px;
-}.product:hover
-{margin-top: 5px !important;
-    margin-left: 5px !important;
-    box-shadow: 0 0 15px 8px #c8c8c8;
-    animation: tournemoi ease 1s;
-}@keyframes tournemoi {
-    0% {
-        transform: rotate(-2deg);
-    }
-    40% {
-        transform: rotate(2deg);
-    }
-    100% {
-        transform: rotate(0);
-    }
-}.product > a:nth-child(1) {
-  border-radius: 8px!important;
+body,
+*:not(i) {
+  font-family: "DINNextLTW23" !important;
 }
-h3.product-title {
-  color: #000;
-  margin-top: 5px;
-}
-.product-subtitle {
-  text-align: center !important;
-}
-body .product .product-footer {
-  display: block;
-  border: none;
-}
-.product-footer .not-available,
-.product-add {
-  font-size: 1rem;
-  background: #1fb1a4;
-  color: black;
-  margin: 10px 5% !important;
-  display: block;
-  padding: 8px 0px !important;
-  font-family: 'DINNextLTW23-Medium';
-  text-align: center;
-  border-radius: 35px;
-  border:2px solid white;
-  box-shadow: 1px 1px 6px 1px #c8c8c8;
-  }.product-add:before {
-  content: "أضف للسلة";
-  display: block;
-}
-.product-add * {
-  display: none;
-}
-.product-price {
-  text-align: center;
-}
-.not-available {
-  text-align: center;
-  cursor: no-drop;
-  color: #000 !important;
-  padding: 0px 0px 10px !important;
-}
-.product .product-title {
-  text-align: center;
-}.owl-carousel .owl-item img
-{
-    width: 100%;
-    border: 2px solid white!important;
-    border-radius: 35px !important;
-    box-shadow: 1px 1px 6px 1px #c8c8c8;
-    position: relative;
-    animation: up-down 6s ease infinite;
-}@keyframes up-down
-{
-    0%, 100%
-    {
-        top: 0;
-    }
-    50%
-    {
-        top: -25px;
-    }
-}.owl-carousel .owl-stage
-{margin-top: 25px !important;
-}#order .add-cart-large
-{ font-weight: 600;
-    border-radius: 35px !important;
-    border:2px solid white;
-    box-shadow: 1px 1px 6px 1px #c8c8c8;
-    background: #000;
-}.fa-heart:before
-{color: #1fb1a4 !important;
-}.list>li:first-child
-{border: 2px solid var(--primary-color) !important;
-    border-radius: 30px !important;
-}qty-field--custom .btn--qty-sub
-{border-radius: 35px !important;
-border:2px solid white;
-box-shadow: 1px 1px 6px 1px #c8c8c8;
-}body.font-apple .product-form .list--product-fields li.form-group>label
-{
-    font-size: 15px;
-    font-weight: 600;
-    margin-top: 6px !important;
-}.section .section-header .circle-action {
-  color: #000;
-  background-color: #fff;
-  border: 1px solid #000;
-  border-radius: 35px;
-  transition: all 0.3s ease-in-out;
-}
-.section .section-header a.button-more,
-body.salla-theme_1 .section-header .btn.btn-primary.btn-rounded {
-  border-radius: 35px !important;
-  color: #000 !important;
-  background-color: #fff !important;
-  border: 1px solid #000 !important;
-}
-.section .section-header .circle-action:hover,
-.section .section-header a.button-more:hover,
-body.salla-theme_1 .section-header .btn.btn-primary.btn-rounded:hover {
-  color: #000;
-  background-color: #fff !important;
-  border: 1px solid #000 !important;
-}.feature-item { width: calc(33.333% - 10px); display: inline-block; vertical-align: top!important}
-.feature-item__icon{border:2px solid white;box-shadow: 1px 1px 6px 1px #c8c8c8;animation: float 4s ease-in-out infinite;transition: all .4s ease;perspective: 1000px;color: #000;}
-@keyframes float {
-    0% {
-        transform: translatey(0px);
-    }
-
-    50% {
-        transform: translatey(-20px);
-    }
-
-    100% {
-        transform: translatey(0px);
-    }
-}}.feature-item h3 { color: #000;
-font-size:15px;}
-.feature-item p { font-size: 13px;}
-.footer-main::before
-{
-  content: "";
-  background-image: url(https://cdn.salla.sa/WAaN/luWxyT0afKNmMeIwML3GonhGza7FTyXLjEGipJ8e.png);
-  background-size: cover;
-  display: block!important;
-  background-repeat: round;
-  transform: rotate(180deg);
-  height: 105px;
-  margin: -62px 0 0 0;
-}.footer-main
-{color: #fff!important;
-    text-align: center !important;
-    background: #1fb1a4;
-}.footer-title{margin: 20px 0 !important;}
-.footer-title span
-{
-    background: black;
-    color: #fff!important;
-    font-size: 18px !important;
-    font-weigt:600!important;
-    border: 1px solid #fff!important;
-    border-radius: 35px;
-    box-shadow: 1px 1px 6px 1px #0000005e;
-    padding: 5px 25px 5px 25px;
-}.footer-item p, .footer-links a, .store-contact
-{
-    color: #fff!important;
-    font-size: 15px !important;
-    text-align: center !important;
-}.store-contact a
-{color: #fff!important;
-    font-weight: 600 !important;
-}.social__item a
-{color: #fff!important;
-    border-color: #fff!important;
-}.social__item a:hover
-{color: #fff !important;
-    border-color: #fff !important;
-}.mb-md-0{color: #fff;
-    font-weight: 600;
-}.footer-payment img
-    {max-width: 65px !important;
-    }.footer-main::before{ margin: -50px 0 0 0 !important;
-    }.footer-main .container::before
-    { margin: -15px auto 10px auto !important;
-    }.salla-theme_4 .footer-header .icons
-    { margin-top: 12px !important;
-    }body.store-home:after {
+body.store-home:after {
     content: '';
     width: 100%;
     height: 100%;
@@ -334,7 +44,760 @@ transform:scale(0);
     }
        100% {
 transform:scale(0);
-    }}@media (max-width: 766px){
+    }}
+.sub-nav-header::before {
+    content: "";
+    text-align: center !important;
+    display: block;
+    height: 70px !important;
+    background-image: url(https://www3.0zz0.com/2023/10/16/17/838923147.png);
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+}.sub-nav-header img {
+    display: none;
+}
+/* ====================================== Header ======================================= */
+.logo img {transform: scale(1.3);}
+.login-link {
+  margin-bottom: -6px !important;
+}
+.header-wrapper .login-link,
+.header-wrapper .toggle-search,
+.circle-action.dropdown-toggle,
+.btn.btn-primary {
+  border-radius: 10px;
+  background-color: #28c9ba !important;
+  color: #fff !important;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+}
+.header-wrapper .site-header__cart,
+.salla-theme_1 header.site-header #cl_switcher #cl_toggle {
+  border-radius: 10px !important;
+  background-color: #1fb1a4 !important;
+  color: #fff !important;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+}
+.header-wrapper .login-link:hover,
+.header-wrapper .toggle-search:hover,
+.header-wrapper .site-header__cart:hover,
+.circle-action.dropdown-toggle:hover,
+.btn.btn-primary:hover {
+  transform: translatey(-2px);
+  color: #fff !important;
+  border: none;
+}/* أيقونة الإشعارات */
+.circle-action.dropdown-toggle.notification-header-icon {
+  padding: 6px;
+}
+/* أيقونة السلة */
+.header-wrapper .site-header__cart {
+  background-color: #ffffff !important;
+  border: 1px solid #fcfcfc;
+  color: #1b1e23 !important;
+}
+.header-wrapper .site-header__cart:hover {
+  color: #1fb1a4 !important;
+}
+.site-header__cart .badge {
+  background: #1fb1a4;
+  color: #fff;
+}
+
+/* ====================================== Login ======================================= */
+.icon-object.border-yellow-dark.text-yellow-dark {
+  border: none;
+  border-radius: 0;
+  background-image: url("https://www7.0zz0.com/2023/09/07/17/268003667.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 120px;
+  margin-top: 10px;
+}
+.icon-object.border-yellow-dark.text-yellow-dark i {
+  display: none;
+}
+
+/* ====================================== Navigation Desktop ======================================= */
+.sub-nav .main-menu > li > a:not(.offers-link) {
+  color: #1fb1a4 !important;
+  font-weight: bold;
+  box-shadow: none;
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+}
+.sub-nav .main-menu > li > a:hover {
+  color: #1b1e23 !important;
+}
+/* two lines */
+
+.main-menu > li:before,
+.main-menu > li:after {
+  position: absolute;
+  opacity: 0;
+  width: 0%;
+  height: 2px;
+  content: "";
+  background: #1b1e23;
+  transition: all 0.3s;
+}
+.main-menu > li:before {
+  left: 0px;
+  top: 10px;
+}
+.main-menu > li:after {
+  right: 0px;
+  bottom: 10px;
+}
+
+.main-menu > li:hover:before,
+.main-menu > li:hover:after {
+  opacity: 1;
+  width: 100%;
+}
+
+/* ====================================== Navigation Mobile ======================================= */
+/* الفئات */
+.sub-nav .main-menu li.sub-menu-header.categories-holder > span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1fb1a4;
+  text-align: center;
+}
+.sub-nav .main-menu li.sub-menu-header.categories-holder > span i {
+  /* display: none; */
+  color: #1fb1a4;
+}
+
+.sub-menu-header .store-categories > li > a:not(.offers-link) {
+  color: #1b1e23 !important;
+  font-weight: bold;
+  box-shadow: none;
+  transition: all 0.3s ease-in-out;
+}
+
+/*  الخلفية والزر */
+.sub-nav-header {
+  background: #ffffff;
+}
+.sub-nav-header a {
+  background-color: #1fb1a4;
+  border-radius: 10px !important;
+  color: #fff !important;
+  border: 1px solid #1b1e23;
+  padding: 3px 15px 1px;
+}
+.btn {
+  border-radius: 4px !important;
+}
+/* ====================================== Sections Images ======================================= */
+
+section.section > .container > .row:not(.products-grid):not(.products-listing) {
+  display: grid !important;
+  column-gap: 0px !important;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: center;
+}
+
+section.section
+  > .container
+  > .row:not(.products-grid):not(.products-listing):before,
+section.section
+  > .container
+  > .row:not(.products-grid):not(.products-listing):after {
+  content: none;
+}
+section.section
+  > .container
+  > .row:not(.products-grid):not(.products-listing)
+  > .col-md-4 {
+  width: 100%;
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+}
+.category-featured a:before {
+  content: "";
+  border: 1px solid #1b1e23;
+  transition: all 0.3s ease-in-out;
+  border-radius: 24px;
+  margin: 5%;
+  display: none;
+}
+section:nth-of-type(1).py-4.py-md-3 {
+  padding-bottom: 0 !important;
+}
+
+/* أرتفاع صور الأقسام */
+body:not(.salla-theme_6) .category-featured {
+  padding-top: 100% !important;
+  margin-bottom: 12px !important;
+}
+
+/*   ###############    الأقسام في الشاشات الصغيرة  #################  */
+
+@media only screen and (max-width: 991px) {
+  section.section
+    > .container
+    > .row:not(.products-grid):not(.products-listing) {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+/* ====================================== Section ======================================= */
+/* Title */
+.section-header .section--title,
+.section--title {
+  color: #1fb1a4;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-shadow: 0px 0px 14px #1fb1a452;
+}
+.section-header:before {
+  content: "";
+  display: none;
+}
+
+section.section {
+  padding: 1rem 0 !important;
+  margin-bottom: -1px;
+}
+
+/* عرض الكل */
+.section .section-header .circle-action {
+  color: #1fb1a4;
+  border: 1px solid #1fb1a4;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.section .section-header a.button-more,
+body.salla-theme_1 .section-header .btn.btn-primary.btn-rounded {
+  border-radius: 10px !important;
+  padding: 2px 10px 10px !important;
+  color: #1fb1a4 !important;
+  background-color: #ffffff !important;
+  border: 1px solid #1fb1a4 !important;
+}
+.section .section-header .circle-action:hover,
+.section .section-header a.button-more:hover,
+body.salla-theme_1 .section-header .btn.btn-primary.btn-rounded:hover {
+  color: #fff !important;
+  background-color: #9b3947 !important;
+  border: 1px solid #1fb1a4 !important;
+}
+/* ====================================== Banners ======================================= */
+
+/*   عرض البنرات ملئ الشاشة */
+.banner img {
+  margin: 0px auto !important;
+  /* margin-top: -16px !important; */
+}
+section:nth-of-type(1) {
+  margin-top: 0px !important;
+}
+.section-header.d-flex.justify-content-between.align-items-center.mb-4 {
+  margin-top: 5px !important;
+}
+section:nth-of-type(1) .container.container.p-0.px-md-3,
+section:not(:nth-of-type(4)) > .container.banner {
+  padding: 0px !important;
+  margin: auto !important;
+  width: 100vw;
+}
+
+/* ################# First Banner ################# */
+section.section[data-type="banner"]:first-of-type {
+  margin-top: -1px !important;
+  padding-top: 0px !important;
+}
+section.section[data-type="banner"] {
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+}
+
+section.section[data-type="banner"] > .container.banner {
+  padding: 0px !important;
+  width: auto !important;
+}
+section.section[data-type="banner"] .banner img {
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+}
+/* ################# Last Banner ################# */
+section.section[data-type="banner"]:last-of-type {
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+}
+
+section.section[data-type="banner"]:last-of-type > .container.banner {
+  padding: 0px !important;
+  width: auto !important;
+}
+section.section[data-type="banner"]:last-of-type .banner img {
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+}
+
+/* ====================================== Product ======================================= */
+
+.products-listing.eq-height .slick-track {
+  padding-top: 5px !important;
+}
+.product {
+  background-color: #fff !important;
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0px 0px 14px 0 rgba(34, 41, 47, 0.1);
+}
+.product-add:active {
+  -moz-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95) !important;
+}
+body .product .product-footer {
+  display: block;
+  border: none;
+}
+.not-available {
+  background-color: rgba(245, 81, 87, 0.12);
+  font-size: 1rem;
+  margin: 10px 5% !important;
+  font-size: 1.2rem;
+  display: block !important;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px !important;
+  padding: 8px 0 10px !important;
+}
+.product-add {
+  font-size: 1rem;
+  background-color: #1fb1a4;
+  color: #fff;
+  margin: 10px 5% !important;
+  padding: 0.35rem 0 !important;
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+}
+.product-add:before {
+  content: "أضف للسلة";
+  border-left: solid 2px white;
+  padding-left: 1rem;
+  padding-top: 0.9vh;
+  padding-bottom: 0.9vh;
+  color: white;
+  font-weight: bold;
+  line-height: 1.4;
+}
+.product-add span::before {
+  color: transparent;
+}
+.product-add span {
+  background-image: url("https://www5.0zz0.com/2023/03/14/15/620663395.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  margin: 0px 20px 0px -5px;
+  padding: 7px 5px;
+}
+.product-add * {
+  vertical-align: -4px;
+}
+
+/* ************* End with icon ************* */
+body .product > a .product-title {
+  text-align: center !important;
+  /* color: #1b1e23 !important; */
+  font-size: 1.2rem;
+}
+.price-before {
+  color: #828282;
+}
+.product-subtitle {
+  text-align: center !important;
+  color: #191919;
+}
+.product-footer > .product-price {
+  direction: rtl;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  color: #1b1e23 !important;
+}
+.product-footer > .product-price .price-before {
+  direction: rtl !important;
+  float: none !important;
+  font-weight: normal;
+  text-align: center;
+  margin-right: 0.5rem;
+}
+/* =======================================   Customer Updates    ==================================== */
+.testimonials-item {
+  margin: 3px;
+  background: #fff
+    url("https://cdn.salla.sa/eQQap/4riA0FJ17P7sBAwddJhIYi4zEllOGTRInxU8ft3L.gif")
+    top 2.5rem left 1rem/35px no-repeat !important;
+  border: 1px solid #eeeeee;
+  border-radius: 11px !important;
+  box-shadow: 3.4px 5px 5px -3px rgb(0 0 0 / 9%);
+}
+
+.testimonials-item p {
+  background: #fff;
+  border-radius: 12px;
+  color: #1b1e23;
+  width: 88%;
+  padding: 3rem 1rem 0.5rem;
+  margin-bottom: 0px !important;
+  text-align: right;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.testimonials-item p:before {
+  border-top-color: #0f0f0f;
+  display: none;
+}
+.testimonials-item cite {
+  color: #000;
+}
+.testimonials-item img {
+  display: none;
+}
+.testimonials-item__location {
+  margin-right: 10px;
+}
+span.testimonials-item__author {
+  color: #1fb1a4;
+  margin-right: 26px;
+}
+.testimonials-item .rating {
+  display: block;
+  position: absolute;
+  top: 13px;
+  right: 106px;
+  font-size: 19px;
+  letter-spacing: 5px;
+}
+
+/* box shap */
+cite.d-flex.pr-4 > div {
+  margin-bottom: 8px;
+}
+.text-right {
+  text-align: right !important;
+  display: flex;
+  align-items: center;
+}
+/* ===  لون   خلفية المنتج  ==== */
+body > section.u-light.py-5.text-center > div > h2 {
+  font-size: 0;
+}body > section.u-light.py-5.text-center > div > h2:before {
+  content: "لماذا متجر BIOVES ؟";
+  font-size: 1.6rem;
+  display: block;
+  font-weight: bold;
+  color: #1fb1a4;
+}/* مميزات المتجر */
+.feature-item {
+  flex: 0 0 28.333333%;
+  max-width: 28% !important;
+  border: none;
+  border-radius: 4px;
+  margin: 0px 2.5%;
+  padding: 20px;
+  margin-bottom: 10px;
+}.feature-item .feature-item__icon {
+  background: transparent !important;
+  color: #1b1e23;
+}
+.feature-item h3 {
+  color: #1fb1a4;
+  margin-top: 10px;
+  font-size: 1.6rem;
+  text-shadow: 0px 0px 19px #1fb1a45e;
+}
+.feature-item p {
+  color: #1fb1a4;
+  font-size: 1.2rem;
+}
+/* أيقونااات متحركة للمميزات */
+
+.feature-item .feature-item__icon {
+  background-color: transparent !important;
+  border: none;
+  overflow: visible;
+}
+.feature-item .feature-item__icon:after {
+  background-color: transparent;
+}
+.feature-item .feature-item__icon {
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  border-radius: unset !important;
+}.feature-item:nth-of-type(1) .feature-item__icon {
+  opacity: 1 !important;
+  background-image: url("https://www4.0zz0.com/2023/10/16/17/527055293.png") !important;
+  content: "" !important;
+}.feature-item:nth-of-type(2) .feature-item__icon {
+  opacity: 1 !important;
+  background-image: url("https://www4.0zz0.com/2023/10/16/17/227229719.png") !important;
+  content: "" !important;
+}.feature-item:nth-of-type(3) .feature-item__icon {
+  opacity: 1 !important;
+  background-image: url("https://www4.0zz0.com/2023/10/16/17/814983694.png") !important;
+  content: "" !important;
+}.feature-item .feature-item__icon i:before {
+  content: none !important;
+}.bounce:before {
+  content: " ";
+  position: absolute;
+  top: 86%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #1fb1a4 transparent;
+  -webkit-animation: fadeOut 7s;
+  animation: fadeOut 7s;
+  animation-fill-mode: forwards;
+}.bounce:after {
+  content: "عرض السلة لإكمال الطلب";
+  width: 120px;
+  font-size: 9px;
+  top: 120%;
+  left: 50%;
+  height: 30px;
+  margin-left: -30px;
+  background-color: #1fb1a4;
+  color: #fff;
+  text-align: center;
+  padding: 0px 0;
+  border-radius: 8px 2px;
+  position: absolute;
+  z-index: 1;
+  -webkit-animation: fadeOut 7s;
+  animation: fadeOut 7s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.9;
+  }
+  99% {
+    opacity: 0.01;
+  }
+  100% {
+    opacity: 0;
+  }
+}/* ====================== in product page ============= */
+.cart-number {
+  display: inline-grid;
+  place-items: center;
+}/* أضافة للسلة */ /* اتمام الطلب */ /*  عودة للرئيسية */
+.cart-fav .add-cart-large.add_to_cart_large_btn,
+.page-container-cart .cart-next-button a,
+.page-container-cart .cart-nav a {
+  border-radius: 10px !important;
+  border: 1px solid #1b1e23;
+  background: #1b1e23 !important;
+  color: #fff;
+  font-weight: bold;
+}
+/* أزرار داخل السلة */
+.cart-nav-submit,
+.cart-nav-more,
+.cart-nav-solid,
+.cart-fav .add-cart-large.add_to_cart_large_btn {
+  border: 1px solid #1fb1a4;
+  background: #1fb1a4 !important;
+  color: #fff;
+  transition: all 0.1s ease-in-out;
+  font-weight: bold;
+}
+.cart-nav-submit:hover,
+.cart-nav-more:hover,
+.cart-nav-solid:hover,
+.cart-fav .add-cart-large.add_to_cart_large_btn:hover,
+.page-container-cart .cart-next-button a:hover,
+.page-container-cart .cart-nav a:hover {
+  border: 1px solid #1fb1a4;
+  background: #9b3947 !important;
+  color: #fff;
+}/* إكمال الدفع */
+.btn--submit.wide:after,
+button#submit-form-btn {
+  color: #fff !important;
+}/* in search page */
+.products-grid.eq-height {
+  margin-bottom: 15px;
+}/* ====================================== Footer ======================================= */
+.footer-main .footer-item .footer-title span {
+  color: #1fb1a4;
+  font-size: 1.6rem;
+  font-weight: bold;
+}.footer-main,
+.footer-main .store-contact {
+  text-align: center;
+}
+.footer-main .store-contact:first-of-type {
+  margin-top: 1.2rem !important;
+}
+/*  تواصل معنا وتس  */
+.store-contact a {
+  color: #1fb1a4 !important;
+  padding: 2px 15px 6px;
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+  border: 1px solid #1fb1a4 !important;
+  background: transparent !important;
+  font-weight: bold;
+}
+.store-contact a:hover {
+  color: #fff !important;
+  background: #1fb1a4 !important;
+}
+/* روابط */
+.footer-links a {
+  color: #1b1e23;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  color: #1b1e23;
+  text-decoration: underline;
+}/* icons شبكات التواصل */
+.social__item a {
+  color: #fff;
+  border: 1px solid #1fb1a4 !important;
+  background-color: #1fb1a4;
+  border-radius: 10px !important;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+}.social__item a:hover {
+  color: #1b1e23 !important;
+  border: 1px solid #1b1e23 !important;
+  /* background-color: #fff !important; */
+}/* إخفاء صنع من سلة */
+.footer-sub .footer-wrapper > p > span {
+  display: none;
+}/* ====================================== Meadia Queries ======================================= */
+/* login */
+@media (max-width: 767px) {
+  .site-header {
+    background-size: 40%;
+  }
+  .salla-theme_1 header.site-header .logo-wrapper .logo img {
+    height: auto !important;
+    max-height: 40px !important;
+  }
+
+  body .section-header h2.section--title span {
+    font-size: 1.4rem !important;
+  }
+
+  .modal .modal-dialog.modal-sm {
+    width: auto !important;
+    min-width: 300px;
+  }
+  .footer-main .footer-item .footer-title,
+  .footer-main .footer-item .footer-title span {
+    border: none;
+  }
+  .footer-links {
+    columns: 1;
+  }
+  .product {
+    border-radius: 12px;
+  }
+  .product-add {
+    margin: 0.2rem 0.2rem 0.5rem !important;
+  }
+  .product-add:before {
+    padding-left: 0.5rem;
+  }
+  .product-add span {
+    margin: 5px;
+  }
+  .product .product-footer .product-price * {
+    font-size: 16px !important;
+  }/* مميزات المتجر */
+  .feature-item {
+    flex: 0 0 100%;
+    max-width: 90% !important;
+    margin: 0px 5%;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+  }
+}#toform a {
+    margin: auto !important;
+    background: #E57680;
+    color: white !important;
+    text-decoration: none;
+    padding: 10px 24px 8px;
+    border-radius: 24px;
+    font-size: 1.1em !important;
+    text-align: center;
+}.sub-nav__menu svg {
+    background: #33c0b3;
+    border-radius: 6px;
+    fill: #fff;
+}body > footer > div.footer-sub > div > div > div > div:nth-child(3) img {
+    margin: 5px;
+    background: #fff;
+    border-radius: 5px;
+    outline: 3px solid #fff;
+}.section--title span {
+    text-shadow: 0px 0px 10px #1fb1a4;
+}.footer-sub {
+    background: #8dd8d1;
+}.footer-item p {
+    font-weight: bold;
+    color: #1b1e23;
+}.footer-main {
+    background: linear-gradient(3deg, #1fb1a487, transparent);
+}.product-add:hover {
+    background: #a95c67 !important;
+}.u-light {
+    background: #fff;
+}.product-form {
+    border-radius: 23px;
+    margin-top: 30px;
+    border: none !important;
+    box-shadow: 0px 0px 10px #1fb1a426;
+}.tamara-product-widget {
+    background: #fff;
+    border-radius: 16px !important;
+    border-bottom: 4px solid #f7c487 !important;
+}.btn-group-vertical>.btn, .btn-group>.btn {
+    background: #1fb1a4;
+    color: #fff;
+}.site-header{
+    background: #33c0b3;
+    animation: ShineAnimation 5s infinite;
+    overflow: hidden;
+    animation-timing-function: cubic-bezier(0.6, -0.28, 0.74, 0.05);
+}@keyframes ShineAnimation
+{
+0%{
+      background-repeat: no-repeat;
+      background-image: -webkit-linear-gradient( top left, rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 0.0) 45%, rgba(255, 255, 255, 0.2) 48%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 52%, rgba(255, 255, 255, 0.0) 57%, rgba(255, 255, 255, 0.0) 100% );
+      background-position: -250px -250px;
+      background-size: 600px 600px;
+    }
+    100%
+    {
+      background-repeat: no-repeat;
+      background-position: 250px 250px;}}@media (max-width: 766px){
      body > header > div > div > div.col-lg-4.header-row.logo-wrapper:before {
     content: "";
     position: absolute;
@@ -343,46 +806,13 @@ transform:scale(0);
     height: 84px;
     background: #fff;
     z-index: -1;
-    border-bottom-left-radius: 125px;
-}}#cart_badge {
-    background: #000;
-}.footer-sub {
-    background: #1fb1a4;
-}.circle-action {
-    color: #fff;
-    border: none;
-    background: none !important;
-    font-size: 24px;
-}.footer-main .container:before {
-    text-align: center;
+}}@media (max-width: 766px){
+     body > header > div > div > div.col-lg-4.header-row.logo-wrapper:before {
     content: "";
+    position: absolute;
     display: block;
-    height: 110px;
-    width: 140px;
-    margin: auto auto 20px;
-    background-image: url(https://www5.0zz0.com/2023/03/14/15/620663395.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}.icon-heart-broken2:before {
-    content: "";
-    display: block;
-    width: 96px;
-    height: 96px;
-    background: url(https://www5.0zz0.com/2023/03/14/15/626212339.png) no-repeat;
-    background-size: contain;
-    background-position: center;
-}section.u-light.py-5.text-center {
-    background: #fff !important;
-}.product-form ,.cart-total-box,.product-cart{
-    border-radius: 30px;
-    border: none;
-    box-shadow: 0px 0px 8px #0e02021f;
-}body.font-dinnextltarabic-regular .qty-field--custom .btn--qty-add, body.font-dinnextltarabic-regular .qty-field--custom .btn--qty-sub {
-    border: none;
-    background: #000;
-    color: #ffff;
-    border-radius: 8px !important;
-}section.py-3 {
-    background: #fff !important;
-}
+    width: 270px;
+    height: 84px;
+    background: #fff;
+    z-index: -1;
+}}.footer-title span{background: transparent !important;}
