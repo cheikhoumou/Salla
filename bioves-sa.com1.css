@@ -189,7 +189,6 @@ transform:scale(0);
   background-color: #1fb1a4;
   border-radius: 10px !important;
   color: #fff !important;
-  border: 1px solid #1b1e23;
   padding: 3px 15px 1px;
 }
 .btn {
@@ -254,7 +253,6 @@ body:not(.salla-theme_6) .category-featured {
   color: #1fb1a4;
   font-size: 1.6rem;
   font-weight: bold;
-  text-shadow: 0px 0px 14px #1fb1a452;
 }
 .section-header:before {
   content: "";
@@ -441,9 +439,7 @@ body .product > a .product-title {
 /* =======================================   Customer Updates    ==================================== */
 .testimonials-item {
   margin: 3px;
-  background: #fff
-    url("https://cdn.salla.sa/eQQap/4riA0FJ17P7sBAwddJhIYi4zEllOGTRInxU8ft3L.gif")
-    top 2.5rem left 1rem/35px no-repeat !important;
+  background: #fff    url("https://www7.0zz0.com/2023/10/16/19/105856903.png")    top 2.5rem left 1rem/35px no-repeat !important;
   border: 1px solid #eeeeee;
   border-radius: 11px !important;
   box-shadow: 3.4px 5px 5px -3px rgb(0 0 0 / 9%);
@@ -699,6 +695,7 @@ button#submit-form-btn {
   .salla-theme_1 header.site-header .logo-wrapper .logo img {
     height: auto !important;
     max-height: 40px !important;
+    margin-right: 18px;
   }
 
   body .section-header h2.section--title span {
@@ -756,8 +753,6 @@ button#submit-form-btn {
     background: #fff;
     border-radius: 5px;
     outline: 3px solid #fff;
-}.section--title span {
-    text-shadow: 0px 0px 10px #1fb1a4;
 }.footer-sub {
     background: #8dd8d1;
 }.footer-item p {
@@ -786,6 +781,7 @@ button#submit-form-btn {
     animation: ShineAnimation 5s infinite;
     overflow: hidden;
     animation-timing-function: cubic-bezier(0.6, -0.28, 0.74, 0.05);
+    box-shadow: none;
 }@keyframes ShineAnimation
 {
 0%{
