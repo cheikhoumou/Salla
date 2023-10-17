@@ -112,12 +112,13 @@ transform:scale(0);
 .icon-object.border-yellow-dark.text-yellow-dark {
   border: none;
   border-radius: 0;
-  background-image: url("https://www7.0zz0.com/2023/09/07/17/268003667.png");
-  background-size: 100%;
+  background-image: url("https://cdn.salla.sa/ZwARz/MSde2rcc7xsU5oKKumsNrr3yHXJbbZHUhUz7tfSV.png");
+  background-size: 44%;
   background-repeat: no-repeat;
   width: 120px;
   height: 120px;
   margin-top: 10px;
+  background-position: center;
 }
 .icon-object.border-yellow-dark.text-yellow-dark i {
   display: none;
@@ -540,7 +541,7 @@ body > section.u-light.py-5.text-center > div > h2 {
   border-radius: unset !important;
 }.feature-item:nth-of-type(1) .feature-item__icon {
   opacity: 1 !important;
-  background-image: url("https://www4.0zz0.com/2023/10/16/17/527055293.png") !important;
+  background-image: url("https://www4.0zz0.com/2023/10/16/17/814983694.png") !important;
   content: "" !important;
 }.feature-item:nth-of-type(2) .feature-item__icon {
   opacity: 1 !important;
@@ -548,7 +549,7 @@ body > section.u-light.py-5.text-center > div > h2 {
   content: "" !important;
 }.feature-item:nth-of-type(3) .feature-item__icon {
   opacity: 1 !important;
-  background-image: url("https://www4.0zz0.com/2023/10/16/17/814983694.png") !important;
+  background-image: url("https://www4.0zz0.com/2023/10/16/17/527055293.png") !important;
   content: "" !important;
 }.feature-item .feature-item__icon i:before {
   content: none !important;
@@ -761,7 +762,7 @@ button#submit-form-btn {
 }.footer-main {
     background: linear-gradient(3deg, #1fb1a487, transparent);
 }.product-add:hover {
-    background: #a95c67 !important;
+    background: #1d283c !important;
 }.u-light {
     background: #fff;
 }.product-form {
