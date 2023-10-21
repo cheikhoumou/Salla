@@ -20,7 +20,7 @@ body,
     display: flex;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(3deg, #ebd3ab, transparent);
+    /* background: #000000 !important; */
 }footer.bg-white.shadow-2xl * {
     justify-content: center;
 }img.h-16 {
@@ -96,18 +96,7 @@ body,
     font-size: 19px !important;
     margin-right: 28px;
 }@-webkit-keyframes rotateIn{0%{transform-origin:center;-webkit-transform:rotate(-200deg);transform:rotate(-200deg);opacity:0}0%,to{-webkit-transform-origin:center}to{transform-origin:center;-webkit-transform:none;transform:none;opacity:1}}@keyframes rotateIn{0%{transform-origin:center;-webkit-transform:rotate(-200deg);transform:rotate(-200deg);opacity:0}0%,to{-webkit-transform-origin:center}to{transform-origin:center;-webkit-transform:none;transform:none;opacity:1}}.rotateIn{-webkit-animation-name:rotateIn;animation-name:rotateIn}
-footer.bg-white.shadow-2xl:before {
-    background: url(https://dev-eitara.odoo.com/web_editor/shape/web_editor/Floats/05.svg?c1=%23007564&c2=%2300C2A5&c3=%23f8f8f8&c5=%23007564) no-repeat;
-    background-size: cover;
-    background-position: inherit;
-    width: 100%;
-    height: 14%;
-    content: "";
-    display: block;
-    position: absolute;
-    opacity: 0.2;
-}
-@keyframes float {
+eyframes float {
  0% {
   transform: translatey(0px);
  }
@@ -133,4 +122,68 @@ footer.bg-white.shadow-2xl:before {
     color: #d2a154;
     padding: 10px;
     border-radius: 21px;
+}#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.grid.grid-cols-1.gap-8.lg\:grid-cols-3 > div:nth-child(1) > img {
+    transform: scale(1.5);
+}li.rtl\:ml-4.ltr\:mr-2\.5 {
+    background: #fffdf9;
+    display: flex;
+    width: 40px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 11px #12040442;
+    padding: 2px;
+}
+footer.bg-white.shadow-2xl * {
+    font-weight: 600;
+}ul.mt-6.space-y-4.text-sm {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    gap: 4px;
+}ul.mt-6.space-y-4.text-sm li {
+    background: #ffffff5c;
+    font-size: 10px;
+    padding: 5px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 3px !important;
+}footer > div > div.grid.grid-cols-1.gap-8.lg\:grid-cols-3 > div.grid.grid-cols-1.gap-8.sm\:grid-cols-2.lg\:col-span-2.lg\:grid-cols-3 > div:nth-child(1) > ul > li:nth-child(1) {
+    margin-top: 16px;
+}footer.bg-white.shadow-2xl {
+    background: linear-gradient(4deg, #d2a154, white);
+}section.s-block.s-block--features.container.flex.justify-center.px-2.md\:px-0.py-4 > div > div > div:nth-child(1) > div > span > i:before {
+    content: "";
+    width: 69px;
+    display: block;
+    background: url("https://www3.0zz0.com/2023/10/21/18/386919469.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 64px;
+}section.s-block.s-block--features.container.flex.justify-center.px-2.md\:px-0.py-4 > div > div > div:nth-child(2) > div > span > i:before {
+    content: "";
+    width: 69px;
+    display: block;
+    background: url("https://www3.0zz0.com/2023/10/21/18/725526235.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 64px;
+}section.s-block.s-block--features.container.flex.justify-center.px-2.md\:px-0.py-4 > div > div > div:nth-child(3) > div > span > i:before {
+    content: "";
+    width: 69px;
+    display: block;
+    background: url("https://www3.0zz0.com/2023/10/21/18/962939224.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 64px;
+}@keyframes boutton {
+  0%,
+  100% {
+    transform: scale(0.5.0.5);
+  }
+
+  50% {
+    transform: scale(0.9);
+  }
+}.duration-200:hover .bg-primary {
+  animation: boutton 1s infinite ease-in-out;
 }
