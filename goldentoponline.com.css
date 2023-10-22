@@ -12,7 +12,40 @@
 body,
 *:not(i) {
   font-family: "DINNextLTW23" !important;
-}.h-8 {
+}
+body:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 999999;
+    background: #ffffff url(https://cdn.salla.sa/dPBdeo/ryTe9yflwJIlilVV7EBYnDZUvVPNN7CoxDOGLIPP.png);
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 135px;
+    transform:scale(0);
+    animation-name: pupup_logo;
+    animation-duration: 2s;
+    backdrop-filter: blur(4px);
+}@keyframes pupup_logo{
+    0% {
+transform:scale(0);
+    }    
+    18% {
+transform:scale(1);
+    }    
+    75% {
+transform:scale(1);
+    }
+   95% {
+transform:scale(0);
+    }
+       100% {
+transform:scale(0);
+    }}
+.h-8 {
     height: 4rem!important;
 }#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.grid.grid-cols-1.gap-8.lg\:grid-cols-3 > div.grid.grid-cols-1.gap-8.sm\:grid-cols-2.lg\:col-span-2.lg\:grid-cols-3 > div:nth-child(1) > div > ul li a i {
     height: 1.9rem !important;
@@ -20,7 +53,6 @@ body,
     display: flex;
     justify-content: center;
     text-align: center;
-    /* background: #000000 !important; */
 }footer.bg-white.shadow-2xl * {
     justify-content: center;
 }img.h-16 {
@@ -35,7 +67,9 @@ body,
     display: block !important;
     text-align: center;
 }.flex.flex-row.items-center.gap-4.py-2.md\:py-6.hover\:shadow-md.duration-300.w-full .flex-col {
-    display: block !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
 }.rounded-md {
     border-radius: 22px!important;
 }nav#main-mobile-menu,button.w-8.h-10.inline-flex.justify-center.items-center.mt-1\.5.z-10{
@@ -125,7 +159,7 @@ eyframes float {
 }#app > div.app-inner.flex.flex-col.min-h-full > footer > div > div.grid.grid-cols-1.gap-8.lg\:grid-cols-3 > div:nth-child(1) > img {
     transform: scale(1.5);
 }li.rtl\:ml-4.ltr\:mr-2\.5 {
-    background: #fffdf9;
+    background: #d2a154;
     display: flex;
     width: 40px;
     border-radius: 10px;
@@ -135,11 +169,13 @@ eyframes float {
     padding: 2px;
 }
 footer.bg-white.shadow-2xl * {
-    font-weight: 600;
+    font-weight: bold !important;
+    color: #000;
 }ul.mt-6.space-y-4.text-sm {
     display: grid;
     grid-template-columns:  1fr 1fr;
     gap: 4px;
+    zoom: 130%;
 }ul.mt-6.space-y-4.text-sm li {
     background: #ffffff5c;
     font-size: 10px;
@@ -155,7 +191,7 @@ footer.bg-white.shadow-2xl * {
     content: "";
     width: 69px;
     display: block;
-    background: url("https://www3.0zz0.com/2023/10/21/18/386919469.png") no-repeat;
+    background: url("https://www10.0zz0.com/2023/10/22/16/425885601.png") no-repeat;
     background-size: contain;
     background-position: center;
     height: 64px;
@@ -180,10 +216,42 @@ footer.bg-white.shadow-2xl * {
   100% {
     transform: scale(0.5.0.5);
   }
-
-  50% {
+50% {
     transform: scale(0.9);
   }
 }.duration-200:hover .bg-primary {
   animation: boutton 1s infinite ease-in-out;
+}p.mt-4.max-w-xs.text-gray-500 {
+    color: #000 !important;
+    margin: auto;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}ul.mt-6.space-y-2.text-sm li a span {
+    display: none;
+}ul.mt-6.space-y-2.text-sm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    zoom: 120%;
+}ul.mt-6.space-y-2.text-sm li a {
+    background: #d2a154;
+    margin: 6px !important;
+    padding: 0 !important;
+    width: 35px;
+    height: 35px;
+    border-radius: 11px;
+    box-shadow: 0px 0px 11px #12040442;
+}[dir=rtl] .rtl\:ml-2\.5 {
+    margin-left: 0 !important;
+}footer > div > div.grid.grid-cols-1.gap-8.lg\:grid-cols-3 > div.grid.grid-cols-1.gap-8.sm\:grid-cols-2.lg\:col-span-2.lg\:grid-cols-3 > div:nth-child(2) > div > ul > li:nth-child(1) {
+    margin-top: 8px;
+}.flex.rtl\:space-x-reverse.space-x-2.items-end {
+    margin-top: 25px;
+}p.text-gray-400.mb-2\.5.md\:mb-0 {
+    display: none;
+}.mt-4.lg\:mt-6:after {
+    content: " الحقوق محفوظة | 2023 مجوهرات القمة الذهبية ";
+    display: block;
+    padding: 10px;
 }
