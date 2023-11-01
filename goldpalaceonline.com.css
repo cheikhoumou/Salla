@@ -1,0 +1,1469 @@
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+
+body,
+*:not(i) {
+
+    font-family: 'El Messiri', sans-serif !important;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.s-login-modal-header-icon {
+
+    margin-left: .5rem;
+
+    content: url(https://cdn.salla.sa/RAAEqE/ilhJoEKtKsZX3bT9wYop7rpEBw7RfaYrasi4wzDy.jpg) !important;
+
+    transform: scale(1);
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+element.style {
+
+    background: #c5a04f;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+@media(max-width:800px) {
+
+    .s-block--banners .grid {
+
+        display: block;
+
+    }
+
+    .s-block--banners .banner-entry {
+
+        height: 110px;
+
+        width: 49%;
+
+        max-height: unset;
+
+        min-height: unset;
+
+        display: inline-block;
+
+        border-radius: 0;
+
+        background: unset !important;
+
+    }
+
+    .s-block--banners .banner-entry .lazy__bg {
+
+        background-repeat: no-repeat;
+
+        height: 100%;
+
+        width: 100%;
+
+        background-size: contain;
+
+    }
+
+}
+
+.s-block--banners .gap-3 .banner-entry {
+
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+body.index:before {
+
+    content: "";
+
+    width: 100%;
+
+    height: 100%;
+
+    background: #ffffff url(https://cdn.salla.sa/RAAEqE/FDDaMEfLIxiGBjPZbIm5KtzmZ3HayAy0z3nM5FGC.jpg);
+
+    position: fixed;
+
+    z-index: 99999999999999999 !important;
+
+    transform: scale(0);
+
+    background-size: 220px !important;
+
+    background-repeat: no-repeat;
+
+    background-position: center !important;
+
+    animation-name: logobg;
+
+    animation-duration: 2.5s
+}
+
+@keyframes logobg {
+
+    0% {
+
+        transform: scale(1)
+    }
+
+    20% {
+
+        transform: scale(1)
+    }
+
+    78% {
+
+        transform: scale(1)
+    }
+
+    100% {
+
+        transform: scale(0)
+    }
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.top-nav {
+
+    padding-top: 0.75rem;
+
+    padding-bottom: 0.75rem;
+
+    background: #1c2121;
+
+    color: #ffffff;
+
+}
+
+.main-nav-container .inner {
+
+    border: transparent;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.s-block--photos-slider {
+
+    margin-top: 0;
+
+}
+
+.s-block--photos-slider .swiper-pagination {
+
+    display: none;
+
+}
+
+.s-block--photos-slider .swiper-slide {
+
+    margin-left: 0 !important;
+
+    margin-right: 0 !important;
+
+    width: 100% !important;
+
+    padding: 0 !important;
+
+    border-radius: 0 !important;
+
+}
+
+.s-block--photos-slider .swiper-slide img {
+
+    border-radius: 0 !important;
+
+}
+
+@media(max-width:800px) {
+
+    .s-block--photos-slider .swiper-slide {
+
+        margin-left: 0px !important;
+
+        margin-right: 0 !important;
+
+        width: 105% !important;
+
+        padding: 0 !important;
+
+        border-radius: 0 !important;
+
+    }
+
+}
+
+.s-slider-thumbs-container,
+
+.s-slider-block__title-right,
+
+.carousel-slider .swiper,
+
+.offer-slider .s-slider-block__title h2 {
+
+    padding-left: 0 !important;
+
+}
+
+.s-slider-block__title {
+
+    display: block;
+
+    text-align: center;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.has-overlay--before:before,
+.has-overlay--after:after {
+
+    background-color: rgb(2 48 72 / 56%);
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.s-block--slider-with-bg:first-of-type {
+
+    background: transparent;
+
+}
+
+.s-modal-body {
+
+    top: 100px;
+
+    height: 500px;
+
+}
+
+.s-modal-header-inner {
+
+    place-content: center;
+
+}
+
+.s-login-modal .s-modal-padding {
+
+    background: #c5a04f;
+
+}
+
+.s-login-modal .s-modal-title {
+
+    color: #ffffff;
+
+}
+
+.s-login-modal-label {
+
+    color: #ffffff;
+
+}
+
+.s-login-modal .s-modal-body {
+
+    border-radius: 3.0rem;
+
+    text-align: -webkit-center;
+
+    padding: 1.5rem 1rem 1rem;
+
+    border: 1.5px solid #1c2121;
+
+}
+
+.mm-spn.mm-spn--navbar.mm-spn--main,
+
+.s-modal-body,
+
+.s-modal-close,
+
+.s-login-modal-main-btn {
+
+    background-color: #ffffff;
+
+    text-align: center !important;
+
+    border: 1.5px solid #1c2121;
+
+    border-radius: 30px;
+
+}
+
+.s-modal-close {
+
+    background: #1c2121;
+    color: #c5a04f !important;
+    border-radius: 0px 15px 15px 0px;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.items-center {
+
+    align-self: center !important;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.s-localization-modal-label {
+
+    margin-right: 0.75rem;
+
+    place-content: center !important;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.items-center {
+
+    place-content: center !important;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.s-form-control {
+
+    text-align: center !important;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.s-product-options-option-label b {
+
+    text-align: center !important;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.menu-is-open #side-panel {
+
+    background: #c5a04f;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+/*html body {
+    
+    background: url(https://i.ibb.co/Vpq1knQ/wall4.webp);
+    
+    }*/
+
+html body {
+
+    background-color: #ffffff !important;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+/*:is([dir=rtl] .triangle-overlay):after {
+    
+    background: transparent;
+    
+    }*/
+
+:is([dir=rtl] .triangle-overlay):after {
+
+    background: #c5a04f;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.text-gray-800 {
+
+    text-align: center;
+
+    background: linear-gradient(to right, #c5a04f 20%, #1c2121 30%, #c5a04f 70%, #1c2121 80%);
+
+    -webkit-background-clip: text;
+
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+    text-fill-color: transparent;
+
+    background-size: 500% auto;
+
+    animation: textShine 5s ease-in-out infinite alternate;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+#side-panel .header-icon-button {
+
+    background: #1c2121;
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.s-cart-summary-wrapper .s-cart-summary-total:before {
+
+    opacity: 100;
+
+}
+
+.humb {
+
+    background: #ffffff;
+
+    border-radius: 11px !important;
+
+    padding-bottom: 0px;
+
+    padding-top: 42px;
+
+    margin-bottom: 4px;
+
+}
+
+.sm\:py-12 {
+
+    background: transparent;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+/*.header-is-light .s-cart-summary-wrapper {
+    
+    animation: wiggle 2.5s infinite;
+    
+    }*/
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+salla-slider .slide--one-fourth {
+
+    max-width: 175px;
+
+}
+
+.s-product-card-content-sub {
+
+    margin-bottom: 1.25rem;
+
+    display: flex;
+
+    width: 100%;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    justify-content: center;
+
+    color: #c5a04f;
+
+}
+
+/*.space-y-2\.5>:not([hidden])~:not([hidden]){
+    
+    background: linear-gradient( to right, #c5a04f 20%, #1c2121 30%, #c5a04f 70%, #1c2121 80% );
+    
+    -webkit-background-clip: text;
+    
+    background-clip: text;
+    
+    -webkit-text-fill-color: transparent;
+    
+    text-fill-color: transparent;
+    
+    background-size: 500% auto;
+    
+    animation: textShine 5s ease-in-out infinite alternate;
+    
+    }*/
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.header-is-light .side-panel li a {
+
+    font-weight: bold;
+
+    margin: 2px;
+
+    border-radius: 12px;
+
+    color: #ffffff !important;
+
+    border: #c5a04f;
+
+    text-align: center;
+
+    justify-content: center;
+
+    background: linear-gradient(to right, #c5a04f 20%, #1c2121 30%, #c5a04f 70%, #1c2121 80%);
+
+    background-size: 500% auto;
+
+    animation: textShine 5s ease-in-out infinite alternate;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.salla-advertisement h2 {
+
+    text-align: center;
+
+    display: block;
+
+    margin: auto;
+
+    background: linear-gradient(to right, #ffffff 20%, #1c2121 30%, #ffffff 70%, #1c2121 80%);
+
+    -webkit-background-clip: text;
+
+    background-clip: text;
+
+    text-align: center;
+
+    -webkit-text-fill-color: transparent;
+
+    text-fill-color: transparent;
+
+    background-size: 500% auto;
+
+    animation: textShine 5s ease-in-out infinite alternate;
+
+}
+
+@keyframes textShine {
+
+    0% {
+
+        background-position: 0% 50%;
+
+    }
+
+    100% {
+
+        background-position: 100% 50%;
+
+    }
+
+}
+
+.main-menu .sub-menu ul li a {
+
+    font-weight: bold;
+
+    margin: 2px;
+
+    border-radius: 12px;
+
+    color: #ffffff !important;
+
+    border: #c5a04f;
+
+    text-align: center;
+
+    justify-content: center;
+
+    background: linear-gradient(to right, #c5a04f 20%, #1c2121 30%, #c5a04f 70%, #1c2121 80%);
+
+    background-size: 500% auto;
+
+    animation: textShine 5s ease-in-out infinite alternate;
+
+}
+
+.main-menu li:hover>.sub-menu {
+
+    background: transparent;
+
+}
+
+#side-panel .main-menu {
+
+    background: #ffffff;
+
+}
+
+.main-nav-container .inner {
+
+    box-shadow: none;
+
+    background-color: #c5a04f !important;
+
+}
+
+#mainnav {
+
+    background: #c5a04f;
+
+    color: #ffffff;
+
+    border: 0px solid #1c2121;
+
+    border-top: 0;
+
+    border-left: 0;
+
+    border-right: 0;
+
+}
+
+.main-nav-container.fixed-header .inner {
+
+    transform: translateZ(0);
+
+    border-radius: 0 0 10px 10px;
+
+}
+
+span.s-login-modal-main-btn-icon svg {
+
+    fill: #ffffff;
+
+}
+
+.main-nav-container .sicon-shopping-bag:before {
+
+    content: "\e96b";
+
+    color: #ffffff;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.opacity-70 {
+
+    opacity: 100;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.header-icon-button * {
+
+    opacity: 100 !important;
+
+    color: #ffffff !important;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.text-gray-800 {
+
+    text-align: center;
+
+    background: linear-gradient(to right, #c5a04f 20%, #1c2121 30%, #c5a04f 70%, #1c2121 80%);
+
+    -webkit-background-clip: text;
+
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+    text-fill-color: transparent;
+
+    background-size: 500% auto;
+
+    animation: textShine 5s ease-in-out infinite alternate;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.product-entry--vertical {
+
+    flex-direction: column;
+
+    border: 2.5px solid #c5a04f !important;
+
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.s-product-options-option-label b {
+
+    text-align: center !important;
+
+}
+
+.s-product-card-vertical {
+
+    flex-direction: column;
+
+    border: 2.5px solid #c5a04f !important;
+
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.slide--cat-entry {
+
+    border: 2px solid #c5a04f !important;
+
+}
+
+.product-entry--vertical .product-entry__content {
+
+    justify-content: flex-start;
+
+    text-align: center;
+
+    justify-content: center;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+[dir=rtl] .rtl\:pl-3 {
+
+    padding-left: 0.75rem;
+
+    background: linear-gradient(to right, #c5a04f 20%, #1c2121 30%, #c5a04f 70%, #1c2121 80%);
+
+    -webkit-background-clip: text;
+
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+    text-fill-color: transparent;
+
+    background-size: 500% auto;
+
+    animation: textShine 5s ease-in-out infinite alternate;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+/*.navbar-brand img {
+    
+    max-height: 3rem;
+    
+    max-width: 165px;
+    
+    animation: wiggle 2.5s infinite;
+    
+    animation: pulsate-bck 1.3s ease-in-out 2.5s infinite!important;
+    
+    }*/
+
+@keyframes pulsate-bck {
+
+    0% {
+
+        transform: scale(1);
+
+    }
+
+    50% {
+
+        transform: scale(0.9);
+
+    }
+
+    100% {
+
+        transform: scale(1);
+
+    }
+
+}
+
+.navbar-brand img {
+
+    content: url(https://cdn.salla.sa/RAAEqE/CXJEkNqxJHg6fLasmPdaRAu1KwbeNB7XddLpleJh.jpg) !important;
+
+    margin-left: -23px !important;
+
+}
+
+.sicon-quote-open:before {
+
+    content: "\eeaf";
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.rtl .fix-align,
+[dir=rtl] .fix-align {
+
+    transform: translateY(-2px);
+
+    display: inline-block;
+
+    background: linear-gradient(to right, #c5a04f 20%, #1c2121 30%, #c5a04f 70%, #1c2121 80%);
+
+    -webkit-background-clip: text;
+
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+    text-fill-color: transparent;
+
+    background-size: 500% auto;
+
+    animation: textShine 5s ease-in-out infinite alternate;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.promotion-badge {
+
+    color: #ffffff;
+
+    background: linear-gradient(to right, #c5a04f 20%, #1c2121 30%, #c5a04f 70%, #1c2121 80%);
+
+    background-size: 500% auto;
+
+    animation: textShine 5s ease-in-out infinite alternate;
+
+}
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    80% {
+        transform: rotate(0deg);
+    }
+
+    85% {
+        transform: rotate(5deg);
+    }
+
+    95% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+}
+
+@keyframes tournemoi {
+
+    0% {
+
+        transform: rotate(-5deg);
+
+    }
+
+    50% {
+
+        transform: rotate(5deg);
+
+    }
+
+    100% {
+
+        transform: rotate(0deg);
+
+    }
+
+}
+
+.product-entry--vertical:hover {
+
+    animation: tournemoi 2s ease;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+@keyframes textShine {
+
+    0% {
+
+        background-position: 0% 50%;
+
+    }
+
+    100% {
+
+        background-position: 100% 50%;
+
+    }
+
+}
+
+.s-block__title h2 {
+
+    margin: 110px !important;
+
+    margin-top: -3px !important;
+
+    margin-bottom: -3px !important;
+
+    margin-right: 140px !important;
+
+    padding-right: 0 !important;
+
+    background: linear-gradient(to right, #c5a04f 20%, #1c2121 30%, #c5a04f 70%, #1c2121 80%);
+
+    -webkit-background-clip: text;
+
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+    text-fill-color: transparent;
+
+    background-size: 500% auto;
+
+    animation: textShine 5s ease-in-out infinite alternate;
+
+}
+
+.s-slider-block__title h2 {
+
+    padding-left: 0 !important;
+
+    padding-right: 0 !important;
+
+    background: linear-gradient(to right, #c5a04f 20%, #1c2121 30%, #c5a04f 70%, #1c2121 80%);
+
+    -webkit-background-clip: text;
+
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+    text-fill-color: transparent;
+
+    background-size: 500% auto;
+
+    animation: textShine 5s ease-in-out infinite alternate;
+
+}
+
+.text-primary {
+
+    padding-left: 0 !important;
+
+    padding-right: 0 !important;
+
+    background: linear-gradient(to right, #c5a04f 20%, #1c2121 30%, #c5a04f 70%, #1c2121 80%);
+
+    -webkit-background-clip: text;
+
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+    text-fill-color: transparent;
+
+    background-size: 500% auto;
+
+    animation: textShine 5s ease-in-out infinite alternate;
+
+}
+
+@keyframes textShine {
+
+    0% {
+
+        background-position: 0% 50%;
+
+    }
+
+    100% {
+
+        background-position: 100% 50%;
+
+    }
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.transition-all {
+
+    transition-property: all;
+
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+
+    transition-duration: 150ms;
+
+    background: #c5a04f !important;
+
+    color: #ffffff;
+
+    text-align: center;
+
+    border: 2px solid #1c2121 !important;
+
+}
+
+.transition-all .text-gray-600 {
+
+    color: #ffffff !important;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.store-footer {
+
+    background-color: #c5a04f !important;
+
+    margin-top: 0px;
+
+    border-radius: 0px 0px 0 0;
+
+}
+
+.store-footer a img {
+
+    content: url(https://cdn.salla.sa/RAAEqE/CXJEkNqxJHg6fLasmPdaRAu1KwbeNB7XddLpleJh.jpg) !important;
+
+    margin-left: -23px !important;
+
+}
+
+.store-footer__inner {
+
+    border-radius: 0px 0px 0 0;
+
+}
+
+.footer-is-light .store-footer__top::before {
+
+    content: "";
+
+    background: linear-gradient(180deg, transparent 100%, #ffffff 94%),
+
+        url(https://cdn.salla.sa/form-builder/wNtMv6kZ8Kfwn4HwWEwhunZoi5STLtYzRDjaevXg.png);
+
+    background-size: 418%;
+
+    display: block;
+
+    background-repeat: round;
+
+    transform: rotate(180deg);
+
+    height: 104px;
+
+    margin: -40px -32px 1px 1px;
+
+}
+
+.store-footer h3 {
+
+    color: #1c2121 !important;
+
+}
+
+.footer-is-light .store-footer__top>:not([hidden])~:not([hidden]) {
+
+    border-color: transparent;
+
+}
+
+salla-button .s-button-btn {
+
+    border-radius: 6px;
+
+    color: #ffffff !important;
+
+    background: linear-gradient(to right, #c5a04f 20%, #1c2121 30%, #c5a04f 70%, #1c2121 80%);
+
+    background-size: 500% auto;
+
+    animation: textShine 5s ease-in-out infinite alternate;
+
+}
+
+.store-footer .social-link {
+
+    color: #1c2121;
+
+}
+
+.store-footer p {
+
+    content: " صنع بحب ❤️ " !important;
+
+    color: #ffffff !important;
+
+}
+
+.footer-is-light .store-footer__top {
+
+    color: #ffffff;
+
+    border-bottom: 1px solid #1c2121 !important;
+
+    border-top: 0px solid #1c2121 !important;
+
+    border-radius: 30px 30px 0 0;
+
+    background-color: #c5a04f;
+
+}
+
+.site-info-bar,
+.lg\:py-6 {
+
+    padding-top: 1.5rem;
+
+    padding-bottom: 1.5rem;
+
+    background: #1c2121;
+
+}
+
+border-radius: 30px !important;
+
+}
+
+*/ .s-block--features {
+
+    background-color: #c5a04f !important;
+}
+
+.s-block--features__item P {
+
+    color: #1c2121;
+
+}
+
+.s-block--features .s-block--features__item h4 {
+
+    color: #c5a04f !important;
+
+}
+
+.s-block--features .s-block--features__item .feature-icon {
+
+    position: relative;
+
+    background: #ffffff;
+
+    height: 2rem;
+
+    width: 3rem;
+
+    border-radius: 10px;
+
+}
+
+/*---------------- KHIDMTKALAYNA.COM --------------*/
+
+.text-gray-800 {
+
+    text-align: center !important;
+
+}
+
+[dir=rtl] .s-modal-header-inner {
+
+    padding-left: 2rem;
+
+    justify-content: center;
+
+    padding-right: 0;
+
+}
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+
+    text-align: center !important;
+
+}
+
+.product__description ul li {
+
+    list-style-type: disclosure-closed;
+
+    text-align: center;
+
+}
+
+.product__description ul li {
+
+    list-style-type: disclosure-closed;
+
+    text-align: center;
+
+}
+
+.s-comments .s-comment-form-input {
+
+    text-align: center;
+
+}
+
+.text-sm {
+
+    justify-content: center;
+
+}
+
+.leading-6 {
+
+    align-self: center;
+
+}
+
+.container.xl\:px-0.grid.grid-cols-6.gap-10.lg\:gap-6 {
+
+    display: block;
+
+}
+
+.footer-list.store-links-items {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.footer-list.store-links-items a {
+    background: #ffffff29;
+    padding: 7px;
+    margin: 4px;
+    border-radius: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.footer-list a:before {
+
+    display: none;
+
+}
+
+h3.footer-title {
+
+    margin-top: 20px;
+
+}
+
+.col-span-3.sm\:col-span-2.lg\:col-span-1.footer-list {
+
+    display: none;
+
+}
+
+ul.flex.-mx-1 {
+
+    zoom: 110%;
+
+}
+
+ul.flex.-mx-1 li a {
+
+    background: #ceaf6b;
+
+    color: #fff;
+
+}
+
+a.mb-2\.5.last\:mb-0.flex.items-center.text-sm.leading-none.hover\:opacity-70 span {
+    display: none;
+}
+
+a.mb-2\.5.last\:mb-0.flex.items-center.text-sm.leading-none.hover\:opacity-70 {
+
+    display: block;
+
+    margin: 0;
+
+    color: #fff;
+
+    zoom: 118%;
+
+}
+
+div.store-footer__top.pb-4.lg\:pb-10.pt-10.lg\:pt-22.space-y-8.divide-y.divide-dashed.divide-white\/10>div.container.xl\:px-0.grid.grid-cols-6.gap-10.lg\:gap-6>div:nth-child(4) {
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 16px;
+
+}
+
+div.store-footer__top.pb-4.lg\:pb-10.pt-10.lg\:pt-22.space-y-8.divide-y.divide-dashed.divide-white\/10>div.container.xl\:px-0.grid.grid-cols-6.gap-10.lg\:gap-6>div:nth-child(4)>h3 {
+
+    display: none;
+
+}
+
+.store-footer .contact-icon {
+
+    background: #ceaf6b;
+
+    padding: 12px !important;
+
+    font-size: 12px;
+
+}
+
+#app>div.app-inner.flex.flex-col.min-h-screen.relative>footer>div>div.store-footer__top.pb-4.lg\:pb-10.pt-10.lg\:pt-22.space-y-8.divide-y.divide-dashed.divide-white\/10>div.container.xl\:px-0.grid.grid-cols-6.gap-10.lg\:gap-6>div.col-span-3.lg\:col-span-2:after {
+
+    content: " تواصل معنا ";
+    margin-bottom: 15px;
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 20px;
+
+    color: #1c2125;
+
+    font-weight: bold;
+
+    font-size: 18px;
+
+}
+
+.container.xl\:px-0.grid.lg\:grid-flow-col.lg\:auto-cols-fr.gap-6.pt-8 {
+
+    display: none;
+
+}
+
+[dir=rtl] .store-footer .contact-icon {
+
+    margin: 3px !important;
+
+}
+
+.col-span-6.lg\:col-span-3.flex.flex-col.flex-1.items-center.text-center.lg\:text-start.lg\:items-start.space-y-6 {
+
+    align-items: center !important;
+
+}
+
+.header-is-light .side-panel li a {
+
+    animation: none;
+
+}
+
+.s-block:first-of-type {
+
+    margin-top: 0px !important;
+
+}
+
+.s-block__title h2 {
+
+    width: 100%;
+
+    margin: auto !important;
+
+}
+
+.s-block__title {
+
+    justify-content: center;
+
+    text-align: center;
+
+}
+
+[dir=rtl] .s-block__title .right-side {
+
+    padding: 0 !important;
+
+}
+
+.col-span-3.lg\:col-span-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.store-footer__top.pb-4.lg\:pb-10.pt-10.lg\:pt-22.space-y-8.divide-y.divide-dashed.divide-white\/10>div.container.xl\:px-0.grid.grid-cols-6.gap-10.lg\:gap-6>div.col-span-3.lg\:col-span-1>h3 {
+    display: none;
+}
+
+.product__description ul li {
+    text-align: right;
+}
+
+::marker {
+    display: none !important;
+}
+
+:is([dir=rtl] .triangle-overlay):after {
+    display: none;
+}
+
+.product-entry salla-button.btn--wishlist button:not(:hover) {
+    border: 2px solid #c5a04f !important;
+}
+
+button.btn--wishlist.animated.s-button-element.s-button-icon.s-button-outline.s-button-light-outline.s-button-loader-center {
+    box-shadow: none;
+}
+
+@media (max-width:900px) {
+    .btn--wishlist {
+        position: absolute;
+        left: -6px;
+        bottom: 6px;
+    }
+}
+
+.sticky .text-gray-400 {
+    color: #000;
+    margin-left: 7px;
+    font-size: 16px;
+}
+
+h4.font-bold.text-sm.mb-5 {
+    font-size: 20px;
+}
+
+button.btn--coupon,
+.cart-submit-wrap .s-button-wide {
+    animation: none !important;
+    background: #000;
+}
