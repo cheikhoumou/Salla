@@ -1465,7 +1465,7 @@ button.btn--wishlist.animated.s-button-element.s-button-icon.s-button-outline.s-
 }.swiper.s-slider-container.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-rtl.swiper-backface-hidden > span.md\:hidden.absolute.bottom-3.rtl\:right-3.ltr\:left-3.z-1 > salla-button > button {
   right: 0;
 }#wa-widget-send-button {
-  bottom: 75px !important;
+  bottom: 64px !important;
 }#app > div.app-inner.flex.flex-col.min-h-screen.relative > section:nth-child(5) > div.s-block__title {
     justify-content: space-between;
 }
