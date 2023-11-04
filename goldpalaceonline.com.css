@@ -1466,4 +1466,6 @@ button.btn--wishlist.animated.s-button-element.s-button-icon.s-button-outline.s-
   right: 0;
 }#wa-widget-send-button {
   bottom: 75px !important;
+}#app > div.app-inner.flex.flex-col.min-h-screen.relative > section:nth-child(5) > div.s-block__title {
+    justify-content: space-between;
 }
