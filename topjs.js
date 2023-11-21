@@ -27,7 +27,7 @@ document.querySelector("body.store-home > section:nth-child(5)").innerHTML = `
     <div class="b1 mb"><a href="https://cardsworldsa.com/%D8%AA%D9%84%D9%8A%D8%AC%D8%B1%D8%A7%D9%85/c650561570" ><img src="https://www6.0zz0.com/2023/11/21/14/616260766.jpeg" alt=""></a></div>
     <div class="b1 mb"><a href="https://cardsworldsa.com/%D9%8A%D9%88%D8%AA%D9%8A%D9%88%D8%A8/c1889785635" ><img src="https://www6.0zz0.com/2023/11/21/14/413643357.jpeg" alt=""></a></div>
     <div class="b1 mb"><a href="https://cardsworldsa.com/%D8%AA%D9%88%D9%8A%D8%AA%D8%B4/c1116272172" ><img src="https://www6.0zz0.com/2023/11/21/14/460406551.jpeg" alt=""></a></div>
-    <div class="b1 mb"><a href="" ><img src="" alt=""></a></div>
+    <div class="b1 mb"><a href="https://cardsworldsa.com/%D8%AB%D8%B1%D9%8A%D8%AF%D8%B2/c1026654124" ><img src="https://www9.0zz0.com/2023/11/21/17/947999911.jpg" alt=""></a></div>
 </div>
 `;
 console.log("cheikhoumou salla Dev phone: +222 20523820");
