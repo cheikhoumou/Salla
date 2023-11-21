@@ -1,4 +1,4 @@
-document.querySelector("body > section:nth-child(5)").innerHTML = `
+document.querySelector("body.store-home > section:nth-child(5)").innerHTML = `
 <style>.box {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -45,6 +45,8 @@ document.querySelector("body > section:nth-child(5)").innerHTML = `
     font-family: inherit;
     font-weight: bold;
     font-size: 23px;
+}.salla-theme_4 .site-header .logo-wrapper .logo img {
+    max-width: 180px;
 }
 </style>
 <div class="kism">
@@ -62,7 +64,7 @@ document.querySelector("body > section:nth-child(5)").innerHTML = `
     <div class="b9 mb"><a href="https://cardsworldsa.com/%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D8%A7%D8%AA-%D8%B4%D8%A7%D9%87%D8%AF/c120329932" ><img src="https://www10.0zz0.com/2023/11/21/14/874355915.jpeg" alt=""></a></div>
     <div class="b10 mb"><a href="https://cardsworldsa.com/%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D8%A7%D8%AA-%D9%86%D8%AA%D9%81%D9%84%D9%83%D8%B3/c584471758" ><img src="https://www10.0zz0.com/2023/11/21/14/908251233.jpeg" alt=""></a></div>
     <div class="b11 mb"><a href="https://cardsworldsa.com/%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D8%A7%D8%AA-%D8%A8%D9%84%D8%B3/c1318687432" ><img src="https://www10.0zz0.com/2023/11/21/14/843524618.jpeg" alt=""></a></div>
-    <div class="b12 mb"><a href="" ><img src="" alt=""></a></div>
+    <div class="b12 mb"><a href="https://cardsworldsa.com/%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D8%A7%D8%AA-%D9%8A%D9%88%D8%AA%D9%8A%D9%88%D8%A8-%D8%A8%D8%B1%D9%8A%D9%85%D9%8A%D9%88%D9%85/c893908931" ><img src="https://www7.0zz0.com/2023/11/21/16/367855444.jpeg" alt=""></a></div>
 </div>
 <div class="kism">
     خدمات التسويق
