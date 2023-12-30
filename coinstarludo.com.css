@@ -1,96 +1,65 @@
-@media (max-width: 767px){
-  .home-block--square-images .col-md-4 {
-    margin-bottom: -30px;
-    width: 50%;
-    padding: 3px !important;
+@keyframes logobg {
+    0% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    78% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
 }
-#main-cart-btn i, .site-header .site-header__wrapper .header-side-panel-trigger {
-    font-size: 27px;
-  color:#fff;
-}
-}.home-block--square-images .col-md-4 {
-    margin-left: auto;
-    margin-right: auto;
-}section.home-block.home-block--square-images {
-    margin: 0 !important;
-    padding: 0 !important;
-}.sicon-cart:before {
-    content: "\ef36";
-}
-@media (max-width: 600px){
-  #site-header-outer .site-header {
-    background-image: url(https://res.cloudinary.com/mkta-app/image/upload/v1659782736/svgwave_q9t6gi.svg)!important;
-    display: block !important;
-    background-position: center !important;
-    background-size: cover!important;
-    background-color: #2e3573 !important;
-}}
-footer.footer:before {
-    content: " ";
-    background-image: url(https://res.cloudinary.com/mkta-app/image/upload/v1659782736/svgwave_q9t6gi.svg)!important;
-    display: block !important;
-    background-position: center !important;
-    background-repeat: no-repeat;
-    background-size: cover !important;
+body:before {
+    content: "";
     width: 100%;
-    height: 110px;
-    transform: rotate(180deg);
-}footer {
-    background: linear-gradient(to right, #40407c, #783291) !important;
+    height: 100%;
+    background: #ffcb1347 url(https://cdn.salla.sa/yoArN/WHubErLQGhKajAPY0vR8nVICHJ6U0y0CNTFNvId1.png);
+    position: fixed;
+    z-index: 99999999999999999 !important;
+    transform: scale(0);
+    background-size: 200px !important;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    animation-name: logobg;
+    animation-duration: 3s;
 }
-footer *{
+.store-header .text-white {
     color: #fff !important;
+    background: var(--primary-color) !important;
+    padding: 5px 15px !important;
+    border-radius: 10px !important;
+    width: 14%;
+    margin: auto;
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    text-shadow: 0 0 9px rgb(56 111 187 / 90%), 0 0 9px rgb(56 111 187 / 90%), 0 0 9px rgb(56 111 187 / 90%), 0 0 9px rgb(56 111 187 / 90%);
+    box-shadow: 0 0 9px rgb(56 111 187 / 70%), inset 0 0 9px rgb(56 111 187 / 70%);
 }
-.footer__mid {
-    border: none;
-}.footer__bottom {
-    background: linear-gradient(to right, #41407c, #753291) !important;
+a.header-icon-button.w-full.text-white {
+    width: fit-content !important;
+    margin: 6px !important;
 }
-
-
-.footer-list--payment-methods {
-    background: white !important;
-    border-radius: 12px !important;
-}.title--has-dash:before {
-    background: #fff !important;
-}.btn--floated.btn--add-to-cart {
-    position: initial;
-    display: block;
-    width: calc(100% - 30px);
-    border-radius: 99px !important;
-    margin: 0px 15px 10px !important;
-    transform: none !important;
-    padding: 2px 10px 2px 2px!important;
-    background: linear-gradient(to right, #40407c, #783291) !important;
-}.btn--floated.btn--add-to-cart .sicon-shopping-bag::before {
-    content: 'إضافة للسلة' !important;
-    font-weight: 700 !important;
-    font-family: 'excpo' !important;
-    color: #fff;
-    margin-left: 6px;
-}@media (max-width: 576px){
-    .products-list-container .product-block h2 {
-    font-size: 12px;
-    text-align: center;
-}}.store-links .mb-20 {
-    color: white !important;
-}@media (max-width: 576px){
-  .footer__top .store-contact-info .title--primary {
-    color: #ffffff !important;
-}
-}
-
-
-span.badge.badge--ribbon.badge--primary {
-    background: linear-gradient(to right, #aed35f, #15a5c4) !important;
-}
-
-header#site-header-outer {
-    box-shadow: none;
-}
-
-.badge--danger {
-    background: #da9d35;
-    color: #523c86;
+button.btn--gray.rounded.mx-1 {
+    background: #fff;
+    color: #000;
     font-weight: bold;
+}
+.bg-white.rounded.p-5.h-full.flex.flex-col.transition-all.duration-300.shadow-md.shadow-gray-100.hover\:shadow-lg.hover\:shadow-gray-200.hover\:-translate-y-1 {
+    background: #0e0f0f;
+    color: #fff;
+    border-radius: 30px;
+}
+p.leading-6.mt-4.sm\:mt-0.text-gray-600 {
+    color: #fff;
+}
+li.mx-1 {
+    color: #06becc;
+}
+a.mb-2\.5.last\:mb-0.flex.items-center.text-sm.leading-none.hover\:opacity-70 {
+    color: #1296ab;
 }
