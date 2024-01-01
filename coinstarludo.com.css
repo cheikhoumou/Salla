@@ -12,6 +12,7 @@
     }
 
     100% {
+        opacity:0;
         transform: scale(0);
     }
 }
@@ -19,11 +20,11 @@ body:before {
     content: "";
     width: 100%;
     height: 100%;
-    background: #ffcb1347 url(https://cdn.salla.sa/yoArN/WHubErLQGhKajAPY0vR8nVICHJ6U0y0CNTFNvId1.png);
+    background: #ffcb1300 url(https://cdn.salla.sa/yoArN/WHubErLQGhKajAPY0vR8nVICHJ6U0y0CNTFNvId1.png);
     position: fixed;
     z-index: 99999999999999999 !important;
     transform: scale(0);
-    background-size: 200px !important;
+    background-size: 300px !important;
     background-repeat: no-repeat;
     background-position: center !important;
     animation-name: logobg;
@@ -110,3 +111,11 @@ a.mb-2\.5.last\:mb-0.flex.items-center.text-sm.leading-none.hover\:opacity-70 {
     background-position: right;
     background-repeat: no-repeat;
 }button.humb.menu-trigger {background: #7e3e94;border-radius: 9px;}
+.product-entry--vertical {
+    background: #f1f2f3;
+    border-radius: 15px;
+}.s-cart-summary-wrapper .s-cart-summary-count {
+    border-color: #fff;
+}.s-button-primary {
+    color: #fff;
+}
