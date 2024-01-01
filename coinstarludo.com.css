@@ -83,25 +83,30 @@ a.mb-2\.5.last\:mb-0.flex.items-center.text-sm.leading-none.hover\:opacity-70 {
     order: 1;
 }
 
-.grid.grid-cols-2.md\:grid-cols-4.gap-2\.5.md\:gap-4.lg\:gap-5.has-6-photos {
+#app > div.app-inner.flex.flex-col.min-h-screen.relative > section:nth-child(4) > div > div {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 6px;
 }
 
-.grid.grid-cols-2.md\:grid-cols-4.gap-2\.5.md\:gap-4.lg\:gap-5.has-6-photos .banner-entry:nth-child(5n+1) {
+#app > div.app-inner.flex.flex-col.min-h-screen.relative > section:nth-child(4) > div > div .banner-entry:nth-child(5n+1) {
     grid-column: auto;
 }@media (max-width: 1000px) {
-.grid.grid-cols-2.md\:grid-cols-4.gap-2\.5.md\:gap-4.lg\:gap-5.has-6-photos .banner-entry{
+#app > div.app-inner.flex.flex-col.min-h-screen.relative > section:nth-child(4) > div > div .banner-entry{
     height:10rem;
 }}
 
 @media (max-width: 505px) {
-.grid.grid-cols-2.md\:grid-cols-4.gap-2\.5.md\:gap-4.lg\:gap-5.has-6-photos .banner-entry{
+#app > div.app-inner.flex.flex-col.min-h-screen.relative > section:nth-child(4) > div > div .banner-entry{
     height: 7rem;
 }}@media (max-width: 428px) {
-.grid.grid-cols-2.md\:grid-cols-4.gap-2\.5.md\:gap-4.lg\:gap-5.has-6-photos .banner-entry{
+#app > div.app-inner.flex.flex-col.min-h-screen.relative > section:nth-child(4) > div > div .banner-entry{
     height: 5rem;
 }}.banner-entry {
     border-radius: 12px;
-}
+}.inner.bg-inherit {
+    background-image: url(https://drive.google.com/uc?id=1aLp9dmML37fo8S5gTnAv39iE2DgfztdC);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}button.humb.menu-trigger {background: #7e3e94;border-radius: 9px;}
