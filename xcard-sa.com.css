@@ -1,0 +1,114 @@
+div#mainnav,.dark .top-navbar {
+    background: #150038;
+}
+
+.dark .header-btn__icon {
+    border: 1px solid #6850a0;
+    background: none !important;
+    padding: 20px;
+}span.s-cart-summary-count {
+    background: #f5739a;
+}
+
+.main-nav-container.fixed-pinned .inner {
+    background: rgba(64, 39, 121, 0.5);
+    backdrop-filter: blur(50px);
+    padding: 10px 0px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
+    transition: all 0.5s ease 0s;
+}
+
+.dark .product-entry {
+    background: #230753;
+    border-radius: 25px;
+}
+
+.dark .product-entry__image {
+    background-color: #230753;
+}
+
+
+.dark .index .brand-item {
+    background: #281359;
+    height: 90px;
+    border-radius: 15px;
+}
+
+i.sicon-menu.text-primary.text-2xl.rtl\:ml-2\.5.ltr\:mr-2\.5 {
+    border: 1px solid #6850a0;
+    padding: 5px;
+    font-size: 28px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+i.sicon-menu.text-primary.text-2xl.rtl\:ml-2\.5.ltr\:mr-2\.5 {}
+
+.dark #app .s-search-input {
+    background: #230753;
+}
+.product-entry__image:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(https://drive.google.com/uc?id=1nhdwd-ZCAIZzVFY3G6ynffO5oeERdak2);
+    background-size: 33%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    transition: all .5s;
+    opacity: .5;
+}
+.product-entry:not(.product-entry--coupon):hover .product-entry__image:before{
+  background-size: 90%;
+}
+.store-footer__inner:before {
+    content: "";
+    height: 130%;
+    width: 130%;
+    position: absolute;
+    background: radial-gradient( 73.29% 183.65% at 70.38% 26.71%,#2c1258 0%,#1c1258 100% );
+    border-radius: 150px 150px 0 0;
+    transform: rotate(-6deg);
+    top: 0;
+    right: 0;
+    z-index: -1;
+    box-shadow: inset 0 0 0 15px #261967;
+}
+
+footer.store-footer {
+    background: transparent !important;
+}
+
+.store-footer__inner {
+    background: transparent !important;
+}
+@media(max-width: 758px) {
+    .store-footer__inner:before {
+        height:120%;
+        transform: rotate(-2deg);
+        right: -5%
+    }
+
+    .store-footer__inner {
+        padding: 100px 30px 30px
+    }
+}
+
+@media(max-width: 450px) {
+    .store-footer__inner {
+        padding:40px 10px
+    }
+
+    .store-footer__inner:before {
+        height: 115%;
+        transform: rotate(-2deg);
+        right: -10%;
+        border-radius: 0 100px 0 0
+    }
+
+    .footer-item {
+        padding: 15px
+    }
+}
