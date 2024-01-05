@@ -196,3 +196,43 @@ button.btn--main.s-button-element.s-button-btn.s-button-outline.s-button-primary
   border-radius: 30px;
   border: none;
 }
+/* code BG */
+#app > div.app-inner.flex.flex-col.min-h-full:before {
+  content: "";
+  display: block;
+  background: url(https://d.top4top.io/p_2926f1yk81.png) no-repeat;
+  width: 100%;
+  height: 1000px;
+  position: absolute;
+  z-index: -1;
+}
+
+.cotent.flex.flex-col.gap-2\.5.md\:gap-5.w-full.lg\:w-1\/2.md\:px-5.items-start {
+  position: relative;
+  z-index: 999999 !important;
+}div#mainnav, .dark .top-navbar {
+    background: transparent;
+}
+.block-inner.relative.bg-no-repeat.bg-cover.bg-center.h-\[360px\].lg\:h-\[500px\].overflow-hidden.has-overlay--opacity-option.has-overlay--opacity-0 {
+    background: none !important;
+}
+/* الجوال */
+@media (max-width:1500px) {
+  #app > div.app-inner.flex.flex-col.min-h-full:before {
+ background-position:center;
+}}
+
+@media (max-width:1025px) {
+  #app > div.app-inner.flex.flex-col.min-h-full:before {
+ display:none;
+}
+.block-inner.relative.bg-no-repeat.bg-cover.bg-center.h-\[360px\].lg\:h-\[500px\].overflow-hidden.has-overlay--opacity-option.has-overlay--opacity-0 {
+    background-color: #150038 !important;
+    background-position: center !important;
+    background-image: url(https://cdn.salla.sa/form-builder/GhnDMthdIYSNPajOh3zhowAKG3QEuZ4ixLiz380B.png) !important;
+    background-size: cover !important;
+}
+ #enhaced-banner-0 > div > div > div{
+  margin-bottom:120px;
+ }
+}
