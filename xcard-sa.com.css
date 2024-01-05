@@ -1,114 +1,198 @@
-div#mainnav,.dark .top-navbar {
-    background: #150038;
+div#mainnav,
+.dark .top-navbar {
+  background: #150038;
 }
 
 .dark .header-btn__icon {
-    border: 1px solid #6850a0;
-    background: none !important;
-    padding: 20px;
-}span.s-cart-summary-count {
-    background: #f5739a;
+  border: 1px solid #6850a0;
+  background: none !important;
+  padding: 20px;
+}
+
+span.s-cart-summary-count {
+  background: #f5739a;
 }
 
 .main-nav-container.fixed-pinned .inner {
-    background: rgba(64, 39, 121, 0.5);
-    backdrop-filter: blur(50px);
-    padding: 10px 0px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
-    transition: all 0.5s ease 0s;
+  background: rgba(64, 39, 121, 0.5);
+  backdrop-filter: blur(50px);
+  padding: 10px 0px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
+  transition: all 0.5s ease 0s;
 }
 
 .dark .product-entry {
-    background: #230753;
-    border-radius: 25px;
+  background: #4f3688;
+  border-radius: 25px;
 }
 
 .dark .product-entry__image {
-    background-color: #230753;
+  background-color: #4f3688;
 }
 
 
 .dark .index .brand-item {
-    background: #281359;
-    height: 90px;
-    border-radius: 15px;
+  background: #281359;
+  height: 70px;
+  border-radius: 15px;
 }
 
 i.sicon-menu.text-primary.text-2xl.rtl\:ml-2\.5.ltr\:mr-2\.5 {
-    border: 1px solid #6850a0;
-    padding: 5px;
-    font-size: 28px;
-    border-radius: 10px;
-    color: #fff;
+  border: 1px solid #6850a0;
+  padding: 5px;
+  font-size: 28px;
+  border-radius: 10px;
+  color: #fff;
 }
-
-i.sicon-menu.text-primary.text-2xl.rtl\:ml-2\.5.ltr\:mr-2\.5 {}
-
 .dark #app .s-search-input {
-    background: #230753;
+  background: #230753;
 }
+
 .product-entry__image:before {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: url(https://drive.google.com/uc?id=1nhdwd-ZCAIZzVFY3G6ynffO5oeERdak2);
-    background-size: 33%;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: 1;
-    transition: all .5s;
-    opacity: .5;
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url(https://drive.google.com/uc?id=1nhdwd-ZCAIZzVFY3G6ynffO5oeERdak2);
+  background-size: 33%;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  transition: all .5s;
+  opacity: .5;
 }
-.product-entry:not(.product-entry--coupon):hover .product-entry__image:before{
+
+.product-entry:not(.product-entry--coupon):hover .product-entry__image:before {
   background-size: 90%;
 }
+
 .store-footer__inner:before {
-    content: "";
-    height: 130%;
-    width: 130%;
-    position: absolute;
-    background: radial-gradient( 73.29% 183.65% at 70.38% 26.71%,#2c1258 0%,#1c1258 100% );
-    border-radius: 150px 150px 0 0;
-    transform: rotate(-6deg);
-    top: 0;
-    right: 0;
-    z-index: -1;
-    box-shadow: inset 0 0 0 15px #261967;
+  content: "";
+  height: 130%;
+  width: 130%;
+  position: absolute;
+  background: radial-gradient(73.29% 183.65% at 70.38% 26.71%, #2c1258 0%, #1c1258 100%);
+  border-radius: 150px 150px 0 0;
+  transform: rotate(-6deg);
+  top: 0;
+  right: 0;
+  z-index: -1;
+  box-shadow: inset 0 0 0 15px #261967;
 }
 
 footer.store-footer {
-    background: transparent !important;
+  background: transparent !important;
 }
 
 .store-footer__inner {
-    background: transparent !important;
+  background: transparent !important;
 }
-@media(max-width: 758px) {
-    .store-footer__inner:before {
-        height:120%;
-        transform: rotate(-2deg);
-        right: -5%
-    }
 
-    .store-footer__inner {
-        padding: 100px 30px 30px
-    }
+@media(max-width: 758px) {
+  .store-footer__inner:before {
+    height: 120%;
+    transform: rotate(-2deg);
+    right: -5%
+  }
+
+  .store-footer__inner {
+    padding: 100px 30px 30px
+  }
 }
 
 @media(max-width: 450px) {
-    .store-footer__inner {
-        padding:40px 10px
-    }
+  .store-footer__inner {
+    padding: 40px 10px
+  }
 
-    .store-footer__inner:before {
-        height: 115%;
-        transform: rotate(-2deg);
-        right: -10%;
-        border-radius: 0 100px 0 0
-    }
+  .store-footer__inner:before {
+    height: 115%;
+    transform: rotate(-2deg);
+    right: -10%;
+    border-radius: 0 100px 0 0
+  }
 
-    .footer-item {
-        padding: 15px
-    }
+  .footer-item {
+    padding: 15px
+  }
+}
+
+body#app {
+  background: #150038;
+}
+
+/* الخلفية */
+/* 
+header.store-header:before {
+  content: "";
+  display: block;
+  background: url(https://b.top4top.io/p_292504j9n1.png) no-repeat;
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  z-index: -4;
+}
+
+.cotent.flex.flex-col.gap-2\.5.md\:gap-5.w-full.lg\:w-1\/2.md\:px-5.items-start {
+  position: relative;
+  z-index: 999999 !important;
+} */
+/* الخلفية */
+.swiper-slide.slide--one-fivth {
+  width: 140px;
+}
+
+.dark .s-block--features.enhanced-store .s-block--features__item {
+  background: #281359;
+}
+
+#enhaced-fixed-products-3>div {
+  border-radius: 30px;
+  padding: 20px;
+  overflow: hidden;
+  background: url(https://giftcard.im/front/images/background/bg-9.svg), #281359;
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: center top -200px;
+}
+
+.product-entry:not(.product-entry--coupon):hover {
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .1), 0 0 15px #2d7bb7;
+  border: none;
+}
+
+button.btn--main.s-button-element.s-button-btn.s-button-outline.s-button-primary-outline.s-button-loader-after {
+  background: radial-gradient(92.07% 92.07% at 89.6% 7.93%, #45d6f0 0%, #2d7bb7 100%);
+  -webkit-box-shadow: 0 10.42px 50px rgba(45, 123, 183, .5);
+  box-shadow: 0 10.42px 50px rgba(45, 123, 183, .5);
+  color: #fff;
+  border: none;
+}
+
+#main-links-1>div.s-slider-block__title>div.s-slider-block__title-right>h2:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 10px;
+  height: 0;
+  width: 0;
+  border-radius: 100px;
+  -webkit-box-shadow: 0 0 40px 30px rgba(109, 94, 138, .5);
+  box-shadow: 0 0 40px 30px rgba(109, 94, 138, .5);
+  z-index: -1;
+}
+/* الجوال */
+@media (max-width:640px) {
+  .s-products-list-wrapper.s-products-list-vertical-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.questions-details.rounded.border.border-gray-200.dark\:border-white\/10.overflow-hidden {
+  background: #27185d;
+  border-radius: 30px;
+  border: none;
 }
