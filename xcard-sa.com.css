@@ -234,11 +234,28 @@ button.btn--main.s-button-element.s-button-btn.s-button-outline.s-button-primary
   background: #281359;
 }.s-modal-entering {
   background: linear-gradient(45deg, #281359d1, #e44c7a40);
-}
-/*  */
-
-footer.store-footer {
+}footer.store-footer {
   overflow: hidden;
 }.store-footer__inner {
   margin-top: 70px;
+}section.sticky-product-bar.bg-white.dark\:bg-darker.p-5.rounded-b,section.flex.bg-white.dark\:bg-darker.p-5.sm\:pb-0.rounded-md.rounded-b-none {
+  background: #39226c;
+}.dark .s-button-light-outline {
+  background: #39226c !important;
+}#app > div.app-inner.flex.flex-col.min-h-full > div:nth-child(3) {
+  background: #150038;
+  border-radius: 20px;
+}button.s-slider-next.s-slider-nav-arrow {
+  background: radial-gradient( 92.07% 92.07% at 89.6% 7.93%,#f5739a 0%,#e44c7a 100% );
+  -webkit-box-shadow: 0 10.42px 50px rgba(224,16,156,.5);
+  box-shadow: 0 10.42px 50px rgba(224,16,156,.5);
+  color: #fff;
+}.s-slider-nav-arrow svg {
+  fill: #ffffff !important;
+}button.s-slider-prev.s-slider-nav-arrow.swiper-button-disabled {
+  background: no-repeat;
+  border: 1px solid #6850a0;
+  opacity: 1;
+}.dark .btn--main--gray button {
+  background: #150038;
 }
