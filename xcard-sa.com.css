@@ -298,4 +298,10 @@ button.btn--main.s-button-element.s-button-btn.s-button-outline.s-button-primary
   position: relative;
 }.content.content--single-page.w-full.lg\:w-10\/12.bg-white.dark\:bg-darker.dark\:text-white.rounded.p-6.lg\:p-8.mt-4.lg\:mt-12 * {
   color: #fff !important;
+}.container.px-2\.5.ms\:px-5.my-10 {
+    background: #150038;
+    padding-top: 50px;
+    border-radius: 20px;
+}.dark #app .s-products-list-placeholder span {
+    background: #281258;
 }
