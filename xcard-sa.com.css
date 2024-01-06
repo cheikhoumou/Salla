@@ -68,14 +68,14 @@ i.sicon-menu.text-primary.text-2xl.rtl\:ml-2\.5.ltr\:mr-2\.5 {
 
 .store-footer__inner:before {
   content: "";
-  height: 130%;
-  width: 130%;
+  height: 245%;
+  width: 70%;
   position: absolute;
   background: radial-gradient(73.29% 183.65% at 70.38% 26.71%, #2c1258 0%, #1c1258 100%);
   border-radius: 150px 150px 0 0;
-  transform: rotate(-6deg);
-  top: 0;
-  right: 0;
+  transform: rotate(353deg);
+  top: 80px;
+  left: 0;
   z-index: -1;
   box-shadow: inset 0 0 0 15px #261967;
 }
@@ -120,24 +120,6 @@ footer.store-footer {
 body#app {
   background: #150038;
 }
-
-/* الخلفية */
-/* 
-header.store-header:before {
-  content: "";
-  display: block;
-  background: url(https://b.top4top.io/p_292504j9n1.png) no-repeat;
-  width: 100%;
-  height: 800px;
-  position: absolute;
-  z-index: -4;
-}
-
-.cotent.flex.flex-col.gap-2\.5.md\:gap-5.w-full.lg\:w-1\/2.md\:px-5.items-start {
-  position: relative;
-  z-index: 999999 !important;
-} */
-/* الخلفية */
 .swiper-slide.slide--one-fivth {
   width: 140px;
 }
@@ -200,7 +182,7 @@ button.btn--main.s-button-element.s-button-btn.s-button-outline.s-button-primary
 #app > div.app-inner.flex.flex-col.min-h-full:before {
   content: "";
   display: block;
-  background: url(https://d.top4top.io/p_2926f1yk81.png) no-repeat;
+  background: url(https://f.top4top.io/p_2927d7qln1.png) no-repeat;
   width: 100%;
   height: 1000px;
   position: absolute;
@@ -223,6 +205,16 @@ button.btn--main.s-button-element.s-button-btn.s-button-outline.s-button-primary
 }}
 
 @media (max-width:1025px) {
+.store-footer__inner:before {
+    height: 130%;
+    width: 130%;
+    top: 80px;
+    right: 0;
+}
+  .main-nav-container.fixed-pinned .inner{
+    background: rgb(57 34 108);
+    backdrop-filter: none;
+  }
   #app > div.app-inner.flex.flex-col.min-h-full:before {
  display:none;
 }
@@ -235,4 +227,18 @@ button.btn--main.s-button-element.s-button-btn.s-button-outline.s-button-primary
  #enhaced-banner-0 > div > div > div{
   margin-bottom:120px;
  }
+}
+.menu-is-open #mobile-menu {
+  background: #150038;
+}.dark .s-modal-body {
+  background: #281359;
+}.s-modal-entering {
+  background: linear-gradient(45deg, #281359d1, #e44c7a40);
+}
+/*  */
+
+footer.store-footer {
+  overflow: hidden;
+}.store-footer__inner {
+  margin-top: 70px;
 }
