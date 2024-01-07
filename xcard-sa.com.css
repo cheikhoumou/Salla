@@ -91,7 +91,7 @@ footer.store-footer {
 @media(max-width: 758px) {
   .store-footer__inner:before {
     height: 120%;
-    transform: rotate(-2deg);
+    transform: rotate(5deg);
     right: -5%
   }
 
@@ -107,9 +107,10 @@ footer.store-footer {
 
   .store-footer__inner:before {
     height: 115%;
-    transform: rotate(-2deg);
+    transform: rotate(2deg);
     right: -10%;
-    border-radius: 0 100px 0 0
+    border-radius: 0 100px 0 0;
+    margin-top: -35px;
   }
 
   .footer-item {
@@ -195,7 +196,7 @@ button.btn--main.s-button-element.s-button-btn.s-button-outline.s-button-primary
 }div#mainnav, .dark .top-navbar {
     background: transparent;
 }
-.block-inner.relative.bg-no-repeat.bg-cover.bg-center.h-\[360px\].lg\:h-\[500px\].overflow-hidden.has-overlay--opacity-option.has-overlay--opacity-0 {
+#enhaced-banner-0 > div {
     background: none !important;
 }
 /* الجوال */
@@ -218,14 +219,14 @@ button.btn--main.s-button-element.s-button-btn.s-button-outline.s-button-primary
   #app > div.app-inner.flex.flex-col.min-h-full:before {
  display:none;
 }
-.block-inner.relative.bg-no-repeat.bg-cover.bg-center.h-\[360px\].lg\:h-\[500px\].overflow-hidden.has-overlay--opacity-option.has-overlay--opacity-0 {
+#enhaced-banner-0 > div {
     background-color: #150038 !important;
     background-position: center !important;
     background-image: url(https://cdn.salla.sa/form-builder/GhnDMthdIYSNPajOh3zhowAKG3QEuZ4ixLiz380B.png) !important;
     background-size: cover !important;
 }
  #enhaced-banner-0 > div > div > div{
-  margin-bottom:120px;
+  margin-bottom: 220px;
  }
 }
 .menu-is-open #mobile-menu {
@@ -304,4 +305,24 @@ button.btn--main.s-button-element.s-button-btn.s-button-outline.s-button-primary
     border-radius: 20px;
 }.dark #app .s-products-list-placeholder span {
     background: #281258;
+}:is(.dark .product-entry--coupon)::before {
+    background: #39226c;
+}.dark .s-block--categories .slide--cat-entry {
+    background: #27185d;
+    border: none;
+    border-radius: 25px;
+}.dark .s-block--categories .slide--cat-entry .link-image {
+    background: radial-gradient(92.07% 92.07% at 89.6% 7.93%, #45d6f0 0%, #2d7bb7 100%);
+    -webkit-box-shadow: 0 10.42px 50px rgba(45, 123, 183, .5);
+    box-shadow: 0 10.42px 50px rgba(45, 123, 183, .5);
+    border: none;
+}.s-block--categories .slide--cat-entry i {
+    color: #fff;
+}.s-block--categories .slide--cat-entry:hover  .link-image {background: radial-gradient( 92.07% 92.07% at 89.6% 7.93%,#f5739a 0%,#e44c7a 100% );-webkit-box-shadow: 0 10.42px 50px rgba(224,16,156,.5);box-shadow: 0 10.42px 50px rgba(224,16,156,.5);}
+.s-block--categories .slide--cat-entry:hover {
+    background: #311961 !important;
+}.dark .product-entry--coupon .coupon-area::before {
+    background: radial-gradient(circle at top center,transparent,transparent 40px,#27185d 40px,#27185d);
+}.dark .product-entry--coupon .coupon-area::after {
+    background: radial-gradient(circle at bottom center,transparent,transparent 40px,#27185d 40px,#27185d);
 }
