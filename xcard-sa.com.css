@@ -180,7 +180,7 @@ button.btn--main.s-button-element.s-button-btn.s-button-outline.s-button-primary
   border: none;
 }
 /* code BG */
-#app > div.app-inner.flex.flex-col.min-h-full:before {
+/* #app > div.app-inner.flex.flex-col.min-h-full:before {
   content: "";
   display: block;
   background: url(https://f.top4top.io/p_2927d7qln1.png) no-repeat;
@@ -190,7 +190,7 @@ button.btn--main.s-button-element.s-button-btn.s-button-outline.s-button-primary
   z-index: -1;
   top: -80px;
 }
-
+ */
 .cotent.flex.flex-col.gap-2\.5.md\:gap-5.w-full.lg\:w-1\/2.md\:px-5.items-start {
   position: relative;
   z-index: 999999 !important;
@@ -329,4 +329,11 @@ button.btn--main.s-button-element.s-button-btn.s-button-outline.s-button-primary
     background: radial-gradient(circle at top center,transparent,transparent 40px,#27185d 40px,#27185d);
 }.dark .product-entry--coupon .coupon-area::after {
     background: radial-gradient(circle at bottom center,transparent,transparent 40px,#27185d 40px,#27185d);
+}
+#app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--fixed-banner.wide-placeholder {
+    margin: 0 !important;
+}.dark .product-entry__image .card-shape {
+    display: none;
+}p.product-entry__subtitle.text-sm.leading-6.opacity-60 {
+    display: none;
 }
