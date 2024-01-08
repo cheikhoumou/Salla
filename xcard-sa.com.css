@@ -346,4 +346,11 @@ button.btn--main.s-button-element.s-button-btn.s-button-outline.s-button-primary
   box-shadow: 0 10.42px 50px rgb(224 16 156 / 30%);
   color: #fff;
   border-radius: 15px;
+}.swal2-container .swal2-popup.swal2-toast.swal2-icon-success {
+    background: radial-gradient(92.07% 92.07% at 89.6% 7.93%, #45d6f0 0%, #2d7bb7 100%);
+    -webkit-box-shadow: 0 10.42px 50px rgba(45, 123, 183, .5);
+    box-shadow: 0 10.42px 50px rgba(45, 123, 183, .5);
+    border: none;
+    padding:15px;
+    border-radius:15px;
 }
