@@ -195,8 +195,12 @@ button.btn--main.s-button-element.s-button-btn.s-button-outline.s-button-primary
 @media (max-width:1500px) {
   #app > div.app-inner.flex.flex-col.min-h-full:before {
  background-position:center;
+}
+a.collapsible-title {
+  background: #261967;
+  margin: 5px;
+  border-radius: 15px;
 }}
-
 @media (max-width:1025px) {
 .store-footer__inner:before {
     height: 130%;
@@ -355,8 +359,4 @@ button.btn--main.s-button-element.s-button-btn.s-button-outline.s-button-primary
   --tw-gradient-from: #150038cf var(--tw-gradient-from-position);
     --tw-gradient-to: rgba(30, 27, 28, 0) var(--tw-gradient-to-position);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}a.collapsible-title {
-  background: #261967;
-  margin: 5px;
-  border-radius: 15px;
 }
