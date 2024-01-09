@@ -172,7 +172,9 @@ button.btn--main.s-button-element.s-button-btn.s-button-outline.s-button-primary
   .s-products-list-wrapper.s-products-list-vertical-cards {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-}
+.product-entry--vertical .product-entry__image {
+    min-height: 150px !important;
+}}
 
 .questions-details.rounded.border.border-gray-200.dark\:border-white\/10.overflow-hidden {
   background: #27185d;
@@ -180,17 +182,6 @@ button.btn--main.s-button-element.s-button-btn.s-button-outline.s-button-primary
   border: none;
 }
 /* code BG */
-/* #app > div.app-inner.flex.flex-col.min-h-full:before {
-  content: "";
-  display: block;
-  background: url(https://f.top4top.io/p_2927d7qln1.png) no-repeat;
-  width: 100%;
-  height: 930px;
-  position: absolute;
-  z-index: -1;
-  top: -80px;
-}
- */
 .cotent.flex.flex-col.gap-2\.5.md\:gap-5.w-full.lg\:w-1\/2.md\:px-5.items-start {
   position: relative;
   z-index: 999999 !important;
@@ -353,4 +344,13 @@ button.btn--main.s-button-element.s-button-btn.s-button-outline.s-button-primary
     border: none;
     padding:15px;
     border-radius:15px;
+}.banner--fixed img {
+    background: #150039 !important;
+}.dark salla-slider.details-slider .swiper-slide img {border: 5px solid #261967;}
+.dark salla-slider.details-slider .swiper-slide, .dark salla-slider.details-slider .swiper-slide img,.dark salla-slider.details-slider .s-slider-container {
+    border-radius: 20px !important;
+}.swiper.s-slider-container.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-autoheight.swiper-rtl.swiper-backface-hidden {
+    box-shadow: 3px 19px 20px 0px rgb(57 34 108 / 28%);
+}:is(.dark .mobile-lang-scopes-area):before,:is(.dark #mobile-menu .navbar-brand):after {
+  background: #15003899;
 }
