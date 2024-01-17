@@ -215,13 +215,7 @@ body.index:before {
 
 }
 
-.s-slider-block__title {
-
-    display: block;
-
-    text-align: center;
-
-}
+.s-slider-block__title {display: block;text-align: center;}
 
 /*---------------- KHIDMTKALAYNA.COM --------------*/
 
@@ -354,11 +348,7 @@ body.index:before {
 
 /*---------------- KHIDMTKALAYNA.COM --------------*/
 
-.menu-is-open #side-panel {
-
-    background: #c5a04f;
-
-}
+.menu-is-open #side-panel {background: #ffffff;}
 
 /*---------------- KHIDMTKALAYNA.COM --------------*/
 
@@ -499,29 +489,7 @@ salla-slider .slide--one-fourth {
 
 /*---------------- KHIDMTKALAYNA.COM --------------*/
 
-.header-is-light .side-panel li a {
-
-    font-weight: bold;
-
-    margin: 2px;
-
-    border-radius: 12px;
-
-    color: #ffffff !important;
-
-    border: #c5a04f;
-
-    text-align: center;
-
-    justify-content: center;
-
-    background: linear-gradient(to right, #c5a04f 20%, #1c2121 30%, #c5a04f 70%, #1c2121 80%);
-
-    background-size: 500% auto;
-
-    animation: textShine 5s ease-in-out infinite alternate;
-
-}
+.header-is-light .side-panel li a {font-weight: bold;margin: 2px;border-radius: 12px;color: #1c2121 !important;border: 2px solid #1c2121;text-align: center;justify-content: center;background: #fff;background-size: 500% auto;animation: textShine 5s ease-in-out infinite alternate;}
 
 /*---------------- KHIDMTKALAYNA.COM --------------*/
 
@@ -868,7 +836,7 @@ span.s-login-modal-main-btn-icon svg {
     }
 }
 
-}
+
 
 @keyframes tournemoi {
 
@@ -944,27 +912,7 @@ span.s-login-modal-main-btn-icon svg {
 
 }
 
-.s-slider-block__title h2 {
-
-    padding-left: 0 !important;
-
-    padding-right: 0 !important;
-
-    background: linear-gradient(to right, #c5a04f 20%, #1c2121 30%, #c5a04f 70%, #1c2121 80%);
-
-    -webkit-background-clip: text;
-
-    background-clip: text;
-
-    -webkit-text-fill-color: transparent;
-
-    text-fill-color: transparent;
-
-    background-size: 500% auto;
-
-    animation: textShine 5s ease-in-out infinite alternate;
-
-}
+.s-slider-block__title h2 {/* padding-left: 0 !important; */padding-right: 0 !important;background: linear-gradient(to right, #c5a04f 20%, #1c2121 30%, #c5a04f 70%, #1c2121 80%);-webkit-background-clip: text;background-clip: text;-webkit-text-fill-color: transparent;text-fill-color: transparent;/* background-size: 500% auto; */animation: textShine 5s ease-in-out infinite alternate;}
 
 .text-primary {
 
@@ -1006,29 +954,9 @@ span.s-login-modal-main-btn-icon svg {
 
 /*---------------- KHIDMTKALAYNA.COM --------------*/
 
-.transition-all {
+.transition-all {transition-property: all;transition-timing-function: cubic-bezier(.4, 0, .2, 1);transition-duration: 150ms;background: #ffffff !important;color: #000000;text-align: center;border: 1px solid #1c2121 !important;border-radius: 20px;}
 
-    transition-property: all;
-
-    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
-
-    transition-duration: 150ms;
-
-    background: #c5a04f !important;
-
-    color: #ffffff;
-
-    text-align: center;
-
-    border: 2px solid #1c2121 !important;
-
-}
-
-.transition-all .text-gray-600 {
-
-    color: #ffffff !important;
-
-}
+.transition-all .text-gray-600 {color: #000000 !important;}
 
 /*---------------- KHIDMTKALAYNA.COM --------------*/
 
@@ -1143,11 +1071,9 @@ salla-button .s-button-btn {
 
 }
 
-border-radius: 30px !important;
 
-}
 
-*/ .s-block--features {
+.s-block--features {
 
     background-color: #c5a04f !important;
 }
@@ -1393,13 +1319,7 @@ div.store-footer__top.pb-4.lg\:pb-10.pt-10.lg\:pt-22.space-y-8.divide-y.divide-d
 
 }
 
-.s-block__title h2 {
-
-    width: 100%;
-
-    margin: auto !important;
-
-}
+.s-block__title h2 {width: 100%;margin: auto !important;}
 
 .s-block__title {
 
@@ -1468,4 +1388,18 @@ button.btn--wishlist.animated.s-button-element.s-button-icon.s-button-outline.s-
   bottom: 64px !important;
 }#app > div.app-inner.flex.flex-col.min-h-screen.relative > section:nth-child(5) > div.s-block__title {
     justify-content: space-between;
+}#app > div.app-inner.flex.flex-col.min-h-screen.relative > section:nth-child(5) > div.s-block__title {
+    display: block;
+}#app > div.app-inner.flex.flex-col.min-h-screen.relative > section:nth-child(5) > div.s-block__title > a {
+    width: 100%;
+    justify-content: end;
+}article#more-content iframe {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    height: 280px;
+    border-radius: 15px;
+}.styles__tabby-snippet--e44d9 {
+    border-bottom: 4px solid #3bffbb !important;
+    border-radius: 15px;
 }
