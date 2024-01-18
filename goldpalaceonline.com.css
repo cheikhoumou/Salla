@@ -836,36 +836,6 @@ span.s-login-modal-main-btn-icon svg {
     }
 }
 
-
-
-@keyframes tournemoi {
-
-    0% {
-
-        transform: rotate(-5deg);
-
-    }
-
-    50% {
-
-        transform: rotate(5deg);
-
-    }
-
-    100% {
-
-        transform: rotate(0deg);
-
-    }
-
-}
-
-.product-entry--vertical:hover {
-
-    animation: tournemoi 2s ease;
-
-}
-
 /*---------------- KHIDMTKALAYNA.COM --------------*/
 
 @keyframes textShine {
@@ -1073,10 +1043,7 @@ salla-button .s-button-btn {
 
 
 
-.s-block--features {
-
-    background-color: #c5a04f !important;
-}
+.s-block--features {background-color: #ffffff !important;}
 
 .s-block--features__item P {
 
