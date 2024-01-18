@@ -924,7 +924,7 @@ span.s-login-modal-main-btn-icon svg {
 
 /*---------------- KHIDMTKALAYNA.COM --------------*/
 
-.transition-all {transition-property: all;transition-timing-function: cubic-bezier(.4, 0, .2, 1);transition-duration: 150ms;background: #ffffff !important;color: #000000;text-align: center;border: 1px solid #1c2121 !important;border-radius: 20px;}
+.transition-all {transition-property: all;transition-timing-function: cubic-bezier(.4, 0, .2, 1);transition-duration: 150ms;background: #ffffff !important;color: #000000;text-align: center;border: 2.5px solid #c5a04f !important;border-radius: 20px;}
 
 .transition-all .text-gray-600 {color: #000000 !important;}
 
