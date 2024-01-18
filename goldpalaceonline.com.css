@@ -489,7 +489,7 @@ salla-slider .slide--one-fourth {
 
 /*---------------- KHIDMTKALAYNA.COM --------------*/
 
-.header-is-light .side-panel li a {font-weight: bold;margin: 2px;border-radius: 12px;color: #1c2121 !important;border: 2px solid #1c2121;text-align: center;justify-content: center;background: #fff;background-size: 500% auto;animation: textShine 5s ease-in-out infinite alternate;}
+.header-is-light .side-panel li a {font-weight: bold;margin: 3px;border-radius: 12px;color: #1c2121 !important;outline: 2px solid #c5a04f;text-align: center;justify-content: center;background: #fff;background-size: 500% auto;animation: textShine 5s ease-in-out infinite alternate;}
 
 /*---------------- KHIDMTKALAYNA.COM --------------*/
 
@@ -1369,4 +1369,4 @@ button.btn--wishlist.animated.s-button-element.s-button-icon.s-button-outline.s-
 }.styles__tabby-snippet--e44d9 {
     border-bottom: 4px solid #3bffbb !important;
     border-radius: 15px;
-}
+}.swiper {padding-top: 10px !important;}
