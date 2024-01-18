@@ -1,8 +1,8 @@
 section[section-id="40e705ba-c353-4196-bb18-ae1c3c37f2b5"] {
     margin-top: -130px
 }div#fixed-header {
-    background-color: #fff;
-    background: #fff;
+    background-color: #000000;
+    background: #000000 !important;
     padding-bottom: 0;
     border-radius: 0 0 20px 20px;
     box-shadow: 0px 0px 8px #2711112f;
@@ -19,8 +19,8 @@ section[section-id="40e705ba-c353-4196-bb18-ae1c3c37f2b5"] {
     display: flex;
     width: 26%
 }.header-theme-bg-primary {
-    background-color: #fff;
-    background: #fff;
+    background-color: #000000;
+    background: #000000 !important;
     padding: 10px
 }
 
@@ -62,7 +62,7 @@ section[section-id="40e705ba-c353-4196-bb18-ae1c3c37f2b5"] {
 }span.icon-language_white::before {
     color: #fff
 }.icon-shopping_cart_black_36dp-1-1 .path1:before,.icon-shopping_cart_black_36dp-1-1 .path2:before {
-    background-image: url(https://www12.0zz0.com/2023/10/05/12/781493816.png);
+    background-image: url(https://b.top4top.io/p_2939zgq5f3.png);
     content: "";
     width: 27px!important;
     height: 27px!important;
@@ -73,10 +73,10 @@ section[section-id="40e705ba-c353-4196-bb18-ae1c3c37f2b5"] {
 }span.icon-shopping_cart_black_36dp-1-1.header-theme-icon-primary span.path1 {
     display: none
 }.cart-badge {
-    background-color: #2f3885;
+    background-color: #a89071;
     color: #d3b377
 }.icon-search:before {
-    background-image: url(https://www3.0zz0.com/2023/10/05/12/638274962.png);
+    background-image: url(https://a.top4top.io/p_2939wjhuc2.png);
     content: "";
     width: 20px!important;
     height: 20px!important;
@@ -87,7 +87,7 @@ section[section-id="40e705ba-c353-4196-bb18-ae1c3c37f2b5"] {
 }
 
 .icon-arrow-right:before {
-    color: #2f3885;
+    color: #a89071;
 }
 
 .sm-search-div {
@@ -95,7 +95,7 @@ section[section-id="40e705ba-c353-4196-bb18-ae1c3c37f2b5"] {
 }
 
 .menu-header-theme-bg-primary-brightness-100 {
-    background-color: #ffffff;
+    background-color: #a89071;
     border-radius: 25px 0 0 25px
 }
 
@@ -104,7 +104,7 @@ section[section-id="40e705ba-c353-4196-bb18-ae1c3c37f2b5"] {
 }
 
 .icon-menu_open_black_24dp-1:before {
-    background-image: url(https://www12.0zz0.com/2023/10/05/12/551236925.png);
+    background-image: url(https://l.top4top.io/p_29395arz51.png);
     content: "";
     width: 23px!important;
     height: 23px!important;
@@ -115,7 +115,7 @@ section[section-id="40e705ba-c353-4196-bb18-ae1c3c37f2b5"] {
 }
 
 .slide-menu ul {
-    background: url(https://media.zid.store/cdn-cgi/image/h=175,q=100/https://media.zid.store/5a662929-5fab-4720-8e58-a0e3830aec7d/aceacda3-1c9b-4081-83a1-3c6acc9c18d2.jpg)#ffffff center;
+    background: url(https://media.zid.store/cdn-cgi/image/h=175,q=100/https://media.zid.store/f14a29b4-2123-4ae4-8da0-02219897670b/e4b63739-3ade-44a2-8d27-fe3c44ae0601-200x.png)#14120e center;
     margin: auto;
     display: block;
     padding-top: 113px;
@@ -123,9 +123,10 @@ section[section-id="40e705ba-c353-4196-bb18-ae1c3c37f2b5"] {
     text-align: center;
     background-repeat: no-repeat;
     height: 100px;
-    background-size: contain!important;
+    background-size: 27%;
     background-repeat: no-repeat!important;
-    background-position: center!important
+    background-position: center!important;
+    margin-right: -5px;
 }
 
 .slide-menu__backlink {
@@ -187,7 +188,7 @@ section[section-id="40e705ba-c353-4196-bb18-ae1c3c37f2b5"] {
 
 .product-item .product-title {
     background: #fff;
-    color: #2f3885;
+    color: #a89071;
     text-align: center;
     padding-top: 50px;
     border-radius: 20px 20px 0 0
@@ -218,7 +219,7 @@ a.btn.btn-primary.btn-product-card-select-variant {
     padding: 7px 20px;
     width: 120px;
     border-radius: 20px 20px 20px 0;
-    background: #2f3885;
+    background: #a89071;
     color: #fff;
     border: 0;
 }
@@ -249,24 +250,24 @@ a.btn.btn-primary.product-card-add-to-cart::before {
 }
 
 div[section-id=fffe3691-f274-4f06-aae0-4ca25a10af4a] .product-title {
-    border-top: 1px solid #2f3885;
-    border-left: 1px solid #2f3885;
-    border-right: 1px solid #2f3885
+    border-top: 1px solid #a89071;
+    border-left: 1px solid #a89071;
+    border-right: 1px solid #a89071
 }
 
 div[section-id=fffe3691-f274-4f06-aae0-4ca25a10af4a] .product-card-rating-wrapper {
-    border-left: 1px solid #2f3885;
-    border-right: 1px solid #2f3885
+    border-left: 1px solid #a89071;
+    border-right: 1px solid #a89071
 }
 .footer {
-    background: #2f3885;
+    background: #a89071;
     padding-bottom: 20px;
     color: #fff;
     text-align: center;
 }
 
 .footer-theme-bg-primary {
-    background: #2f3885;
+    background: #a89071;
     border-radius: 30px 30px 30px 30px;
     color: #fff;
     padding-top: 0;
@@ -305,7 +306,7 @@ button#product-view-add-to-cart {
     padding: 30px 10px 0;
     margin: 10px 0 0;
     font-size: 14px;
-    color: #2f3885;
+    color: #a89071;
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 20px;
@@ -316,7 +317,7 @@ button#product-view-add-to-cart {
 
 .icon-account_circle_black_24dp:before {
     content: "\f007 ";
-    color: #2f3885
+    color: #a89071
 }
 
 .section-title.theme-text-primary {
@@ -328,7 +329,7 @@ section[section-id=cace2a35-1bc9-432f-9b72-75bea1e7950c] .section-title.theme-te
     text-align: center!important;
     display: block;
     margin-bottom: 10px;
-    color: #2f3885;
+    color: #a89071;
     font-size: 23px
 }
 
@@ -365,12 +366,12 @@ div.card.card-review.mt-2.mb-5 {
 }
 
 input.form-control.send-coupon {
-    border: 1px solid #2f3885;
+    border: 1px solid #a89071;
     border-radius: 10px
 }
 
 .coupon-form.mt-5 .form-group {
-    background-color: #2f3885;
+    background-color: #a89071;
     padding: 12px;
     border-radius: 10px
 }
@@ -407,16 +408,16 @@ input.form-control.send-coupon {
 }
 
 button.c-btn.currency-btn {
-    color: #2f3885
+    color: #a89071
 }
 
 .language-currency {
-    border-color: #2f3885
+    border-color: #a89071
 }
 
 .account-lang-currency .account-btn {
-    border-color: #2f3885;
-    color: #2f3885
+    border-color: #a89071;
+    color: #a89071
 }
 
 @media only screen and (max-width: 768px) {
@@ -456,7 +457,7 @@ button.c-btn.currency-btn {
     height: 96px;
     transform: rotate(180deg);
     background-repeat: no-repeat;
-    background-color: #2f3885;
+    background-color: #a89071;
 }
 .home {
     margin-bottom: 35px;
