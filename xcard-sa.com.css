@@ -1,8 +1,7 @@
 div#mainnav,
 .dark .top-navbar {
   background: #150038;
-}
-
+}button.theme-mode-btn {display: none;}
 .dark .header-btn__icon {
   border: 1px solid #6850a0;
   background: none !important;
