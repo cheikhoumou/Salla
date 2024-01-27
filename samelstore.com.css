@@ -20,7 +20,7 @@ section[section-id="40e705ba-c353-4196-bb18-ae1c3c37f2b5"] {
     width: 26%
 }.header-theme-bg-primary {
     background-color: #000000;
-    background: #000000 !important;
+    background: #271603 !important;
     padding: 10px
 }
 
@@ -208,7 +208,7 @@ section[section-id="40e705ba-c353-4196-bb18-ae1c3c37f2b5"] {
 a.btn.btn-primary.product-card-add-to-cart {
     padding: 7px 20px;
     width: 100%;
-    border-radius: 12px 0px 12px 0;
+    border-radius: 13px;
     font-size: 0;
     background: #5c4225;
     color: #fff;
@@ -218,8 +218,8 @@ a.btn.btn-primary.product-card-add-to-cart {
 a.btn.btn-primary.btn-product-card-select-variant {
     padding: 7px 20px;
     width: 120px;
-    border-radius: 20px 20px 20px 0;
-    background: #a89071;
+    border-radius: 13px;
+    background: #5c4225;
     color: #fff;
     border: 0;
 }
@@ -260,14 +260,17 @@ div[section-id=fffe3691-f274-4f06-aae0-4ca25a10af4a] .product-card-rating-wrappe
     border-right: 1px solid #a89071
 }
 .footer {
-    background: #a89071;
+    background: #5c4225;
     padding-bottom: 20px;
     color: #fff;
     text-align: center;
+    padding-top: 30px;
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
 }
 
 .footer-theme-bg-primary {
-    background: #a89071;
+    background: #5c4225;
     border-radius: 30px 30px 30px 30px;
     color: #fff;
     padding-top: 0;
@@ -427,9 +430,10 @@ button.c-btn.currency-btn {
 }.prod-col {
     background: #fff;
     /* padding-bottom: 15px; */
-    margin: 5px;
+    margin: 8px;
     border-radius: 15px;
-    box-shadow: 0px 0px 8px #27111105;
+    box-shadow: 0px 0px 8px #2711112b;
+    padding-bottom: 20px;
 }
 
 .product-item {
@@ -441,24 +445,15 @@ button.c-btn.currency-btn {
 }}body > div.app.d-flex.flex-column.visible > div.footer > footer::before {
     display: block;
     content: "";
-    width: 160px;
-    height: 108px;
+    width: 90px;
+    height: 70px;
     margin: 15px auto -10px auto;
     background: url(https://h.top4top.io/p_2938pybw11.png) no-repeat !important;
     background-size: contain !important;
     background-position: center !important;
-    margin-bottom: 20px;}
+    margin-bottom: 20px;
+    }
 
-.footer:before {
-    content: " ";
-    background-image: url(https://marssa.shop/site/images/new_theme/footer-top.svg)!important;
-    display: block!important;
-    background-size: 107% 100px;
-    height: 96px;
-    transform: rotate(180deg);
-    background-repeat: no-repeat;
-    background-color: #a89071;
-}
 .home {
     margin-bottom: 35px;
 }
@@ -476,3 +471,20 @@ button.c-btn.currency-btn {
     display: none !important;
 }
 .footer-about-us-links-div p a {color: #fff !important;}
+body > div.app.d-flex.flex-column.visible > div.footer > footer > div.footer-store-section.store-section.footer-theme-bg-primary.footer-theme-text-for-primary-bg > div > div > div.col-12.col-lg-7 > div > div:nth-child(1) > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 26px;
+}body > div.app.d-flex.flex-column.visible > div.footer > footer > div.footer-store-section.store-section.footer-theme-bg-primary.footer-theme-text-for-primary-bg > div > div > div.col-12.col-lg-7 > div > div:nth-child(1) > div > h2 {display: none;}
+body > div.app.d-flex.flex-column.visible > div.footer > footer > div.footer-store-section.store-section.footer-theme-bg-primary.footer-theme-text-for-primary-bg > div > div > div.col-12.col-lg-7 > div > div:nth-child(1) > div p {
+    background: #ffffff14;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 9px;
+}body > div.app.d-flex.flex-column.visible > div.footer > footer > div.footer-store-section.store-section.footer-theme-bg-primary.footer-theme-text-for-primary-bg > div > div > div.col-12.col-lg-7 > div > div:nth-child(1):before {
+    content: "روابط مهمة";
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
