@@ -434,23 +434,6 @@ html body {
     background: transparent;
 
 }
-
-/*---------------- KHIDMTKALAYNA.COM --------------*/
-
-/*.header-is-light .s-cart-summary-wrapper {
-    
-    animation: wiggle 2.5s infinite;
-    
-    }*/
-
-/*---------------- KHIDMTKALAYNA.COM --------------*/
-
-salla-slider .slide--one-fourth {
-
-    max-width: 175px;
-
-}
-
 .s-product-card-content-sub {
 
     margin-bottom: 1.25rem;
@@ -924,9 +907,9 @@ span.s-login-modal-main-btn-icon svg {
 
 /*---------------- KHIDMTKALAYNA.COM --------------*/
 
-.transition-all {transition-property: all;transition-timing-function: cubic-bezier(.4, 0, .2, 1);transition-duration: 150ms;background: #ffffff !important;color: #000000;text-align: center;border: 2.5px solid #c5a04f !important;border-radius: 20px;}
+.transition-all {transition-property: all;transition-timing-function: cubic-bezier(.4, 0, .2, 1);transition-duration: 150ms;background: #ffffff !important;color: #000000;text-align: center;border: 2.5px solid #c5a04f !important;border-radius: 20px;padding: 15px 10px;}
 
-.transition-all .text-gray-600 {color: #000000 !important;}
+.transition-all .text-gray-600 {color: #000000 !important;margin: 0;line-height: initial;}
 
 /*---------------- KHIDMTKALAYNA.COM --------------*/
 
@@ -1135,11 +1118,7 @@ pre {
 
 }
 
-.leading-6 {
-
-    align-self: center;
-
-}
+.leading-6 {align-self: center;}
 
 .container.xl\:px-0.grid.grid-cols-6.gap-10.lg\:gap-6 {
 
