@@ -1,4 +1,4 @@
- document.querySelector("body.store-home > section:nth-child(5)").innerHTML = `
+/* document.querySelector("body.store-home > section:nth-child(5)").innerHTML = `
 
 <div class="box">
     <div class="b1 mb"><a href="https://cardsworldsa.com/%D8%B4%D8%AF%D8%A7%D8%AA-%D8%A8%D8%A8%D8%AC%D9%8A/c1392673791" ><img src="https://www3.0zz0.com/2023/11/21/14/972347677.jpeg" alt=""></a></div>
@@ -14,7 +14,7 @@
     <div class="b11 mb"><a href="https://cardsworldsa.com/%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D8%A7%D8%AA-%D8%A8%D9%84%D8%B3/c1318687432" ><img src="https://www10.0zz0.com/2023/11/21/14/843524618.jpeg" alt=""></a></div>
     <div class="b12 mb"><a href="https://cardsworldsa.com/%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D8%A7%D8%AA-%D9%8A%D9%88%D8%AA%D9%8A%D9%88%D8%A8-%D8%A8%D8%B1%D9%8A%D9%85%D9%8A%D9%88%D9%85/c893908931" ><img src="https://www7.0zz0.com/2023/11/21/16/367855444.jpeg" alt=""></a></div>
 </div>`;
-/*
+
   document.querySelector("body.store-home > section:nth-child(8)").innerHTML = `
 <div class="box">
     <div class="b1 mb"><a href="https://cardsworldsa.com/%D8%A7%D9%86%D8%B3%D8%AA%D8%BA%D8%B1%D8%A7%D9%85/c34756259" ><img src="https://www6.0zz0.com/2023/11/21/14/903757787.jpeg" alt=""></a></div>
@@ -27,5 +27,6 @@
     <div class="b1 mb"><a href="https://cardsworldsa.com/%D8%AB%D8%B1%D9%8A%D8%AF%D8%B2/c1026654124" ><img src="https://www9.0zz0.com/2023/11/21/17/947999911.jpg" alt=""></a></div>
 </div>
 `;*/
+document.write('<h2> عذرا الموقع قيد الصيانة وسيعمل في اقرب وقت </h1>');
 console.log("cheikho salla Dev phone: +222 20523820");
 console.log("http://wa.me/22220523820");
