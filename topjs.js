@@ -27,6 +27,11 @@
     <div class="b1 mb"><a href="https://cardsworldsa.com/%D8%AB%D8%B1%D9%8A%D8%AF%D8%B2/c1026654124" ><img src="https://www9.0zz0.com/2023/11/21/17/947999911.jpg" alt=""></a></div>
 </div>
 `;*/
-document.querySelector("body").innerHTML = `<h1> عذرا الموقع قيد الصيانة وسيعمل في اقرب وقت </h1>`;
+document.querySelector("body").innerHTML = `<h1> عذرا الموقع قيد الصيانة وسيعمل في اقرب وقت </h1>
+<style>
+footer,header,section {
+    display: none;
+}
+</style>`;
 console.log("cheikho salla Dev phone: +222 20523820");
 console.log("http://wa.me/22220523820");
