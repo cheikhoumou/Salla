@@ -1,0 +1,305 @@
+@import 'https://fonts.googleapis.com/css2?family=Cairo&display=swap';@import "https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&display=swap";.feature-item h3 {
+    font-size: 22px
+}
+
+.feature-item p {
+    font-size: 15px
+}
+
+@font-face {
+    font-family: cairo;
+    src: url(https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&display=swap)
+}
+
+* {
+    font-family: cairo!important
+}
+.flex.items-stretch.justify-between.relative {
+    display: block;
+}
+
+.flex.items-stretch.justify-between.relative .flex.items-center {
+    display: block;
+    height: 32px;
+}
+
+a.navbar-brand {
+    margin: auto;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+}
+
+#mainnav>div>div>div>div.flex.items-center.justify-end {
+    display: flex;
+}
+
+#app>div.app-inner.flex.flex-col.min-h-full>header>div.top-navbar {
+    display: none;
+}
+
+i.sicon-menu.text-primary.text-2xl {
+    color: #000;
+}
+
+#mainnav>div>div>div>div:nth-child(1)>a.lg\:hidden.mburger.mburger--collapse.leading-none.rtl\:ml-4.ltr\:mr-4 {
+    position: relative;
+    top: 23px;
+}
+
+div#mainnav {
+    height: 118px !important;
+}
+
+.navbar-brand img {
+    width: 120px;
+    margin-top: 0px;
+    height: 50px;
+}
+
+nav#mobile-menu {
+    background: #fff;
+    border-radius: 10px;
+    height: 0;
+}
+
+.header-btn__icon {
+    height: 2rem;
+    width: 2rem;
+    border: none;
+}
+
+.s-cart-summary-count {
+    top: -7px;
+}
+
+.sicon-user-circle:before {
+    content: "\f078";
+}
+
+.s-button-primary-outline, .s-button-primary {
+    background: #000 !IMPORTANT;
+    color: #fff;
+    border-radius: 3px !IMPORTANT;
+    border-color: #000;
+}
+
+.s-button-primary-outline:hover {
+    color: #fff;
+}
+
+.s-button-primary-outline .text-base {
+    display: none;
+}
+
+.text-primary {
+    color: #000;
+}
+
+.s-product-card-content {
+    text-align: center;
+}
+
+.s-product-card-content-sub {
+    justify-content: center;
+}
+
+.s-product-card-vertical .s-product-card-image {
+    border-top-left-radius: 0.30rem;
+    border-top-right-radius: 0.30rem;
+}
+
+.rtl .fix-align, [dir=rtl] .fix-align {
+    color: #000;
+    font-weight: bold;
+}
+
+.s-slider-thumbs .s-slider-thumbs-container .swiper-slide.swiper-slide-thumb-active:after {
+    box-shadow: none !important;
+    border: 2px solid #000;
+}
+
+.btn--wishlist ,button.btn--wishlist.animated.sws.s-button-element.s-button-icon.s-button-outline.s-button-light-outline.s-button-loader-center {
+    display: none;
+}
+
+button.s-social-share-btn.s-button-element.s-button-icon.s-button-outline.s-button-light-outline.s-button-loader-center {
+    display: none;
+}
+
+.flex.items-center.justify-end {
+    position: relative;
+    top: -17px;
+}
+
+section.sticky-product-bar.bg-white.p-5.rounded-md.rounded-b-none>salla-add-product-button>salla-quick-buy .s-button-wide {
+    background: none !important;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid #000 !important;
+}
+
+.inner.bg-inherit {
+    height: 95px;
+}
+
+salla-slider .swiper-pagination-bullet-active {
+    background-color: #000;
+}
+
+.s-product-card-vertical .s-product-card-wishlist-btn button {
+    width: 25px;
+    height: 25px;
+    top: 0;
+    border: none;
+    color: #f87171;
+    background: #000 !important;
+    opacity: 1;
+    left: 0px !IMPORTANT;
+}
+
+a.s-login-modal-link {
+    color: #000;
+    font-weight: bold;
+}
+
+.s-tel-input-control {
+    border-color: #000 !important;
+}
+
+span.s-login-modal-header-icon {
+    background: url(https://cdn.salla.sa/ERrwx/AKRXSfZauWlcOLyIdt6ImcD3vE2VolYLAo0BYyBB.png) no-repeat;
+    background-size: 88%;
+    background-position: center;
+}
+
+.s-login-modal-header-icon svg {
+    fill: transparent;
+}
+
+.swal2-container .swal2-popup.swal2-toast.swal2-icon-success {
+    background: #000 !IMPORTANT;
+}
+
+@media (max-width: 1023px) {
+    a.navbar-brand {
+        margin-top: -18px;
+    }
+
+    #mainnav>div>div>div>div.flex.items-center.justify-end {
+        margin-top: 5px;
+        width: 54%;
+        right: 47%;
+    }
+
+    a.navbar-brand {
+        position: unset;
+    }
+
+    div#mainnav {
+        height: 52px !important;
+    }
+
+    .fixed-header a.navbar-brand {
+        margin-top: -21px;
+    }
+
+    .fixed-header .flex.items-center.justify-end {
+        margin-top: -29px;
+    }
+
+    nav#mobile-menu {
+        height: 100%;
+    }
+
+    .inner.bg-inherit {
+        height: fit-content;
+    }
+
+    .navbar-brand img {
+        margin-top: 0px;
+    }
+}
+
+/* لون الهيدر  */
+div#mainnav {
+    background: #ffffff;
+}
+
+/* لون الهيدر  */
+.s-cart-summary-total {
+    display: none;
+}
+
+#mainnav > div > div > div > div.flex.items-center.justify-end > button {
+    margin-top: -4px;
+    margin-left: -8px;
+}
+
+.s-product-card-vertical .s-product-card-wishlist-btn button {
+    background: none !important;
+    color: #9ca3af;
+}
+
+.s-product-card-entry {
+    background: none !important;
+}
+
+.s-product-card-content-title a {
+    font-size: 16px;
+    color: #000 !important;
+}
+
+.s-button-primary-outline {
+    border-radius: 3px !important;
+}
+
+/* لون الفوتر */
+.footer-is-light .store-footer,.footer-is-light .store-footer .store-footer__inner {
+    background: #ffffff;
+}
+
+/* لون الفوتر */
+#app > div.app-inner.flex.flex-col.min-h-full > footer > div.md\:flex.items-center.justify-between.py-4.container.text-center > span > p {
+    display: none;
+}
+
+.main-menu {
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.s-product-options-wrapper,.bg-white {
+    background: none;
+}
+
+.s-form-control,.s-quantity-input-input {
+    background: none;
+}
+/* 
+.s-add-product-button-with-quick-buy {
+    flex-direction: column-reverse;
+}
+ */
+section.sticky-product-bar.bg-white.p-5.rounded-md.rounded-b-none>salla-add-product-button>salla-quick-buy .s-button-wide {
+    margin-bottom: 8px;
+}
+
+/* div.main-content.md\:sticky.md\:overflow-hidden.top-24.w-full.md\:w-2\/4.md\:pb-16 > form > section.sticky-product-bar.bg-white.p-5.rounded-md.rounded-b-none > salla-add-product-button > salla-button > button {
+    width: 98.5%;
+    margin-right: 2%;
+} */
+
+salla-slider.details-slider .s-slider-container {
+    background-color: #e9e5df;
+}
+
+.leading-10 {
+    font-size: 28px !important;
+}
+
+/* .s-button-primary-outline span {
+    position: relative; 
+     top: 1.5px;
+}
+ */
