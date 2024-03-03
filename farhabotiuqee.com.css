@@ -303,3 +303,6 @@ salla-slider.details-slider .s-slider-container {
      top: 1.5px;
 }
  */
+.s-product-card-promotion-title {
+    display: none;
+}
