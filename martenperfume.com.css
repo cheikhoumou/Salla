@@ -51,13 +51,13 @@
 }.s-block--faqs .faqs-list__item,.shadow-md {
     background: #fff;
     border-radius: 15px;
-    box-shadow: 0px 2px 5px #6b45192e;
+    box-shadow: 0px 2px 5px #3e25222e;
 }a.slide--cat-entry {
     border-radius: 15px;
 }.navbar-brand img {
     transform: scale(1.2);
 }.footer-is-light .store-footer__top,.store-footer .justify-between {
-    background: #6b4519 !important;
+    background: #3e2522 !important;
 }
 
 .footer-is-light .store-footer__top * {
@@ -99,7 +99,7 @@
     height: 40px;
     line-height: 16px;
 }.footer-is-light .store-footer {
-    background: #6b4519 !important;  
+    background: #3e2522 !important;  
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
