@@ -1,0 +1,39 @@
+@media (max-width:1020px){
+.lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    /* grid-template-columns: 1fr 1fr; */
+}.raheeb-default-product .raheeb-size-control {
+    background: transparent;
+    height: 12.5rem !important;
+    width: 11.2rem !important;
+}div > div.relative > div {
+  /*  display: none; */
+}.raheeb-product {
+    box-shadow: 0px 0px 8px #3312124a;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}.gap-20 {
+    gap: 3rem;
+}}
+@media (max-width:373px){
+.raheeb-default-product .raheeb-size-control {
+    /* background: transparent; */
+    height: 10.5rem !important;
+    width: 10.2rem !important;
+}}@media (max-width:326px){
+.raheeb-default-product .raheeb-size-control {
+    /* background: transparent; */
+    height: 8.5rem !important;
+    width: 8.2rem !important;
+}}.raheeb-default-product .raheeb-box-promotion {
+    top: 0;
+    padding: 0 !important;
+    width: 68px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: bold;
+}.raheeb-default-product .raheeb-inside {
+    background-color: transparent;
+}.s-cart-summary-count {
+    background: #033c64;
+}
