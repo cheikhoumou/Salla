@@ -270,7 +270,7 @@ salla-slider.details-slider .s-slider-container {
 }.store-footer h3:after {
     position: absolute;
     content: '';
-    background-color: #000;
+    background-color: #828282;
     width: 30px;
     height: 5px;
     bottom: -4px;
@@ -383,7 +383,7 @@ a.mb-4.last\:mb-0.flex.items-center.text-sm.leading-none {
 
 
 .s-block__display-all {
-    color: #b09a59;
+    color: #193460;
 }
 
 .header-btn__icon {
@@ -435,7 +435,7 @@ a.block.mb-5.last\:mb-0.text-sm.leading-none {
 }
 
 #app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--features.container > div > div:nth-child(1) > div {
-    background: url(https://www.raed.net/img?id=678494) no-repeat;
+    background: url(https://www.raed.net/img?id=701230) no-repeat;
     border-radius: 0px;
     background-size: cover;
 }
@@ -445,12 +445,12 @@ a.block.mb-5.last\:mb-0.text-sm.leading-none {
 }
 
 #app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--features.container > div > div:nth-child(2) > div {
-    background: url(https://www.raed.net/img?id=678492) no-repeat;
+    background: url(https://www.raed.net/img?id=701228) no-repeat;
     border-radius: 0px;
     background-size: cover;
 }
 #app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--features.container > div > div:nth-child(3) > div {
-    background: url(https://www.raed.net/img?id=678493) no-repeat;
+    background: url(https://www.raed.net/img?id=701229) no-repeat;
     border-radius: 0px;
     background-size: cover;
 }
