@@ -1,0 +1,173 @@
+button.addtocart {position: relative;overflow: hidden;z-index: 9999;}
+
+button.addtocart:before {
+    content: "";
+    background: url(https://www.raed.net/img?id=719477);
+    background-size: cover;
+    position: absolute;
+    top: -5px;
+    z-index: -1;
+    width: 105%;
+    height: 50px;
+    display: block;
+    background-repeat: repeat;
+    animation: scale-up-center  6.4s infinite;
+    filter: opacity(0.6);
+    scale:1.5;
+}
+
+@keyframes scale-up-center {
+  0% {
+   transform: translate(100%, 0px);
+  }
+  30% {
+    transform: translate(-30%, 0px);
+  }
+    50% {
+    transform: translate(-60%, 0px);
+  }
+   80% {
+    transform: translate(-80%, 0px);
+  }
+    90% {
+    transform: translate(-100%, 0px);
+  }
+  /* 100% {
+    transform: translate(100%, 0px);
+  }  */
+}
+button.addtocart:after {
+    content: "";
+    background: url(https://www.raed.net/img?id=719477);
+    background-size: cover;
+    position: absolute;
+    top: -5px;
+    z-index: -1;
+    width: 105%;
+    height: 50px;
+    display: block;
+    background-repeat: repeat;
+    animation: scale-center 6.4s infinite;
+    filter: opacity(0.6);
+    scale: 1.5;
+}
+
+@keyframes scale-center {
+  0% {
+   transform: translate(100%, 0px);
+  }
+  30% {
+    transform: translate(30%, 0px);
+  }
+    50% {
+    transform: translate(60%, 0px);
+  }
+   80% {
+    transform: translate(80%, 0px);
+  }
+    90% {
+    transform: translate(100%, 0px);
+  }
+  /* 100% {
+    transform: translate(100%, 0px);
+  }  */
+}
+i.sicon-menu.text-primary.text-2xl.rtl\:ml-2\.5.ltr\:mr-2\.5 {
+    color: #FFF4E5;
+}.s-block--features__item {
+    background: #FFF4E5;
+}
+
+#app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--features.container > div > div > div {position: relative;background: #000000;height: 6rem;width: 6rem;}
+
+#app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--features.container > div > div:nth-child(1) > div:before {
+    content: "";
+    background: url(https://raw.githack.com/cheikhoumou/icons/main/2.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--features.container > div > div:nth-child(2) > div:before {
+    content: "";
+    background: url(https://raw.githack.com/cheikhoumou/icons/main/3.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--features.container > div > div:nth-child(3) > div:before {
+    content: "";
+    background: url(https://raw.githack.com/cheikhoumou/icons/main/1.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+}
+
+.s-block--features__item .feature-icon i {
+    color: transparent !important;
+}
+
+.faq-wrapper .faq {
+    max-width: 100% !important;
+    width: 91%;
+    border-color: #961a0e;
+}
+
+#app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--features.container > div > div:nth-child(1) {
+    position: relative;
+}#app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--features.container > div > div:nth-child(1):before {
+    content: "";
+    background: url(https://raw.githack.com/cheikhoumou/icons/main/5.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: contain;
+    background-position: -11% -95px;
+    position: absolute;
+    top: 0;
+}
+
+.faq-wrapper .faq .question {
+    position: relative;
+    background: url(https://raw.githack.com/cheikhoumou/icons/main/4.png) no-repeat;
+    display: block;
+    background-size: contain;
+    /* position: absolute;
+    top: 0; */
+    height: 38px;
+}
+
+body.v-theme {
+    background: url(https://raw.githack.com/cheikhoumou/icons/main/%D8%AE%D9%84%D9%81%D9%8A%D8%A9%20%D9%85%D9%88%D9%82%D8%B9%20-%20%D8%A7%D9%84%D9%82%D8%B6%D9%8A%D8%A9%20%D8%A7%D9%84%D8%BA%D8%A7%D9%85%D8%B6%D8%A9%20.png);
+}
+
+section.w-full.v-block__m {
+    background: transparent !important;
+}
+
+#swiper-wrapper-4c7a61e046a93e9a > div.special-product.flex.flex-col-reverse.md\:flex-row.swiper-slide.swiper-slide-duplicate.swiper-slide-visible.swiper-slide-active.swiper-slide-duplicate-prev > div.basis-1\/2.flex.flex-col.justify-center {
+    background: transparent !important;
+}
+
+.border-gray-200 {
+    background: #fff4e5;
+    /* height: 100%; */
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-gray-200 * {
+    color: #890202 !important;
+}
