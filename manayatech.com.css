@@ -161,7 +161,7 @@ span.s-login-modal-header-icon {
 
 /* لون الهيدر  */
 div#mainnav,body#app {
-    background: #616799;
+    background: #ffffff;
 }
 
 /* لون الهيدر  */
@@ -427,7 +427,7 @@ a.block.mb-5.last\:mb-0.text-sm.leading-none {
     background-size: cover;
 }
 salla-slider .swiper-pagination-bullet-active {
-    background: #c1a174;
+    background: #616799;
 }
 
 section.sticky-product-bar.bg-white.p-5.rounded-md.rounded-b-none {
@@ -482,7 +482,7 @@ footer.store-footer * {
 }
 
 .header-btn__icon {
-    color: #87d0c9;
+    color: #000000;
 }
 
 .main-menu li.root-level>a {
@@ -517,8 +517,8 @@ li.w-12.h-8.bg-white.rounded.flex.items-center.p-1 {
     border-radius: 13px !important;
     border: none !important;
 }.s-cart-summary-count {
-    color: #616799;
-    background: #fff;
+    color: #ffffff;
+    background: #616799;
 }.s-slider-block__title h2 {
     color: #87d0c9;
 }.s-product-card-image img {
