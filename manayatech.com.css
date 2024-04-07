@@ -101,9 +101,9 @@ body#app:after {
 }
 section.sticky-product-bar.bg-white.p-5.rounded-md.rounded-b-none>salla-add-product-button>salla-quick-buy .s-button-wide {
     background: none !important;
-    color: #014946;
+    color: #616799;
     font-weight: bold;
-    border: 1px solid #014946 !important;
+    border: 1px solid #616799 !important;
 }
 
 salla-slider .swiper-pagination-bullet-active {
@@ -161,7 +161,7 @@ span.s-login-modal-header-icon {
 
 /* لون الهيدر  */
 div#mainnav,body#app {
-    background: #ffffff;
+    background: #616799;
 }
 
 /* لون الهيدر  */
@@ -482,7 +482,7 @@ footer.store-footer * {
 }
 
 .header-btn__icon {
-    color: #000000;
+    color: #87d0c9;
 }
 
 .main-menu li.root-level>a {
@@ -518,7 +518,7 @@ li.w-12.h-8.bg-white.rounded.flex.items-center.p-1 {
     border: none !important;
 }.s-cart-summary-count {
     color: #ffffff;
-    background: #616799;
+    background: #87d0c9;
 }.s-slider-block__title h2 {
     color: #87d0c9;
 }.s-product-card-image img {
@@ -527,7 +527,7 @@ li.w-12.h-8.bg-white.rounded.flex.items-center.p-1 {
     transform: scale(1.1) rotate(2.1deg);
     transition: all 0.6s;
 }h1.text-xl.md\:text-2xl.leading-10.font-bold.mb-6.text-gray-800, span.before-price.text-gray-500.line-through, .block,.line-through {
-    color: #5e66a3;
+    color: #ffffff;
 }ol.flex.items-center.flex-wrap.text-sm {
     background: #87d0c9;
     padding: 5px;
