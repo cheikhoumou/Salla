@@ -127,4 +127,20 @@ p.max-w-sm.leading-6.mb-6 {
 .s-contacts-list.s-contacts-list-vertical {
     margin-right: 20px;
     margin-top: 20px;
+}@media (max-width:1000px) {
+.flex.items-stretch.justify-between.relative {flex-direction: row-reverse;}
+.flex.items-stretch.justify-between.relative .flex.items-center.justify-end {
+    flex-direction: row-reverse;
+    margin-right: 30px;
+}b.s-cart-summary-total {
+    display: none;
+}
+a.lg\:hidden.mburger.mburger--collapse.leading-none.rtl\:ml-4.ltr\:mr-4 {
+    position: fixed;
+    right: 11px;
+}
+.inner.bg-inherit {
+    padding: 2px;
+}}.navbar-brand img {
+    max-width: 68px;
 }
