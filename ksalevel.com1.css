@@ -143,4 +143,30 @@ a.lg\:hidden.mburger.mburger--collapse.leading-none.rtl\:ml-4.ltr\:mr-4 {
     padding: 2px;
 }}.navbar-brand img {
     max-width: 68px;
+}.mm-spn.mm-spn--navbar ul * {
+    font-family: "myfont3" !important;
+}.mm-spn.mm-spn--navbar ul li a {
+    padding: 12px !important;
+    font-weight: 500;
+    border: none !important;
+}.mm-ocd__content {
+    width: 170px !important;
+    max-width: 300px !important;
+}.mm-spn.mm-spn--navbar.mm-spn--main:after {
+    display: block;
+    content: "";
+    width: 87px;
+    background: url(https://cdn.salla.sa/cdn-cgi/image/fit=scale-down,width=400,height=400,onerror=redirect,format=auto/WlQgAA/C4rTSJP5mB2WoyUiRLnlUpYPA8TaawpIvu447f8Q.png) no-repeat;
+    background-size: contain;
+    margin: 12px !important;
+}.sicon-cancel:before {
+    background: url(https://raw.githack.com/cheikhoumou/Salla/main/suCygjbA7HcMzdUnIzIbjrei1xK71bDoPM485UOe.png)  no-repeat;
+    content: "";
+    display: block;
+    width: 11px;
+    background-size: contain;
+    height: 21px;
+}button.btn--close-sm.close-mobile-menu.sicon-cancel.hidden {
+    background: transparent;
+    right: 175px;
 }
