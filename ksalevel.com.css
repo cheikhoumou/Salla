@@ -1,0 +1,130 @@
+@font-face{
+font-family:myfont;
+src:url(https://raw.githack.com/cheikhoumou/Salla/main/BGOTHM.TTF);
+}
+@font-face{
+font-family:myfont2;
+src:url(https://raw.githack.com/cheikhoumou/Salla/main/KUFAM-REGULAR.TTF);
+}
+@font-face{
+font-family:myfont3;
+src:url(https://raw.githack.com/cheikhoumou/Salla/main/ALFONT_COM_CAIRO-REGULAR-1.TTF);
+}
+.s-product-card-content-title,#app > div.app-inner.flex.flex-col.min-h-full > footer > div.store-footer__inner > div > div.lg\:col-span-2.rtl\:lg\:pl-20.ltr\:lg\:pr-20 > a > h3{
+    font-family:myfont;
+}
+*{
+     font-family:myfont2;
+}
+section.s-block.s-block--fixed-banner.wide-placeholder {
+    padding: 0 !important;
+    margin: 0px !important;
+}body#app {
+    background: #fff !IMPORTANT;
+}section.s-block.s-block--fixed-banner.wide-placeholder .container {
+    padding: 0 !important;
+}.top-navbar {display: none;
+}.banner--fixed img {border-radius: 0px;}
+
+.store-footer__inner {}
+
+.inner.bg-inherit {
+    padding: 8px;
+}
+
+.header-btn__icon {border: none;}
+
+.s-cart-summary-wrapper .sicon-shopping-bag:before {
+    content: "";
+    width: 35px;
+    height: 17px;
+    display: block;
+    background: url(https://raw.githack.com/cheikhoumou/Salla/main/Copy1.png) no-repeat !important;
+    background-size: contain !important;
+}
+
+.s-cart-summary-count {right: 29px;background: #FF0000;}
+
+.leading-none .sicon-menu:before {
+      content: "";
+      width: 31px;
+      height: 16px;
+      display: block;
+      background: url(https://raw.githack.com/cheikhoumou/Salla/main/Copy2.png) no-repeat !important;
+      background-size: contain !important;
+}
+
+i.header-btn__icon.sicon-user-circle {
+    margin-left: -10px;
+    font-size: 21px;
+}.store-footer h3 {
+    text-align: right;
+    position: relative;
+    margin-right: 20px;
+    padding-bottom: 3px;
+    font-size: 15px;
+}.store-footer h3:before {
+    position: absolute;
+    content: '';
+    background-color: #ffffff;
+    width: 55px;
+    height: 5px;
+    bottom: -4px;
+    right: 0;
+    border-radius: 10px;
+}.store-footer h3:after {
+    position: absolute;
+    content: '';
+    background-color: #ff8383;
+    width: 30px;
+    height: 5px;
+    bottom: -4px;
+    right: 57px;
+    border-radius: 15px;
+}
+
+.store-footer__inner {
+    background: #000 !important;
+}
+
+.md\:flex.items-center.justify-between.py-4.container.text-center {
+    background: #000;
+}
+
+footer.store-footer * {
+    color: #fff;
+}
+.store-footer .contact-social {
+    border-top-width: 0px;
+    margin: 0;
+    padding: 0;
+}.footer-is-light .store-footer .store-footer__inner:before {
+    content: " ";
+    background-image: url(https://raw.githack.com/cheikhoumou/Salla/main/img.svg) !important;
+    display: block !important;
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    width: 100%;
+    height: 111px;
+    margin-top: -47px;
+    padding: 50px;
+}
+footer.store-footer {
+    background-color: #000 !important;
+}
+
+p.max-w-sm.leading-6.mb-6 {
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.s-apps-icons-list,salla-social.s-social-list.hydrated {
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.s-contacts-list.s-contacts-list-vertical {
+    margin-right: 20px;
+    margin-top: 20px;
+}
