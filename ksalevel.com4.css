@@ -11,11 +11,11 @@ font-family:myfont3;
 src:url(https://raw.githack.com/cheikhoumou/Salla/main/ALFONT_COM_CAIRO-REGULAR-1.TTF);
 }
 .s-product-card-content-title,#app > div.app-inner.flex.flex-col.min-h-full > footer > div.store-footer__inner > div > div.lg\:col-span-2.rtl\:lg\:pl-20.ltr\:lg\:pr-20 > a > h3{
-    font-family:myfont;
+    font-family: 'myfont';
 }
 *{
      font-family:myfont2;
-}
+}.mm-ocd {top: 43px;}
 .s-user-menu-trigger{
     width: 35px;
     height: 17px;
@@ -115,7 +115,6 @@ p.max-w-sm.leading-6.mb-6 {
     font-size: 14px;
     margin-right: 20px;
 }
-
 .s-apps-icons-list,salla-social.s-social-list.hydrated {
     justify-content: center;
     margin-top: 30px;
@@ -185,8 +184,12 @@ a.flex.items-center.m-0 {
     padding: 0px !important;
     margin: 0px !important;
     text-align: center;
+    font-family: 'myfont3' !important;
 }.store-footer a:nth-child(1) h3:before{
-    right: 0px;
+    right: -9px;
 }.store-footer a:nth-child(1) h3:after {
-    right: 58px;
+    right: 49px;
+}
+.store-footer__inner,.md\:flex.items-center.justify-between.py-4.container.text-center {
+    background: #fff !important;
 }
