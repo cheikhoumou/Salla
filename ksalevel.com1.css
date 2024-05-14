@@ -169,4 +169,13 @@ a.lg\:hidden.mburger.mburger--collapse.leading-none.rtl\:ml-4.ltr\:mr-4 {
 }button.btn--close-sm.close-mobile-menu.sicon-cancel.hidden {
     background: transparent;
     right: 175px;
+}.sicon-user-circle:before {
+    content: "";
+    width: 35px;
+    height: 17px;
+    display: block;
+    background: url(https://raw.githack.com/cheikhoumou/Salla/main/%D9%84%D9%82%D8%B7%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%202024-05-14%20133742.png) no-repeat !important;
+    background-size: contain !important;
+}.s-cart-summary-count {
+    visibility: hidden;
 }
