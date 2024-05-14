@@ -16,6 +16,16 @@ src:url(https://raw.githack.com/cheikhoumou/Salla/main/ALFONT_COM_CAIRO-REGULAR-
 *{
      font-family:myfont2;
 }
+.s-user-menu-trigger{
+    width: 35px;
+    height: 17px;
+    background: url(https://raw.githack.com/cheikhoumou/Salla/main/%D9%84%D9%82%D8%B7%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%202024-05-14%20133742.png) no-repeat !important;
+    background-size: contain !important;
+}.s-user-menu-avatar-wrap img{
+    opacity: 0;
+}.s-user-menu-dropdown-header img {
+    display: none;
+}
 section.s-block.s-block--fixed-banner.wide-placeholder {
     padding: 0 !important;
     margin: 0px !important;
@@ -25,8 +35,6 @@ section.s-block.s-block--fixed-banner.wide-placeholder {
     padding: 0 !important;
 }.top-navbar {display: none;
 }.banner--fixed img {border-radius: 0px;}
-
-.store-footer__inner {}
 
 .inner.bg-inherit {
     padding: 8px;
@@ -66,11 +74,11 @@ i.header-btn__icon.sicon-user-circle {
 }.store-footer h3:before {
     position: absolute;
     content: '';
-    background-color: #ffffff;
+    background-color: #1b1b1c;
     width: 55px;
     height: 5px;
     bottom: -4px;
-    right: 0;
+    right: 44px;
     border-radius: 10px;
 }.store-footer h3:after {
     position: absolute;
@@ -79,20 +87,13 @@ i.header-btn__icon.sicon-user-circle {
     width: 30px;
     height: 5px;
     bottom: -4px;
-    right: 57px;
+    right: 102px;
     border-radius: 15px;
 }
 
-.store-footer__inner {
-    background: #000 !important;
-}
-
-.md\:flex.items-center.justify-between.py-4.container.text-center {
-    background: #000;
-}
 
 footer.store-footer * {
-    color: #fff;
+    color: #000;
 }
 .store-footer .contact-social {
     border-top-width: 0px;
@@ -110,10 +111,6 @@ footer.store-footer * {
     margin-top: -47px;
     padding: 50px;
 }
-footer.store-footer {
-    background-color: #000 !important;
-}
-
 p.max-w-sm.leading-6.mb-6 {
     font-size: 14px;
     margin-right: 20px;
@@ -178,4 +175,18 @@ a.lg\:hidden.mburger.mburger--collapse.leading-none.rtl\:ml-4.ltr\:mr-4 {
     background-size: contain !important;
 }.s-cart-summary-count {
     visibility: hidden;
+}
+a.flex.items-center.m-0 {
+    justify-content: center;
+}footer.store-footer * {
+    justify-content: center;
+    align-items: center;
+}.store-footer h3 {
+    padding: 0px !important;
+    margin: 0px !important;
+    text-align: center;
+}.store-footer a:nth-child(1) h3:before{
+    right: 0px;
+}.store-footer a:nth-child(1) h3:after {
+    right: 58px;
 }
