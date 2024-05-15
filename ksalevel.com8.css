@@ -181,4 +181,6 @@ div.lg\:col-span-2.rtl\:lg\:pl-20.ltr\:lg\:pr-20 > a > h3 {
     font-size: 53px !IMPORTANT;
     height: 2rem;
     width: 1.1rem;
+}.s-contacts-list.s-contacts-list-vertical {
+    flex-direction: row;
 }
