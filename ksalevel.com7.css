@@ -183,4 +183,25 @@ div.lg\:col-span-2.rtl\:lg\:pl-20.ltr\:lg\:pr-20 > a > h3 {
     width: 1.1rem;
 }.s-contacts-list.s-contacts-list-vertical {
     flex-direction: row;
+}nav.breadcrumbs.w-full.py-5 {
+    display: none;
+}header.store-header + .container {
+    padding: 0px;
+}.main-content.md\:sticky.md\:overflow-hidden.top-24.w-full.md\:w-2\/4.md\:pb-16 {
+    padding: 8px;
+}.s-slider-horizontal .s-slider-thumbs,.flex.rtl\:space-x-reverse.space-x-3 {
+    display: none;
+}.px-5 ,.leading-7 {
+    padding: 0;
+}salla-slider.details-slider .s-slider-container {border: 0px;}
+@media (max-width:999px) {
+.main-nav-container {min-height: 0px;
+}}
+button.btn--wishlist.animated.sws.s-button-element.s-button-icon.s-button-outline.s-button-light-outline.s-button-loader-center {
+    display: none;
+}h1.text-xl.md\:text-2xl.leading-10.font-bold.mb-6.text-gray-800 {
+    text-align: left;
+    font-family: 'myfont1';
+}h2.font-bold.text-xl.inline-block,h1.text-xl.md\:text-2xl.leading-10.font-bold.mb-6.text-gray-800 {
+    display: none;
 }
