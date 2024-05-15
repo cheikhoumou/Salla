@@ -173,4 +173,12 @@ div.lg\:col-span-2.rtl\:lg\:pl-20.ltr\:lg\:pr-20 > a > h3 {
     height: 16px;
 }footer > div.store-footer__inner > div > div:nth-child(2) > h3,div#contact-slot span.unicode {
     display: none;
+}.store-footer__inner {
+    padding: 0px;
+}.store-footer a,.s-contacts-icon {
+    border: none;
+}.s-social-link a svg,.s-contacts-icon svg {
+    font-size: 53px !IMPORTANT;
+    height: 2rem;
+    width: 1.1rem;
 }
