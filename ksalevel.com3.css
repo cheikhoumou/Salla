@@ -241,5 +241,15 @@ button.btn--wishlist.animated.sws.s-button-element.s-button-icon.s-button-outlin
     margin-left: 20px;
     font-weight: 300;
     display: block;
-    width: 107px;
-}
+    width: 100px;
+}.s-product-options-colors-wrapper input[type=radio]+label div {
+    display: none;
+}form.form.product-form:before {
+    content: "";
+    display: block;
+    width: 90%;
+    height: 50px;
+    background: url(https://raw.githack.com/cheikhoumou/Salla/main/igmhj.png) no-repeat;
+    background-size: contain;
+    background-position: right;
+}.s-product-options-colors-wrapper {gap: 1.6rem;}
