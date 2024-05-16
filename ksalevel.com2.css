@@ -225,17 +225,21 @@ button.btn--wishlist.animated.sws.s-button-element.s-button-icon.s-button-outlin
     border-radius: 0px;
     border: 1px solid;
     padding: 0;
+    width: 21px;
+    height: 21px;
 }.s-product-options-colors-wrapper input[type=radio]:checked+label span:after {
     background: #000;
     border-radius: 0px;
-    height: 22px;
-    width: 22px;
-}.main-content.md\:sticky.md\:overflow-hidden.top-24.w-full.md\:w-2\/4.md\:pb-16 > form > salla-product-options > salla-conditional-fields > div:nth-child(1) > div > label > b ,.main-content.md\:sticky.md\:overflow-hidden.top-24.w-full.md\:w-2\/4.md\:pb-16 > form > salla-product-options > salla-conditional-fields > div:nth-child(2) > div > label > b {
+    height: 13px;
+    width: 13px;
+}.s-product-options-option {
+    display: flex;
+    align-items: center;
+}.s-product-options-option-label b span {
     display: none;
-}fieldset.s-product-options-colors-wrapper:before {
-    content: " درجة التظليل";
-    font-size: 17px;
-}
-form > salla-product-options > salla-conditional-fields > div:nth-child(2) > div > div > fieldset:before {
-  content: "النوافذ الخلفية";
+}.s-product-options-option-label {
+    margin-left: 20px;
+    font-weight: 300;
+    display: block;
+    width: 107px;
 }
