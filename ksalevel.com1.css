@@ -204,4 +204,38 @@ button.btn--wishlist.animated.sws.s-button-element.s-button-icon.s-button-outlin
     font-family: 'myfont1';
 }h2.font-bold.text-xl.inline-block,h1.text-xl.md\:text-2xl.leading-10.font-bold.mb-6.text-gray-800 {
     display: none;
+}salla-slider.details-slider .s-slider-container {border-radius: 0px;
+}button.s-quick-buy-button.s-button-element.s-button-btn.s-button-outline.s-button-wide.s-button-primary-outline.s-button-loader-after {
+    border: none;
+    color: #fff;
+    background: #0077ff;
+    border-radius: 30px;
+    font-family: 'myfont1' !important;
+}button.undefined.s-button-element.s-button-btn.s-button-solid.s-button-wide.s-button-primary.s-button-loader-center {
+    background: #fff;
+    color: #000;
+     border-radius: 30px;
+}section.sticky-product-bar.bg-white.p-5.rounded-md.rounded-b-none {
+    justify-content: center;
+}.s-quantity-input-button {
+    border: none !important;
+}.s-quantity-input-container,.s-quantity-input-input {
+    border: none;
+}.s-product-options-colors-wrapper input[type=radio]+label span {
+    border-radius: 0px;
+    border: 1px solid;
+    padding: 0;
+}.s-product-options-colors-wrapper input[type=radio]:checked+label span:after {
+    background: #000;
+    border-radius: 0px;
+    height: 22px;
+    width: 22px;
+}.main-content.md\:sticky.md\:overflow-hidden.top-24.w-full.md\:w-2\/4.md\:pb-16 > form > salla-product-options > salla-conditional-fields > div:nth-child(1) > div > label > b ,.main-content.md\:sticky.md\:overflow-hidden.top-24.w-full.md\:w-2\/4.md\:pb-16 > form > salla-product-options > salla-conditional-fields > div:nth-child(2) > div > label > b {
+    display: none;
+}fieldset.s-product-options-colors-wrapper:before {
+    content: " درجة التظليل";
+    font-size: 17px;
+}
+form > salla-product-options > salla-conditional-fields > div:nth-child(2) > div > div > fieldset:before {
+  content: "النوافذ الخلفية";
 }
