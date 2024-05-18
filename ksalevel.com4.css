@@ -247,7 +247,7 @@ button.btn--wishlist.animated.sws.s-button-element.s-button-icon.s-button-outlin
 }.s-product-options-colors-wrapper {gap: 1.6rem;}
 .s-product-options-option-label small {
     display: none;
-}.s-form-control {
+}.s-form-control, .s-datetime-picker-input {
     border-radius: 0px;
     width: 217px;
     border: none !important;
