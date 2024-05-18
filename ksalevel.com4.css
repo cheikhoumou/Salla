@@ -244,12 +244,20 @@ button.btn--wishlist.animated.sws.s-button-element.s-button-icon.s-button-outlin
     width: 100px;
 }.s-product-options-colors-wrapper input[type=radio]+label div {
     display: none;
-}form.form.product-form:before {
-    content: "";
-    display: block;
-    width: 90%;
-    height: 50px;
-    background: url(https://raw.githack.com/cheikhoumou/Salla/main/igmhj.png) no-repeat;
-    background-size: contain;
-    background-position: right;
 }.s-product-options-colors-wrapper {gap: 1.6rem;}
+.s-product-options-option-label small {
+    display: none;
+}.s-form-control {
+    border-radius: 0px;
+    width: 217px;
+    border: none !important;
+    background-color: #F0F0F0;
+}.s-product-options-option-label b {
+    width: 110px;
+}.s-product-options-wrapper {
+    display: flex;
+    justify-content: center;
+}.main-content.md\:sticky.md\:overflow-hidden.top-24.w-full.md\:w-2\/4.md\:pb-16 {
+    display: flex;
+    flex-flow: column-reverse;
+}
