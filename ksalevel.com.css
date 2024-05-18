@@ -257,7 +257,13 @@ button.btn--wishlist.animated.sws.s-button-element.s-button-icon.s-button-outlin
 }.s-product-options-wrapper {
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }.main-content.md\:sticky.md\:overflow-hidden.top-24.w-full.md\:w-2\/4.md\:pb-16 {
     display: flex;
     flex-flow: column-reverse;
+}.s-product-options-option-container {
+    margin-bottom: 0.5rem;
+}.sidebar {
+    padding: 0;
 }
