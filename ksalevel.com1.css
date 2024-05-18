@@ -131,7 +131,7 @@ a.lg\:hidden.mburger.mburger--collapse.leading-none.rtl\:ml-4.ltr\:mr-4 {
     background: url(https://cdn.salla.sa/cdn-cgi/image/fit=scale-down,width=400,height=400,onerror=redirect,format=auto/WlQgAA/C4rTSJP5mB2WoyUiRLnlUpYPA8TaawpIvu447f8Q.png) no-repeat;
     background-size: contain;
     margin: 12px !important;
-}.sicon-cancel:before {
+}button.btn--close-sm.close-mobile-menu.sicon-cancel.hidden:before,.btn--close:before {
     background: url(https://raw.githack.com/cheikhoumou/Salla/main/suCygjbA7HcMzdUnIzIbjrei1xK71bDoPM485UOe.png)  no-repeat;
     content: "";
     display: block;
@@ -189,7 +189,7 @@ div.lg\:col-span-2.rtl\:lg\:pl-20.ltr\:lg\:pr-20 > a > h3 {
     padding: 0px;
 }.main-content.md\:sticky.md\:overflow-hidden.top-24.w-full.md\:w-2\/4.md\:pb-16 {
     padding: 8px;
-}.s-slider-horizontal .s-slider-thumbs,.flex.rtl\:space-x-reverse.space-x-3 {
+}.s-slider-horizontal .s-slider-thumbs{
     display: none;
 }.px-5 ,.leading-7 {
     padding: 0;
@@ -259,6 +259,7 @@ button.btn--wishlist.animated.sws.s-button-element.s-button-icon.s-button-outlin
     justify-content: center;
     margin: 0;
     padding: 0;
+    margin-top: 9px;
 }.main-content.md\:sticky.md\:overflow-hidden.top-24.w-full.md\:w-2\/4.md\:pb-16 {
     display: flex;
     flex-flow: column-reverse;
@@ -266,4 +267,26 @@ button.btn--wishlist.animated.sws.s-button-element.s-button-icon.s-button-outlin
     margin-bottom: 0.5rem;
 }.sidebar {
     padding: 0;
+}section.flex.bg-white.p-5.sm\:pb-0.rounded-md.rounded-b-none ,.s-social-share-btn.s-button-element.s-button-icon.s-button-outline.s-button-light-outline.s-button-loader-center {
+    display: none;
+}.s-comments.s-comments-product + .container {
+    display: none;
+}.s-comment-form-action salla-button button {
+    border-radius: 20px;
+}h2.text-lg.font-bold.text-gray-500.mb-8,.text-dark {
+    margin-right: 14px;
+    color: #000 !important;
+    font-weight: 100;
+}.s-comments.s-comments-product {
+    background: #f0f0f0;
+}.s-button-light-outline{
+    border-color: red !important;
+    border-radius: 20px;
+    color: red;
+}.flex.whitespace-nowrap.gap-4.items-center {
+    display: none;
+}button.s-button-element.s-button-btn.s-button-solid.s-button-wide.s-button-primary.s-button-loader-center.s-button-wrap.hydrated {
+    border-radius: 20px;
+}button.btn--wishlist.animated.hidden.sm\:inline-flex.s-button-element.s-button-icon.s-button-outline.s-button-light-outline.s-button-loader-center {
+    display: none;
 }
