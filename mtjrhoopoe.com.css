@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+body{
+    background-color: #f3e0c9;
+}
+:root{
+--logo: url(https://cdn.salla.sa/cdn-cgi/image/fit=scale-down,width=400,height=400,onerror=redirect,format=auto/rGXZB/YGbSAst03LhxWGrFQXk1IyI4ntA93vkglAo1VlXA.png);
+}
+*{
+     font-family: "Cairo", sans-serif;
+}
+.index:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: white var(--logo);
+    position: fixed;
+    top: 0;
+    z-index: 99999999999999999 !important;
+    background-size: 280px !important;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    animation-name: logobg;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+@keyframes logobg {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        visibility: hidden
+    }
+}
+
+/* Slider */
+section.s-block.s-block--photos-slider salla-slider.photos-slider .swiper-slide {
+    width: 100%;
+    margin: 0;
+    padding:0;
+}
+
+[dir=rtl] salla-slider.photos-slider .swiper {
+    padding-right: 0rem;
+}
+
+salla-slider.photos-slider .swiper:where([dir=rtl],[dir=rtl] *) {
+     padding-left: 0rem; 
+}
+section.s-block.s-block--photos-slider:first-of-type {
+    margin-top: 0;
+}
+
+[dir=rtl] salla-slider.photos-slider .swiper {
+     padding-left: 0rem; 
+}
+[dir=rtl] salla-slider.photos-slider .swiper {
+     padding-left: 0rem; 
+}
+
+salla-slider.photos-slider .swiper {
+    padding-bottom: 0rem; 
+}
+
+/*--------------------*/
+
+/* unset  */
+section.s-block.s-block--fixed-banner.wide-placeholder  .banner--fixed img .banner-entry {
+    background-color: unset;
+}
+
+.banner--fixed img {
+    background-color: unset;
+}
+
+.banner-entry{
+    background-color: unset;
+}
+/*--------------------*/
+
+
+/* grid */
+.gap-3 {
+     gap: 0rem; 
+}
+.sm\:gap-8 {
+     gap: 0rem; 
+}
+.two-row .banner-entry:first-child {
+    grid-column: span 1/span 1;
+    grid-row: 1/2;
+}
+
+.md\:grid-cols-3 {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+}
+
+.banner-entry {
+    height: 305px;
+}
+
+section.s-block.s-block--banners.container .lazy__bg.lazy.entered.loaded {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/*--------------------*/
+
+/*center*/
+.flex.mb-6, .md\:flex, .s-product-card-content-sub, .store-footer a, .s-product-card-content-title a, .store-footer .contact-social ul {
+    text-align: center!important;
+    justify-content: center !important;
+}
+/*--------------------*/
+
+/*footer*/
+.footer-is-light .store-footer .store-footer__inner {
+    text-align: center!important;
+    justify-content: center !important;
+}
+
+.store-footer__inner {
+    text-align: center!important;
+    background: #925f32;
+}
+/*--------------------*/
+
+/*prouduct*/
+.s-slider-block__title {
+    display: none;
+}
+
+.s-button-element:not(:disabled):not([loading]) {background: #925f32;border: none;}
+
+button.undefined.s-button-element.s-button-btn.s-button-outline.s-button-wide.s-button-primary-outline.s-button-loader-center {
+    color: white;
+}
+
+.s-product-card-content {
+    background-color: #f3e0c9;
+}
+
+.s-product-card-vertical {
+    border: 2px solid #925f32;
+}
+/*--------------------*/
+
+section.s-block.s-block--fixed-banner.wide-placeholder:nth-of-type(2){
+     margin-top: 0rem; 
+}
+
+section.s-block.s-block--banners.container:nth-of-type(3){
+     margin-top: 0rem; 
+}
+
+/*media*/
+
+@media (min-width:768px) and (max-width:1200px){
+.banner-entry {
+    height: 289px;
+}
+}
+
+@media (max-width:767px){
+    .swiper-wrapper>div {
+        width: 56%;
+    }
+    .banner-entry {
+    height: 99px;
+
+    }
+    .md\:grid-cols-3 {
+      grid-template-columns: repeat(2,minmax(0,1fr));
+    }
+}
+.s-product-card-content-footer .s-button-primary-outline .sicon-shopping-bag:before {
+    content: "";
+    background-image: url(https://i.ibb.co/LgDHYLn/system-regular-64-shopping-bag.gif);
+    width: 25px;
+    margin-left: 5px;
+    height: 25px;
+    background-size: contain;
+    display: inline-block;
+}
+
+.s-product-card-content-footer .s-button-primary-outline {
+    width: 100%;
+    margin-left: auto;
+    border-radius: 15px;
+    text-align: center;
+    background: var(--main-color);
+    justify-content: center;
+    display: flex;
+    align-items: center
+}
+.s-product-card-content-footer .s-button-text {
+    color: var(--second-color)!important;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}.undefined {
+    animation: signal 1200ms infinite
+}
+
+@keyframes signal {
+    0% {
+        box-shadow: 0 0 0 0 #925f32
+    }
+
+    100% {
+        box-shadow: 0 0 0 10px #f3e0c9
+    }
+}.s-product-card-content-title a {
+    white-space: nowrap;
+    color: var(--main-color);
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.store-footer__inner:before {
+    text-align: center;
+    content: "";
+    display: block;
+    height: 85px;
+    width: 140px;
+    margin: auto auto 20px;
+    background-image: url(https://a.top4top.io/p_3074a1evh1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    animation: sigal 1200ms linear infinite;
+}
+
+@keyframes sigal {
+    0% {
+        filter: drop-shadow(2px 4px 6px #f3e0c961)
+    }
+
+    100% {
+        filter: none;
+    }
+}
+
+.md\:flex.items-center.justify-between.py-4.container.text-center {
+    background: #925f32;
+}
+
+salla-social.s-social-list.hydrated {
+    justify-content: center;
+}
+
+.s-menu-footer-list {display: grid;grid-template-columns: 1fr 1fr;}
+
+.s-menu-footer-list a {
+    height: 35px;
+    background: #f3e0c947;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 8px;
+}i.header-btn__icon {
+    color:#925f32;
+    border: 2px solid #925f32;
+}a.lg\:hidden.mburger.mburger--collapse.leading-none.rtl\:ml-4.ltr\:mr-4 {
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px #1c040452;
+}i.sicon-menu.text-primary.text-2xl {
+    color: #991b1b;
+}footer.store-footer {
+    background: #925f32;
+}
