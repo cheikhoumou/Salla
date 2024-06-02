@@ -277,3 +277,16 @@ salla-social.s-social-list.hydrated {
 }footer.store-footer {
     background: #925f32;
 }
+@media (min-width: 1024px) {
+    .lg\:grid-cols-6 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+.lg\:col-span-2.rtl\:lg\:pl-20.ltr\:lg\:pr-20 {
+    margin: auto;
+    padding: 0;
+}
+@media (max-width: 411px) {
+.s-menu-footer-list a {
+    font-size: 3vw;
+}}
