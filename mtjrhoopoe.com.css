@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
 body{
-    background-color: #f3e0c9;
+    background-color: #ffffff;
 }
 :root{
 --logo: url(https://cdn.salla.sa/cdn-cgi/image/fit=scale-down,width=400,height=400,onerror=redirect,format=auto/rGXZB/YGbSAst03LhxWGrFQXk1IyI4ntA93vkglAo1VlXA.png);
@@ -129,7 +129,7 @@ section.s-block.s-block--banners.container .lazy__bg.lazy.entered.loaded {
 
 .store-footer__inner {
     text-align: center!important;
-    background: #925f32;
+    background: #4b6560;
 }
 /*--------------------*/
 
@@ -138,18 +138,19 @@ section.s-block.s-block--banners.container .lazy__bg.lazy.entered.loaded {
     display: none;
 }
 
-.s-button-element:not(:disabled):not([loading]) {background: #925f32;border: none;}
+.s-button-element:not(:disabled):not([loading]) {background: #4b6560;border: none;}
 
 button.undefined.s-button-element.s-button-btn.s-button-outline.s-button-wide.s-button-primary-outline.s-button-loader-center {
     color: white;
 }
 
 .s-product-card-content {
-    background-color: #f3e0c9;
+    background-color: #fff;
 }
 
 .s-product-card-vertical {
-    border: 2px solid #925f32;
+    /* border: 2px solid #250d0d4a; */
+    box-shadow: 0px 0px 5px #250d0d4a;
 }
 /*--------------------*/
 
@@ -212,11 +213,11 @@ section.s-block.s-block--banners.container:nth-of-type(3){
 
 @keyframes signal {
     0% {
-        box-shadow: 0 0 0 0 #925f32
+        box-shadow: 0 0 0 0 #4b6560
     }
 
     100% {
-        box-shadow: 0 0 0 10px #f3e0c9
+        box-shadow: 0 0 0 10px #fff;
     }
 }.s-product-card-content-title a {
     white-space: nowrap;
@@ -250,7 +251,7 @@ section.s-block.s-block--banners.container:nth-of-type(3){
 }
 
 .md\:flex.items-center.justify-between.py-4.container.text-center {
-    background: #925f32;
+    background: #4b6560;
 }
 
 salla-social.s-social-list.hydrated {
@@ -266,16 +267,16 @@ salla-social.s-social-list.hydrated {
     margin: 3px;
     border-radius: 8px;
 }i.header-btn__icon {
-    color:#925f32;
-    border: 2px solid #925f32;
+    color: #4b6560;
+    border: 2px solid #4b6560;
 }a.lg\:hidden.mburger.mburger--collapse.leading-none.rtl\:ml-4.ltr\:mr-4 {
     padding: 8px;
     border-radius: 8px;
     box-shadow: 0px 0px 5px #1c040452;
 }i.sicon-menu.text-primary.text-2xl {
-    color: #991b1b;
+    color: #4d6762;
 }footer.store-footer {
-    background: #925f32;
+    background: #4b6560;
 }
 @media (min-width: 1024px) {
     .lg\:grid-cols-6 {
@@ -290,3 +291,17 @@ salla-social.s-social-list.hydrated {
 .s-menu-footer-list a {
     font-size: 3vw;
 }}
+span.s-cart-summary-count {
+    background: #58885e;
+    border-radius: 10px 3px;
+    right: -8px;
+}salla-slider .swiper-pagination-bullet-active {
+    background: #58885e;
+}.swiper.s-slider-container.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-rtl {
+    padding-bottom: 7px;
+}h4.s-product-card-price {
+    color: #b69760;
+}.s-product-card-vertical .s-product-card-wishlist-btn button {
+    background: #eeba66 !important;
+    opacity: 1 !important;
+    color: #fff;}
