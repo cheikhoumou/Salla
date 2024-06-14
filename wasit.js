@@ -440,4 +440,28 @@ let ba9att = [
     ba9att[16].classList.remove('checkbox');
     ba9att[17].classList.remove('checkbox');
    }
+   // chose one ba9a
+document.querySelector(".block1 .uagb-buttons-repeater.wp-block-button__link").onclick = function(){
+    if(localStorage.getItem("ba9") == null){
+       console.log(' !!! لم يختر باقة  ');
+    }else{
+    //  جاري الارسال ...
+    document.querySelector(".block1 .uagb-buttons-repeater.wp-block-button__link .uagb-button__link").innerHTML = 'جاري الارسال ...';
+    document.querySelector("a.uagb-buttons-repeater.wp-block-button__link img").style = `display:block;`;
+    function animeted(){
+     document.querySelector(".block1").style = `animation: fadeout 0.7s ease-in both;display:none;`;
+     document.querySelector("div.sendbox").style = `display: block;animation: fadeIn 1.3s ease-in both;`;
+     document.querySelector("div.sendbox > div.bloking1 > div").style = `transform: scale(1);`;
+    }setTimeout(animeted, 1000);
+    //  color part 1
+    document.querySelector("div.sendbox > div.progriss > span:nth-child(1)").style = `background: #4434c7;`;
    
+}}
+// close window sendbox
+document.querySelector("div.clsanimated2").onclick = function(){
+     document.querySelector("div.sendbox > div.bloking1 > div").style = `transform: scale(0);`;
+     document.querySelector("div.sendbox").style = `animation: fadeout 1.3s ease-in both;display: none;`;
+     document.querySelector(".block1").style = `display:block;animation: fadeIn 0.7s ease-in both;`;
+     document.querySelector(".block1 .uagb-buttons-repeater.wp-block-button__link .uagb-button__link").innerHTML = ' تقديم الطلب ';
+     document.querySelector("a.uagb-buttons-repeater.wp-block-button__link img").style = `display:none;`;
+}
