@@ -465,3 +465,10 @@ document.querySelector("div.clsanimated2").onclick = function(){
      document.querySelector(".block1 .uagb-buttons-repeater.wp-block-button__link .uagb-button__link").innerHTML = ' تقديم الطلب ';
      document.querySelector("a.uagb-buttons-repeater.wp-block-button__link img").style = `display:none;`;
 }
+// open window form
+document.querySelector("div.sendbox > div.bloking1 > div > button").onclick = function(){
+    document.querySelector("div.sendbox > div.bloking1 > div").style = `transform: scale(0);display: block;`;
+    document.querySelector("div.sendbox > div.bloking2").style = `display: block;animation: fadeIn 1.3s ease-in both;`;
+    document.querySelector("div.sendbox > div.bloking1 > div").style = `display: none;`;
+    document.querySelector("div.sendbox > div.progriss > span:nth-child(2)").style = `background: #4434c7;`;
+}
