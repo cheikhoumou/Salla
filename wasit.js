@@ -464,6 +464,7 @@ document.querySelector("div.clsanimated2").onclick = function(){
      document.querySelector(".block1").style = `display:block;animation: fadeIn 0.7s ease-in both;`;
      document.querySelector(".block1 .uagb-buttons-repeater.wp-block-button__link .uagb-button__link").innerHTML = ' تقديم الطلب ';
      document.querySelector("a.uagb-buttons-repeater.wp-block-button__link img").style = `display:none;`;
+     document.querySelector("div.sendbox > div.bloking2").style = `display:none;`;
 }
 // open window form
 document.querySelector("div.sendbox > div.bloking1 > div > button").onclick = function(){
