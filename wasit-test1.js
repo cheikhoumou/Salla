@@ -150,7 +150,7 @@ if (localStorage.getItem("Name") == null) {
     document.querySelector('.addinput').style = `display: none;`;
     document.querySelector('.seve').style = `display: none;`;
     document.querySelector('.sendid').style = `display: block;`;
-    document.querySelector(".contener > div > span").style = `display: none;`;
+    // document.querySelector(".contener > div > span").style = `display: none;`;
     document.querySelector("div.sendbox > div.progriss > span:nth-child(3)").style = `background: #4434c7;`;
     seveddata();
     document.querySelector("div.sendid > p").innerHTML = " اكمل طلب " + localStorage.getItem("ba9");
