@@ -447,6 +447,7 @@ document.querySelector(".block1 .uagb-buttons-repeater.wp-block-button__link").o
     }else{
     //  جاري الارسال ...
     document.querySelector(".block1 .uagb-buttons-repeater.wp-block-button__link .uagb-button__link").innerHTML = 'جاري الارسال ...';
+    document.querySelector("div.sendid > p").innerHTML = " اكمل طلب " + localStorage.getItem("ba9");
     document.querySelector("a.uagb-buttons-repeater.wp-block-button__link img").style = `display:block;`;
     function animeted(){
      document.querySelector(".block1").style = `animation: fadeout 0.7s ease-in both;display:none;`;
@@ -473,3 +474,6 @@ document.querySelector("div.sendbox > div.bloking1 > div > button").onclick = fu
     document.querySelector("div.sendbox > div.bloking1 > div").style = `display: none;`;
     document.querySelector("div.sendbox > div.progriss > span:nth-child(2)").style = `background: #4434c7;`;
 }
+
+
+
