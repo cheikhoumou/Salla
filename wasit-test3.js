@@ -100,7 +100,7 @@ function seveddata(){
     document.querySelector("div.sendbox").style = `display: block;animation: fadeIn 1.3s ease-in both;`;
     document.querySelector("div.sendbox > div.bloking1 > div").style = `transform: scale(0);display: none;`;
     document.querySelector("div.sendbox > div.bloking2").style = `display: block;animation: fadeIn 1.3s ease-in both;`;
-    document.querySelector(".aos-animate > figure > img").style = `animation: fadeout 0.6s ease-in both; display:none;`
+    document.getElementsByClassName("aos-animate > figure > img").style = `animation: fadeout 0.6s ease-in both; display:none;`
     document.querySelector("div.sendbox > div.progriss > span:nth-child(1)").style = `background: #4434c7;`;
     document.querySelector("div.sendbox > div.progriss > span:nth-child(2)").style = `background: #4434c7;`;
     document.querySelector("div.sendbox > div.progriss > span:nth-child(3)").style = `background: #4434c7;`;
@@ -148,7 +148,7 @@ if (localStorage.getItem("Name") == null) {
     put[5].value = localStorage.getItem("account number");
     put[6].value = localStorage.getItem("Id");
     document.querySelector('.addinput').style = `display: none;`;
-    document.querySelector('.seve').style = `display: none;`;
+    document.querySelector('.seve').style = `display: block;`;
     document.querySelector('.sendid').style = `display: block;`;
     // document.querySelector(".contener > div > span").style = `display: none;`;
     document.querySelector("div.sendbox > div.progriss > span:nth-child(3)").style = `background: #4434c7;`;
