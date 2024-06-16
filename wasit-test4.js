@@ -126,6 +126,9 @@ document.querySelector('.seve').onclick = function () {
         function tim() {
             put[8].innerHTML = '';
             conditionlink();
+            document.querySelector('.addinput').style = `display: none;`;
+            document.querySelector('.seve').style = `display: none;`;
+            document.querySelector('.sendid').style = `display: block;`;
         } setTimeout(tim, 1000);
 
         function timings() {
