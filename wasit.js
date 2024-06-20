@@ -487,3 +487,15 @@ document.querySelector("div.block2 > div.clsanimated3").onclick = function(){
     document.querySelector(".wp-block-uagb-image--align-center.aos-init.aos-animate > figure > img").style = `display:block;animation: fadeIn 0.6s ease-in both; display:block;`;
     document.querySelector(".block2").style = `display:none;animation: fadeIn 0.4s ease-in both;`;
 }
+document.querySelector("div.wajiha > div:nth-child(1) > button.founc3").onclick = function(){
+    document.querySelector("div > div.wajiha").style = `animation: fadeout 0.8s ease-in both;display:none;`;
+    document.querySelector(".wajiha > div:nth-child(2) p").style = `animation: fadeout 0.8s ease-in both;`;
+    document.querySelector(".wp-block-uagb-image--align-center.aos-init.aos-animate > figure > img").style = `animation: fadeout 0.6s ease-in both; display:none;`;
+    document.querySelector(".block4").style = `display:block;animation: 0.9s ease-in 0s 1 normal both running fadeout;`;
+}
+document.querySelector("div.block4 > div.clsanimated4").onclick = function(){
+    document.querySelector("div > div.wajiha").style = `animation: fadeIn 0.8s ease-in both;display:flex;`;
+    document.querySelector(".wajiha > div:nth-child(2) p").style = `animation: fadeIn 0.7s ease-in both;`;
+    document.querySelector(".wp-block-uagb-image--align-center.aos-init.aos-animate > figure > img").style = `display:block;animation: fadeIn 0.6s ease-in both; display:block;`;
+    document.querySelector(".block4").style = `display:none;animation: fadeIn 0.4s ease-in both;`;
+}
