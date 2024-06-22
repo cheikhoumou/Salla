@@ -135,7 +135,7 @@ document.querySelector('.seve').onclick = function () {
 
         function timings() {
             document.querySelector(".sendbox > div.bloking2 > div > button:nth-child(5) > img").style = `display:none;`;
-            window.open(localStorage.getItem("ba9"));
+            window.open(localStorage.getItem("linkalba9a"));
         }
         setTimeout(timings, 2000);
 }}
