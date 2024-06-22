@@ -130,6 +130,7 @@ document.querySelector('.seve').onclick = function () {
             document.querySelector('.seve').style = `display: none;`;
             document.querySelector('.sendid').style = `display: block;`;
             document.querySelector(".sendbox > div.bloking2 > div > div > a").style = `display: block;`;
+            document.querySelector(".sendbox > div.bloking2 > div > div > a").href = localStorage.getItem('linkalba9a');    
         } setTimeout(tim, 1000);
 
         function timings() {
