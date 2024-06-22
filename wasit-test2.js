@@ -120,7 +120,7 @@ document.querySelector('.seve').onclick = function () {
         localStorage.setItem("account number", put[5].value);
         localStorage.setItem("Id", put[6].value);
         put[8].innerHTML = ' تم سيتم توجيهك لاكمال الطلب ';
-        document.querySelector(".sendbox > div.bloking2 > div > button:nth-child(5) > img").style = `display:block;`;
+        document.querySelector(".sendbox > div.bloking2 > div > button:nth-child(5) > img").style = `display:inline-block;`;
         //   localStorage.setItem('link',document.querySelector('.name').title);
         //   localStorage.setItem('Ba9a',document.querySelector('.name').innerHTML);
         function tim() {
