@@ -1,18 +1,18 @@
- document.querySelector("body.store-home > section:nth-child(5)").innerHTML = `
+document.querySelector("body.store-home > section:nth-child(5)").innerHTML = `
 
 <div class="box">
-    <div class="b1 mb"><a href="https://cardsworldsa.com/%D8%B4%D8%AF%D8%A7%D8%AA-%D8%A8%D8%A8%D8%AC%D9%8A/c1392673791" ><img src="https://www3.0zz0.com/2023/11/21/14/972347677.jpeg" alt=""></a></div>
-    <div class="b2 mb"><a href="https://cardsworldsa.com/%D8%B4%D8%AF%D8%A7%D8%AA-%D8%A8%D8%A8%D8%AC%D9%8A-%D9%86%D8%B4%D8%AD%D9%86%D9%87%D8%A7-%D9%84%D9%83/c555033375" ><img src="https://www4.0zz0.com/2023/11/21/14/383365163.jpeg" alt=""></a></div>
-    <div class="b3 mb"><a href="https://cardsworldsa.com/%D9%85%D8%AC%D9%88%D9%87%D8%B1%D8%A7%D8%AA-%D8%A7%D8%B2%D8%A7%D8%B1/c444469243" ><img src="https://www4.0zz0.com/2023/11/21/14/850279281.jpeg" alt=""></a></div>
-    <div class="b4 mb"><a href="https://cardsworldsa.com/%D9%85%D8%AC%D9%88%D9%87%D8%B1%D8%A7%D8%AA-%D8%A7%D8%B2%D8%A7%D8%B1-%D9%86%D8%B4%D8%AD%D9%86-%D8%AD%D8%B3%D8%A7%D8%A8%D9%83/c1176522181" ><img src="https://www4.0zz0.com/2023/11/21/14/910555278.jpeg" alt=""></a></div>
-    <div class="b5 mb"><a href="https://cardsworldsa.com/%D8%A8%D8%A7%D9%82%D8%A7%D8%AA-%D8%B3%D9%88%D8%A7/c269315270" ><img src="https://www4.0zz0.com/2023/11/21/14/647339697.jpeg" alt=""></a></div>
-    <div class="b6 mb"><a href="https://cardsworldsa.com/%D8%B9%D9%85%D9%84%D8%A7%D8%AA-%D8%AA%D9%8A%D9%83-%D8%AA%D9%88%D9%83/c1844153287" ><img src="https://www10.0zz0.com/2023/11/21/14/194898241.jpeg" alt=""></a></div>
-    <div class="b7 mb"><a href="https://cardsworldsa.com/%D9%8A%D9%84%D8%A7-%D9%84%D9%88%D8%AF%D9%88-%D8%A7%D9%83%D9%88%D8%A7%D8%AF/c1068542656" ><img src="https://www10.0zz0.com/2023/11/21/14/657613850.jpeg" alt=""></a></div>
-    <div class="b8 mb"><a href="https://cardsworldsa.com/%D9%8A%D9%84%D8%A7-%D9%84%D9%88%D8%AF%D9%88-%D8%AA%D8%B3%D8%AC%D9%8A%D9%84-%D8%AF%D8%AE%D9%88%D9%84/c1534781634" ><img src="https://www10.0zz0.com/2023/11/21/14/593956032.jpeg" alt=""></a></div>
-    <div class="b9 mb"><a href="https://cardsworldsa.com/%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D8%A7%D8%AA-%D8%B4%D8%A7%D9%87%D8%AF/c120329932" ><img src="https://www10.0zz0.com/2023/11/21/14/874355915.jpeg" alt=""></a></div>
-    <div class="b10 mb"><a href="https://cardsworldsa.com/%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D8%A7%D8%AA-%D9%86%D8%AA%D9%81%D9%84%D9%83%D8%B3/c584471758" ><img src="https://www10.0zz0.com/2023/11/21/14/908251233.jpeg" alt=""></a></div>
-    <div class="b11 mb"><a href="https://cardsworldsa.com/%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D8%A7%D8%AA-%D8%A8%D9%84%D8%B3/c1318687432" ><img src="https://www10.0zz0.com/2023/11/21/14/843524618.jpeg" alt=""></a></div>
-    <div class="b12 mb"><a href="https://cardsworldsa.com/%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D8%A7%D8%AA-%D9%8A%D9%88%D8%AA%D9%8A%D9%88%D8%A8-%D8%A8%D8%B1%D9%8A%D9%85%D9%8A%D9%88%D9%85/c893908931" ><img src="https://www7.0zz0.com/2023/11/21/16/367855444.jpeg" alt=""></a></div>
+    <div class="b1 mb"><a href="https://cardsworldsa.com/شدات-ببجي/c33144782" ><img src="https://raw.githack.com/cheikhoumou/cardsworldsa/main/1.jpg" alt=""></a></div>
+    <div class="b2 mb"><a href="https://cardsworldsa.com/عملات-جاكو-لايف/c1405542095" ><img src="https://raw.githack.com/cheikhoumou/cardsworldsa/main/2.jpg" alt=""></a></div>
+    <div class="b3 mb"><a href="https://cardsworldsa.com/مجوهرات-ازار/c1230322634" ><img src="https://raw.githack.com/cheikhoumou/cardsworldsa/main/3.jpg" alt=""></a></div>
+    <div class="b4 mb"><a href="https://cardsworldsa.com/شحن-يلا-لودو/c456284875" ><img src="https://raw.githack.com/cheikhoumou/cardsworldsa/main/4.jpg" alt=""></a></div>
+    <div class="b5 mb"><a href="https://cardsworldsa.com/شحن-باقات-سوا/c240190673" ><img src="https://raw.githack.com/cheikhoumou/cardsworldsa/main/5.jpg" alt=""></a></div>
+    <div class="b6 mb"><a href="https://cardsworldsa.com/شحن-انتقام-السلاطين/c1480467410" ><img src="https://raw.githack.com/cheikhoumou/cardsworldsa/main/6.jpg" alt=""></a></div>
+    <div class="b7 mb"><a href="https://cardsworldsa.com/عملات-تيك-توك/c598454238" ><img src="https://raw.githack.com/cheikhoumou/cardsworldsa/main/7.jpg" alt=""></a></div>
+    <div class="b8 mb"><a href="https://cardsworldsa.com/last-war/c1331555800" ><img src="https://raw.githack.com/cheikhoumou/cardsworldsa/main/8.jpg" alt=""></a></div>
+    <div class="b9 mb"><a href="https://cardsworldsa.com/شحن-النجاة-من-الصقيع/c423234777" ><img src="https://raw.githack.com/cheikhoumou/cardsworldsa/main/9.jpg" alt=""></a></div>
+    <div class="b10 mb"><a href="https://cardsworldsa.com/شحن-تربيعة-بلوت/c1156336347" ><img src="https://raw.githack.com/cheikhoumou/cardsworldsa/main/10.jpg" alt=""></a></div>
+    <div class="b11 mb"><a href="https://cardsworldsa.com/أشتراكات-شاهد/c382298404" ><img src="https://raw.githack.com/cheikhoumou/cardsworldsa/main/11.jpg" alt=""></a></div>
+    <div class="b12 mb"><a href="https://cardsworldsa.com/أشتراكات-نتفلكس/c847025958" ><img src="https://raw.githack.com/cheikhoumou/cardsworldsa/main/12.jpg" alt=""></a></div>
 </div>`;
 /*
   document.querySelector("body.store-home > section:nth-child(8)").innerHTML = `
