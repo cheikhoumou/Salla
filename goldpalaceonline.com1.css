@@ -959,11 +959,7 @@ span.s-login-modal-main-btn-icon svg {
 
 }
 
-.store-footer h3 {
-
-    color: #1c2121 !important;
-
-}
+.store-footer h3 {color: #1c2121 !important;margin-top: 20px;}
 
 .footer-is-light .store-footer__top>:not([hidden])~:not([hidden]) {
 
@@ -1216,7 +1212,7 @@ div.store-footer__top.pb-4.lg\:pb-10.pt-10.lg\:pt-22.space-y-8.divide-y.divide-d
     font-size: 12px;
 
 }
-
+/* 
 #app>div.app-inner.flex.flex-col.min-h-screen.relative>footer>div>div.store-footer__top.pb-4.lg\:pb-10.pt-10.lg\:pt-22.space-y-8.divide-y.divide-dashed.divide-white\/10>div.container.xl\:px-0.grid.grid-cols-6.gap-10.lg\:gap-6>div.col-span-3.lg\:col-span-2:after {
 
     content: " تواصل معنا ";
@@ -1233,7 +1229,7 @@ div.store-footer__top.pb-4.lg\:pb-10.pt-10.lg\:pt-22.space-y-8.divide-y.divide-d
 
     font-size: 18px;
 
-}
+} */
 
 .container.xl\:px-0.grid.lg\:grid-flow-col.lg\:auto-cols-fr.gap-6.pt-8 {
 
@@ -1275,11 +1271,7 @@ div.store-footer__top.pb-4.lg\:pb-10.pt-10.lg\:pt-22.space-y-8.divide-y.divide-d
 
 }
 
-[dir=rtl] .s-block__title .right-side {
-
-    padding: 0 !important;
-
-}
+[dir=rtl] .s-block__title .right-side {padding: 0 !important;}
 
 .col-span-3.lg\:col-span-1 {
     display: flex;
@@ -1353,4 +1345,44 @@ button.btn--wishlist.animated.s-button-element.s-button-icon.s-button-outline.s-
     background: #c5a04f !important;
 }input#coupon-input {
     color: #000 !important;
+}
+.s-menu-footer-list a:before {
+    display: none;
+}.s-menu-footer-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 700px;
+    margin: auto;
+}.s-menu-footer-list a {
+    background: #ffffff2e;
+    font-size: 11px;
+    text-align: center;
+    padding: 6px;
+    margin: 4px;
+    border-radius: 8px;
+}span.unicode {
+    display: none;
+}.s-contacts-list.s-contacts-list-vertical {
+    flex-direction: row;
+}.store-footer .s-contacts-icon {
+    padding: 0px;
+    margin: 0;
+    background: #d0b16f;
+}
+
+.store-footer .s-social-link a {
+    background: #d0b16f !important;
+}
+.right-side {
+    width: 100%;
+    margin: auto;
+}
+
+a.s-block__display-all {
+    position: absolute;
+    left: 10px;
+}
+
+salla-payments.s-payments-list.hydrated {
+    zoom: 85%;
 }
