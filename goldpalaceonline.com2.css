@@ -133,17 +133,7 @@ body.index:before {
 
 /*---------------- KHIDMTKALAYNA.COM --------------*/
 
-.top-nav {
-
-    padding-top: 0.75rem;
-
-    padding-bottom: 0.75rem;
-
-    background: #1c2121;
-
-    color: #ffffff;
-
-}
+.top-nav {padding-top: 0.75rem;padding-bottom: 0.75rem;background: #1c2121;color: #ffffff;display: none;}
 
 .main-nav-container .inner {
 
@@ -306,11 +296,7 @@ body.index:before {
 
 /*---------------- KHIDMTKALAYNA.COM --------------*/
 
-.items-center {
-
-    align-self: center !important;
-
-}
+.items-center {/* align-self: center !important; */}
 
 /*---------------- KHIDMTKALAYNA.COM --------------*/
 
@@ -324,11 +310,7 @@ body.index:before {
 
 /*---------------- KHIDMTKALAYNA.COM --------------*/
 
-.items-center {
-
-    place-content: center !important;
-
-}
+.items-center {/* place-content: center !important; */}
 
 /*---------------- KHIDMTKALAYNA.COM --------------*/
 
@@ -959,7 +941,7 @@ span.s-login-modal-main-btn-icon svg {
 
 }
 
-.store-footer h3 {color: #1c2121 !important;margin-top: 20px;}
+.store-footer h3 {color: #1c212100 !important;margin: 0;}
 
 .footer-is-light .store-footer__top>:not([hidden])~:not([hidden]) {
 
@@ -1323,7 +1305,8 @@ button.btn--wishlist.animated.s-button-element.s-button-icon.s-button-outline.s-
 }.swiper.s-slider-container.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-rtl.swiper-backface-hidden > span.md\:hidden.absolute.bottom-3.rtl\:right-3.ltr\:left-3.z-1 > salla-button > button {
   right: 0;
 }#wa-widget-send-button {
-  bottom: 64px !important;
+  bottom: 70px !important;
+  left: 8px;
 }#app > div.app-inner.flex.flex-col.min-h-screen.relative > section:nth-child(5) > div.s-block__title {
     justify-content: space-between;
 }#app > div.app-inner.flex.flex-col.min-h-screen.relative > section:nth-child(5) > div.s-block__title {
@@ -1385,4 +1368,12 @@ a.s-block__display-all {
 
 salla-payments.s-payments-list.hydrated {
     zoom: 85%;
+}
+.product-fixed-bar .product-form {flex-wrap: nowrap;}
+button.undefined.s-button-element.s-button-btn.s-button-solid.s-button-wide.s-button-primary.s-button-loader-center {
+    animation: none;
+}div#tabbyPromoWrapper {
+    box-shadow: 0px 0px 5px #3333333b;
+    border-top: 5px solid #c5a04f;04f;
+    border-radius: 10px;
 }
