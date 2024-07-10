@@ -133,7 +133,7 @@ body.index:before {
 
 /*---------------- KHIDMTKALAYNA.COM --------------*/
 
-.top-nav {padding-top: 0.75rem;padding-bottom: 0.75rem;background: #1c2121;color: #ffffff;display: none;}
+.top-nav {padding-top: 0.75rem;padding-bottom: 0.75rem;background: #1c2121;color: #ffffff;}
 
 .main-nav-container .inner {
 
@@ -1372,8 +1372,11 @@ salla-payments.s-payments-list.hydrated {
 .product-fixed-bar .product-form {flex-wrap: nowrap;}
 button.undefined.s-button-element.s-button-btn.s-button-solid.s-button-wide.s-button-primary.s-button-loader-center {
     animation: none;
+    width: 188px;
 }div#tabbyPromoWrapper {
     box-shadow: 0px 0px 5px #3333333b;
     border-top: 5px solid #c5a04f;04f;
     border-radius: 10px;
+}.flex.flex-col.sm\:hidden {
+    align-items: center;
 }
