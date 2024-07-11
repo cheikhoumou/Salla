@@ -1,3 +1,5 @@
+/*@import url(https://raw.githack.com/cheikhoumou/Salla/main/mysteriouscasee.com2.css);*/
+div#mainnav,.main-nav-container.fixed-header .inner {background: #000 !important;}div#mainnav * {color: #fff;}.main-nav-container.fixed-header .inner img {scale: 1.5;}
 button.addtocart {position: relative;overflow: hidden;z-index: 9999;}
 
 button.addtocart:before {
@@ -128,12 +130,12 @@ i.sicon-menu.text-primary.text-2xl.rtl\:ml-2\.5.ltr\:mr-2\.5 {
     position: relative;
 }#app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--features.container > div > div:nth-child(1):before {
     content: "";
-    background: url(https://raw.githack.com/cheikhoumou/icons/main/5.png) no-repeat;
+    background: url(https://raw.githack.com/cheikhoumou/icons/main/49588804_9157317.png) no-repeat;
     width: 100%;
     height: 100%;
     display: block;
     background-size: contain;
-    background-position: -11% -95px;
+    background-position: -15% -95px;
     position: absolute;
     top: 0;
 }
@@ -170,4 +172,27 @@ section.w-full.v-block__m {
 
 .border-gray-200 * {
     color: #890202 !important;
+}
+#photos-2-slider > div.swiper.s-slider-container.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-rtl.swiper-backface-hidden * ,#photos-2-slider > div.swiper.s-slider-container.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-rtl.swiper-backface-hidden {
+    display: block;
+    padding: 0;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > section:nth-child(10) > div.s-block__title > h1 {
+    font-size: 0;
+}
+
+#app > div.app-inner.flex.flex-col.min-h-full > section:nth-child(10) > div.s-block__title > h1:before {
+    content: " لعاب جنائية مميزة ";
+    font-size: 20px !important;
+    color: #fff4e5;
+}
+
+.sc-1au8ryl-0.dkuywW {
+    display: none !important;
+}section.s-block.s-block--fixed-banner.wide-placeholder {
+    padding-top: 32px;
+    margin: auto;
+}#photos-3-slider > div.swiper.s-slider-container.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-rtl.swiper-backface-hidden,#photos-5-slider > div.swiper.s-slider-container.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-rtl.swiper-backface-hidden {
+    padding: 0;
+    display: block;
 }
