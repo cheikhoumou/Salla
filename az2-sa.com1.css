@@ -3,7 +3,7 @@ body{
     background-color: #ffffff;
 }
 :root{
---logo: url(https://cdn.salla.sa/cdn-cgi/image/fit=scale-down,width=400,height=400,onerror=redirect,format=auto/xAdjzb/JKdEkf1pDWcIE7MB32yNza3HqWXQ87WfQhjBR68q.jpg);
+--logo: url(https://b.top4top.io/p_3126h3ft71.png);
 }
 *{
      font-family: "Cairo", sans-serif;
@@ -12,7 +12,7 @@ body{
     content: "";
     width: 100%;
     height: 100%;
-    background: black var(--logo);
+    background: #ff7678 var(--logo);
     position: fixed;
     top: 0;
     z-index: 99999999999999999 !important;
@@ -482,4 +482,14 @@ i.sicon-menu.text-primary.text-2xl.rtl\:ml-2\.5.ltr\:mr-2\.5 {
   #mainnav > div:before{
       display:none;
   }
+}
+
+nav.breadcrumbs.w-full.py-5 {
+    display: none;
+}.w-full {
+    text-align: center;
+}
+
+.flex.whitespace-nowrap.gap-4.items-center,.flex.rtl\:space-x-reverse.space-x-3 {
+    justify-content: center;
 }
