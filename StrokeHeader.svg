@@ -1,0 +1,14 @@
+<svg id="StrokeHeader" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="185" viewBox="0 0 1440 185">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Mask" width="1440" height="185" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <rect id="Mask-2" data-name="Mask" width="1440" height="185" fill="#fff"/>
+  <g id="Stroke_1129" data-name="Stroke 1129" clip-path="url(#clip-path)">
+    <path id="Fill_1128" data-name="Fill 1128" d="M138.687,92C154-16.054,90.395-14.933,33.08,24.367,10.75,39.679-18.446,62.178,15.48,77.98,96.056,115.511,123.373,200.059,138.687,92" transform="translate(-37 16)" fill="#f7f7f7"/>
+    <path id="Stroke_877" data-name="Stroke 877" d="M76.527,116.432c45.736,23.061,73.662-3.375,61.7-44.254s-2.242-67.28-39.5-58.51S41.376-8.792,9.647,2.489,30.791,93.371,76.527,116.432Z" transform="translate(-26 77)" fill="none" stroke="#a53c92" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Fill_1128_Copy" data-name="Fill 1128 Copy" d="M138.687,92C154-16.054,90.395-14.933,33.08,24.367,10.75,39.679-18.446,62.178,15.48,77.98,96.056,115.511,123.373,200.059,138.687,92" transform="translate(1246 16)" fill="#f7f7f7"/>
+    <path id="Stroke_1129-2" data-name="Stroke 1129" d="M191.485,111.323c86.024,12.392,62.215-176.255-41.159-87.485C94.231,72.007,68.106-6.536,21.775,25.548-26.81,59.194,13.059,127.369,71.235,128.935S133.839,103.018,191.485,111.323Z" transform="translate(1386.341 -26.375) rotate(45)" fill="none" stroke="#fe4668" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>
