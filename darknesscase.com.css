@@ -1,0 +1,597 @@
+@import 'https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap';body {
+    background-color: #fff
+}
+
+:root {
+    --logo: url(https://cdn.salla.sa/cdn-cgi/image/fit=scale-down,width=400,height=400,onerror=redirect,format=auto/dPmnEr/7FtKceDkTrvwoYLGTMS9iNRfFlIJhq2AXLWtpDy6.png)
+}
+
+* {
+    font-family: cairo,sans-serif
+}
+
+.index:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #0c1526 var(--logo);
+    position: fixed;
+    top: 0;
+    z-index: 99999999999999999!important;
+    background-size: 160px!important;
+    background-repeat: no-repeat;
+    background-position: center!important;
+    animation-name: logobg;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+@keyframes logobg {
+    0% {
+        opacity: 1
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0;
+        visibility: hidden
+    }
+}
+
+section.s-block.s-block--photos-slider salla-slider.photos-slider .swiper-slide {
+    width: 100%;
+    margin: 0;
+    padding: 0
+}
+
+[dir=rtl] salla-slider.photos-slider .swiper {
+    padding-right: 0
+}
+
+salla-slider.photos-slider .swiper:where([dir=rtl],[dir=rtl] *) {
+    padding-left: 0
+}
+
+section.s-block.s-block--photos-slider:first-of-type {
+    margin-top: 0
+}
+
+[dir=rtl] salla-slider.photos-slider .swiper {
+    padding-left: 0
+}
+
+[dir=rtl] salla-slider.photos-slider .swiper {
+    padding-left: 0
+}
+
+salla-slider.photos-slider .swiper {
+    padding-bottom: 0
+}
+
+section.s-block.s-block--fixed-banner.wide-placeholder .banner--fixed img .banner-entry {
+    background-color: unset
+}
+
+.banner--fixed img {
+    background-color: unset
+}
+
+.banner-entry {
+    background-color: unset
+}
+
+.gap-3 {
+    gap: 0
+}
+
+.sm\:gap-8 {
+    gap: .5rem
+}
+
+.two-row .banner-entry:first-child {
+    grid-column: span 1/span 1;
+    grid-row: 1/2
+}
+
+.md\:grid-cols-3 {
+    grid-template-columns: repeat(2,minmax(0,1fr))
+}
+
+.banner-entry {
+    height: 305px
+}
+
+section.s-block.s-block--banners.container .lazy__bg.lazy.entered.loaded {
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px
+}
+
+.flex.mb-6,.md\:flex,.s-product-card-content-sub,.store-footer a,.s-product-card-content-title a,.store-footer .contact-social ul {
+    text-align: center!important;
+    justify-content: center!important
+}
+
+.footer-is-light .store-footer .store-footer__inner {
+    text-align: center!important;
+    justify-content: center!important
+}
+
+.store-footer__inner {
+    text-align: center!important;
+    background: #0c1526!important
+}
+
+.s-slider-block__title {
+    display: none
+}
+
+.s-button-element:not(:disabled):not([loading]) {
+    background: #0c1526;
+    border: none
+}
+
+button.undefined.s-button-element.s-button-btn.s-button-outline.s-button-wide.s-button-primary-outline.s-button-loader-center {
+    color: #fff
+}
+
+.s-product-card-content {
+    background-color: #fff
+}
+
+.s-product-card-vertical {
+    box-shadow: 0 0 6px #250d0d2b
+}
+
+section.s-block.s-block--fixed-banner.wide-placeholder:nth-of-type(2) {
+    margin-top: 0
+}
+
+section.s-block.s-block--banners.container:nth-of-type(3) {
+    margin-top: 0
+}
+
+@media(min-width: 768px) and (max-width:1200px) {
+    .banner-entry {
+        height:289px
+    }
+}
+
+@media(max-width: 767px) {
+    .swiper-wrapper>div {
+        width:56%
+    }
+
+    .banner-entry {
+        height: 99px
+    }
+
+    .md\:grid-cols-3 {
+        grid-template-columns: repeat(2,minmax(0,1fr))
+    }
+}
+
+.s-product-card-content-footer .s-button-primary-outline .sicon-shopping-bag:before {
+    content: "";
+    background-image: url(https://i.ibb.co/LgDHYLn/system-regular-64-shopping-bag.gif);
+    width: 25px;
+    margin-left: 5px;
+    height: 25px;
+    background-size: contain;
+    display: inline-block
+}
+
+.s-product-card-content-footer .s-button-primary-outline {
+    width: 100%;
+    margin-left: auto;
+    border-radius: 15px;
+    text-align: center;
+    background: var(--main-color);
+    justify-content: center;
+    display: flex;
+    align-items: center
+}
+
+.s-product-card-content-footer .s-button-text {
+    color: var(--second-color)!important;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.undefined {
+    animation: signal 1200ms infinite
+}
+
+@keyframes signal {
+    0% {
+        box-shadow: 0 0 0 0 #0c1526;
+    }
+
+    100% {
+        box-shadow: 0 0 0 10px #fff
+    }
+}
+
+.s-product-card-content-title a {
+    white-space: nowrap;
+    color: var(--main-color);
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+@keyframes sigal {
+    0% {
+        filter: drop-shadow(2px 4px 6px #f3e0c961)
+    }
+
+    100% {
+        filter: none
+    }
+}
+
+.md\:flex.items-center.justify-between.py-4.container.text-center {
+    background: #0c1526
+}
+
+salla-social.s-social-list.hydrated {
+    justify-content: center
+}
+
+.s-menu-footer-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px
+}
+
+.s-menu-footer-list a {
+    height: 35px;
+    background: #ffffff2b;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 8px
+}
+
+i.header-btn__icon {
+    color: #0c1526;
+    border: none
+}
+
+a.lg\:hidden.mburger.mburger--collapse.leading-none.rtl\:ml-4.ltr\:mr-4 {
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px #ffffff5e
+}
+
+i.sicon-menu.text-primary.text-2xl {
+    color: #fff
+}
+
+footer.store-footer {
+    background: #0c1526
+}
+
+@media(min-width: 1024px) {
+    .lg\:grid-cols-6 {
+        grid-template-columns:repeat(2,minmax(0,1fr))
+    }
+}
+
+.lg\:col-span-2.rtl\:lg\:pl-20.ltr\:lg\:pr-20 {
+    margin: auto;
+    padding: 0
+}
+
+@media(max-width: 411px) {
+    .s-menu-footer-list a {
+        font-size:3vw
+    }
+}
+
+span.s-cart-summary-count {
+    background: #fe4668;
+    right: 0;
+}
+
+salla-slider .swiper-pagination-bullet-active {
+    background: #0c1526;
+}
+
+.swiper.s-slider-container.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-rtl {
+    padding-bottom: 7px
+}
+
+h4.s-product-card-price {
+    color: #0c1526;
+}
+
+.s-product-card-vertical .s-product-card-wishlist-btn button {
+    background: #0c1526 !important;
+    opacity: 1!important;
+    color: #fff
+}
+
+.store-footer__inner:before {
+    content: " ";
+    background-image: url('https://www.free-css.com/assets/files/free-css-templates/preview/page295/applight/assets/images/applight-wave.svg') !important;
+    display: block!important;
+    background-position: center!important;
+    background-repeat: no-repeat;
+    background-size: cover!important;
+    width: 100%;
+    height: 156px;
+    margin-top: -66px;
+    transform: rotate(180deg);
+}
+
+@media(max-width: 1022px) {
+    .store-footer__inner:before {
+        content:" ";
+        background-image: url('https://www.free-css.com/assets/files/free-css-templates/preview/page295/applight/assets/images/applight-wave.svg') !important;
+        display: block!important;
+        background-position: center!important;
+        background-repeat: no-repeat;
+        background-size: cover!important;
+        width: 100%;
+        height: 60px;
+        margin-top: -33px;
+        transform: rotate(180deg);
+    }
+}
+
+i.sicon-menu.text-primary.text-2xl.rtl\:ml-2\.5.ltr\:mr-2\.5 {
+    color: #fff4e5
+}
+
+.s-block--features__item {
+    background: #0c1526000;
+    border-radius: 20px
+}
+
+#app>div.app-inner.flex.flex-col.min-h-full>section.s-block.s-block--features.container>div>div>div {
+    position: relative;
+    background: #0c1526000;
+    height: 6rem;
+    width: 6rem
+}
+
+#app>div.app-inner.flex.flex-col.min-h-full>section.s-block.s-block--features.container>div>div:nth-child(1)>div:before {
+    content: "";
+    background: url(https://raw.githack.com/cheikhoumou/icons/main/2.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0
+}
+
+#app>div.app-inner.flex.flex-col.min-h-full>section.s-block.s-block--features.container>div>div:nth-child(2)>div:before {
+    content: "";
+    background: url(https://raw.githack.com/cheikhoumou/icons/main/3.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0
+}
+
+#app>div.app-inner.flex.flex-col.min-h-full>section.s-block.s-block--features.container>div>div:nth-child(3)>div:before {
+    content: "";
+    background: url(https://raw.githack.com/cheikhoumou/icons/main/1.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0
+}
+
+.s-block--features__item .feature-icon i {
+    color: transparent!important
+}
+
+.container.grid.grid-col-1.lg\:grid-cols-6.gap-8.lg\:gap-6 {
+    margin-top: 30px
+}
+
+p.text-gray-400.mb-2\.5.md\:mb-0 {
+    color: #fff
+}
+
+.s-product-card-image img.loaded {
+    background-color: #fff
+}
+
+#mainnav>div:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 68px;
+    background: #0c1526;
+    right: -17px;
+    border-bottom-left-radius: 111px
+}
+
+.inner.bg-inherit {
+    overflow: hidden
+}
+
+i.sicon-menu.text-primary.text-2xl.rtl\:ml-2\.5.ltr\:mr-2\.5 {
+    color: #fff4e5
+}
+
+.s-block--features__item {
+    background: #0c1526000;
+    border-radius: 20px
+}
+
+#app>div.app-inner.flex.flex-col.min-h-full>section.s-block.s-block--features.container>div>div>div {
+    position: relative;
+    background: #fff;
+    height: 5rem;
+    width: 5rem
+}
+
+#app>div.app-inner.flex.flex-col.min-h-full>section.s-block.s-block--features.container>div>div:nth-child(1)>div:before {
+    content: "";
+    background: url(https://d.top4top.io/p_3133zq2py3.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: 80%;
+    background-position: center;
+    position: absolute;
+    top: 0
+}
+
+#app>div.app-inner.flex.flex-col.min-h-full>section.s-block.s-block--features.container>div>div:nth-child(2)>div:before {
+    content: "";
+    background: url(https://c.top4top.io/p_3133e0ayc2.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: 77%;
+    position: absolute;
+    top: 0;
+    background-position: center
+}
+
+#app>div.app-inner.flex.flex-col.min-h-full>section.s-block.s-block--features.container>div>div:nth-child(3)>div:before {
+    content: "";
+    background: url(https://b.top4top.io/p_3133mknu51.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: 80%;
+    background-position: center;
+    position: absolute;
+    top: 0
+}
+
+.s-block--features__item .feature-icon i {
+    color: transparent!important
+}
+
+.container.grid.grid-col-1.lg\:grid-cols-6.gap-8.lg\:gap-6 {
+    margin-top: 30px
+}
+
+.inner.bg-inherit {
+    overflow: hidden
+}
+
+.s-block--features__item h2,.s-block--features__item p {
+    color: #0c1526 !important;
+    font-weight: bold;
+}
+
+.swiper-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.s-cart-summary-wrapper .sicon-shopping-bag:before {
+    content: "";
+    width: 38px;
+    height: 25px;
+    display: block;
+    background: url(https://raw.githack.com/cheikhoumou/Salla/main/salla.svg) no-repeat!important;
+    background-size: contain!important;
+    margin-left: 5px
+}
+
+.sicon-user-circle:before {
+    content: "";
+    width: 38px;
+    height: 25px;
+    display: block;
+    background: url(https://raw.githack.com/cheikhoumou/Salla/main/%D9%84%D9%82%D8%B7%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%202024-05-14%20133742.png) no-repeat!important;
+    background-size: contain!important
+}
+
+#app>div.app-inner.flex.flex-col.min-h-full>section:nth-child(3) .swiper-wrapper {
+    margin: 0
+}
+
+.container.grid.grid-col-1.lg\:grid-cols-6.gap-8.lg\:gap-6 {
+    display: block!important
+}
+
+.store-footer__inner * {
+    color: #fff
+}
+
+input.s-search-input {
+    background: #0c152647 !important;
+}
+
+.container.grid.grid-col-1.lg\:grid-cols-6.gap-8.lg\:gap-6:before {
+    text-align: center;
+    content: "";
+    display: block;
+    height: 85px;
+    width: 140px;
+    background-image: url(https://cdn.salla.sa/cdn-cgi/image/fit=scale-down,width=400,height=400,onerror=redirect,format=auto/dPmnEr/7FtKceDkTrvwoYLGTMS9iNRfFlIJhq2AXLWtpDy6.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: auto;
+    margin-bottom: 20px
+}
+
+@media(min-width: 768px) {
+    #mainnav>div:before {
+        display:none
+    }
+div#mainnav {
+    background: #ffffff00;
+}.inner.bg-inherit {
+    background: #fff;
+}header.store-header {
+    background-size: cover !important;
+}}
+nav.breadcrumbs.w-full.py-5 {
+    display: none
+}
+
+.w-full {
+    text-align: center
+}.flex.whitespace-nowrap.gap-4.items-center,.flex.rtl\:space-x-reverse.space-x-3 {
+    justify-content: center
+}
+
+header.store-header {
+    background: url(https://raw.githack.com/cheikhoumou/Salla/main/StrokeHeader.svg) no-repeat;
+    background-size: contain;
+}
+.s-block--features__item h2 {
+    border-bottom: 3px solid;
+    padding-bottom: 9px;
+}
+
+a.slide--cat-entry {
+    box-shadow: 0 8px 16px 0 rgb(10 14 29 / 4%), 0 8px 64px 0 rgb(10 14 29 / 8%);
+    border-radius: 17px;
+    color: #0c1526;
+}a.s-block__display-all {
+    color: #0c1526;
+}.slide--cat-entry i {
+    color: #0c1526;
+}.footer-is-light .store-footer {
+    background: #0c1526;
+}.main-nav-container.fixed-pinned .navbar-brand img {
+    max-height: 50px;
+}
