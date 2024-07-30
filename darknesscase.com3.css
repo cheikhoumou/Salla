@@ -592,7 +592,11 @@ a.slide--cat-entry {
     color: #0c1526;
 }.footer-is-light .store-footer {
     background: #0c1526;
-}
-.navbar-brand img {
+}.navbar-brand img {
     max-width: 87px !important;
+}@media(min-width: 768px) {
+.inner.bg-inherit {
+    background: #0d1526;
+}.s-cart-summary-wrapper .sicon-shopping-bag:before,
+.sicon-user-circle:before {filter: invert(1);}
 }
