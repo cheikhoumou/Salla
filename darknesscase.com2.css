@@ -593,3 +593,6 @@ a.slide--cat-entry {
 }.footer-is-light .store-footer {
     background: #0c1526;
 }
+.navbar-brand img {
+    max-width: 87px !important;
+}
