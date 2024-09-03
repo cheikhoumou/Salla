@@ -1,24 +1,5 @@
 // document.querySelectorAll('figure.wp-block-uagb-image__figure')[0].classList.add('checkbox');
-let prodacts = [    
-    document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(1) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
-    document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(2) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
-    document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(3) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
-    document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(4) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
-    document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(5) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
-    document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(6) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
-    document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(7) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
-    document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(8) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
-    document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(9) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
-    document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(10) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
-    document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(11) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
-    document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(12) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
-    document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(13) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
-    document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(15) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
-    document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(16) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
-    document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(17) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
-    document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(18) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
-    document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(19) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
-];
+
 let ba9att = [
     document.querySelectorAll('figure.wp-block-uagb-image__figure')[0],
     document.querySelectorAll('figure.wp-block-uagb-image__figure')[1],
@@ -466,7 +447,26 @@ document.querySelector(".block1 .uagb-buttons-repeater.wp-block-button__link").o
        console.log(' !!! لم يختر باقة  ');
     }else{
     //  جاري الارسال ...
-
+    let prodacts = [    
+        document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(1) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
+        document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(2) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
+        document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(3) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
+        document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(4) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
+        document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(5) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
+        document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(6) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
+        document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(7) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
+        document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(8) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
+        document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(9) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
+        document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(10) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
+        document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(11) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
+        document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(12) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
+        document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(13) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
+        document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(15) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
+        document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(16) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
+        document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(17) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
+        document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(18) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button"),
+        document.querySelector(".wp-block-woocommerce-all-products.wc-block-all-products > div.wc-block-grid.has-4-columns.has-multiple-rows > ul > li:nth-child(19) > div.wp-block-button.wc-block-components-product-button.wc-block-grid__product-add-to-cart > button")
+    ];
     let B = localStorage.getItem("ba9");
     switch (B) {
         case '100':
