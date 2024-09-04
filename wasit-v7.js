@@ -528,7 +528,7 @@ document.querySelector(".block1 .uagb-buttons-repeater.wp-block-button__link").o
             prodacts[18].click();
             break;}
     document.querySelector(".block1 .uagb-buttons-repeater.wp-block-button__link .uagb-button__link").innerHTML = 'جاري الارسال ...';
-    document.querySelector("div.sendid > p").innerHTML = " اكمل طلب " + localStorage.getItem("ba9");
+   // document.querySelector("div.sendid > p").innerHTML = " اكمل طلب " + localStorage.getItem("ba9");
     document.querySelector("a.uagb-buttons-repeater.wp-block-button__link img").style = `display:block;`;
     function animeted(){
      document.querySelector(".block1").style = `animation: fadeout 0.7s ease-in both;display:none;`;
