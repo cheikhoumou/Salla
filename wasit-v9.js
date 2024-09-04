@@ -443,7 +443,12 @@ let ba9att = [
    }
    // chose one ba9a
 document.querySelector(".block1 .uagb-buttons-repeater.wp-block-button__link").onclick = function(){
-    document.querySelector(".wp-block-woocommerce-cart > div:nth-child(4) > div > div > div.wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block > table > tbody > tr > td.wc-block-cart-item__product > div > div.wc-block-cart-item__quantity > button").click();
+    if (document.querySelector(".wp-block-woocommerce-cart > div:nth-child(4) > div > div > div.wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block > table > tbody > tr > td.wc-block-cart-item__product > div > div.wc-block-cart-item__quantity > button") == null){
+       console.error('غير موجود');
+    }
+    else{
+        document.querySelector(".wp-block-woocommerce-cart > div:nth-child(4) > div > div > div.wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block > table > tbody > tr > td.wc-block-cart-item__product > div > div.wc-block-cart-item__quantity > button").click();
+    }
     if(localStorage.getItem("ba9") == null){
        console.log(' !!! لم يختر باقة  ');
     }else{
