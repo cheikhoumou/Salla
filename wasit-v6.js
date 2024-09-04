@@ -443,6 +443,7 @@ let ba9att = [
    }
    // chose one ba9a
 document.querySelector(".block1 .uagb-buttons-repeater.wp-block-button__link").onclick = function(){
+    document.querySelector(".wp-block-woocommerce-cart > div:nth-child(4) > div > div > div.wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block > table > tbody > tr > td.wc-block-cart-item__product > div > div.wc-block-cart-item__quantity > button").click();
     if(localStorage.getItem("ba9") == null){
        console.log(' !!! لم يختر باقة  ');
     }else{
@@ -527,7 +528,7 @@ document.querySelector(".block1 .uagb-buttons-repeater.wp-block-button__link").o
             prodacts[18].click();
             break;}
     document.querySelector(".block1 .uagb-buttons-repeater.wp-block-button__link .uagb-button__link").innerHTML = 'جاري الارسال ...';
-   // document.querySelector("div.sendid > p").innerHTML = " اكمل طلب " + localStorage.getItem("ba9");
+    document.querySelector("div.sendid > p").innerHTML = " اكمل طلب " + localStorage.getItem("ba9");
     document.querySelector("a.uagb-buttons-repeater.wp-block-button__link img").style = `display:block;`;
     function animeted(){
      document.querySelector(".block1").style = `animation: fadeout 0.7s ease-in both;display:none;`;
@@ -552,7 +553,7 @@ document.querySelector("div.clsanimated2").onclick = function(){
 // open window form
 document.querySelector("div.sendbox > div.bloking1 > div > button").onclick = function(){
     document.querySelector("div.sendbox > div.bloking1 > div").style = `transform: scale(0);display: block;`;
-    document.querySelector("div.sendbox > div.bloking2").style = `display: block;animation: fadeIn 1.3s ease-in both;`;
+    document.querySelector(".bloking2").style = `display: block;animation: fadeIn 1.3s ease-in both;`;
     document.querySelector("div.sendbox > div.bloking1 > div").style = `display: none;`;
     document.querySelector("div.sendbox > div.progriss > span:nth-child(2)").style = `background: #4434c7;`;
 }
