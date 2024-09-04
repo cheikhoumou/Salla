@@ -546,7 +546,7 @@ document.querySelector("div.clsanimated2").onclick = function(){
      document.querySelector(".block1").style = `display:block;animation: fadeIn 0.7s ease-in both;`;
      document.querySelector(".block1 .uagb-buttons-repeater.wp-block-button__link .uagb-button__link").innerHTML = ' تقديم الطلب ';
      document.querySelector("a.uagb-buttons-repeater.wp-block-button__link img").style = `display:none;`;
-     document.querySelector("div.sendbox > div.bloking2").style = `display:none;`;
+     document.querySelector(".bloking2").style = `display:none;`;
      // code remove prodact
      document.querySelector(".wp-block-woocommerce-cart > div:nth-child(4) > div > div > div.wc-block-components-main.wc-block-cart__main.wp-block-woocommerce-cart-items-block > table > tbody > tr > td.wc-block-cart-item__product > div > div.wc-block-cart-item__quantity > button").click();
 }
