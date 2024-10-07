@@ -48,7 +48,7 @@ div#mainnav {
 }
 
 .navbar-brand img {
-    width: 57px;
+    width: 170px;
     margin-top: 0
 }
 
@@ -213,7 +213,7 @@ span.s-login-modal-header-icon {
     }
 
     .navbar-brand img {
-        margin-top: 0px;
+        margin-top: 12px;
     }
 }
 
@@ -356,7 +356,7 @@ section.s-block.s-block--fixed-banner.wide-placeholder .container {
 #app>div.app-inner.flex.flex-col.min-h-full>footer>div.md\:flex.items-center.justify-between.py-4.container.text-center>ul>li.w-12.bg-white.rounded.p-1.flex-center {
     display: none
 }.main-nav-container.fixed-pinned .navbar-brand img {
-    max-height: 54px;
+    max-height: 130px;
 }
 
 .sicon-menu:before {
@@ -452,7 +452,7 @@ section.sticky-product-bar.bg-white.p-5.rounded-md.rounded-b-none {
     width: 311%;
     height: 110px;
     margin-top: -33px;
-}}.s-menu-footer-list {display: grid;grid-template-columns: 1fr 1fr;}
+}}.s-menu-footer-list {display: grid;grid-template-columns: 1fr;}
 
 .s-menu-footer-list a {
     height: 35px;
@@ -599,4 +599,9 @@ section.sticky-product-bar.bg-white.p-5.rounded-md.rounded-b-none {
 
 .s-slider-nav-arrow svg {
     fill: #fff;
+}
+
+.main-nav-container.fixed-pinned .inner {
+    background: #ffffffba;
+    backdrop-filter: blur(6px);
 }
