@@ -449,7 +449,7 @@ section.sticky-product-bar.bg-white.p-5.rounded-md.rounded-b-none {
     background-position: center !important;
     background-repeat: no-repeat;
     background-size: cover !important;
-    width: 311%;
+/*     width: 311%; */
     height: 110px;
     margin-top: -33px;
 }}.s-menu-footer-list {display: grid;grid-template-columns: 1fr;}
