@@ -429,7 +429,6 @@ section.sticky-product-bar.bg-white.p-5.rounded-md.rounded-b-none {
     background-position: center !important;
     background-repeat: no-repeat;
     background-size: cover !important;
-    width: 311%;
     height: 110px;
     margin-top: -33px;
 }}.s-menu-footer-list {display: grid;grid-template-columns: 1fr 1fr;}
@@ -672,4 +671,17 @@ button.btn--close-sm.close-mobile-menu.sicon-cancel.hidden {
 }
 .mm-ocd__content {
     background: transparent;
+}.s-user-menu-trigger {
+    content: url(https://raw.githack.com/cheikhoumou/Salla/main/iconned3amek.svg);
+    position: relative;
+    right: 14px;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > section:nth-child(13) {
+    margin-top: 28px !important;
+}
+.md\:flex.items-center.justify-between.py-4.container.text-center:after {
+    content: 'الحقوق محفوظة | ندعمك    ';
+    display: block;
+    color: #fff;
+    margin-top: 10px;
 }
