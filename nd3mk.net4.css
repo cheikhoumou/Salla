@@ -69,7 +69,7 @@ div#mainnav {
     height: 103px!important
 }
 .navbar-brand img {
-    width: 170px;
+    width: 180px;
     margin-top: 0
 }
 
@@ -201,7 +201,7 @@ span.s-login-modal-header-icon {
     .navbar-brand img {
         margin-top: 12px;
     }
-}
+} 
 
 div#mainnav {
     background: #000e40;
@@ -336,7 +336,7 @@ section.s-block.s-block--fixed-banner.wide-placeholder .container {
 #app>div.app-inner.flex.flex-col.min-h-full>footer>div.md\:flex.items-center.justify-between.py-4.container.text-center>ul>li.w-12.bg-white.rounded.p-1.flex-center {
     display: none
 }.main-nav-container.fixed-pinned .navbar-brand img {
-    max-height: 130px;
+    max-height: 140px;
 }
 
 .sicon-menu:before {
@@ -452,9 +452,9 @@ section.sticky-product-bar.bg-white.p-5.rounded-md.rounded-b-none {
     text-align: center;
     content: "";
     display: block;
-    height: 85px;
-    width: 140px;
-    margin: auto auto 20px;
+    height: 86px;
+    width: 177px;
+    margin: auto;
     background-image: url(https://cdn.salla.sa/cdn-cgi/image/fit=scale-down,width=400,height=400,onerror=redirect,format=auto/RxlpY/qNcmxsXQK5qZHSsXya1XVJ0E7dl86DigEfpMe6yu.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -680,8 +680,27 @@ button.btn--close-sm.close-mobile-menu.sicon-cancel.hidden {
     margin-top: 28px !important;
 }
 .md\:flex.items-center.justify-between.py-4.container.text-center:after {
-    content: 'الحقوق محفوظة | ندعمك    ';
+    content: 'الحقوق محفوظة | ندعمك  لخدمات التسويق   ';
     display: block;
     color: #fff;
     margin-top: 10px;
+}.mb-4.sm\:mb-6.flex.justify-between.items-center {
+    color: #00af7e;
+    margin-top: 36px;
+}.md\:flex.items-center.justify-between.py-4.container.text-center {
+    margin-top: -40px;
+}
+div#mainnav {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 31px;
+}.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 31px;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > section:nth-child(12) {
+    margin-top: -19px;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > section:nth-child(5) {
+    margin-top: -8px;
 }
