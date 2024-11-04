@@ -686,21 +686,19 @@ button.btn--close-sm.close-mobile-menu.sicon-cancel.hidden {
     margin-top: 10px;
 }.mb-4.sm\:mb-6.flex.justify-between.items-center {
     color: #00af7e;
-    margin-top: 36px;
+    margin-top: 36px !important;
 }.md\:flex.items-center.justify-between.py-4.container.text-center {
-    margin-top: -40px;
+    margin-top: -40px !important;
 }
 div#mainnav {
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
 }.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
-    bottom: 31px;
-}.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
-    bottom: 31px;
+    bottom: 31px !important;
 }
 #app > div.app-inner.flex.flex-col.min-h-full > section:nth-child(12) {
-    margin-top: -19px;
+    margin-top: -19px !important;
 }
 #app > div.app-inner.flex.flex-col.min-h-full > section:nth-child(5) {
-    margin-top: -8px;
+    margin-top: -8px !important;
 }
