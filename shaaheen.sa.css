@@ -1,0 +1,311 @@
+.store-footer__inner.da-bgm {
+  background-position: 100% 100%;
+  background: linear-gradient(to right, #38383875 0, #383838), url(https://www2.0zz0.com/2024/11/21/17/993046514.jpg), no-repeat;
+  background-size: cover;
+  padding-top: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+p.max-w-sm.leading-6.da-tm.mx-auto.px-3 {
+  padding: 12px;
+}
+.store-footer .footer-container .footer-list a {
+  padding: 9px;
+  background: #d7c2c21a;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+h2.w-full.da-cp.text-center, .dark .s-slider-block__title h2 {
+  text-transform: uppercase;
+  margin: 0 auto 10px;
+  border: 2px solid #ffffff;
+  padding: 5px 20px;
+  font-size: 30px;
+  width: fit-content;
+  position: relative;
+  z-index: 1;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 9px;
+}h2.w-full.da-cp.text-center::before,
+h2.w-full.da-cp.text-center::after,
+.dark .s-slider-block__title h2:before,
+.dark .s-slider-block__title h2:after{
+content: "";
+width: 40px;
+height: 40px;
+/* background-color:#fff; */
+position: absolute;
+border-radius: 40%;
+top: 52%;
+transform: translateY(-50%);
+background-image: url(https://www2.0zz0.com/2024/11/21/18/561481066.gif);
+background-size: contain;
+background-repeat: no-repeat;
+}
+h2.w-full.da-cp.text-center::before,
+.dark .s-slider-block__title h2:before{
+left: -50px;
+}
+h2.w-full.da-cp.text-center::after,
+.dark .s-slider-block__title h2:after{
+right: -50px;
+}
+h2.w-full.da-cp.text-center:hover::before
+,.dark .s-slider-block__title h2:hover::before{
+z-index: -1;
+animation: left-move 0.5s linear forwards;
+}
+h2.w-full.da-cp.text-center:hover::after,
+.dark .s-slider-block__title h2:hover::after{
+z-index: -1;
+animation: right-move 0.5s linear forwards;
+}
+h2.w-full.da-cp.text-center:hover,
+.dark .s-slider-block__title h2:hover{
+color: #383838 !important;
+border: 2px solid white;
+transition-delay: 0.5s;
+background: #fff;
+}@keyframes left-move {
+50% {
+  left: 0;
+  width: 12px;
+  height: 12px;
+}
+100% {
+  left: 0;
+  border-radius: 0;
+  width: 50%;
+  height: 100%;
+}
+}
+@keyframes right-move {
+50% {
+  right: 0;
+  width: 12px;
+  height: 12px;
+}
+100% {
+  right: 0;
+  border-radius: 0;
+  width: 50%;
+  height: 100%;
+}
+}
+
+.s-slider-block__title {
+  justify-content: center;
+}
+
+.s-blog--slider--img:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url(https://www3.0zz0.com/2024/01/25/16/491307004.png) center/33% no-repeat;
+  z-index: 1;
+  transition: .5s;
+  opacity: 1;
+  pointer-events: none;
+  right: 0;
+  top: -96px;
+  background-size: 0%;
+}
+.flex.w-full.flex-col.gap-4.px-4.-mt-6:hover .s-blog--slider--img:before{background-size: 90%}
+.lazy__bg.lazy.lazy_img.entered.loaded {
+  filter: grayscale(1);
+}
+
+.swiper-slide.min--3.mt-6.pb-6:hover .lazy__bg.lazy_img {
+  filter: none;
+  transition: all 0.3s;
+}
+@keyframes but{
+0%, 100% {
+  transform: scale(0.2 .0 .3);
+}
+50% {
+  transform: scale(1.1);
+}}
+.swiper-slide.min--3.mt-6.pb-6:hover .btn--primary {
+  animation: but 1s infinite ease-in-out;
+  background: #404040;
+  color: #fff;
+}
+
+.s-block.s-block--features.angel-features.\31 .py-8 > div > div.grid.grid-cols-3.items-baseline.gap-2.sm\:gap-6.lg\:gap-4 > div:nth-child(8) > div.flex-center.h-14.w-14.md\:h-20.md\:w-20 > div {
+  filter: none;
+}.sicon-store:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: url(https://raw.githack.com/cheikhoumou/Salla/main/wired-outline-1368-best-seller-in-reveal.gif) no-repeat;
+  background-size: contain;
+}
+#testimonials-20-slider > div.s-slider-block__title > div.s-slider-block__title-left {
+  display: none;
+}
+div > div > div:nth-child(2) > div.flex-center.h-14.w-14.md\:h-20.md\:w-20 > i:before {
+  background-image: url(https://raw.githack.com/cheikhoumou/Salla/main/wired-outline-456-handshake-deal-in-reveal.gif);
+}
+div > div > div:nth-child(3) > div.flex-center.h-14.w-14.md\:h-20.md\:w-20 > i:before {
+  background-image: url(https://raw.githack.com/cheikhoumou/Salla/main/wired-outline-645-people-handshake-transaction-hover-pinch.gif);
+}
+.flex.flex-col.w-full.px-4.pb-8.-mt-8 {
+  background: linear-gradient(to right, #38383875 0, #383838), url('https://raw.githubusercontent.com/cheikhoumou/Salla/main/wired-outline-1040-drone-alt-hover-pinch%20(1).gif'), no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}.angel-feature.flex-center.flex-col {
+    transition: all 0.4s;
+    padding: 10px;
+    border-radius: 10px;
+}.angel-feature.flex-center.flex-col:hover {
+    background: #333;
+}.s-angel--divider.merge-bottom+.s-block div:nth-child(1) > div.flex-center.h-14.w-14.md\:h-20.md\:w-20 > div {background-image: url(https://raw.githack.com/cheikhoumou/Salla/main/wired-outline-36-bulb-hover-blink.gif) !important;}
+.s-angel--divider.merge-bottom+.s-block div:nth-child(2) > div.flex-center.h-14.w-14.md\:h-20.md\:w-20 > div {background-image: url(https://raw.githack.com/cheikhoumou/Salla/main/wired-outline-314-three-avatars-icon-calm-hover-nodding.gif) !important;}
+.s-angel--divider.merge-bottom+.s-block div:nth-child(3) > div.flex-center.h-14.w-14.md\:h-20.md\:w-20 > div {background-image: url(https://raw.githack.com/cheikhoumou/Salla/main/wired-outline-61-camera-hover-flash.gif) !important;}
+.s-angel--divider.merge-bottom+.s-block div:nth-child(4) > div.flex-center.h-14.w-14.md\:h-20.md\:w-20 > div {background-image: url(https://raw.githack.com/cheikhoumou/Salla/main/wired-outline-1005-b-2-b-business-to-business-loop-spin.gif) !important;}
+.s-angel--divider.merge-bottom+.s-block div:nth-child(5) > div.flex-center.h-14.w-14.md\:h-20.md\:w-20 > div {background-image: url(https://raw.githack.com/cheikhoumou/Salla/main/wired-outline-26-share-network-hover-pinch.gif) !important;}
+.s-angel--divider.merge-bottom+.s-block div:nth-child(6) > div.flex-center.h-14.w-14.md\:h-20.md\:w-20 > div {background-image: url(https://raw.githack.com/cheikhoumou/Salla/main/wired-outline-1850-tree-planting-hover-pinch.gif) !important;}
+.sicon-shopping-bag:before {
+    content: "\ef39";
+}.sicon-user:before {
+    content: url(https://raw.githack.com/cheikhoumou/Salla/main/user-icon1.svg);
+    filter: brightness(3.5);
+}.sicon-menu:before {
+    content: "\eed1";
+}i.sicon-user.text-base.text-black.da-tm {
+    margin-top: -5px;
+    margin-right: -5px;
+}.box-img.rounded-none:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(https://www3.0zz0.com/2024/01/25/16/491307004.png) center / 33% no-repeat;
+    z-index: 1;
+    transition: .5s;
+    opacity: 1;
+    pointer-events: none;
+    right: 0;
+    background-size: 0%;
+}
+.box-img.rounded-none:hover:before {background-size: 90%;}
+.box-img.rounded-none,.s-block--banners.no-space .banner-square {
+    overflow: hidden !important;
+}
+.slide--cat-entry i:before{
+    content: "";
+    width: 42px;
+    height: 42px;
+    display: block;
+    background: url(https://raw.githack.com/cheikhoumou/imeges/main/wired-outline-106-map-morph-cover.gif) no-repeat;
+    background-size: contain;
+}div.swiper-slide.max--3.min--6.swiper-slide-next > a > i:before {
+    background-image: url(https://raw.githack.com/cheikhoumou/imeges/main/wired-outline-1838-greenhouse-hover-pinch.gif);
+}div:nth-child(3) > a > i:before {
+    background-image: url(https://raw.githack.com/cheikhoumou/imeges/main/wired-outline-516-square-footage-in-reveal.gif);
+}
+div:nth-child(4) > a > i:before {
+ background-image: url(https://raw.githack.com/cheikhoumou/imeges/main/wired-outline-1030-service-alt-hover-pinch.gif);
+}
+
+div:nth-child(5) > a > i:before {
+    background-image: url(https://raw.githack.com/cheikhoumou/imeges/main/wired-outline-978-project-management-hover-pinch.gif);
+}
+
+div:nth-child(6) > a > i:before {
+    background-image: url(https://raw.githack.com/cheikhoumou/imeges/main/wired-outline-2113-oil-storage-tank-hover-pinch.gif) !important;
+}
+
+div:nth-child(7) > a > i:before {
+    background-image: url(https://raw.githack.com/cheikhoumou/imeges/main/wired-outline-1030-service-alt-hover-pinch.gif) !important;
+}
+
+div:nth-child(8) > a > i:before {
+    background-image: url(https://raw.githack.com/cheikhoumou/imeges/main/wired-outline-892-train-tracks-hover-pinch.gif) !important;
+}
+
+div:nth-child(9) > a > i:before {
+    background-image: url(https://raw.githack.com/cheikhoumou/imeges/main/wired-outline-2491-cargo-secure-hover-pinch.gif) !important;
+}
+
+div:nth-child(10) > a > i:before {
+    background-image: url(https://raw.githack.com/cheikhoumou/imeges/main/wired-outline-680-it-developer-hover-pinch.gif) !important;
+}
+a.slide--cat-entry.relative {
+    padding: 3px;
+    border-radius: 18px;
+    box-shadow: 0px 0px 7px #313030;
+}footer > div > div > div.footer-middle.footer-container.flex.align-center.flex-col.md\:flex-row.da-brdr.md\:gap-4 > div.flex.flex-col.gap-4.shrink-0 {
+  display: none;
+}.s-cart-summary-count {
+  color: var(--text-btn);
+}
+.index header .s-cart-summary-total {
+  display: none;
+}
+.s-login-modal-main-btn-icon svg {
+  fill: var(--text-btn);
+}
+.menu-silde > a {
+  display: flex;
+  align-items: center;
+  height: 7rem;
+  font-size: 1rem;
+  background: linear-gradient(
+    to left,
+    var(--dark-bg-main) 10%,
+    rgba(0, 0, 0, 0) 120%
+  );
+  border-bottom: 1px solid #666;
+}
+:lang(en) .menu-silde > a {
+  background: linear-gradient(
+    to right,
+    var(--dark-bg-main) 10%,
+    rgba(0, 0, 0, 0) 120%
+  );
+}
+.menu-silde > a > div:after {
+  content: "\e96e";
+  font-family: sallaicons !important;
+  transform: rotate(90deg);
+  font-size: 1.5rem;
+  transition: 0.3s ease;
+}
+:lang(en) .menu-silde > a > div:after {
+  transform: rotate(-90deg);
+}
+.menu-silde > a > div {
+  display: flex;
+  align-items: center;
+}
+.menu-silde:hover > a > div:after {
+  margin-inline-start: 0.5rem;
+  transition: 0.3s ease;
+  color: #b78846;
+}
+.menu-silde:hover strong {
+  color: #b78846;
+  transition: 0.3s ease;
+}
+@media(max-width:479px) {
+  .s-block--hero-slider.responsive-video .video-swiper {
+    align-items:center;
+    display:flex;
+    height:750px;
+    justify-content:center;
+    overflow:hidden;
+    position:relative
+  }
+  .translated .home-slider__content{
+--tw-translate-y: -50%;
+}
+}
+.line-clamp-2.description {
+-webkit-line-clamp: 10;
+}
