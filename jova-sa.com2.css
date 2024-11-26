@@ -4,7 +4,6 @@ body {
     background-color: rgba(255,255,255) !important;
       
 }
-
 .bg-white {
     --tw-bg-opacity: 1;
     background-color: rgba(255,255,255,var(--tw-bg-opacity)) !important;
@@ -302,5 +301,7 @@ margin-top: -30px !important;
     }
 }
 img.h-full.w-full.transition-opacity.hover\:opacity-90.object-cover.lazy.loaded {
-    background: #f3f4f6 !important;
+    transform: scale(0.9) !important;
 }
+.product-entry--vertical.product-entry--fit-type .product-entry__image {
+    background: #fff !important;
