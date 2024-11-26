@@ -301,7 +301,7 @@ margin-top: -30px !important;
     }
 }
 img.h-full.w-full.transition-opacity.hover\:opacity-90.object-cover.lazy.loaded {
-    transform: scale(0.9) !important;
+    transform: scale(94%) !important;
 }
 .product-entry--vertical.product-entry--fit-type .product-entry__image {
-    background: #fff !important;
+    background: #fff !important;}
