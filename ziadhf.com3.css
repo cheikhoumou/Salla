@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+.grid-flow-row {
+    grid-template-columns: 1fr 1fr;
+}.banner-entry .lazy__bg {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}.banner-entry {
+    height: 15vh;
+}.two-row .banner-entry:first-child {
+    grid-row: span 1;
+}}footer.store-footer * {
+    justify-content: center;
+    text-align: center;
+}header.store-header * {
+    color: #fff;
+}div#mainnav {
+    background: #3b4f87;
+}
