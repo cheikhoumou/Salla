@@ -1,0 +1,105 @@
+.logistics-pay-icons.flex.gap-6.flex-wrap.justify-center.items-center a {
+    background: #fff;
+    transform: scale(0.7);
+    border-radius: 8px;
+}.logistics-pay-icons.flex.gap-6.flex-wrap.justify-center.items-center {
+    gap: 0px;
+}.logistics-pay-icons.flex.gap-6.flex-wrap.justify-center.items-center img {
+    padding: 5px;
+}#mm-10 > div.app > footer > div > div.flex.flex-col.md\:flex-row.items-center.justify-between.gap-8 > div > div > div > a:nth-child(1) > img {
+    width: 69px;
+    padding: 11px;
+}.footer-wrapper.container.\!pb-20.flex.w-full.flex-col.gap-10 * {
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+}.flex.flex-col.w-full.gap-4.items-center.md\:items-start {
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}footer {
+    background: #01014f !important;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}.navbar-box-shadow * {
+    color: #fff;
+}.navbar-box-shadow {
+    background: #01014f !important;
+}
+
+.social-banner-content {
+    position: relative;
+    overflow: hidden;
+}
+
+.social-banner-content:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: url(https://jib.store/front/images/bg-light.svg) left -150px center / 800px no-repeat, url(https://jib.store/front/images/appbg-light.svg) right -150px center / 400px no-repeat;
+    opacity: .8;
+    pointer-events: none;
+}
+
+h2.text-xl.font-bold.text-\[\#231f1e\] {
+    position: relative;
+}
+
+h2.text-xl.font-bold.text-\[\#231f1e\]:before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background: url(https://www2.0zz0.com/2025/01/14/13/444081260.png) no-repeat;
+    background-size: contain;
+    right: -22px;
+    top: 8px;
+}
+
+.justify-between h2 {
+    border: none;
+    position: relative !important;
+    margin-right: 25px;
+}
+
+.justify-between h2:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: url(https://www2.0zz0.com/2025/01/14/13/444081260.png) no-repeat;
+    background-size: contain;
+    right: -16px;
+    top: 8px;
+}
+.brands-swiper-actions-start-next, .brands-swiper-actions-start-prev, .enhanced-products-slider-swiper-actions-start-prev, .main-links-style-2-swiper-actions-start-prev,.main-links-style-3-swiper-actions-start-prev {
+    background: linear-gradient(40deg, #00be00 0, #00be00 100%);
+    box-shadow: 0 10.42px 50px #00be0070;
+    color: #fff;
+}
+.static-banners-wrapper.flex.md\:grid-cols-1.grid-cols-2.md\:grid-cols-2 img {
+    width: 95%;
+    margin: auto;
+    max-width: 300px;
+}
+.translate-y-\[-50\%\] {
+    display: none;
+}
+a.banners-builder-single-content-informations-button {
+    background: #00bf00;
+    padding: 23px;
+    border-radius: 10px;
+}
+.products-filters-container.mt-4 ,.sorting.flex.justify-between.items-center.w-full .inline-block {
+    display: none;
+}
+
+.main-menu li:hover > .sub-menu {
+    background: #01014f !important;
+    box-shadow: 0 10.42px 50px #01014f7a !important;
+}
