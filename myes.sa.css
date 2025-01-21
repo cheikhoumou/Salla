@@ -103,3 +103,70 @@ a.banners-builder-single-content-informations-button {
     background: #01014f !important;
     box-shadow: 0 10.42px 50px #01014f7a !important;
 }
+.relative.overflow-x-auto.shadow-md.sm\:rounded-lg.mt-5 {
+    display: none;
+}.select-quantity-div {
+    display: none;
+}span.product-card-actions-add-to-cart-label {
+    font-size: 0px;
+}span.product-card-actions-add-to-cart-label:before {
+    content: " اطلب الخدمة ";
+    font-size: 21px;
+    display: inline-block;
+    margin-top: 9px;
+}.product-details-meta.w-full.lg\:w-\[calc\(50\%-32px\)\] {
+    padding: 45px;
+    position: relative;
+}.flex.gap-4.items-center.w-full.justify-between:before {
+    content: "             سعر الخدمة  ";
+    font-size: 19px;
+    font-weight: bold;
+    color: #6ef1ba;
+}.product-details-meta.w-full.lg\:w-\[calc\(50\%-32px\)\]:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+    background: #01014f;
+    height: 320px;
+    top: 133px;
+    border-radius: 27px;
+    box-shadow: 0px 0px 8px #c3c1c17a;
+}p.product-details-meta-subtitle {
+    margin: 50px;
+}article#more-content {
+    margin: 50px;
+}
+@media (max-width: 570px){.product-details-meta.w-full.lg\:w-\[calc\(50\%-32px\)\]:before{top: 170px;height: 280px;}}
+@media (max-width: 425px){.product-details-meta.w-full.lg\:w-\[calc\(50\%-32px\)\]:before{top: 200px;}}
+div#product-variants-options select {
+    border-color: #6ef1ba !important;
+    color: #6ef1ba !important;
+}#product-form .form-group label {
+    color: #6ef1ba;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 12px;
+}.product-card-content-meta-pricing:before {
+    display: block;
+    content: "  ";
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    right: 16px;
+    background: url(https://www2.0zz0.com/2025/01/21/12/103929657.png) no-repeat;
+    background-size: contain;
+}.product-card-content-meta-pricin {
+    position: relative;
+}#product-form .form-group div:before {
+    display: block;
+    content: " ";
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    right: 16px;
+    background: url(https://www2.0zz0.com/2025/01/21/12/300967697.png) no-repeat;
+    background-size: contain;
+}
