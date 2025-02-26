@@ -405,7 +405,8 @@ i.sicon-menu.text-primary.text-2xl.rtl\:ml-2\.5.ltr\:mr-2\.5 {
 }
 
 p.text-gray-400.mb-2\.5.md\:mb-0 {
-    color: #fff
+    color: #fff;
+    display: none;
 }
 
 .s-product-card-image img.loaded {
@@ -529,7 +530,8 @@ i.sicon-menu.text-primary.text-2xl.rtl\:ml-2\.5.ltr\:mr-2\.5 {
 }
 
 .store-footer__inner * {
-    color: #fff
+    color: #3e5470;
+    font-weight: bold;
 }
 
 input.s-search-input {
@@ -542,7 +544,7 @@ input.s-search-input {
     display: block;
     height: 85px;
     width: 140px;
-    background-image: url(https://k.top4top.io/p_33242baoa1.png);
+    background-image: url(https://www2.0zz0.com/2025/02/19/17/789964164.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -571,11 +573,11 @@ nav.breadcrumbs.w-full.py-5 {
     justify-content: center
 }
 
-header.store-header {
+/* header.store-header {
     background: url(https://raw.githack.com/cheikhoumou/Salla/main/StrokeHeader.svg) no-repeat;
     background-size: contain;
 }
-
+ */
 /* div#mainnav {
     background: #ffffff00;
 } */
@@ -610,3 +612,10 @@ a.slide--cat-entry {
 .inner.bg-inherit {
     background: #3d556f;
 }}
+.store-footer__inner {
+    background-image: url(https://www2.0zz0.com/2025/02/19/17/247289567.png) !important;
+    background-color: #e0e7f0 !important;
+    background-size: contain !important;
+    background-repeat:no-repeat !important;
+    background-position:bottom center!important;
+}
