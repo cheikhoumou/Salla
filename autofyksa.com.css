@@ -1,0 +1,141 @@
+/* Add custom CSS styles below */
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+body{
+  font-family: "Changa", serif;
+  font-optical-sizing: auto;
+}
+.store-footer__inner {background-image: linear-gradient(180deg, #ffffff 10%, #5947fd6b 35%, #F3F4F6 100%);box-shadow: 0px -11px 7px rgb(17 24 39 / 3%);border-top-left-radius: 50px;border-top-right-radius: 50px;color: #000;}
+.mm-spn.mm-spn--navbar.mm-spn--main:after{background-image: linear-gradient(180deg, #5947fd6b 35% ,#F3F4F6 100%);}
+.flex.items-center .justify-center.m-0{ padding-bottom:25px !important;}
+.relative .p-px.overflow-hidden .transform .border.rounded
+{ border-width:0px !important;} 
+.border{ border-width: 0px !important;}
+.shadow-sm{
+--tw-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.w-1\/2{width:100% !important;}
+.text-4xl{ font-size: 20px !important;}
+.text-2xl{font-size:16px !important;}
+.product-card__promotion{
+background-color:#5947fd6b !important;
+BORDER-RADIUS: 10PX !IMPORTANT;
+}
+
+
+@media (max-width: 991px){
+.simplified-products .s-products-slider-card .product-card--simplified .product-card__promotion, .simplified-products .s-products-list-wrapper .product-card--simplified .product-card__promotion {
+  top: auto;
+    top: initial !important;
+    left: initial !important;
+    left: auto;
+}}
+.out-of-stock .product-card__image img, .product-card--full-image.out-of-stock img{
+filter: brightness(60%) !important;
+}
+.product-card__out-label{
+color: #5947fd6b !important;
+border-color: #5947fd6b !important;
+    transform: rotate(0deg) !important;
+
+}
+.footer-is-light .store-footer .store-footer__inner {
+    text-align: center !important;
+}
+
+
+.container.grid.grid-col-1.lg\:grid-cols-6.gap-8.lg\:gap-6 * {
+    justify-content: center;
+}
+ .sicon-shopping-bag:before {
+    content: "\e96b";
+}
+
+.header-btn__icon {
+    border: none;
+}
+
+footer > div.store-footer__inner > div > div.lg\:col-span-2.rtl\:lg\:pl-20.ltr\:lg\:pr-20 > a:before{
+    content: " ";
+    width: 120px;
+    height: 50px;
+    background: url('https://www2.0zz0.com/2025/02/26/22/910121879.png') no-repeat;
+    background-size: contain;
+}
+
+footer > div.store-footer__inner > div > div.lg\:col-span-2.rtl\:lg\:pl-20.ltr\:lg\:pr-20 > a h3 {
+    font-size: 0px !important;
+}
+
+.md\:flex.items-center.justify-between.py-4.container.text-center {
+    overflow: visible !important;
+}.sicon-user-circle:before {
+    content: "";
+    width: 30px;
+    height: 21px;
+    display: block;
+    background: url(https://raw.githack.com/cheikhoumou/Salla/main/%D9%84%D9%82%D8%B7%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%202024-05-14%20133742.png) no-repeat!important;
+    background-size: contain!important
+}a.lg\:hidden.mburger.mburger--collapse.leading-none.rtl\:ml-4.ltr\:mr-4 {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #0000003b;
+    width: 35px;
+    height: 35px;
+}
+
+.footer-is-light .store-footer .contact-social:before{
+    content: " ";
+    background-image: url(https://www2.0zz0.com/2025/02/26/21/817449831.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    transform: rotate(274deg);
+    bottom: 179%;
+    right: -21%;
+    opacity: 0.3;
+}
+
+.footer-is-light .store-footer .contact-social {
+    position: relative;
+}
+
+button.undefined.s-button-element.s-button-btn.s-button-outline.s-button-wide.s-button-primary-outline.s-button-loader-center {
+    color: #483bcd;
+}
+.s-button-btn .sicon-shopping-bag:before {
+    content: "\ef39";
+}
+
+.s-slider-block__title-right h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.s-slider-block__title-right {
+    margin: 0 auto;
+    padding: 3px;
+    position: relative;
+}
+
+.s-slider-block__title-right:before {
+    content: "";
+    width: 80%;
+    height: 4px;
+    display: block;
+    position: absolute;
+    bottom: -9px;
+    background: #483bcd;
+    left: 10%;
+}
+
+.s-slider-block__title {
+    padding: 20px;
+}
+
+.top-navbar {
+    background: #5947fd;
+}
