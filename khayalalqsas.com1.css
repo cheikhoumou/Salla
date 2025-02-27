@@ -573,10 +573,10 @@ nav.breadcrumbs.w-full.py-5 {
     justify-content: center
 }
 
-header.store-header {
+/* header.store-header {
     background: url(https://raw.githack.com/cheikhoumou/Salla/main/StrokeHeader.svg) no-repeat;
     background-size: contain;
-}
+} */
 
 /* div#mainnav {
     background: #ffffff00;
