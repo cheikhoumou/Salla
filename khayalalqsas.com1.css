@@ -619,3 +619,8 @@ a.slide--cat-entry {
     background-repeat:no-repeat !important;
     background-position:bottom center!important;
 }
+.s-social-link a,.s-contacts-icon {
+    background: #fff;
+}.store-footer .contact-social {
+    margin-top: 80px !important;
+}
