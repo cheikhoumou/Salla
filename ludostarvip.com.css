@@ -1,0 +1,292 @@
+footer.footer.centeredHorizontalFooterPattern.small {
+    background-color: #251151;
+    background-image: radial-gradient(at 72% 48%, #251151 0px, transparent 50%), radial-gradient(at 32% 44%, #251151 0px, transparent 50%), radial-gradient(at 100% 100%, hsla(357, 90%, 39%, 1) 0px, transparent 50%), radial-gradient(at 2% 96%, hsl(245.05deg 100% 58.04%) 0px, transparent 50%), radial-gradient(at 52% 100%, hsl(44deg 100% 50%) 0px, transparent 50%);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top: 1.5px solid #542caa;
+}
+
+.footer .btmsocial {
+    background: no-repeat;
+}
+
+.footer .copyright.nomargin {
+    display: none;
+}
+
+body.dark,body {
+    background: #1f0e43;
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: calc(100vh + 190px);
+    right: 0;
+    left: 0;
+    pointer-events: none;
+    z-index:-1;
+    background: linear-gradient(-143deg, #bd0a1375, #1f0e43 40%);
+}
+body::after {
+    position: absolute;
+    content: "";
+    width: 1200px!important;
+    margin-top: -345px;
+    margin-right: 0;
+    right: 90%;
+    height: auto;
+    box-shadow: 0 0 160px 170px #ffbb003b;
+    top: 710px;
+    z-index:-1;
+}
+
+
+header.header {
+    backdrop-filter: blur(13px);
+    padding: 13px;
+    background: #2511518a;
+    position: sticky;
+    z-index: 1000;
+    width: auto;
+    top: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+header.header * {
+    fill: #f6dd1c !important;
+    stroke: #f6dd1c !important;
+}
+
+.nav {}
+
+.header .nav {
+    z-index: 99999;
+    height: 100vh;
+    background: #251151;
+}
+
+.header .nav * {
+    color: #fff;
+}
+
+.header .perbtn.mobCurrencyButton {
+    background: #251151;
+}
+
+.header .nav .loginbutton {
+    background: #1f0e43;
+    border: 1px solid #542caa;
+    border-radius: 20px;
+}
+
+.header .nav .mobMenuTitle {
+    background: #1f0e43;
+}
+
+.header .perbtn.perCurrencyButton {
+    background: #1f0e43;
+}
+
+.mainfeatures .perfeature * {
+    color: #fff4a0 !important;
+}
+
+.owl-carousel .owl-item img,.mainproducts .mainbanner a img {
+    border-radius: 25px;
+}
+
+.mainproducts .mainvotes .rvotes .pervote {
+    background: #24114f;
+    border: 1px solid #532caa;
+    border-radius: 25px;
+    width: 90%;
+}
+
+.bottomTab * {
+    color: #fff !important;
+    fill: #fff !important;
+}
+
+aside.bottomTab {
+    background: #251151;
+}
+
+.MainPopupLogin {
+    background: linear-gradient(45deg, #980b2147, #f2da1d24);
+    backdrop-filter: blur(5px);
+}
+
+.MainPopupLoginRcon {
+    border-radius: 20px !important;
+    background: #251151 !important;
+}
+
+.MainPopupLoginHeader {
+    background: #251151 !important;
+}
+
+.MainPopupLoginRcon * {
+    color: #fff;
+    border-color: #542caa !important;
+}
+
+.MainPopupLogin .MainPopupLoginTypes .perLoginType {
+    background: #1c0a44;
+    border-radius: 17px;
+}
+
+
+.mainfeatures > div:nth-child(1) > div.icon:before {
+    content: "  ";
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: url(https://www.raed.net/img?id=1359487) no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: auto;
+}
+.mainfeatures > div:nth-child(3) > div.icon:before {
+    content: "  ";
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: url(https://www.raed.net/img?id=1359491) no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: auto;
+}
+.mainfeatures > div:nth-child(5) > div.icon:before {
+    content: "  ";
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: url(https://www.raed.net/img?id=1359488) no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: auto;
+}
+
+.mainfeatures .perfeature .icon svg {
+    display: none;
+}
+
+.content .article {
+    background: #ffffff;
+    width: 95% !important;
+    margin-top: 20px !important;
+    border-radius: 18px !important;
+}
+
+.contentnav {}
+
+.content.mainshowproduct .contentnav {
+    background: #251151;
+}
+
+.content.mainshowproduct .rshowcon .right .rating * {
+    fill: #f2a900 !important;
+}
+
+.content.mainshowproduct .rshowcon * {
+    color: #fff;
+}
+
+.content.mainshowproduct .rshowcon .right {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content.mainshowproduct .rshowcon .right .addtocartcon {
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+.content.mainshowproduct .rshowcon .right .addtocartcon .buynowbtn {
+    background: #e99b00;
+    color: #fff;
+}
+
+.content.mainshowproduct .rshowcon .right .addtocartcon .counter {
+    background: #351e67;
+}
+
+.content.mainshowproduct .rshowcon .right .sep {
+    display: none;
+}
+
+.content.mainshowproduct .rshowcon .right .name {
+    color: #fff;
+}
+
+.content.mainshowproduct .rshowcon .right .price span {
+    color: #f6dd1c;
+}
+
+.content.mainshowproduct .rshowcon .right .price svg.sar-symbol path {
+    fill: #f6dd1c;
+}
+
+.mainproducts .perproduct {
+    border-radius: 12px;
+    box-shadow: 0px 0px 8px #f6dd1c47;
+    background: #251151;
+}
+
+.mainproducts .perproduct .details .pname {
+    color: #fff;
+    position: relative;
+    margin-right: 33px;
+    margin: 32px;
+}
+
+.mainproducts .perproduct .details .pname:before {
+    content: " ";
+    display: block;
+    width: 29px;
+    height: 29px;
+    background: url(https://www.raed.net/img?id=1359491) no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: auto;
+    position: absolute;
+}
+
+.mainproducts .title {
+    color: #8248ff;
+}
+
+.footer .newrow {
+    flex-direction: column;
+}
+
+.perrow.row2 a {
+    background: #1f0e43;
+    text-align: center;
+    border-radius: 12px;
+    border: 0.8px solid #542caa;
+}
+
+.footer.centeredHorizontalFooterPattern.small .perrow.row1 .text {
+    color: #fff;
+}
+
+.footer .perrow a {
+    color: #ffffff;
+}
+
+.footer.centeredHorizontalFooterPattern.small .rowcon:before {
+    content: "  ";
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    background: url(https://www.raed.net/img?id=1359538) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
