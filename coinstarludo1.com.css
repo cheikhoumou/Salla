@@ -1,0 +1,481 @@
+/*.dark .da-bgm {
+    background-color: var(--dark-bg-main) !important;
+    background-image: url(https://cdn.salla.sa/form-builder/dGPrFecaTtEIMRLCIcMR5VCDoRFbnPUcg1omLHrK.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
+@font-face {
+    font-family: 'DG-Modal3at-Med';
+      src: url('https://wpazzrk.github.io/again/DG-Modal3at-Med.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+span.s-product-card-price-before {
+    color: #ed737b !important;
+}
+body *{
+    font-family: 'DG-Modal3at-Med', sans-serif !important;
+    
+}
+@media (max-width:768px){
+header.store-header{
+    position: static;
+}
+}
+.store-header  i.sicon-menu.text-primary.text-2xl {
+    color: #fff;
+}
+/*********secund-banner********/
+@media (min-width:991px){
+.my-secund-photo .home-slider__content {
+    flex-direction: row;
+}
+.my-secund-photo .flying-obj {
+max-height: 45rem;
+}
+.my-secund-photo .home-slider__content  div:nth-of-type(2){
+max-width: 35rem;
+}
+.my-secund-photo .home-slider__content  div:nth-of-type(2) > div {
+max-width: 100% ;
+}
+.my-secund-photo span.description {
+    font-size: 25px;
+    line-height: 31px;
+}
+}
+.my-secund-photo .home-slider__content  div:nth-of-type(2) * {
+text-align:center;
+}
+@media (max-width:768px){
+.my-secund-photo salla-slider .swiper-wrapper {
+
+    height: 100vh !important;
+}
+/*div[data-swiper-parallax="-600"] {
+    width: unset !important;
+}*/
+img.flying-obj.spinning-obj.lazy.max-h-60.loaded {
+    height: auto !important;
+    width: unset !important;
+}
+.my-secund-photo img[data-src="https://cdn.salla.sa/form-builder/NoYTIzY7JKXpYpPoA7TnuAF2y67IBhJqE3CHYydE.png"] {
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+}
+/**********my-category***********/
+.my-category img {
+    filter: grayscale(100%);
+    transition: .5s;
+}
+
+.my-category img:hover {
+    filter: grayscale(0%);
+    transition: .5s;
+}
+/*@media (max-width:768px){
+section.s-block.s-block--banners.no-home-tab.my-category {
+    margin-top:30% !important;
+}
+}*/
+/**********heading**************/
+.my-heading{
+    background-color: #341B5B;
+}
+@media (max-width:768px){
+.dark .da-cp {
+    white-space: normal;
+}
+}
+@media (min-width:991px){
+.my-heading{
+    padding: 40px 0px;
+}
+}
+/*******************/
+.hero-slider-btn  a , button.undefined {
+    background: linear-gradient(224deg, rgba(47, 176, 212, 1) 0%, rgba(107, 53, 194, 1) 24%, #8c1ca1, rgba(135, 45, 192, 1) 100%);
+    box-shadow: 0px 1px 11px #ffffff82;
+    border: none;
+}
+/****************third-baner*****/
+@media (min-width:991px){
+.my-third-photo .flying-obj {
+max-height: 39rem;
+}
+}
+.my-third-photo .home-slider__content  div:nth-of-type(2) {
+align-items:center;
+}
+
+.my-third-photo .home-slider__content  div:nth-of-type(2) * {
+text-align:center;
+}
+@media (max-width:768px){
+.my-third-photo salla-slider .swiper-wrapper {
+
+    height: 100vh !important;
+}
+.my-third-photo img[data-src="https://cdn.salla.sa/form-builder/7x6SHRpCzUmwGbsj8Fev8eEFAWeq6bs6xa3CAVLA.png"]{
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+}
+}
+/************fife-banner********/
+.my-fife-photo .home-slider__content {
+    justify-content: center;
+    bottom: -9% !important;
+    top: unset;
+}
+.my-fife-photo .hero-slider-btn  a {
+    width: 200px;
+    justify-content: center;
+}
+
+.dark .da-cp {
+    color: #fff !important;
+}
+@media (max-width:768px){
+.my-fife-photo .home-slider__content {
+    bottom: -49% !important;
+}
+}
+/*********font-family-*****************/
+ .home-slider__content  div:nth-of-type(2) * {
+     font-family: 'DG-Modal3at-Med', sans-serif !important;
+}
+ .home-slider__content h3.text-2xl {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+@media (max-width:768px){
+.home-slider__content h3.text-2xl {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+}
+/***********/
+article.full-description {
+    background: none;
+}
+article.full-description + div *{
+color:#fff; 
+}
+header.store-header + div {
+    background: none;
+}
+.breadcrumbs ol *{
+color:#fff;
+}
+.full-description p * , .full-description h2 *  , .full-description ul li *{
+    color: #fff !important;
+}
+.footer-middle.footer-container *  , button.s-comments-item-like-btn, .angel_anime.animate__.animate__fadeInUp a * , .s-product-card-content-main * , .s-product-card-content-sub * , .my-question *{
+    color: #fff !important;
+}
+.store-footer a:hover {
+    color: #fff !important;
+}
+.product-index button.s-infinite-scroll-btn {
+    border: 2px solid #fff;
+}
+.my-question  .faqs-list__item{
+    background: none;
+}
+.my-question  i.faq-item {
+    background: #452072;
+}
+span.s-product-card-category {
+    background: #452072;
+}
+/**********************/
+section.s-block.s-angel--divider h2 {
+    color: #fff;
+    white-space: break-spaces;
+}
+article.leading-7.text-sm * {
+    color: #d2d2d2 !important;
+}
+.full-description strong {
+    color: #fff !important;
+}
+.content--single-page .ql-direction-rtl  strong{
+    color:#fff !important   
+}
+a#custom-gift-icon {
+    background: #ff8cef;
+    border-radius: 12px;
+}/* 1. الحركة العائمة المستمرة للأيقونة */
+#custom-gift-icon {
+    position: relative;
+    animation: floatGift 3s ease-in-out infinite;
+    /* لضمان توسيط الأيقونة بشكل سليم */
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+/* 2. تأثير التوهج والاهتزاز عند تمرير الماوس (Hover) */
+#custom-gift-icon svg {
+    transition: all 0.3s ease;
+}
+
+#custom-gift-icon:hover svg {
+    animation: wiggleGift 0.5s ease-in-out;
+    filter: drop-shadow(0 0 6px rgba(255, 193, 7, 0.6)); /* توهج ذهبي متناسق مع الهدايا */
+    transform: scale(1.1); /* تكبير بسيط */
+}
+
+/* 3. نقطة الإشعار الحمراء النابضة (لإظهار أن هناك مكافأة بانتظار العميل) */
+#custom-gift-icon::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    width: 9px;
+    height: 9px;
+    background-color: #ff4757; /* أحمر جذاب */
+    border-radius: 50%;
+    animation: pulseDot 2s infinite;
+}
+/* حركة الطفو (أعلى وأسفل) */
+@keyframes floatGift {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-4px); }
+    100% { transform: translateY(0px); }
+}
+
+/* حركة الاهتزاز (يميناً ويساراً) */
+@keyframes wiggleGift {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-15deg); }
+    50% { transform: rotate(15deg); }
+    75% { transform: rotate(-15deg); }
+    100% { transform: rotate(0deg); }
+}
+
+/* حركة النبض لنقطة الإشعار */
+@keyframes pulseDot {
+    0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 71, 87, 0.7); }
+    70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(255, 71, 87, 0); }
+    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 71, 87, 0); }
+}
+.s-add-product-button-main .s-add-product-button-mini-checkout{
+    background-color: transparent;
+    border: 1px solid #f687e9 !important;
+    color: #f687e9 !important;
+}
+.s-add-product-button-mini-checkout-content {
+    color: #ffc3f8 !important;
+}
+a#custom-gift-icon {
+    border-radius: 10px;
+    background: #ff8cef;
+}
+#my-points-custom-item > a > i > svg path {
+    fill: #a0a6b0 !important;
+}
+
+.mm-spn li ul li:hover a{
+    background: #FF9800;
+    border-radius:10px;
+     transition: all 0.6s;
+}
+p.s-product-card-content-subtitle {
+    color: #ffffff !important;
+    text-align: center;
+    background: #e65e09;
+    width: 180px;
+    margin: auto;
+    padding: 6px;
+    border-radius: 7px;
+}
+.opt-text a {
+    color: #e65e09;
+}
+textarea.s-comment-form-input {
+    outline-color: #ffffff !important;
+}
+button.s-button-element.s-button-btn.s-button-outline.s-button-wide.s-button-gray-outline.s-button-loader-after ,
+.angel-add-product-toast.hidden.s-add-product-toast {
+color:#fff;border-color:#fff;
+}
+input#coupon-input {
+    border-color: #fff;
+}
+button.s-cart-coupons-coupon-button.s-cart-coupons-coupon-button-apply.s-button-element.s-button-btn.s-button-solid.s-button-primary.s-button-loader-center {
+    border-color: #fff;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > div.container.lg\:mb-24 > div > div > salla-wallet > div > div.text-center.p-3.text-xl.font-bold,#app > div.app-inner.flex.flex-col.min-h-full > div.container.lg\:mb-24 > div > div > salla-wallet > h2 {
+    color: #fff;
+}
+/* code wala page */
+.s-loyalty-program-container {
+    background: transparent !important;
+}
+
+.s-loyalty-program-hero-background {
+    border-radius: 23px !important;
+    margin-top: 30px;
+    overflow: hidden;
+}#app > div.app-inner.flex.flex-col.min-h-full > div > salla-loyalty-program > div > div.s-loyalty-program-outline-section > section * {
+    color: #fff !important;
+}.s-loyalty-program-point-wrapper {
+    background: #e65e09;
+}.s-loyalty-program-rewards-container.s-loyalty-program-slider-arrows-edges {
+    background: transparent;
+}h1.s-loyalty-program-rewards-heading-mobile {
+    color: #fff;
+}button.s-slider-prev.s-slider-nav-arrow,button.s-slider-next.s-slider-nav-arrow {
+    background: #ffffff91 !important;
+}
+.s-loyalty-program-reward-container {
+    border: 2px solid #e65e09;
+}button.s-loyalty-program-rewards-action-base.s-loyalty-program-rewards-action-on ,
+.s-loyalty-program-reward-content > div.s-loyalty-program-reward-title > span {
+    color: #ffffff;
+}.s-user-settings-section-title {
+    color: #e65e09 !important;
+}li.pay-mahally_customer_wallet.w-12.h-7.bg-white.rounded.flex.items-center.p-1 {
+    display: none;
+}p.text-gray-400.mb-2\.5.md\:mb-0 {
+    display: none;
+}
+
+@property --border-angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.flex.flex-col.w-full.px-4.pb-8.-mt-8 {
+    position: relative !important;
+    width: 100% !important;
+    min-height: 280px !important;
+    box-sizing: border-box !important;
+    padding: 28px 24px !important;
+    margin-top: -8px !important;
+    background: radial-gradient(circle at 0% 0%, rgb(151 90 222 / 27%), transparent 34%), radial-gradient(circle at 100% 100%, rgb(147 88 213 / 34%), transparent 36%), linear-gradient(135deg, #341b5b 0%, #341b5b 48%, #452072 100%) !important;
+    border-radius: 18px !important;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.08),
+        inset 0 0 45px rgba(204,0,255,0.055),
+        0 12px 35px rgba(0,0,0,0.30) !important;
+    overflow: hidden !important;
+    isolation: isolate !important;
+    transition:
+        box-shadow 0.35s ease,
+        background 0.35s ease !important;
+}
+
+.flex.flex-col.w-full.px-4.pb-8.-mt-8::before {
+    content: "" !important;
+    position: absolute !important;
+    inset: 0 !important;
+    border-radius: 18px !important;
+    padding: 2.5px !important;
+    
+    background: conic-gradient(
+        from var(--border-angle),
+        transparent 0%,
+        #af6cff 12%,
+        #af6cff 24%,
+        #af6cff 36%,
+        transparent 50%,
+        transparent 100%
+    ) !important;
+
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0) !important;
+    -webkit-mask-composite: xor !important;
+    mask-composite: exclude !important;
+
+    pointer-events: none !important;
+    z-index: 5 !important;
+    opacity: 0.7 !important;
+    transition: opacity 0.35s ease, filter 0.35s ease !important;
+}
+
+.flex.flex-col.w-full.px-4.pb-8.-mt-8:hover::before {
+    opacity: 1 !important;
+    filter:
+        drop-shadow(0 0 4px rgba(239,202,175,0.55))
+        drop-shadow(0 0 8px rgba(225,29,72,0.4))
+        drop-shadow(0 0 12px rgba(121,40,202,0.35)) !important;
+    
+    animation: flowBorderColors 3.5s linear infinite !important;
+}
+
+@keyframes flowBorderColors {
+    to {
+        --border-angle: 360deg;
+    }
+}
+i.faq-item.open-badge.sicon-add {
+    background: linear-gradient(135deg, #341b5b 0%, #341b5b 100%) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(225, 172, 140, 0.15) !important;
+    color: #f172e2 !important;
+    transition: all 0.3s ease !important;
+}
+
+i.faq-item.open-badge.sicon-add:hover {
+    background: linear-gradient(135deg, #341b5b 0%, #170238 100%) !important;
+    box-shadow: 0 4px 12px rgba(225, 172, 140, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+    border-color: rgba(225, 172, 140, 0.4) !important;
+    transform: translateY(-1px) !important;
+}
+
+i.faq-item.open-badge.sicon-add.active {
+    background: #f698eb !important;
+    color: #230927 !important;
+    box-shadow: 0 0 15px rgba(225, 172, 140, 0.4) !important;
+    transform: rotate(45deg) !important;
+}
+.s-loyalty-program-panel-exchange-wrapper {
+    padding: 0px;
+    margin: 0px;
+}.shadow-default.mb-5.rounded-md.p-3.xs\:p-7.bg-white.da-bgg {
+    border: none;
+    outline: none;
+}.s-loyalty-program-panel-exchange-wrapper a {
+    padding: 13px !important;
+    display: flex;
+}a > div.s-list-tile-item-content > div.s-list-tile-item-subtitle > div > salla-button > button {
+    color: #fc76e8;
+    padding: 10px;
+}.s-loyalty-program-panel-widget-icon {
+    background: #edc23f;
+}
+#app > div.app-inner.flex.flex-col.min-h-full > div.container.mt-5 > div > div.sticky.top-20.w-full.lg\:w-96.lg\:ltr\:ml-8.lg\:rtl\:mr-8 > div:nth-child(2) {
+    border-radius: 36px;
+    border: 2px solid #fff;
+}
+.main-content.mob\:container.w-full.md\:w-1\/2.md\:pb-16 > form > salla-cashback-banner > div > div > span svg {
+    display: none;
+}.main-content.mob\:container.w-full.md\:w-1\/2.md\:pb-16 > form > salla-cashback-banner > div > div > span:before {
+    content: "";
+    display: block;
+    width: 22px;
+    height: 22px;
+    background: url('https://i.postimg.cc/wMSFy4qG/rgretb.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}.s-cashback-banner-icon {
+    background: #dd9a5e;
+}
+.flex.items-center.justify-end.w-1\/3 > salla-user-menu > div > div.s-user-menu-toggler.opened > div > ul > li:nth-child(5) > a > span.s-user-menu-dropdown-item-balance {
+    color: #79ff79;
+}
+div.container.lg\:mb-24 > div > div > salla-wallet > table:nth-child(1) > tbody > tr > td > div > div > div:nth-child(1) {
+    color: #ff8383;
+}.flex-col.min-h-full > div.container.lg\:mb-24 > div > div > salla-wallet > table:nth-child(1) > tbody > tr > td > div > div > div.font-normal.text-gray-400 {
+    color: #fff;
+}
+.s-loyalty-program-reward-content > div.s-loyalty-program-reward-title > span {
+    color: red;
+}
