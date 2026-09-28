@@ -1,0 +1,580 @@
+/* ==========================================================================
+   BENA BOUTIQUE | ULTRA-LUXURY GLOBAL BRAND THEME
+   Inspired by High-End International Fashion & Lifestyle Houses
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Root Variables & Typography Refinement
+   -------------------------------------------------------------------------- */
+:root {
+  --lux-bg: #FCFCFA;
+  --lux-surface: #FFFFFF;
+  --lux-dark: #121212;
+  --lux-dark-soft: #242424;
+  --lux-gold: #76633D;
+  --lux-gold-light: #BFA168;
+  --lux-gold-soft: #F5EFE6;
+  --lux-muted: #8E8A83;
+  --lux-border: #EFECE6;
+  --lux-border-dark: #222222;
+  --lux-shadow-subtle: 0 4px 20px -2px rgba(0, 0, 0, 0.03), 0 2px 8px -1px rgba(0, 0, 0, 0.02);
+  --lux-shadow-hover: 0 16px 36px -4px rgba(18, 18, 18, 0.06), 0 4px 12px -2px rgba(18, 18, 18, 0.03);
+  --lux-transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  --lux-radius: 4px; /* زوايا معمارية أنيقة وحادة كأرقى الماركات */
+}
+
+/* Base Body & Layout */
+body#app {
+  background-color: var(--lux-bg) !important;
+  color: var(--lux-dark) !important;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.01em;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: var(--lux-gold-soft) !important;
+  color: var(--lux-gold) !important;
+}
+
+/* إخفاء عناصر التشتيت والشاشات المزعجة */
+#preloader {
+  background: var(--lux-bg) !important;
+}
+#preloader .loading-logo-light {
+  filter: grayscale(100%) brightness(0.2);
+  transform: scale(0.9);
+  animation: luxPulse 1.6s ease-in-out infinite alternate !important;
+}
+@keyframes luxPulse {
+  0% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+
+/* --------------------------------------------------------------------------
+   2. Header & Navigation (Ultra Minimalist Haute-Couture)
+   -------------------------------------------------------------------------- */
+.store-header {
+  background: rgba(255, 255, 255, 0.98) !important;
+  border-bottom: 1px solid var(--lux-border) !important;
+  box-shadow: none !important;
+  transition: var(--lux-transition);
+}
+
+.main-nav-container,
+.header-inner {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.header-container {
+  padding-top: 14px !important;
+  padding-bottom: 14px !important;
+  background: #ffffff;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+/* الشعار */
+.navbar-brand img.logo-light {
+  height: 2.8rem !important;
+  width: auto !important;
+  transition: transform 0.4s ease;
+  filter: contrast(105%);
+}
+.navbar-brand:hover img.logo-light {
+  transform: scale(1.02);
+}
+
+/* أزرار الهيدر */
+.header-btn {
+  background: transparent !important;
+  border-radius: 50% !important;
+  width: 42px !important;
+  height: 42px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: var(--lux-transition) !important;
+  color: var(--lux-dark) !important;
+  border: 1px solid transparent !important;
+}
+.header-btn:hover {
+  background: var(--lux-gold-soft) !important;
+  border-color: var(--lux-border) !important;
+  color: var(--lux-gold) !important;
+}
+
+/* سلة المشتريات */
+salla-cart-summary .header-btn {
+  position: relative;
+}
+
+/* شريط القوائم السفلي / الروابط */
+.nav-header {
+  border-top: 1px solid var(--lux-border) !important;
+  background: #FFFFFF !important;
+}
+
+.main-menu > li > a {
+  font-weight: 500 !important;
+  font-size: 0.95rem !important;
+  letter-spacing: 0.02em;
+  color: var(--lux-dark-soft) !important;
+  padding: 12px 18px !important;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.main-menu > li > a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--lux-gold);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: translateX(-50%);
+}
+
+.main-menu > li > a:hover {
+  color: var(--lux-gold) !important;
+}
+.main-menu > li > a:hover::after {
+  width: 60%;
+}
+
+/* --------------------------------------------------------------------------
+   3. Hero Banner & Slider (Editorial Layout)
+   -------------------------------------------------------------------------- */
+.home-slider {
+  border-radius: 0 !important;
+  overflow: hidden;
+  background-color: var(--lux-dark) !important;
+}
+
+/* إيقاف وتعديل الأشكال الطائرة والدوارة لتكون راقية وبدون حركة رخيصة */
+.spinning-obj {
+  animation: none !important;
+  transform: none !important;
+  filter: drop-shadow(0 15px 30px rgba(0, 0, 0, 0.25));
+}
+.flying-obj {
+  animation: none !important;
+}
+
+.home-slider__content {
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.55) 100%) !important;
+  width: 100% !important;
+  height: 100% !important;
+  top: 0 !important;
+  left: 0 !important;
+  transform: none !important;
+  padding: 40px 24px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.hero-slider-title h2 {
+  font-family: var(--font-main), serif !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.02em;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hero-slider-subtitle .description {
+  color: #F0EDE6 !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.05em;
+  font-size: 1.05rem !important;
+  opacity: 0.9;
+}
+
+/* أزرار الهيرو الفاخرة */
+.hero-slider-btn a,
+.btn-primary {
+  background: var(--lux-surface) !important;
+  color: var(--lux-dark) !important;
+  border: 1px solid var(--lux-surface) !important;
+  border-radius: var(--lux-radius) !important;
+  padding: 12px 32px !important;
+  font-weight: 600 !important;
+  font-size: 0.95rem !important;
+  letter-spacing: 0.04em;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15) !important;
+  transition: var(--lux-transition) !important;
+}
+
+.hero-slider-btn a:hover,
+.btn-primary:hover {
+  background: var(--lux-gold) !important;
+  color: #FFFFFF !important;
+  border-color: var(--lux-gold) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(118, 99, 61, 0.3) !important;
+}
+
+/* المؤقت الزمني الفاخر */
+.slider-countdown salla-count-down {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(8px);
+  padding: 8px 18px !important;
+  border-radius: var(--lux-radius) !important;
+}
+
+/* --------------------------------------------------------------------------
+   4. CRITICAL REQUIREMENT: Mobile 2-Column Product Grid & Cards
+   -------------------------------------------------------------------------- */
+/* شبكة المنتجات على شاشات الجوال */
+@media (max-width: 767px) {
+  /* تحويل حاويات وقوائم المنتجات إلى عمودين */
+  .s-products-list-wrapper,
+  .products-grid,
+  .s-block--bundle-luxury-products .grid,
+  #viewed-products-list .swiper-wrapper,
+  salla-products-slider .swiper-wrapper {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 12px 10px !important;
+    padding: 4px 0 !important;
+  }
+
+  /* جعل بطاقات السلايدر تعرض عنصرين جنب بعض بسلاسة */
+  salla-products-slider .swiper-slide,
+  #viewed-products-list .swiper-slide,
+  .s-block--bundle-luxury-products .swiper-slide,
+  .s-block--bundle-personalized-shoppers-who-bought .swiper-slide {
+    width: calc(50% - 6px) !important;
+    margin-inline-end: 12px !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* بطاقة المنتج الفردية على الجوال */
+  salla-product-card,
+  .s-product-card-vertical,
+  .product-card {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .s-product-card-vertical .s-product-card-content,
+  .product-card .content {
+    padding: 10px 6px !important;
+  }
+
+  .s-product-card-vertical .s-product-card-title,
+  .product-card-title {
+    font-size: 0.85rem !important;
+    line-height: 1.35 !important;
+    height: 2.7em !important;
+    margin-bottom: 6px !important;
+  }
+
+  .s-product-card-vertical .s-product-card-price,
+  .product-card-price {
+    font-size: 0.95rem !important;
+  }
+}
+
+/* بطاقات المنتجات للديسكتوب والجوال كأرقى بيوت الأزياء */
+salla-product-card,
+.s-product-card-vertical,
+.product-card {
+  background: var(--lux-surface) !important;
+  border: 1px solid var(--lux-border) !important;
+  border-radius: var(--lux-radius) !important;
+  overflow: hidden;
+  box-shadow: none !important;
+  transition: var(--lux-transition) !important;
+  position: relative;
+}
+
+salla-product-card:hover,
+.s-product-card-vertical:hover,
+.product-card:hover {
+  border-color: var(--lux-gold-light) !important;
+  box-shadow: var(--lux-shadow-hover) !important;
+  transform: translateY(-4px);
+}
+
+/* صورة المنتج ونسبة العرض */
+.s-product-card-image-wrap,
+.s-product-card-vertical .s-product-card-image,
+.product-card .image {
+  position: relative;
+  background-color: #F8F7F4 !important;
+  overflow: hidden;
+  aspect-ratio: 3 / 4 !important;
+}
+
+.s-product-card-image-wrap img,
+.s-product-card-vertical img,
+.product-card img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.s-product-card-vertical:hover img,
+.product-card:hover img {
+  transform: scale(1.05) !important;
+}
+
+/* عناوين المنتجات */
+.s-product-card-vertical .s-product-card-title a,
+.product-card-title a {
+  color: var(--lux-dark) !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  transition: color 0.3s ease;
+}
+
+.s-product-card-vertical:hover .s-product-card-title a,
+.product-card-title:hover a {
+  color: var(--lux-gold) !important;
+}
+
+/* الأسعار */
+.s-product-card-price {
+  font-weight: 600 !important;
+  color: var(--lux-dark) !important;
+}
+.s-product-card-price .regular-price,
+.s-product-card-price .price-before {
+  color: var(--lux-muted) !important;
+  font-weight: 400 !important;
+  text-decoration: line-through;
+  margin-inline-start: 6px;
+  font-size: 0.85em;
+}
+
+/* أزرار الأمنيات والإضافة السريعة */
+.s-product-card-wishlist-btn button {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border-radius: 50% !important;
+  color: var(--lux-dark) !important;
+  width: 34px !important;
+  height: 34px !important;
+  border: 1px solid var(--lux-border) !important;
+  transition: var(--lux-transition) !important;
+}
+.s-product-card-wishlist-btn button:hover {
+  background: var(--lux-gold) !important;
+  color: #FFFFFF !important;
+  border-color: var(--lux-gold) !important;
+}
+
+/* --------------------------------------------------------------------------
+   5. Category Squares & Banners (Magazine Editorial Style)
+   -------------------------------------------------------------------------- */
+.square-grid {
+  gap: 16px !important;
+}
+
+.banner-square {
+  background: transparent !important;
+  border-radius: var(--lux-radius) !important;
+  overflow: hidden;
+  position: relative;
+  transition: var(--lux-transition);
+}
+
+.banner-square .box-img {
+  background: #EFECE6 !important;
+  border-radius: var(--lux-radius) !important;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+}
+
+.banner-square .box-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.banner-square:hover .box-img img {
+  transform: scale(1.06) !important;
+}
+
+.banner-square .text-wrapper {
+  background: linear-gradient(0deg, rgba(18, 18, 18, 0.75) 0%, rgba(18, 18, 18, 0) 100%) !important;
+  bottom: 0 !important;
+  top: auto !important;
+  padding: 16px 10px 10px !important;
+  color: #FFFFFF !important;
+}
+
+.banner-square .text-wrapper p.font-primary {
+  font-size: 0.95rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.02em;
+}
+
+/* --------------------------------------------------------------------------
+   6. Custom Components: Video Hero, Brand Story, Features
+   -------------------------------------------------------------------------- */
+/* فيديو هيرو */
+.s-block--bundle-video-hero {
+  border-radius: 0 !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.s-block--bundle-video-hero video {
+  filter: brightness(0.85) contrast(105%);
+}
+
+/* سكشن قصة البراند (Brand Story) */
+.s-block--bundle-brand-story {
+  background-color: #ffffff !important;
+  /* border-top: 1px solid var(--lux-border) !important; */
+  /* border-bottom: 1px solid var(--lux-border) !important; */
+  padding: 40px 20px !important;
+  position: relative;
+}
+
+.s-block--bundle-brand-story h2,
+.s-block--bundle-brand-story .title {
+  font-family: var(--font-main), serif !important;
+  font-size: 2.2rem !important;
+  font-weight: 600 !important;
+  color: var(--lux-dark) !important;
+  margin-bottom: 24px !important;
+  position: relative;
+  display: inline-block;
+}
+
+.s-block--bundle-brand-story h2::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 1px;
+  background: var(--lux-gold);
+  margin: 16px auto 0;
+}
+
+.s-block--bundle-brand-story p,
+.s-block--bundle-brand-story .description {
+  max-width: 720px !important;
+  margin: 0 auto !important;
+  font-size: 1.15rem !important;
+  line-height: 2 !important;
+  color: #4A4641 !important;
+  font-weight: 300 !important;
+}
+
+/* مميزات المتجر (Store Features) */
+.s-block--bundle-store-features {
+  background: var(--lux-surface) !important;
+  border-bottom: 1px solid var(--lux-border) !important;
+  padding: 50px 0 !important;
+}
+
+.s-block--bundle-store-features .feature-item,
+.s-block--bundle-store-features [class*="feature"] {
+  border: 1px solid var(--lux-border) !important;
+  border-radius: var(--lux-radius) !important;
+  padding: 24px 20px !important;
+  background: var(--lux-bg) !important;
+  transition: var(--lux-transition) !important;
+}
+
+.s-block--bundle-store-features .feature-item:hover {
+  border-color: var(--lux-gold) !important;
+  background: #FFFFFF !important;
+  transform: translateY(-3px);
+  box-shadow: var(--lux-shadow-subtle);
+}
+
+.s-block--bundle-store-features i {
+  color: var(--lux-gold) !important;
+  font-size: 1.8rem !important;
+}
+
+/* --------------------------------------------------------------------------
+   7. Testimonials & Social Proof (Refined Editorial Cards)
+   -------------------------------------------------------------------------- */
+.angel-testimonials,
+.s-block--bundle-customer-reviews {
+  background-color: var(--lux-bg) !important;
+  padding: 80px 0 !important;
+}
+
+.s-block__title h2 {
+  font-size: 1.8rem !important;
+  font-weight: 600 !important;
+  color: var(--lux-dark) !important;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 30px !important;
+}
+
+.angel-testimonials .swiper-slide > div,
+.s-block--bundle-customer-reviews .review-card {
+  background: var(--lux-surface) !important;
+  border: 1px solid var(--lux-border) !important;
+  border-radius: var(--lux-radius) !important;
+  padding: 28px 24px !important;
+  box-shadow: none !important;
+  transition: var(--lux-transition);
+}
+
+.angel-testimonials .swiper-slide > div:hover,
+.s-block--bundle-customer-reviews .review-card:hover {
+  border-color: var(--lux-gold-light) !important;
+  box-shadow: var(--lux-shadow-hover) !important;
+}
+
+.testimonial__avatar {
+  border: 2px solid var(--lux-gold-soft) !important;
+  box-shadow: none !important;
+}
+
+.testimonial__icon {
+  color: var(--lux-gold-light) !important;
+  opacity: 0.15 !important;
+}
+
+salla-rating-stars {
+  --color-primary: #C5A869 !important;
+}
+
+
+
+.products-grid {
+    grid-template-columns: fr fr !important;
+}
+
+.products-grid {}
+
+section.s-block.s-block--bundle-video-hero {
+    padding: 0;
+    margin: 0;
+}
+
+salla-store-features-slqole {
+    background: #fff;
+}
+
+.to-top.flex.justify-center.da-tm.overflow-hidden,.footer-top.footer-container.flex.align-center.flex-col.md\:flex-row.da-brdr {
+    display: none;
+}
+
+.header-btn .sicon-add:before {
+    content: "\e906";
+}
+
+.sicon-menu:before {
+    content: "\eed1";
+}
+section.s-block.s-block--bundle-customer-reviews {
+    padding: 0 !important;
+}
