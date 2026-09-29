@@ -1,11 +1,3 @@
-/* ==========================================================================
-   BENA BOUTIQUE | ULTRA-LUXURY GLOBAL BRAND THEME
-   Inspired by High-End International Fashion & Lifestyle Houses
-   ========================================================================== */
-
-/* --------------------------------------------------------------------------
-   1. Root Variables & Typography Refinement
-   -------------------------------------------------------------------------- */
 :root {
   --lux-bg: #FCFCFA;
   --lux-surface: #FFFFFF;
@@ -577,4 +569,398 @@ salla-store-features-slqole {
 }
 section.s-block.s-block--bundle-customer-reviews {
     padding: 0 !important;
+}
+
+body{
+   font-family: "Tajawal", sans-serif;
+  font-weight: 400;
+}.image-container img {
+    border-radius: 20px !important;
+}
+.banner-square .box-img {
+    background: #ffffff00 !important;
+    padding: 38px;
+    aspect-ratio: auto;
+}
+:root {
+  --bena-gold: #76633D;
+  --bena-dark: #51481D;
+  --bena-cream: #FDFCED;
+  --bena-border: rgba(118, 99, 61, 0.18);
+  --bena-card-bg: rgba(255, 255, 255, 0.7);
+  --bena-shadow: 0 10px 25px rgba(81, 72, 29, 0.05);
+}
+
+/* 1. الحاوية الأساسية للفوتر */
+.store-footer {
+  position: relative !important;
+  background-color: var(--bena-cream) !important;
+  color: var(--bena-dark) !important;
+  margin-top: 60px !important;
+  border-top: none !important;
+  overflow: visible !important;
+}
+
+.store-footer__inner,
+.store-footer .da-bgm {
+  background-color: transparent !important;
+}
+
+/* 2. تموج الفوتر (Wave CSS) بانسيابية تحاكي ميلان الشعار */
+.store-footer::before {
+  content: "" !important;
+  position: absolute !important;
+  top: -49px !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 50px !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 90' preserveAspectRatio='none'%3E%3Cpath fill='rgba(118,99,61,0.12)' d='M0,28 C340,85 580,2 820,48 C1060,94 1280,15 1440,32 L1440,90 L0,90 Z'/%3E%3Cpath fill='%23FDFCED' d='M0,45 C280,95 520,12 760,54 C1000,96 1220,22 1440,45 L1440,90 L0,90 Z'/%3E%3C/svg%3E") !important;
+  pointer-events: none !important;
+  z-index: 2 !important;
+}
+
+/* 3. زر العودة للأعلى */
+.store-footer .to-top a {
+  color: var(--bena-gold) !important;
+  font-weight: 600 !important;
+  padding: 8px 24px !important;
+  border-radius: 50px !important;
+  background: var(--bena-card-bg) !important;
+  border: 1px solid var(--bena-border) !important;
+  transition: all 0.3s ease !important;
+  box-shadow: var(--bena-shadow) !important;
+}
+
+.store-footer .to-top a:hover {
+  background: var(--bena-gold) !important;
+  color: var(--bena-cream) !important;
+  transform: translateY(-3px) !important;
+  box-shadow: 0 6px 18px rgba(118, 99, 61, 0.25) !important;
+}
+
+.store-footer .to-top a i {
+  color: inherit !important;
+}
+
+/* 4. خطوط الفواصل */
+.store-footer .da-brdr {
+  border-color: var(--bena-border) !important;
+}
+
+.store-footer .da-tm {
+  color: var(--bena-dark) !important;
+}
+
+
+.footer-newsletter .title-mail strong {
+  color: var(--bena-dark) !important;
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+}
+
+.footer-newsletter .title-mail p {
+  color: var(--bena-gold) !important;
+  font-size: 0.95rem !important;
+}
+
+.footer-newsletter .mail-input {
+  background: #ffffff !important;
+  border: 1.5px solid var(--bena-border) !important;
+  color: var(--bena-dark) !important;
+  border-radius: 0 12px 12px 0 !important;
+  padding: 11px 16px !important;
+}
+
+.footer-newsletter .mail-input:focus {
+  border-color: var(--bena-gold) !important;
+  outline: none !important;
+  box-shadow: 0 0 0 3px rgba(118, 99, 61, 0.15) !important;
+}
+
+.footer-newsletter salla-button button {
+  background: linear-gradient(135deg, var(--bena-gold) 0%, var(--bena-dark) 100%) !important;
+  color: var(--bena-cream) !important;
+  border: none !important;
+  border-radius: 12px 0 0 12px !important;
+  padding: 0 24px !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+}
+
+.footer-newsletter salla-button button:hover {
+  filter: brightness(1.1) !important;
+  box-shadow: 0 6px 16px rgba(81, 72, 29, 0.25) !important;
+}
+
+/* أيقونات التواصل */
+.footer-social .s-social-link a {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 42px !important;
+  height: 42px !important;
+  border-radius: 50% !important;
+  background: #ffffff !important;
+  border: 1px solid var(--bena-border) !important;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+  box-shadow: var(--bena-shadow) !important;
+}
+
+.footer-social .s-social-link svg path {
+  fill: var(--bena-dark) !important;
+  transition: fill 0.3s ease !important;
+}
+
+.footer-social .s-social-link a:hover {
+  background: var(--bena-gold) !important;
+  transform: translateY(-4px) !important;
+  border-color: var(--bena-gold) !important;
+}
+
+.footer-social .s-social-link a:hover svg path {
+  fill: var(--bena-cream) !important;
+}
+
+/* ===================================================
+   6. معالجة وتوسيع قسم اللابتوب والشاشات الكبيرة (حل المشكلة)
+   =================================================== */
+
+/* للشاشات الكبيرة واللابتوبات العريضة (أكبر من 1024px) */
+@media (min-width: 1025px) {
+  .store-footer .footer-middle {
+    display: grid !important;
+    /* إعطاء مساحة واسعة للبروفايل (2fr) لمنع ضغط النص نهائياً */
+    grid-template-columns: 2.2fr  1.2fr 1.4fr !important;
+    gap: 3rem !important;
+    align-items: flex-start !important;
+    padding: 3rem 0 !important;
+  }
+
+  .store-footer .footer-profile {
+    max-width: 100% !important; /* إلغاء تقييد سلة السابق md:max-w-xs */
+    width: 100% !important;
+  }
+
+  .store-footer .footer-description {
+    max-width: 95% !important;
+    font-size: 0.95rem !important;
+    line-height: 1.9 !important;
+    text-align: right !important;
+    margin-top: 14px !important;
+  }
+}
+
+/* للابتوبات الصغيرة والمتوسطة والآيباد (768px إلى 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .store-footer .footer-middle {
+    display: grid !important;
+    /* تقسيم إلى شبكة 2x2 مريحة وأنيقة تمنع التداخل */
+    grid-template-columns: 1.2fr 1fr !important;
+    gap: 2.5rem 2rem !important;
+    align-items: flex-start !important;
+    padding: 2.5rem 0 !important;
+  }
+
+  .store-footer .footer-profile {
+    max-width: 100% !important;
+  }
+
+  .store-footer .footer-description {
+    max-width: 100% !important;
+    font-size: 0.93rem !important;
+    line-height: 1.85 !important;
+  }
+}
+
+/* 7. لوجو المتجر ونبذة البراند */
+.footer-profile .logo-footer img {
+  filter: drop-shadow(0 3px 6px rgba(81, 72, 29, 0.08));
+  transition: transform 0.3s ease;
+}
+
+.footer-profile .logo-footer:hover img {
+  transform: scale(1.03);
+}
+
+.footer-description {
+  color: var(--bena-dark) !important;
+  opacity: 0.92 !important;
+}
+
+/* 8. عناوين القوائم والروابط */
+.footer-title,
+.s-contacts-title {
+  color: var(--bena-gold) !important;
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 1.2rem !important;
+  display: block;
+}
+
+.footer-list a {
+  color: var(--bena-dark) !important;
+  font-size: 0.95rem !important;
+  font-weight: 500 !important;
+  transition: all 0.25s ease !important;
+  display: inline-block !important;
+}
+
+.footer-list a:hover {
+  color: var(--bena-gold) !important;
+  transform: translateX(-6px) !important;
+}
+
+/* 9. بطاقات خدمة العملاء */
+.s-contacts-item {
+  display: flex !important;
+  align-items: center !important;
+  background: var(--bena-card-bg) !important;
+  padding: 10px 14px !important;
+  border-radius: 12px !important;
+  border: 1px solid var(--bena-border) !important;
+  box-shadow: var(--bena-shadow) !important;
+  margin-bottom: 10px !important;
+  transition: all 0.3s ease !important;
+}
+
+.s-contacts-item:hover {
+  background: #ffffff !important;
+  border-color: var(--bena-gold) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 18px rgba(118, 99, 61, 0.12) !important;
+}
+
+.s-contacts-icon svg path {
+  fill: var(--bena-dark) !important;
+}
+
+.s-contacts-item .unicode {
+  color: var(--bena-dark) !important;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+}
+
+/* 10. بطاقة السجل التجاري والرقم الضريبي */
+.footer-vat {
+  background: var(--bena-card-bg) !important;
+  border-radius: 14px !important;
+  border: 1px solid var(--bena-border) !important;
+  padding: 12px 16px !important;
+  box-shadow: var(--bena-shadow) !important;
+}
+
+.s-trust-badges-label,
+.vat-num .text-text-grey {
+  color: var(--bena-gold) !important;
+  font-size: 0.8rem !important;
+  font-weight: 600 !important;
+}
+
+.s-trust-badges-number,
+.vat-num span {
+  color: var(--bena-dark) !important;
+  font-weight: 700 !important;
+  font-size: 0.9rem !important;
+}
+
+/* 11. القسم السفلي ووسائل الدفع */
+.store-footer .footer-bottom {
+  border-top: 1px solid var(--bena-border) !important;
+  padding: 1.5rem 0 !important;
+}
+
+.sbc-certificate {
+  color: var(--bena-dark) !important;
+  font-size: 0.88rem !important;
+  font-weight: 500 !important;
+}
+
+.sbc-link {
+  border: 1px solid var(--bena-border) !important;
+  box-shadow: var(--bena-shadow) !important;
+}
+
+.s-payments-list-item {
+  background: #ffffff !important;
+  padding: 4px 8px !important;
+  border-radius: 8px !important;
+  border: 1px solid rgba(118, 99, 61, 0.12) !important;
+  box-shadow: 0 2px 6px rgba(81, 72, 29, 0.04) !important;
+  transition: transform 0.25s ease !important;
+}
+
+.s-payments-list-item:hover {
+  transform: translateY(-2px) !important;
+  border-color: var(--bena-gold) !important;
+}
+
+.copyrights,
+.copyrights a {
+  color: var(--bena-dark) !important;
+  font-size: 0.85rem !important;
+  font-weight: 500 !important;
+}
+
+.copyrights a:hover {
+  color: var(--bena-gold) !important;
+}
+
+/* ===================================================
+   12. تجاوب شاشات الجوال (Mobile)
+   =================================================== */
+@media (max-width: 767px) {
+  .store-footer {
+    margin-top: 40px !important;
+    text-align: center !important;
+  }
+
+  .store-footer::before {
+    top: -34px !important;
+    height: 35px !important;
+  }
+
+  .footer-middle,
+  .footer-top {
+    flex-direction: column !important;
+    gap: 1.8rem !important;
+    align-items: center !important;
+  }
+
+  .footer-profile {
+    align-items: center !important;
+  }
+
+  .footer-description {
+    text-align: center !important;
+    max-width: 92% !important;
+    margin: 10px auto 0 !important;
+  }
+
+  .footer-list a:hover {
+    transform: none !important;
+  }
+
+  .s-contacts-list {
+    justify-content: center !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 8px !important;
+  }
+
+  .footer-vat {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+}
+.flex.flex-col.w-full.px-4.pb-8.-mt-8 {
+    background: #fdfced;
+    border-radius: 47px;
+    border: 4px solid #f3eed9;
+}
+
+section.s-block.s-block--testimonials {
+    background: #fff;
+    border: none;
 }
