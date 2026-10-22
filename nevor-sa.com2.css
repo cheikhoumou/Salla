@@ -12,7 +12,7 @@ body{
     content: "";
     width: 100%;
     height: 100%;
-    background: #0008f var(--logo);
+    background: #16223C8f var(--logo);
     position: fixed;
     top: 0;
     z-index: 99999999999999999 !important;
@@ -131,7 +131,7 @@ section.s-block.s-block--banners.container .lazy__bg.lazy.entered.loaded {
 
 .store-footer__inner {
     text-align: center!important;
-    background: #000 !important;
+    background: #16223C !important;
 }
 /*--------------------*/
 
@@ -140,7 +140,7 @@ section.s-block.s-block--banners.container .lazy__bg.lazy.entered.loaded {
     display: none;
 }
 
-.s-button-element:not(:disabled):not([loading]) {background: #000;border: none;color: #fff;}
+.s-button-element:not(:disabled):not([loading]) {background: #16223C;border: none;color: #fff;}
 
 button.undefined.s-button-element.s-button-btn.s-button-outline.s-button-wide.s-button-primary-outline.s-button-loader-center {
     color: white;
@@ -213,7 +213,7 @@ section.s-block.s-block--banners.container:nth-of-type(3){
 
 @keyframes signal {
     0% {
-        box-shadow: 0 0 0 0 #000
+        box-shadow: 0 0 0 0 #16223C
     }
 
     100% {
@@ -237,7 +237,7 @@ section.s-block.s-block--banners.container:nth-of-type(3){
 }
 
 .md\:flex.items-center.justify-between.py-4.container.text-center {
-    background: #000;
+    background: #16223C;
 }
 
 salla-social.s-social-list.hydrated {
@@ -253,7 +253,7 @@ salla-social.s-social-list.hydrated {
     margin: 3px;
     border-radius: 8px;
 }i.header-btn__icon {
-    color: #000;
+    color: #16223C;
     border: none;
 }a.lg\:hidden.mburger.mburger--collapse.leading-none.rtl\:ml-4.ltr\:mr-4 {
     padding: 8px;
@@ -280,16 +280,16 @@ salla-social.s-social-list.hydrated {
     font-size: 3vw;
 }}
 span.s-cart-summary-count {
-    background: #000;
+    background: #16223C;
     right: -8px;
 }salla-slider .swiper-pagination-bullet-active {
     background: #58885e;
 }.swiper.s-slider-container.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-rtl {
     padding-bottom: 7px;
 }h4.s-product-card-price {
-    color: #000;
+    color: #16223C;
 }.s-product-card-vertical .s-product-card-wishlist-btn button {
-    background: #000 !important;
+    background: #16223C !important;
     opacity: 1 !important;
     color: #fff;
     }
@@ -319,11 +319,11 @@ span.s-cart-summary-count {
 i.sicon-menu.text-primary.text-2xl.rtl\:ml-2\.5.ltr\:mr-2\.5 {
     color: #FFF4E5;
 }.s-block--features__item {
-    background: #000000;
+    background: #16223C000;
     border-radius: 20px;
 }
 
-#app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--features.container > div > div > div {position: relative;background: #000000;height: 6rem;width: 6rem;}
+#app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--features.container > div > div > div {position: relative;background: #16223C000;height: 6rem;width: 6rem;}
 
 #app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--features.container > div > div:nth-child(1) > div:before {
     content: "";
@@ -375,7 +375,7 @@ p.text-gray-400.mb-2\.5.md\:mb-0 {
     display: block;
     width: 273px;
     height: 84px;
-    background: #000;
+    background: #16223C;
     right: -17px;
     border-bottom-left-radius: 111px;
 }
@@ -386,11 +386,11 @@ p.text-gray-400.mb-2\.5.md\:mb-0 {
 i.sicon-menu.text-primary.text-2xl.rtl\:ml-2\.5.ltr\:mr-2\.5 {
     color: #FFF4E5;
 }.s-block--features__item {
-    background: #000;
+    background: #16223C;
     border-radius: 20px;
 }
 
-#app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--features.container > div > div > div {position: relative;background: #000000;height: 5rem;width: 5rem;}
+#app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--features.container > div > div > div {position: relative;background: #16223C000;height: 5rem;width: 5rem;}
 
 #app > div.app-inner.flex.flex-col.min-h-full > section.s-block.s-block--features.container > div > div:nth-child(1) > div:before {
     content: "";
@@ -510,11 +510,11 @@ body#app {
 }
 
 .top-navbar {
-    background: #000 !important;
+    background: #16223C !important;
 }
 
 button.s-localization-modal-trigger-btn {
-    background: #000000;
+    background: #16223C000;
 }
 
 .s-block-trust-faq-question {
